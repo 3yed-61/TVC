@@ -120,10 +120,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 12",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 19",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 1",
@@ -133,6 +134,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -157,10 +159,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 12",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 19",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 1",
@@ -170,6 +173,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -648,7 +652,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 9",
+            "tag": "🇨🇦CA | vless | 3YED | 10",
             "type": "vless",
             "server": "shiatv.net",
             "server_port": 2096,
@@ -679,7 +683,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 11",
+            "tag": "🇺🇸US | vless | 3YED | 12",
             "type": "vless",
             "server": "www.legendaryking.link",
             "server_port": 443,
@@ -714,6 +718,37 @@
             "type": "vless",
             "server": "66.235.200.145",
             "server_port": 8443,
+            "uuid": "d262d1e7-4681-45dd-a10f-4ce75b7b2f39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vmessorg.xn--54qv00ez5ar77g.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 4",
+            "type": "vless",
+            "server": "66.235.200.145",
+            "server_port": 8443,
             "uuid": "0094668a-dcc0-4074-9de8-1486f2180e66",
             "flow": "",
             "packet_encoding": "xudp",
@@ -741,7 +776,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 19",
+            "tag": "🇺🇸US | vless | 3YED | 23",
             "type": "vless",
             "server": "66.235.200.5",
             "server_port": 8443,
@@ -1032,6 +1067,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "watashi.free.de.mnhacker.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 17",
+            "type": "vless",
+            "server": "172.66.47.145",
+            "server_port": 2096,
+            "uuid": "9bb74f9c-6385-4e90-9d16-aadf009575f8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "akfjw807r23raskodfjsf.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@SINABIGO@SINABIGO@SINABIGO\/",
+                "headers": {
+                    "Host": "akfjw807r23raskodfjsf.pages.dev"
                 }
             }
         },
