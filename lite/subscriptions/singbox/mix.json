@@ -107,8 +107,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
@@ -116,11 +116,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇦🇪AE | ss | @proxy_mtm | 5",
                 "🏳️XX | vless | @GozargahVPN | 10",
@@ -132,8 +130,8 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @azadi_az_inja_migzare | 1",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
@@ -141,11 +139,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @V2rayng_Fast | 1",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vmess | @Hope_Net | 18",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 9",
-                "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇦🇪AE | ss | @forwardv2ray | 18",
                 "🇦🇪AE | ss | @FAKEOFTVC | 1",
                 "🇦🇪AE | ss | @proxy_mtm | 5",
                 "🏳️XX | vless | @GozargahVPN | 10",
@@ -203,9 +199,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "54.220.112.149",
+            "server": "16.170.92.180",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -225,9 +221,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "13.51.154.208",
+            "server": "3.68.125.180",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -390,11 +386,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "104.16.216.241",
+            "server": "kishstars.ir",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "3ed9ac53-ce00-4aa5-9f7a-a2e6fab0e14a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -407,7 +403,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "Rockp.Blanku.Me",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -417,9 +413,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/wss49406",
                 "headers": {
-                    "Host": ""
+                    "Host": "Rockp.Blanku.Me"
                 }
             }
         },
@@ -480,47 +476,6 @@ https://github.com/3yed-61
                     "Host": "marien.motorcycles"
                 }
             }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
-            "type": "vless",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "ffffffff-eeae-4311-b37c-b2a67847fed2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "watashi.free.de.mnhacker.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "watashi.free.de.mnhacker.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "51.112.5.55",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | ss | @FAKEOFTVC | 1",
