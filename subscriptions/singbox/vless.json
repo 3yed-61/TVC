@@ -120,21 +120,20 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 15",
+                "🏳️XX | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
-                "🇳🇱NL | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -159,21 +158,20 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🏳️XX | vless | 3YED | 15",
+                "🏳️XX | vless | 3YED | 17",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
-                "🇳🇱NL | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -652,7 +650,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 11",
+            "tag": "🇨🇦CA | vless | 3YED | 12",
             "type": "vless",
             "server": "shiatv.net",
             "server_port": 2096,
@@ -683,7 +681,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 13",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
             "server": "www.legendaryking.link",
             "server_port": 443,
@@ -831,7 +829,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 15",
+            "tag": "🏳️XX | vless | 3YED | 17",
             "type": "vless",
             "server": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev",
             "server_port": 443,
@@ -1009,7 +1007,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1067,35 +1065,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "watashi.free.de.mnhacker.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 7",
-            "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vu.nl",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Pk--Og6oefYaJlSVLEleq267EVt6NaNRIc0PR-4K9nk",
-                    "short_id": "77895d125b69cf7c"
                 }
             }
         },
