@@ -105,8 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | ss | 3YED | 5",
-                "🇫🇷FR | ss | 3YED | 6",
+                "🇫🇷FR | ss | 3YED | 8",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 3",
                 "🇩🇪DE | ss | 3YED | 4",
@@ -118,6 +117,7 @@
                 "🇯🇵JP | ss | 3YED | 3",
                 "🇮🇳IN | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 5",
+                "🇫🇷FR | ss | 3YED | 6",
                 "🇫🇮FI | ss | 3YED | 7",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇨🇦CA | ss | 3YED | 9",
@@ -131,12 +131,8 @@
                 "🇮🇱IL | ss | 3YED | 17",
                 "🇯🇵JP | ss | 3YED | 18",
                 "🇺🇸US | ss | 3YED | 19",
-                "🇩🇪DE | ss | 3YED | 3",
-                "🇩🇪DE | ss | 3YED | 4",
-                "🇩🇪DE | ss | 3YED | 5",
-                "🇩🇪DE | ss | 3YED | 6",
-                "🇩🇪DE | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 9",
+                "🇩🇪DE | ss | 3YED | 13",
+                "🇩🇪DE | ss | 3YED | 14",
                 "🇦🇪AE | ss | 3YED | 1",
                 "🏳️XX | ss | 3YED | 3"
             ]
@@ -145,8 +141,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | ss | 3YED | 5",
-                "🇫🇷FR | ss | 3YED | 6",
+                "🇫🇷FR | ss | 3YED | 8",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 3",
                 "🇩🇪DE | ss | 3YED | 4",
@@ -158,6 +153,7 @@
                 "🇯🇵JP | ss | 3YED | 3",
                 "🇮🇳IN | ss | 3YED | 4",
                 "🇬🇧GB | ss | 3YED | 5",
+                "🇫🇷FR | ss | 3YED | 6",
                 "🇫🇮FI | ss | 3YED | 7",
                 "🇩🇪DE | ss | 3YED | 8",
                 "🇨🇦CA | ss | 3YED | 9",
@@ -171,12 +167,8 @@
                 "🇮🇱IL | ss | 3YED | 17",
                 "🇯🇵JP | ss | 3YED | 18",
                 "🇺🇸US | ss | 3YED | 19",
-                "🇩🇪DE | ss | 3YED | 3",
-                "🇩🇪DE | ss | 3YED | 4",
-                "🇩🇪DE | ss | 3YED | 5",
-                "🇩🇪DE | ss | 3YED | 6",
-                "🇩🇪DE | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 9",
+                "🇩🇪DE | ss | 3YED | 13",
+                "🇩🇪DE | ss | 3YED | 14",
                 "🇦🇪AE | ss | 3YED | 1",
                 "🏳️XX | ss | 3YED | 3"
             ],
@@ -201,22 +193,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | ss | 3YED | 5",
-            "type": "shadowsocks",
-            "server": "54.36.174.181",
-            "server_port": 8008,
-            "method": "aes-256-gcm",
-            "password": "XKFKl2rULjIp74",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇫🇷FR | ss | 3YED | 6",
+            "tag": "🇫🇷FR | ss | 3YED | 8",
             "type": "shadowsocks",
             "server": "149.202.82.172",
-            "server_port": 8091,
+            "server_port": 4444,
             "method": "aes-256-gcm",
-            "password": "PCnnH6SQSnfoS27",
+            "password": "pKEW8JPByTVTLtM",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -327,6 +309,16 @@
             "server_port": 8118,
             "method": "aes-256-gcm",
             "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | ss | 3YED | 6",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8091,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -461,62 +453,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 3",
+            "tag": "🇩🇪DE | ss | 3YED | 13",
             "type": "shadowsocks",
-            "server": "3.68.107.96",
+            "server": "35.158.131.0",
             "server_port": 2087,
             "method": "chacha20-ietf-poly1305",
-            "password": "AX+DdYhVE+xQM1BWo0Sa6WufXTyl8FSB+j\/gkUMRP5c=",
+            "password": "QBlB0Y59lpioLQe85n+19VJKECfV6jBhVTrwehisKJ0=",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 4",
+            "tag": "🇩🇪DE | ss | 3YED | 14",
             "type": "shadowsocks",
-            "server": "3.79.156.192",
+            "server": "3.125.122.13",
             "server_port": 2087,
             "method": "chacha20-ietf-poly1305",
-            "password": "71GURUYzArcBYupVJTMBB4AeldpTTG+gq+K8Vnbq\/sw=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | 3YED | 5",
-            "type": "shadowsocks",
-            "server": "3.79.205.210",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "uVeHiQNYApikmsU5yFZD1rBAj9fFgORBXj378MLIkv0=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | 3YED | 6",
-            "type": "shadowsocks",
-            "server": "3.122.113.241",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "9zoOAuraSn2z+712PRVLqnfvz2Dj7rGG3kWBmTNPyoU=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | 3YED | 7",
-            "type": "shadowsocks",
-            "server": "18.193.122.106",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3cood5NXMB0687jgfwnwV8ingEyvDqxp\/yay\/hMY5yU=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | 3YED | 9",
-            "type": "shadowsocks",
-            "server": "18.159.252.71",
-            "server_port": 2087,
-            "method": "chacha20-ietf-poly1305",
-            "password": "VeU08K3XooFPKyaszR2k+vL8clIlwuctf5SaDabfvIo=",
+            "password": "9FbLEZ6HppB83OpEoc+mo3a8jtAXtdpH5jgPaIEimiU=",
             "plugin": "",
             "plugin_opts": ""
         },
