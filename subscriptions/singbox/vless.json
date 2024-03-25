@@ -134,8 +134,8 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 4",
-                "🏳️XX | vless | 3YED | 9",
-                "🏳️XX | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇨🇦CA | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -174,8 +174,8 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 4",
-                "🏳️XX | vless | 3YED | 9",
-                "🏳️XX | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇨🇦CA | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1073,11 +1073,11 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 9",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 2080,
-            "uuid": "aacbcab-aacb-bcaa-bcda-aaacbbccabbc",
+            "server": "104.21.49.18",
+            "server_port": 443,
+            "uuid": "ca13087e-e06b-11ee-95c9-00505603e70d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1087,21 +1087,28 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "st-fr-1.brocdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/websocket",
+                "headers": {
+                    "Host": "st-fr-1.brocdn.com"
+                }
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 12",
+            "tag": "🇨🇦CA | vless | 3YED | 15",
             "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "aaccbab-caba-bcaa-bcad-bbbacbccaaca",
+            "server": "172.66.47.145",
+            "server_port": 2096,
+            "uuid": "9bb74f9c-6385-4e90-9d16-aadf009575f8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1111,12 +1118,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "127.0.0.1",
+                "server_name": "akfjw807r23raskodfjsf.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@SINABIGO@SINABIGO@SINABIGO\/?ed",
+                "headers": {
+                    "Host": "akfjw807r23raskodfjsf.pages.dev"
                 }
             }
         },
