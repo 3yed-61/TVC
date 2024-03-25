@@ -115,8 +115,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ]
         },
         {
@@ -132,8 +133,9 @@ https://github.com/3yed-61
                 "🇮🇷IR | vmess | @V2rayng_Fast | 0",
                 "🇨🇦CA | vmess | @vless_vmess | 9",
                 "🇨🇳CN | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
-                "🇵🇱PL | vmess | @v2Line | 10"
+                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇵🇱PL | vmess | @v2Line | 10",
+                "🇨🇦CA | vmess | @forwardv2ray | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -381,7 +383,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "104.21.21.35",
             "server_port": 443,
@@ -435,6 +437,40 @@ https://github.com/3yed-61
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 18",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
                 }
             }
         }
