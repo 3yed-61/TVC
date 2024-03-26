@@ -121,8 +121,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 15",
+                "🇨🇦CA | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 23",
@@ -134,7 +134,8 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -160,8 +161,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 15",
+                "🇨🇦CA | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 23",
@@ -173,7 +174,8 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -683,7 +685,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 13",
+            "tag": "🇨🇦CA | vless | 3YED | 14",
             "type": "vless",
             "server": "shiatv.net",
             "server_port": 2096,
@@ -714,7 +716,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 15",
+            "tag": "🇺🇸US | vless | 3YED | 16",
             "type": "vless",
             "server": "www.legendaryking.link",
             "server_port": 443,
@@ -1071,7 +1073,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1098,6 +1100,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "test30.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 7",
+            "type": "vless",
+            "server": "0--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
+                "headers": {
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
