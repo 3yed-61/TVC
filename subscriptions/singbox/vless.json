@@ -128,6 +128,7 @@
                 "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 16",
+                "🏳️XX | vless | 3YED | 81",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -135,6 +136,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇷CR | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -167,6 +169,7 @@
                 "🇺🇸US | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 16",
+                "🏳️XX | vless | 3YED | 81",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -174,6 +177,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇷CR | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -893,6 +897,42 @@
             }
         },
         {
+            "tag": "🏳️XX | vless | 3YED | 81",
+            "type": "vless",
+            "server": "se.legendaryking.link",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fortune.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lDGSYBXlMsmLe25pvVuYHzKernC2OvX6OV4mjw7gt3c",
+                    "short_id": "cb529cb3"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -1098,6 +1138,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "test30.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇷CR | vless | 3YED | 7",
+            "type": "vless",
+            "server": "190.93.247.155",
+            "server_port": 443,
+            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test50.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test50.pages.dev"
                 }
             }
         },
