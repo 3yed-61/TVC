@@ -111,12 +111,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 89",
+                "🏳️XX | vless | 3YED | 98",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇳🇱NL | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -132,12 +131,11 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 89",
+                "🏳️XX | vless | 3YED | 98",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇳🇱NL | vless | 3YED | 1",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -337,7 +335,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 89",
+            "tag": "🏳️XX | vless | 3YED | 98",
             "type": "vless",
             "server": "se.legendaryking.link",
             "server_port": 443,
@@ -485,35 +483,6 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 1",
-            "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },

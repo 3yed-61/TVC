@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | 3YED | 3",
+                "🇦🇪AE | ss | 3YED | 9",
+                "🇧🇭BH | ss | 3YED | 14",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 4",
@@ -134,7 +135,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | 3YED | 3",
+                "🇦🇪AE | ss | 3YED | 9",
+                "🇧🇭BH | ss | 3YED | 14",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 4",
@@ -179,12 +181,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 3",
+            "tag": "🇦🇪AE | ss | 3YED | 9",
             "type": "shadowsocks",
-            "server": "205.134.180.147",
+            "server": "account.emofid.co",
             "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "9Bvkw5aupNy8",
+            "password": "e6QAeE5R24iFZKLG",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇧🇭BH | ss | 3YED | 14",
+            "type": "shadowsocks",
+            "server": "series-a2-me.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Q3S7TeYjDW7dZ6eD",
             "plugin": "",
             "plugin_opts": ""
         },
