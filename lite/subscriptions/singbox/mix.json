@@ -106,10 +106,10 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 15",
@@ -117,7 +117,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -127,10 +127,10 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇿CZ | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 15",
@@ -138,7 +138,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇮🇷IR | vmess | @MrV2Ray | 0",
                 "🇺🇸US | vmess | @v2Line | 10",
-                "🇨🇦CA | vless | @FreakConfig | 6",
+                "🇨🇦CA | vless | @forwardv2ray | 15",
                 "🇺🇸US | vmess | @FAKEOFTVC | 2",
                 "🏳️XX | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -164,7 +164,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
             "server": "3.255.33.65",
             "server_port": 22222,
@@ -186,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 18",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.135.23.23",
+            "server": "13.49.114.121",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -225,7 +225,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇿CZ | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -416,11 +416,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 6",
+            "tag": "🇨🇦CA | vless | @forwardv2ray | 15",
             "type": "vless",
-            "server": "162.159.135.79",
+            "server": "104.21.10.94",
             "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -430,7 +430,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test30.pages.dev",
+                "server_name": "baipiao406.stunning-bassoon.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -442,7 +442,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "test30.pages.dev"
+                    "Host": "baipiao406.stunning-bassoon.pages.dev"
                 }
             }
         },
