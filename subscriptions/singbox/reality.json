@@ -111,11 +111,12 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 81",
+                "🏳️XX | vless | 3YED | 89",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇬🇧GB | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -131,11 +132,12 @@
                 "🇫🇮FI | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇫🇷FR | vless | 3YED | 10",
-                "🏳️XX | vless | 3YED | 81",
+                "🏳️XX | vless | 3YED | 89",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
+                "🇬🇧GB | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -335,7 +337,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vless | 3YED | 81",
+            "tag": "🏳️XX | vless | 3YED | 89",
             "type": "vless",
             "server": "se.legendaryking.link",
             "server_port": 443,
@@ -483,6 +485,35 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | 3YED | 0",
+            "type": "vless",
+            "server": "en.standardmap.onflashdrive.app",
+            "server_port": 47028,
+            "uuid": "3be088a4-5444-4c06-869b-6d324378a18e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "forward.standardmap.onflashdrive.app",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "VMA0JhQXljJsSr6Pq0-gOthdtAtUkOHzvMeSttbGKEQ",
+                    "short_id": "61b36b49"
                 }
             }
         },
