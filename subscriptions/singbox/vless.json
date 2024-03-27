@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -175,7 +175,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1104,11 +1104,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 10",
             "type": "vless",
-            "server": "172.66.47.201",
+            "server": "0--join.outline-vpn.cloud",
             "server_port": 443,
-            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1118,7 +1118,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV",
+                "server_name": "edge.020770.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1128,9 +1128,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
                 "headers": {
-                    "Host": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV"
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
