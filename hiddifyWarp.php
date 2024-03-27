@@ -53,3 +53,4 @@ $profileOutput = $profileHeader . "
 file_put_contents("subscriptions/warp/config", $profileOutput);
 
 echo "\nWARP Configuration created!\n";
+
