@@ -132,10 +132,10 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇳🇱NL | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -172,10 +172,10 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇳🇱NL | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1011,7 +1011,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "104.21.10.94",
             "server_port": 443,
@@ -1042,7 +1042,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "172.66.44.197",
             "server_port": 443,
@@ -1104,12 +1104,12 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vless | 3YED | 11",
+            "tag": "🇨🇦CA | vless | 3YED | 17",
             "type": "vless",
-            "server": "allrevolt.r8volt.com",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.47.201",
+            "server_port": 443,
+            "uuid": "989c4f14-a0fb-4375-ba5d-082fb7167b70",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1118,17 +1118,19 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "maps.google.com",
+                "server_name": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "AzAdNetByFt65433GhgFR5677JGFR557774ThyYT8766wWqW346678UUJj.pAGeS.deV"
                 }
             }
         },
