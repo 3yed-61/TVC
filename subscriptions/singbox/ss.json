@@ -127,7 +127,9 @@
                 "🇦🇹AT | ss | 3YED | 13",
                 "🇺🇸US | ss | 3YED | 14",
                 "🇷🇺RU | ss | 3YED | 15",
-                "🇦🇹AT | ss | 3YED | 3",
+                "🇦🇹AT | ss | 3YED | 1",
+                "🇳🇱NL | ss | 3YED | 5",
+                "🇵🇱PL | ss | 3YED | 13",
                 "🏳️XX | ss | 3YED | 4"
             ]
         },
@@ -157,7 +159,9 @@
                 "🇦🇹AT | ss | 3YED | 13",
                 "🇺🇸US | ss | 3YED | 14",
                 "🇷🇺RU | ss | 3YED | 15",
-                "🇦🇹AT | ss | 3YED | 3",
+                "🇦🇹AT | ss | 3YED | 1",
+                "🇳🇱NL | ss | 3YED | 5",
+                "🇵🇱PL | ss | 3YED | 13",
                 "🏳️XX | ss | 3YED | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -401,12 +405,32 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | 3YED | 3",
+            "tag": "🇦🇹AT | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "vienna.telegavpn.com",
             "server_port": 61992,
             "method": "chacha20-ietf-poly1305",
-            "password": "X03fZs71HenzwXzEzJTpSB",
+            "password": "6w47Ef8WuWCGXRI0GA10Yv",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "109.107.172.30",
+            "server_port": 28190,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1f8jdOIKkxRWMUeOfXPeo8",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇱PL | ss | 3YED | 13",
+            "type": "shadowsocks",
+            "server": "54.36.174.181",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
         },
