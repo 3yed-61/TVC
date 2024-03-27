@@ -135,7 +135,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -175,7 +175,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇨🇦CA | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🏳️XX | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1104,12 +1104,12 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇳🇱NL | vless | 3YED | 11",
             "type": "vless",
-            "server": "104.22.32.78",
-            "server_port": 443,
-            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
-            "flow": "",
+            "server": "allrevolt.r8volt.com",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -1118,19 +1118,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "Bia.alLhub.Ltd",
+                "server_name": "maps.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Bia.alLhub.Ltd"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },
