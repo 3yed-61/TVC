@@ -38,4 +38,3 @@ foreach ($sourcesArray as $source => $types) {
 
 // Save the channel data array as JSON
 file_put_contents("channelsData/channelsAssets.json", json_encode($channelArray , JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-
