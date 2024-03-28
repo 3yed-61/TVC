@@ -120,7 +120,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -143,7 +143,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -496,11 +496,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
+            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
             "type": "vmess",
-            "server": "vip2323.cfd",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "cloudflare.b4a-devs.org",
+            "server_port": 2083,
+            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -513,7 +513,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vip2323.cfd",
+                "server_name": "cloudflare.b4a-devs.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -523,9 +523,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkvws",
+                "path": "\/cloudflare",
                 "headers": {
-                    "Host": "vip2323.cfd"
+                    "Host": "cloudflare.b4a-devs.org"
                 }
             }
         },
