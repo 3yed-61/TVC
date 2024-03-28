@@ -120,7 +120,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -143,7 +142,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vmess | @forwardv2ray | 16",
                 "🏳️XX | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -492,40 +490,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "test43.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @forwardv2ray | 16",
-            "type": "vmess",
-            "server": "cloudflare.b4a-devs.org",
-            "server_port": 2083,
-            "uuid": "0a40bceb-6a30-4da2-b90b-2ae5ed018e98",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cloudflare.b4a-devs.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cloudflare",
-                "headers": {
-                    "Host": "cloudflare.b4a-devs.org"
                 }
             }
         },
