@@ -134,6 +134,7 @@
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -172,6 +173,7 @@
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 11",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -1067,6 +1069,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "test43.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 13",
+            "type": "vless",
+            "server": "0--join.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "b0138d55-a493-4dc3-9932-c6f0391707c1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "edge.020770.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless\/b0138d55-a493-4dc3-9932-c6f0391707c1?ed",
+                "headers": {
+                    "Host": "edge.020770.xyz"
                 }
             }
         },
