@@ -131,7 +131,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 11",
@@ -168,7 +168,7 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 10",
                 "🏳️XX | vless | 3YED | 11",
@@ -976,7 +976,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "172.64.80.150",
+            "server_port": 443,
+            "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "always-online1.lp-airdrop.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "always-online1.lp-airdrop.top"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 5",
             "type": "vless",
             "server": "104.21.10.94",
             "server_port": 443,
@@ -1003,37 +1034,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "baipiao406.stunning-bassoon.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
-            "type": "vless",
-            "server": "172.66.44.197",
-            "server_port": 443,
-            "uuid": "d3a12e79-ef42-4268-b367-42eeb3494e60",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hagh.PaGes.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hagh.PaGes.DEv"
                 }
             }
         },
