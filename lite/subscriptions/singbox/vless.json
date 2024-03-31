@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -116,7 +115,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @forwardv2ray | 19",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -140,35 +138,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇮🇷IR | vless | @forwardv2ray | 19",
-            "type": "vless",
-            "server": "93.113.237.83",
-            "server_port": 2079,
-            "uuid": "0795a365-a3bc-445d-9961-4949cec7770b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hiztesti-ist.codit.com.tr.prod.hosts.ooklaserver.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 10",
