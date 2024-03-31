@@ -111,13 +111,13 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
-                "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇳🇱NL | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -132,13 +132,13 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 13",
-                "🇩🇪DE | vmess | @prrofile_purple | 177",
                 "🇬🇧GB | vmess | @ShadowProxy66 | 67",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇨🇦CA | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇳🇱NL | ss | @forwardv2ray | 18",
                 "🇩🇪DE | vless | @GozargahVPN | 10",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇨🇦CA | vless | @TVCminer | 13"
@@ -166,7 +166,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.73.145.28",
+            "server": "3.73.170.230",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "3.67.104.250",
+            "server": "18.199.32.158",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -273,23 +273,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "nelly.homes"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @prrofile_purple | 177",
-            "type": "vmess",
-            "server": "45.32.158.65",
-            "server_port": 27663,
-            "uuid": "5789382f-2bb4-4817-ba71-2e5f21a27268",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -410,6 +393,16 @@ https://github.com/3yed-61
                     "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇳🇱NL | ss | @forwardv2ray | 18",
+            "type": "shadowsocks",
+            "server": "109.107.172.30",
+            "server_port": 28190,
+            "method": "chacha20-ietf-poly1305",
+            "password": "1f8jdOIKkxRWMUeOfXPeo8",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 10",
