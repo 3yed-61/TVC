@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
@@ -117,7 +117,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11",
@@ -128,8 +128,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇺🇸US | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
@@ -139,7 +139,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 18",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇺🇸US | vmess | @forwardv2ray | 19",
+                "🇬🇧GB | ss | @forwardv2ray | 16",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 11",
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.74.78.193",
+            "server": "51.20.177.160",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 19",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "34.213.191.154",
+            "server": "51.21.17.66",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -341,9 +341,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 18",
             "type": "vmess",
-            "server": "205.234.231.135",
-            "server_port": 58723,
-            "uuid": "e54f4902-bd57-4241-eb07-4fa014bec04d",
+            "server": "205.234.233.102",
+            "server_port": 52922,
+            "uuid": "38bcf322-585c-4aa6-8e5b-c654b83983a2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -353,13 +353,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/dasdfer",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -397,38 +390,14 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @forwardv2ray | 19",
-            "type": "vmess",
-            "server": "172.67.152.214",
+            "tag": "🇬🇧GB | ss | @forwardv2ray | 16",
+            "type": "shadowsocks",
+            "server": "account-mec.emofid.co",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "meroiy.icu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "meroiy.icu"
-                }
-            }
+            "method": "chacha20-ietf-poly1305",
+            "password": "aWlRNqcugDRAFF62",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | vless | @GozargahVPN | 11",
