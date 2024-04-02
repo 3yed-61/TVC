@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🏳️XX | vless | @v2ray_swhil | 28",
-                "🇳🇱NL | vless | @forwardv2ray | 5",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -118,7 +117,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🏳️XX | vless | @v2ray_swhil | 28",
-                "🇳🇱NL | vless | @forwardv2ray | 5",
                 "🇩🇪DE | vless | @GozargahVPN | 11",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 10"
@@ -171,37 +169,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "digiswiftchannel.digiswiftdigiswiftdigiswift.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | @forwardv2ray | 5",
-            "type": "vless",
-            "server": "188.114.97.46",
-            "server_port": 2053,
-            "uuid": "0a0b9604-f2a9-4d73-a698-8e2641d692ae",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "uciran-uciran-uciran-uciran-uciran-uciran-uciran-uciran.dewiw37019.workers.dev"
                 }
             }
         },
