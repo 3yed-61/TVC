@@ -108,12 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @v2ray_swhil | 21",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -124,12 +122,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
-                "🇨🇦CA | vmess | @v2ray_swhil | 21",
+                "🏳️XX | vmess | @oneclickvpnkeys | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
                 "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
-                "🇩🇪DE | vmess | @forwardv2ray | 18",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 8",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -195,11 +191,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+            "tag": "🏳️XX | vmess | @oneclickvpnkeys | 12",
             "type": "vmess",
-            "server": "104.21.32.223",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "0:0:0:0:0:ffff:b2d0:5790",
+            "server_port": 10473,
+            "uuid": "cbf8bb76-803d-4e5c-9fdb-f1c405be4cc6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -209,57 +205,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "muriel.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "muriel.makeup"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 21",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nelly.homes",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "nelly.homes"
-                }
             }
         },
         {
@@ -335,23 +280,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vmess | @forwardv2ray | 18",
-            "type": "vmess",
-            "server": "49.13.134.69",
-            "server_port": 5260,
-            "uuid": "06b02791-af50-46bd-8679-bc84b754f0aa",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
