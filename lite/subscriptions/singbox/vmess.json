@@ -107,11 +107,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @prrofile_purple | 171",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ]
@@ -121,11 +122,12 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇭🇰HK | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+                "🇮🇷IR | vmess | @prrofile_purple | 171",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 26",
                 "🇨🇦CA | vmess | @yaney_01 | 1",
-                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇺🇸US | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vmess | @OpenSSTPVpn | 1"
             ],
@@ -167,11 +169,35 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "156.251.217.24",
-            "server_port": 31464,
-            "uuid": "403af391-7108-47ef-9239-0236359f010a",
+            "server": "104.21.54.252",
+            "server_port": 8080,
+            "uuid": "22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
+            "type": "vmess",
+            "server": "141.94.237.81",
+            "server_port": 8442,
+            "uuid": "60df4ec6-7506-407e-998e-b1539fc0630f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -184,11 +210,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 11",
+            "tag": "🇮🇷IR | vmess | @prrofile_purple | 171",
             "type": "vmess",
-            "server": "198.41.202.5",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "server": "arr779.freelife.skin",
+            "server_port": 80,
+            "uuid": "94c79543-355f-42a1-99f4-ab2167734b90",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,23 +224,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kittiy.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "kittiy.sbs"
-                }
             }
         },
         {
@@ -259,11 +268,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "104.21.13.222",
-            "server_port": 2053,
-            "uuid": "0f1b29b8-0f0f-431a-b6d1-035803a95c32",
+            "server": "208.167.245.10",
+            "server_port": 30835,
+            "uuid": "26762596-5aa7-4212-ec48-f85a3d5b9118",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -273,23 +282,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.ibgfw.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vVNUJOgb\/",
-                "headers": {
-                    "Host": "v2ray.ibgfw.top"
-                }
             }
         },
         {
