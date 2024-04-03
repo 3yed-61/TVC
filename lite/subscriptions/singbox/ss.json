@@ -107,8 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
-                "🇦🇪AE | ss | @forwardv2ray | 18"
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 14"
             ]
         },
         {
@@ -116,8 +115,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | ss | @VmessProtocol | 16",
-                "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
-                "🇦🇪AE | ss | @forwardv2ray | 18"
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 14"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -150,22 +148,12 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇳IN | ss | @OutlineVpnOfficial | 16",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 14",
             "type": "shadowsocks",
-            "server": "103.125.147.226",
-            "server_port": 51348,
+            "server": "89.19.216.18",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "lpelmZXgfhGGMu5iXyfZ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | ss | @forwardv2ray | 18",
-            "type": "shadowsocks",
-            "server": "series-a2.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mps3FwmDjLrWaOVg",
+            "password": "NC7jORVNrruV\/+3+PwOJrnnOeG7n75X1",
             "plugin": "",
             "plugin_opts": ""
         }
