@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 12"
@@ -118,7 +117,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @FreakConfig | 6",
-                "🇨🇦CA | vless | @forwardv2ray | 7",
                 "🇩🇪DE | vless | @GozargahVPN | 12",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇺🇸US | vless | @TVCminer | 12"
@@ -171,37 +169,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "Hagh.PaGes.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @forwardv2ray | 7",
-            "type": "vless",
-            "server": "104.21.50.213",
-            "server_port": 443,
-            "uuid": "db1eeace-797f-4d75-ac27-9a97acda853d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pikk.minusober.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pikk",
-                "headers": {
-                    "Host": "pikk.minusober.com"
                 }
             }
         },
