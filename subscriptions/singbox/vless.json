@@ -131,13 +131,12 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 12",
-                "🇮🇷IR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4"
+                "🇮🇷IR | vless | 3YED | 1"
             ]
         },
         {
@@ -170,13 +169,12 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
-                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 12",
-                "🇮🇷IR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4"
+                "🇮🇷IR | vless | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -979,7 +977,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇨🇦CA | vless | 3YED | 0",
             "type": "vless",
             "server": "104.22.32.78",
             "server_port": 443,
@@ -1010,7 +1008,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1041,7 +1039,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "www.zula.ir",
             "server_port": 443,
@@ -1072,7 +1070,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
@@ -1157,30 +1155,6 @@
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
-            "type": "vless",
-            "server": "45.66.249.114",
-            "server_port": 443,
-            "uuid": "09e02255-eb34-4665-979f-ee448d4446ab",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lsa.jarviskit.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         }
