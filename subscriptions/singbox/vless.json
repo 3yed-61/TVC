@@ -125,15 +125,13 @@
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
-                "🇮🇪IE | vless | 3YED | 18",
-                "🇮🇪IE | vless | 3YED | 19",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -162,15 +160,13 @@
                 "🇮🇷IR | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
-                "🇮🇪IE | vless | 3YED | 18",
-                "🇮🇪IE | vless | 3YED | 19",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -799,54 +795,6 @@
             }
         },
         {
-            "tag": "🇮🇪IE | vless | 3YED | 18",
-            "type": "vless",
-            "server": "95.164.44.221",
-            "server_port": 443,
-            "uuid": "101934a9-3aa3-4a73-b8e8-68ccd02066fb",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ie1.x2fast.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇪IE | vless | 3YED | 19",
-            "type": "vless",
-            "server": "95.164.44.221",
-            "server_port": 443,
-            "uuid": "101934a9-3aa3-4a73-b8e8-68ccd02066fb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ie1.x2fast.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -1025,7 +973,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "162.159.135.79",
             "server_port": 443,
