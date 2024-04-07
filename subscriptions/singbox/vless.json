@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -128,13 +128,14 @@
                 "🇳🇱NL | vless | 3YED | 12",
                 "🏳️XX | vless | 3YED | 110",
                 "🏳️XX | vless | 3YED | 111",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -143,7 +144,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇨🇦CA | vless | 3YED | 8",
@@ -166,13 +167,14 @@
                 "🇳🇱NL | vless | 3YED | 12",
                 "🏳️XX | vless | 3YED | 110",
                 "🏳️XX | vless | 3YED | 111",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -197,7 +199,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 5",
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "178.63.150.73",
             "server_port": 34455,
@@ -900,6 +902,37 @@
             }
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 16",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "51905fd3-29de-4b4e-b351-83542f1d5390",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Bia.alLhub.Ltd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "Bia.alLhub.Ltd"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
@@ -1078,7 +1111,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
             "server": "Www.ZULA.iR",
             "server_port": 8443,
