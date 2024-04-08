@@ -138,8 +138,9 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
         },
@@ -180,8 +181,9 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇬🇧GB | vless | 3YED | 0",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -1195,7 +1197,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 443,
@@ -1253,6 +1255,35 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vpnxw.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | 3YED | 0",
+            "type": "vless",
+            "server": "51.195.157.103",
+            "server_port": 45102,
+            "uuid": "de85f08e-b381-4d54-931d-f8a24f49b3ed",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ",
+                    "short_id": "9f935adfaf516589"
                 }
             }
         },
