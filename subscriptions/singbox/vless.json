@@ -127,12 +127,13 @@
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 14",
-                "🇩🇪DE | vless | 3YED | 2",
+                "🇫🇷FR | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 123",
                 "🇩🇪DE | vless | 3YED | 125",
                 "🇩🇪DE | vless | 3YED | 127",
                 "🏳️XX | vless | 3YED | 143",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -140,7 +141,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 4",
@@ -173,12 +174,13 @@
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 14",
-                "🇩🇪DE | vless | 3YED | 2",
+                "🇫🇷FR | vless | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 123",
                 "🇩🇪DE | vless | 3YED | 125",
                 "🇩🇪DE | vless | 3YED | 127",
                 "🏳️XX | vless | 3YED | 143",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -186,7 +188,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇨🇦CA | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇨🇦CA | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇬🇧GB | vless | 3YED | 4",
@@ -876,7 +878,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "tag": "🇫🇷FR | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
             "server_port": 443,
@@ -1041,6 +1043,37 @@
                     "enabled": true,
                     "public_key": "F03TKt7jOgtvzj3-hiVA5SuUefizbehBm9-c7GYTS2A",
                     "short_id": "82017cdf"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 9",
+            "type": "vless",
+            "server": "162.159.152.2",
+            "server_port": 443,
+            "uuid": "a4374eaa-2ff3-4a09-af3f-ce3fbce5e27d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "providence-bell-counties-reasonably.trycloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@Daily_Configs--@Daily_Configs--@Daily_Configs--@Daily_Configs",
+                "headers": {
+                    "Host": "providence-bell-counties-reasonably.trycloudflare.com"
                 }
             }
         },
@@ -1254,7 +1287,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "172.67.24.121",
             "server_port": 443,
