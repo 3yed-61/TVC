@@ -128,7 +128,7 @@
                 "🇩🇪DE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇮🇪IE | vless | 3YED | 17",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇫🇷FR | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -139,6 +139,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 6",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -171,7 +172,7 @@
                 "🇩🇪DE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇮🇪IE | vless | 3YED | 17",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇫🇷FR | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -182,6 +183,7 @@
                 "🇨🇦CA | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 6",
                 "🇬🇧GB | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇮🇷IR | vless | 3YED | 1"
@@ -901,7 +903,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "tag": "🇫🇷FR | vless | 3YED | 1",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
             "server_port": 443,
@@ -1221,6 +1223,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "f.auto.r.exit.e.e.watashi-java.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "1da545b0-2395-4d5c-abe8-8aee6671c859",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "BPB-worKEr-paNel-aQX.paGES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "BPB-worKEr-paNel-aQX.paGES.DEV"
                 }
             }
         },
