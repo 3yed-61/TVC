@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇩🇪DE | vless | 3YED | 9","type":"vless","server":"178.63.150.73","port":34455,"udp":true,"uuid":"42ad0425-f618-4429-b2be-9148be5c322b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"3Cv9QAAXxxUDjxlHuSDHyNfye9h6xlJJBz7vGsnmO3o","short-id":"23d9b7cb"}}
+  - {"name":"🇩🇪DE | vless | 3YED | 10","type":"vless","server":"178.63.150.73","port":34455,"udp":true,"uuid":"42ad0425-f618-4429-b2be-9148be5c322b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"3Cv9QAAXxxUDjxlHuSDHyNfye9h6xlJJBz7vGsnmO3o","short-id":"23d9b7cb"}}
   - {"name":"🇨🇦CA | vless | 3YED | 4","type":"vless","server":"All.RxV2ray.online","port":2053,"udp":false,"uuid":"704e71a4-ded1-4704-82f1-b96ed6e93dcb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"nl.RxV2ray.space","ws-opts":{"path":"/","headers":{"host":"nl.RxV2ray.space"}}}
   - {"name":"🇨🇦CA | vless | 3YED | 5","type":"vless","server":"All.RxV2ray.online","port":2053,"udp":false,"uuid":"704e71a4-ded1-4704-82f1-b96ed6e93dcb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"nm.RxV2ray.space","ws-opts":{"path":"/","headers":{"host":"nm.RxV2ray.space"}}}
   - {"name":"🇨🇦CA | vless | 3YED | 8","type":"vless","server":"All.RxV2ray.online","port":2053,"udp":false,"uuid":"603f7a2c-0262-4b17-a43d-bb379e670043","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"nl.RxV2ray.space","ws-opts":{"path":"/","headers":{"host":"nl.RxV2ray.space"}}}
@@ -151,7 +151,7 @@ proxies:
   - {"name":"🏳️XX | vless | 3YED | 24","type":"vless","server":"tele.jokerv2ray.store","port":15557,"udp":true,"uuid":"945a6635-9884-46e4-b7e8-78fb7c79359b","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"telegram-id.jokerv2ray.store","reality-opts":{"public-key":"7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA","short-id":"7dd63855"}}
   - {"name":"🇨🇦CA | vless | 3YED | 0","type":"vless","server":"172.67.24.121","port":443,"udp":false,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Bia.alLhub.Ltd","ws-opts":{"path":"/","headers":{"host":"biA.ALlhub.LTD"}}}
   - {"name":"🇺🇸US | vless | 3YED | 1","type":"vless","server":"Www.ZULA.iR","port":8443,"udp":false,"uuid":"8721355e-96d5-4bb9-a99b-b6119d6b1cd4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv","ws-opts":{"path":"/","headers":{"host":"uD2kp0fx53e15EHUFNo2LJ7mHRsDgTYET8xzmA7tXh40tR606ogTx280VN.PaGEs.dEv"}}}
-  - {"name":"🇺🇸US | vless | 3YED | 2","type":"vless","server":"104.22.33.78","port":443,"udp":false,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Bia.alLhub.Ltd","ws-opts":{"path":"/","headers":{"host":"Bia.alLhub.Ltd"}}}
+  - {"name":"🇨🇦CA | vless | 3YED | 2","type":"vless","server":"104.22.33.78","port":443,"udp":false,"uuid":"51905fd3-29de-4b4e-b351-83542f1d5390","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"Bia.alLhub.Ltd","ws-opts":{"path":"/","headers":{"host":"Bia.alLhub.Ltd"}}}
   - {"name":"🇨🇦CA | vless | 3YED | 3","type":"vless","server":"23.227.60.7","port":443,"udp":false,"uuid":"d672ec4f-afba-4f61-af09-eec872f97e99","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"test43.pages.dev","ws-opts":{"path":"/","headers":{"host":"test43.pages.dev"}}}
   - {"name":"🇺🇸US | vless | 3YED | 4","type":"vless","server":"www.zula.ir","port":443,"udp":false,"uuid":"ffffffff-bf32-4282-b875-eca220008daf","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"f.auto.r.exit.e.e.watashi-java.ir","ws-opts":{"path":"/","headers":{"host":"f.auto.r.exit.e.e.watashi-java.ir"}}}
   - {"name":"🇬🇧GB | vless | 3YED | 2","type":"vless","server":"51.195.157.103","port":45102,"udp":true,"uuid":"de85f08e-b381-4d54-931d-f8a24f49b3ed","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"icloud.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"FZ9taGSf9n6JNSUnjR7kilCKmfXMZHbbOf7skIDNUSQ","short-id":"9f935adfaf516589"}}
@@ -163,7 +163,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇩🇪DE | vless | 3YED | 9'
+      - '🇩🇪DE | vless | 3YED | 10'
       - '🇨🇦CA | vless | 3YED | 4'
       - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
@@ -194,7 +194,7 @@ proxy-groups:
       - '🏳️XX | vless | 3YED | 24'
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
-      - '🇺🇸US | vless | 3YED | 2'
+      - '🇨🇦CA | vless | 3YED | 2'
       - '🇨🇦CA | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇬🇧GB | vless | 3YED | 2'
@@ -206,7 +206,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇩🇪DE | vless | 3YED | 9'
+      - '🇩🇪DE | vless | 3YED | 10'
       - '🇨🇦CA | vless | 3YED | 4'
       - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
@@ -237,7 +237,7 @@ proxy-groups:
       - '🏳️XX | vless | 3YED | 24'
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
-      - '🇺🇸US | vless | 3YED | 2'
+      - '🇨🇦CA | vless | 3YED | 2'
       - '🇨🇦CA | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇬🇧GB | vless | 3YED | 2'
@@ -248,7 +248,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇩🇪DE | vless | 3YED | 9'
+      - '🇩🇪DE | vless | 3YED | 10'
       - '🇨🇦CA | vless | 3YED | 4'
       - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
@@ -279,7 +279,7 @@ proxy-groups:
       - '🏳️XX | vless | 3YED | 24'
       - '🇨🇦CA | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
-      - '🇺🇸US | vless | 3YED | 2'
+      - '🇨🇦CA | vless | 3YED | 2'
       - '🇨🇦CA | vless | 3YED | 3'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇬🇧GB | vless | 3YED | 2'
