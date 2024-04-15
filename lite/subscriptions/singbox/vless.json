@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @ConfigsHUB | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -115,7 +114,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @ConfigsHUB | 13",
                 "🏳️XX | vless | @v2rayng_vpnrog | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -138,37 +136,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇳🇱NL | vless | @ConfigsHUB | 13",
-            "type": "vless",
-            "server": "188.114.97.12",
-            "server_port": 443,
-            "uuid": "3f435429-081a-41e0-8e77-f21e8a51fbbf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VirgInIaVpn.PaGes.DeV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VirgInIaVpn.PaGes.DeV"
-                }
-            }
         },
         {
             "tag": "🏳️XX | vless | @v2rayng_vpnrog | 6",
