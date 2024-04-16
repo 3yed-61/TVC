@@ -132,7 +132,7 @@
                 "🇨🇦CA | vmess | 3YED | 16",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇫🇮FI | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
@@ -153,8 +153,6 @@
                 "🇨🇦CA | vmess | 3YED | 33",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 149",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇫🇮FI | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
@@ -213,7 +211,7 @@
                 "🇨🇦CA | vmess | 3YED | 16",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇫🇮FI | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
@@ -234,8 +232,6 @@
                 "🇨🇦CA | vmess | 3YED | 33",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🏳️XX | vmess | 3YED | 149",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇫🇮FI | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
@@ -890,7 +886,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇨🇦CA | vmess | 3YED | 2",
             "type": "vmess",
             "server": "hms082.gwdef.sbs",
             "server_port": 443,
@@ -1449,40 +1445,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
-            "type": "vmess",
-            "server": "104.249.173.159",
-            "server_port": 40118,
-            "uuid": "b89f5af7-e478-4b45-f1d5-1a5481acc15b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vmess | 3YED | 1",
-            "type": "vmess",
-            "server": "65.109.199.41",
-            "server_port": 5855,
-            "uuid": "af99c3d4-3dba-4aa4-8946-cd3fe1bb0de0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
