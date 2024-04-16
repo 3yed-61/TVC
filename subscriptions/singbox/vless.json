@@ -120,18 +120,19 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 114",
+                "🇨🇦CA | vless | 3YED | 114",
                 "🏳️XX | vless | 3YED | 128",
                 "🏳️XX | vless | 3YED | 129",
                 "🇩🇪DE | vless | 3YED | 132",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇳🇱NL | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1"
             ]
@@ -155,18 +156,19 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 11",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 114",
+                "🇨🇦CA | vless | 3YED | 114",
                 "🏳️XX | vless | 3YED | 128",
                 "🏳️XX | vless | 3YED | 129",
                 "🇩🇪DE | vless | 3YED | 132",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 6",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇨🇦CA | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇳🇱NL | vless | 3YED | 1",
                 "🇨🇦CA | vless | 3YED | 5",
                 "🇮🇷IR | vless | 3YED | 1"
             ],
@@ -637,7 +639,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 114",
+            "tag": "🇨🇦CA | vless | 3YED | 114",
             "type": "vless",
             "server": "login.snapfooding.com",
             "server_port": 443,
@@ -761,6 +763,42 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "www.morfin.bio",
+            "server_port": 443,
+            "uuid": "ItsLegendaryking",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "wordpress.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UmGQyKVfszWt9n_h-jXAXlh9xbaXpbvhgSL8YJ3yTSM",
+                    "short_id": "4a96ee77"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
@@ -943,7 +981,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
             "server": "104.17.0.11",
             "server_port": 443,
@@ -974,7 +1012,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇳🇱NL | vless | 3YED | 1",
             "type": "vless",
             "server": "188.114.97.12",
             "server_port": 443,
