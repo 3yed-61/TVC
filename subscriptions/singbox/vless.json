@@ -120,9 +120,9 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 129",
+                "🇨🇦CA | vless | 3YED | 129",
                 "🇨🇦CA | vless | 3YED | 152",
-                "🇨🇦CA | vless | 3YED | 12",
+                "🇨🇦CA | vless | 3YED | 11",
                 "🏳️XX | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -158,9 +158,9 @@
                 "🇫🇷FR | vless | 3YED | 10",
                 "🇫🇷FR | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 129",
+                "🇨🇦CA | vless | 3YED | 129",
                 "🇨🇦CA | vless | 3YED | 152",
-                "🇨🇦CA | vless | 3YED | 12",
+                "🇨🇦CA | vless | 3YED | 11",
                 "🏳️XX | vless | 3YED | 7",
                 "🇨🇦CA | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -643,7 +643,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 129",
+            "tag": "🇨🇦CA | vless | 3YED | 129",
             "type": "vless",
             "server": "login.snapfooding.com",
             "server_port": 443,
@@ -715,11 +715,11 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 12",
+            "tag": "🇨🇦CA | vless | 3YED | 11",
             "type": "vless",
-            "server": "162.159.136.234",
-            "server_port": 2053,
-            "uuid": "7e29f2e2-e0ec-47c5-94ec-38ef90f7a106",
+            "server": "104.21.84.22",
+            "server_port": 443,
+            "uuid": "375dd25d-0ec6-454c-be6f-ce67b196b23b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -729,7 +729,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "guq22.OXnETwoRkS.LInk",
+                "server_name": "freedom11.fmnxmt.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -739,9 +739,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vless-ws\/@SINABIGO",
+                "path": "\/",
                 "headers": {
-                    "Host": "guq22.OXnETwoRkS.LInk"
+                    "Host": "freedom11.fmnxmt.workers.dev"
                 }
             }
         },
