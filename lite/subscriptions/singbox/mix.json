@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -114,8 +114,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -128,7 +129,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 19",
+                "🇫🇷FR | trojan | @PrivateVPNs | 19",
                 "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -136,8 +137,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @ShadowProxy66 | 30",
                 "🇨🇦CA | vmess | @V2rayng_Fast | 1",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 15",
+                "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 4",
-                "🏳️XX | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 11",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -166,9 +168,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 19",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "3.69.235.63",
+            "server": "15.236.156.123",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,7 +192,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "52.18.22.51",
+            "server": "34.249.148.68",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -353,6 +355,37 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "834ba8c5-a6a2-482f-b9f9-97bb86e52904",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "1bdf3e45.mahdiserver-3kd.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "1bdf3e45.mahdiserver-3kd.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 4",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -387,7 +420,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
             "server": "novia.makeup",
             "server_port": 443,
