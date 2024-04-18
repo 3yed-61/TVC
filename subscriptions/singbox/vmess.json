@@ -149,20 +149,20 @@
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 124",
-                "🇺🇸US | vmess | 3YED | 9",
+                "🇨🇦CA | vmess | 3YED | 16",
                 "🇮🇷IR | vmess | 3YED | 13",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 6",
-                "🇩🇪DE | vmess | 3YED | 8",
-                "🏳️XX | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🏳️XX | vmess | 3YED | 0",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 7",
+                "🇩🇪DE | vmess | 3YED | 9",
+                "🏳️XX | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -226,20 +226,20 @@
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 124",
-                "🇺🇸US | vmess | 3YED | 9",
+                "🇨🇦CA | vmess | 3YED | 16",
                 "🇮🇷IR | vmess | 3YED | 13",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 6",
-                "🇩🇪DE | vmess | 3YED | 8",
-                "🏳️XX | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🏳️XX | vmess | 3YED | 0",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 7",
+                "🇩🇪DE | vmess | 3YED | 9",
+                "🏳️XX | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -1335,11 +1335,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 9",
+            "tag": "🇨🇦CA | vmess | 3YED | 16",
             "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "198.57.27.212",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1349,23 +1349,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
             }
         },
         {
@@ -1536,75 +1519,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 0",
-            "type": "vmess",
-            "server": "ca-full.privateip.net",
-            "server_port": 443,
-            "uuid": "03cd8171-7f94-4d36-8855-29b465cc8757",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ca-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "ca-full.privateip.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
-            "type": "vmess",
-            "server": "us2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "70efb8a1-444f-4f4a-9420-c0fe2b34f05a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "us2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "us2-full.privateip.net"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | 3YED | 5",
+            "tag": "🏳️XX | vmess | 3YED | 0",
             "type": "vmess",
             "server": "v2-1.godlight.xyz",
             "server_port": 12230,
@@ -1638,7 +1553,75 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 6",
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "ca-full.privateip.net",
+            "server_port": 443,
+            "uuid": "03cd8171-7f94-4d36-8855-29b465cc8757",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ca-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "ca-full.privateip.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "type": "vmess",
+            "server": "us2-full.privateip.net",
+            "server_port": 443,
+            "uuid": "70efb8a1-444f-4f4a-9420-c0fe2b34f05a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "us2-full.privateip.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": "us2-full.privateip.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 7",
             "type": "vmess",
             "server": "maxin.beauty",
             "server_port": 443,
@@ -1672,7 +1655,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | 3YED | 8",
+            "tag": "🇩🇪DE | vmess | 3YED | 9",
             "type": "vmess",
             "server": "92.223.124.36",
             "server_port": 80,
@@ -1696,7 +1679,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 9",
+            "tag": "🏳️XX | vmess | 3YED | 10",
             "type": "vmess",
             "server": "megaan.homes",
             "server_port": 443,
@@ -1730,7 +1713,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 11",
+            "tag": "🇺🇸US | vmess | 3YED | 12",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
