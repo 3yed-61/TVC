@@ -225,7 +225,10 @@ proxies:
   - {"name":"🇬🇧GB | ss | 3YED | 15","type":"ss","server":"51.195.149.115","port":45816,"password":"KkDzY101Oe","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR | ss | 3YED | 16","type":"ss","server":"149.202.82.172","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"🇫🇮FI | ss | 3YED | 17","type":"ss","server":"fl3.dart-vpn.com","port":443,"password":"X7eoEBrARWsBUiVfchVEdH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇺🇸US | vless | 3YED | 9","type":"vless","server":"172.67.204.84","port":2096,"udp":false,"uuid":"8721355e-96d5-4bb9-a99b-b6119d6b1cd4","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV","ws-opts":{"path":"Telegram-V2ray_Alpha/?ed","headers":{"host":"S3lBNf04KTPltic8C1EfLqq73QtMKz7zlYH9qRC0U6GM8x174e8w8DSLaK.Pages.DeV"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"38.46.1.235","port":"49828","cipher":"auto","uuid":"ef281126-77e1-44e6-aa83-159c488ce37f","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
+  - {"name":"🇺🇸US | vless | 3YED | 3","type":"vless","server":"104.21.32.238","port":443,"udp":false,"uuid":"66dfb5f2-1c63-4d82-94a7-0915bedd93b9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"knocked.aurorainiceland.com","ws-opts":{"path":"/nimws?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi","headers":{"host":"knocked.aurorainiceland.com"}}}
+  - {"name":"🇺🇸US | vless | 3YED | 7","type":"vless","server":"162.159.134.234","port":8443,"udp":false,"uuid":"34462e1f-28f5-4db7-8020-ca15aa1e72fc","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"v-2rey-channel.pages.dev","ws-opts":{"path":"/Teleram:","headers":{"host":"v-2rey-channel.pages.dev"}}}
+  - {"name":"🇺🇸US | vless | 3YED | 8","type":"vless","server":"104.25.221.166","port":443,"udp":false,"uuid":"d9b3134e-007e-41e0-a146-8c53977e27f5","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"academivpn1-bo7.pages.dev","ws-opts":{"path":"/","headers":{"host":"academivpn1-bo7.pages.dev"}}}
   - {"name":"🇳🇱NL | vmess | 3YED | 0","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 1","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"🏳️XX | vmess | 3YED | 2","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
@@ -370,7 +373,10 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 15'
       - '🇫🇷FR | ss | 3YED | 16'
       - '🇫🇮FI | ss | 3YED | 17'
-      - '🇺🇸US | vless | 3YED | 9'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇺🇸US | vless | 3YED | 3'
+      - '🇺🇸US | vless | 3YED | 7'
+      - '🇺🇸US | vless | 3YED | 8'
       - '🇳🇱NL | vmess | 3YED | 0'
       - '🇺🇸US | vmess | 3YED | 1'
       - '🏳️XX | vmess | 3YED | 2'
@@ -515,7 +521,10 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 15'
       - '🇫🇷FR | ss | 3YED | 16'
       - '🇫🇮FI | ss | 3YED | 17'
-      - '🇺🇸US | vless | 3YED | 9'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇺🇸US | vless | 3YED | 3'
+      - '🇺🇸US | vless | 3YED | 7'
+      - '🇺🇸US | vless | 3YED | 8'
       - '🇳🇱NL | vmess | 3YED | 0'
       - '🇺🇸US | vmess | 3YED | 1'
       - '🏳️XX | vmess | 3YED | 2'
@@ -659,7 +668,10 @@ proxy-groups:
       - '🇬🇧GB | ss | 3YED | 15'
       - '🇫🇷FR | ss | 3YED | 16'
       - '🇫🇮FI | ss | 3YED | 17'
-      - '🇺🇸US | vless | 3YED | 9'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇺🇸US | vless | 3YED | 3'
+      - '🇺🇸US | vless | 3YED | 7'
+      - '🇺🇸US | vless | 3YED | 8'
       - '🇳🇱NL | vmess | 3YED | 0'
       - '🇺🇸US | vmess | 3YED | 1'
       - '🏳️XX | vmess | 3YED | 2'

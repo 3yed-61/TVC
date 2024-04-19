@@ -116,7 +116,7 @@
                 "🇨🇳CN | vmess | 3YED | 5",
                 "🇨🇳CN | vmess | 3YED | 7",
                 "🇭🇰HK | vmess | 3YED | 8",
-                "🇨🇦CA | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 10",
                 "🇭🇰HK | vmess | 3YED | 11",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -153,7 +153,7 @@
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🇫🇮FI | vmess | 3YED | 77",
                 "🇺🇸US | vmess | 3YED | 107",
-                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
@@ -165,7 +165,6 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
-                "🏳️XX | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -195,7 +194,7 @@
                 "🇨🇳CN | vmess | 3YED | 5",
                 "🇨🇳CN | vmess | 3YED | 7",
                 "🇭🇰HK | vmess | 3YED | 8",
-                "🇨🇦CA | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 10",
                 "🇭🇰HK | vmess | 3YED | 11",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -232,7 +231,7 @@
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🇫🇮FI | vmess | 3YED | 77",
                 "🇺🇸US | vmess | 3YED | 107",
-                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🏳️XX | vmess | 3YED | 2",
@@ -244,7 +243,6 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
-                "🏳️XX | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -524,7 +522,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 9",
+            "tag": "🇺🇸US | vmess | 3YED | 9",
             "type": "vmess",
             "server": "104.21.224.221",
             "server_port": 80,
@@ -1441,11 +1439,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 5",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "205.234.233.22",
-            "server_port": 5129,
-            "uuid": "2e504818-e2e2-4183-eb75-0d1175a947de",
+            "server": "38.46.1.235",
+            "server_port": 49828,
+            "uuid": "ef281126-77e1-44e6-aa83-159c488ce37f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1455,6 +1453,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -1791,40 +1796,6 @@
                 "path": "\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
                 "headers": {
                     "Host": "cold-dawn-9246.fly.dev"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "novia.makeup",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "novia.makeup",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "novia.makeup"
                 }
             }
         },
