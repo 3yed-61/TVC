@@ -206,9 +206,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 4",
             "type": "vless",
-            "server": "104.22.2.79",
+            "server": "172.66.46.254",
             "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
+            "uuid": "287da188-b495-4a96-8e4e-309e8513b9a7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -218,7 +218,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
+                "server_name": "e5a2bf01.expressvpnfree021.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -230,7 +230,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
+                    "Host": "e5a2bf01.expressvpnfree021.pages.dev"
                 }
             }
         },
