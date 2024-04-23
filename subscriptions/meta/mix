@@ -135,7 +135,7 @@ proxies:
   - {"name":"🇩🇪DE | vless | 3YED | 9","type":"vless","server":"49.13.154.240","port":3035,"udp":true,"uuid":"8edef8ae-dd42-4aca-affc-faa834870bc2","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"sni.axe.ir","flow":"xtls-rprx-vision","reality-opts":{"public-key":"JI4hH2EzyJIxyDnfc_TgJyxWws3-l8Bh7ZdDp3iyYEM","short-id":"bbe53393d02629b8"}}
   - {"name":"🇫🇷FR | vless | 3YED | 10","type":"vless","server":"193.168.145.2","port":443,"udp":true,"uuid":"58aec3a8-5d65-4acf-9ed3-f34edf157d68","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"fr.4cdn.de","flow":"xtls-rprx-vision","reality-opts":{"public-key":"3WnHdv9A0tNParChTLxPnDteRD841h8thOGR7MBgAhY"}}
   - {"name":"🇬🇧GB | vmess | 3YED | 0","type":"vmess","server":"51.195.140.87","port":"35995","cipher":"auto","uuid":"28f08493-de6d-486e-84f5-5abe092ff78b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | 3YED | 13","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"chacha20-poly1305","uuid":"297c2709-ac0c-4c99-aa61-2d11f0f53600","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
+  - {"name":"🇨🇦CA | vmess | 3YED | 14","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"chacha20-poly1305","uuid":"297c2709-ac0c-4c99-aa61-2d11f0f53600","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇫🇷FR | vless | 3YED | 6","type":"vless","server":"fr1.x2fast.net","port":443,"udp":false,"uuid":"1864cc59-416a-4f5c-a378-9cff18446d1e","tls":true,"network":"tcp","client-fingerprint":"chrome","flow":"xtls-rprx-vision"}
   - {"name":"🇮🇪IE | trojan | 3YED | 0","type":"trojan","server":"52.210.223.105","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | trojan | 3YED | 1","type":"trojan","server":"34.240.116.90","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -302,7 +302,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇫🇷FR | vless | 3YED | 10'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇫🇷FR | vless | 3YED | 6'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'
@@ -469,7 +469,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇫🇷FR | vless | 3YED | 10'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇫🇷FR | vless | 3YED | 6'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'
@@ -635,7 +635,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇫🇷FR | vless | 3YED | 10'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇫🇷FR | vless | 3YED | 6'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'

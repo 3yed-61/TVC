@@ -120,7 +120,7 @@ dns:
 proxies:
   - {"name":"🇩🇪DE | vmess | 3YED | 8","type":"vmess","server":"88.198.93.175","port":"8880","cipher":"auto","uuid":"58531009-b664-445b-b896-7bb9026b744d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇬🇧GB | vmess | 3YED | 0","type":"vmess","server":"51.195.140.87","port":"35995","cipher":"auto","uuid":"28f08493-de6d-486e-84f5-5abe092ff78b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | 3YED | 13","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"chacha20-poly1305","uuid":"297c2709-ac0c-4c99-aa61-2d11f0f53600","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
+  - {"name":"🇨🇦CA | vmess | 3YED | 14","type":"vmess","server":"www.speedtest.net","port":443,"cipher":"chacha20-poly1305","uuid":"297c2709-ac0c-4c99-aa61-2d11f0f53600","alterId":0,"tls":true,"skip-cert-verify":true,"network":"httpupgrade"}
   - {"name":"🇮🇪IE | trojan | 3YED | 0","type":"trojan","server":"52.210.223.105","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | trojan | 3YED | 1","type":"trojan","server":"34.240.116.90","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | trojan | 3YED | 2","type":"trojan","server":"18.135.9.92","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -250,7 +250,7 @@ proxy-groups:
       - FALLBACK
       - '🇩🇪DE | vmess | 3YED | 8'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'
       - '🇬🇧GB | trojan | 3YED | 2'
@@ -380,7 +380,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vmess | 3YED | 8'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'
       - '🇬🇧GB | trojan | 3YED | 2'
@@ -509,7 +509,7 @@ proxy-groups:
     proxies:
       - '🇩🇪DE | vmess | 3YED | 8'
       - '🇬🇧GB | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 13'
+      - '🇨🇦CA | vmess | 3YED | 14'
       - '🇮🇪IE | trojan | 3YED | 0'
       - '🇮🇪IE | trojan | 3YED | 1'
       - '🇬🇧GB | trojan | 3YED | 2'
