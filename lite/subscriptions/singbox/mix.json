@@ -108,20 +108,19 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 0",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 21",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇧🇷BR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @FreakConfig | 5",
+                "🇨🇦CA | vmess | @FreakConfig | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -133,20 +132,19 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇧🇬BG | vless | @azadi_az_inja_migzare | 0",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
                 "🇨🇦CA | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇭🇰HK | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 17",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇺🇸US | vmess | @ShadowProxy66 | 5",
                 "🇨🇦CA | vmess | @v2ray1_ng | 21",
-                "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇧🇷BR | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇨🇦CA | vmess | @FreakConfig | 5",
+                "🇨🇦CA | vmess | @FreakConfig | 6",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
@@ -227,9 +225,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "63.34.112.143",
+            "server": "51.20.215.157",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -339,11 +337,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "64.176.219.193",
-            "server_port": 48895,
-            "uuid": "1dd70a5f-fbbb-4e58-9d29-a40415853c80",
+            "server": "104.18.36.119",
+            "server_port": 2052,
+            "uuid": "aec82fa6-ab70-4d0a-e7fb-422ef729d961",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -353,6 +351,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -405,16 +410,6 @@ https://github.com/3yed-61
                     "Host": "glweidf.sbs"
                 }
             }
-        },
-        {
-            "tag": "🇦🇹AT | ss | @OutlineVpnOfficial | 13",
-            "type": "shadowsocks",
-            "server": "95.164.9.144",
-            "server_port": 2927,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ug4Fu79SEREdFGlt2sUyT4",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -540,7 +535,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @FreakConfig | 5",
+            "tag": "🇨🇦CA | vmess | @FreakConfig | 6",
             "type": "vmess",
             "server": "172.67.188.156",
             "server_port": 8880,
