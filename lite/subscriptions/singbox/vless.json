@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -117,6 +118,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vless | @rxv2ray | 20",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -198,6 +200,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "3k.pureboy.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "172.66.47.18",
+            "server_port": 443,
+            "uuid": "661e4131-514a-457e-bbc7-748cbb92253d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh14.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh14.pages.dev"
                 }
             }
         },

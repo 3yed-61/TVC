@@ -117,7 +117,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
@@ -137,7 +139,9 @@ https://github.com/3yed-61
                 "🇩🇪DE | vmess | @Hope_Net | 19",
                 "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇮🇷IR | vmess | @nofiltering2 | 1",
+                "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🏳️XX | ss | @kingofilter | 6",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
@@ -428,6 +432,37 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "type": "vless",
+            "server": "172.66.47.18",
+            "server_port": 443,
+            "uuid": "661e4131-514a-457e-bbc7-748cbb92253d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazesh14.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pardazesh14.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "178.239.150.170",
@@ -443,6 +478,16 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             }
+        },
+        {
+            "tag": "🇬🇧GB | ss | @proxy_mtm | 0",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🏳️XX | ss | @kingofilter | 6",
