@@ -11,11 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇨🇦CA | vmess | @DeamNet_Proxy | 19 = vmess, 104.16.60.8, 8443, username = f584de15-2034-4170-a723-f48c2bae5e0f, ws = true, tls = 1, vmess-aead = false, ws-path = /afrhms16v.bestxray.buzz/linkws, ws-headers = Host:"y-old-mode-9c0diab.wiriy73548.workers.dev", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | vmess | @DeamNet_Proxy | 19
-URL-TEST = url-test,🇨🇦CA | vmess | @DeamNet_Proxy | 19
-FALLBACK = fallback,🇨🇦CA | vmess | @DeamNet_Proxy | 19
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
