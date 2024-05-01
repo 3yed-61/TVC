@@ -106,17 +106,17 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @rxv2ray | 20",
-                "🇫🇷FR | vless | @V2rayNGn | 26",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇫🇷FR | vless | @V2rayNGn | 28",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -127,17 +127,17 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @rxv2ray | 20",
-                "🇫🇷FR | vless | @V2rayNGn | 26",
-                "🇫🇷FR | trojan | @PrivateVPNs | 19",
-                "🇫🇷FR | trojan | @DirectVPN | 19",
+                "🇨🇦CA | vless | @rxv2ray | 20",
+                "🇫🇷FR | vless | @V2rayNGn | 28",
+                "🇬🇧GB | trojan | @PrivateVPNs | 19",
+                "🇬🇧GB | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇺🇸US | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 17",
-                "🇺🇸US | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 19",
-                "🇺🇸US | vless | @v2rayng_config_amin | 7",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 19",
+                "🇨🇦CA | vless | @v2rayng_config_amin | 7",
                 "🇺🇸US | vmess | @v2Line | 10",
                 "🇬🇧GB | ss | @proxy_mtm | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -164,7 +164,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @rxv2ray | 20",
+            "tag": "🇨🇦CA | vless | @rxv2ray | 20",
             "type": "vless",
             "server": "All.RxV2ray.online",
             "server_port": 2053,
@@ -195,7 +195,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | vless | @V2rayNGn | 26",
+            "tag": "🇫🇷FR | vless | @V2rayNGn | 28",
             "type": "vless",
             "server": "fr1.x2fast.net",
             "server_port": 443,
@@ -219,9 +219,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 19",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "15.188.245.99",
+            "server": "3.9.231.6",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -241,9 +241,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 19",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "35.180.212.196",
+            "server": "13.43.213.37",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -280,7 +280,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
             "server": "104.21.224.221",
             "server_port": 80,
@@ -304,7 +304,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "104.21.44.106",
             "server_port": 443,
@@ -348,7 +348,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @yaney_01 | 5",
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -382,9 +382,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 19",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 19",
             "type": "vmess",
-            "server": "172.64.80.1",
+            "server": "104.21.23.231",
             "server_port": 2095,
             "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
             "security": "auto",
@@ -406,7 +406,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vless | @v2rayng_config_amin | 7",
+            "tag": "🇨🇦CA | vless | @v2rayng_config_amin | 7",
             "type": "vless",
             "server": "mtn--join.outline-vpn.cloud",
             "server_port": 443,
