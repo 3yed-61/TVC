@@ -106,14 +106,13 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @rxv2ray | 13",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇬🇧GB | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | trojan | @VmessProtocol | 10",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -130,14 +129,13 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | vless | @EliV2ray | 12",
                 "🇨🇦CA | vless | @rxv2ray | 13",
-                "🇮🇪IE | trojan | @PrivateVPNs | 19",
-                "🇬🇧GB | trojan | @DirectVPN | 19",
+                "🇸🇪SE | trojan | @PrivateVPNs | 19",
+                "🇮🇪IE | trojan | @DirectVPN | 19",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇷🇺RU | vmess | @oneclickvpnkeys | 10",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+                "🇺🇸US | vmess | @ShadowProxy66 | 4",
                 "🇨🇦CA | trojan | @VmessProtocol | 10",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -168,35 +166,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇫🇷FR | vless | @EliV2ray | 12",
-            "type": "vless",
-            "server": "86.104.74.224",
-            "server_port": 8443,
-            "uuid": "4a3d9d02-f003-423c-80b4-8c5d89147281",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @rxv2ray | 13",
@@ -230,9 +199,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 19",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 19",
             "type": "trojan",
-            "server": "54.155.243.50",
+            "server": "16.16.37.228",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -252,9 +221,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 19",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 19",
             "type": "trojan",
-            "server": "13.43.190.102",
+            "server": "54.77.28.229",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -332,7 +301,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 4",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 4",
             "type": "vmess",
             "server": "hms24.ivideos.sbs",
             "server_port": 443,
@@ -441,11 +410,11 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | vmess | @Hope_Net | 17",
             "type": "vmess",
-            "server": "142.93.68.147",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "server": "107.148.192.148",
+            "server_port": 41911,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
