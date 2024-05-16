@@ -218,7 +218,6 @@ proxies:
   - {"name":"🏳️XX | vmess | 3YED | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"🇨🇳CN | vmess | 3YED | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🏳️XX | vmess | 3YED | 0","type":"vmess","server":"zzcm07.bdate.xyz","port":"1260","cipher":"auto","uuid":"b9ecdb44-236b-30a7-94f2-f464993d84cf","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/hls/cctv5phd.m3u8","headers":{"host":"zzcm07.bdate.xyz"}}}
-  - {"name":"🇯🇵JP | vmess | 3YED | 2","type":"vmess","server":"152.69.197.74","port":12345,"cipher":"auto","uuid":"b8a6bf58-485a-4046-b386-b3661bf65eff","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/bb","headers":{"host":""}}}
   - {"name":"🇺🇸US | vless | 3YED | 6","type":"vless","server":"mtn--join.outline-vpn.cloud","port":443,"udp":false,"uuid":"b9ad895b-12ac-40fc-a5ac-a5b2a1285001","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"3k.pureboy.eu.org","ws-opts":{"path":"/?ed=2048","headers":{"host":"3k.pureboy.eu.org"}}}
   - {"name":"🇳🇱NL | vless | 3YED | 8","type":"vless","server":"159.223.4.137","port":38915,"udp":true,"uuid":"24f6cf45-67ef-493c-8db8-5cad032bf123","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"V7PuAOITOyH7RZ-PRJndYVA5udmu-DqAp7LdjpNYwUQ","short-id":"33c38f16"}}
   - {"name":"🇳🇱NL | vless | 3YED | 18","type":"vless","server":"178.62.240.53","port":15177,"udp":true,"uuid":"373e6d58-210f-4433-b623-e34b47cca8de","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.cloudflare.com","reality-opts":{"public-key":"QPIfuN2b5h3qV-dLKEEPzE7WneDIIan5jgPNDR9NDBo","short-id":"457aa090"}}
@@ -350,7 +349,6 @@ proxy-groups:
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
       - '🏳️XX | vmess | 3YED | 0'
-      - '🇯🇵JP | vmess | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 6'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
@@ -482,7 +480,6 @@ proxy-groups:
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
       - '🏳️XX | vmess | 3YED | 0'
-      - '🇯🇵JP | vmess | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 6'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
@@ -613,7 +610,6 @@ proxy-groups:
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
       - '🏳️XX | vmess | 3YED | 0'
-      - '🇯🇵JP | vmess | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 6'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
