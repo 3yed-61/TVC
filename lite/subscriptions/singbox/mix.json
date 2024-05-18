@@ -106,14 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
+                "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+                "🇮🇷IR | vmess | @v2ray_swhil | 18",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -126,14 +127,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
+                "🇩🇪DE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
-                "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+                "🇮🇷IR | vmess | @v2ray_swhil | 18",
+                "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -162,7 +164,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 16",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
             "server": "16.16.40.167",
             "server_port": 22222,
@@ -184,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "51.21.104.164",
+            "server": "3.69.185.131",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -274,12 +276,29 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇮🇷IR | vmess | @v2ray_swhil | 18",
+            "type": "vmess",
+            "server": "178.239.150.170",
+            "server_port": 80,
+            "uuid": "2b7ce1d2-0372-4104-aa06-f7d999f26e1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇮FI | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "159.100.14.58",
-            "server_port": 443,
+            "server": "185.174.137.72",
+            "server_port": 57262,
             "method": "chacha20-ietf-poly1305",
-            "password": "WRORkymIVzJrtFcQLjgSrp",
+            "password": "WrszSP43UAOcFljDkb8vAL",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -318,7 +337,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "172.67.166.192",
             "server_port": 80,
