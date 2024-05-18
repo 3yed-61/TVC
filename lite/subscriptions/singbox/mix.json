@@ -117,7 +117,6 @@ https://github.com/3yed-61
                 "🇷🇺RU | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
@@ -137,7 +136,6 @@ https://github.com/3yed-61
                 "🇷🇺RU | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇺🇸US | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
@@ -400,37 +398,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @FreakConfig | 3",
-            "type": "vless",
-            "server": "104.21.66.93",
-            "server_port": 443,
-            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2fly.milik-fukada.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "v2fly.milik-fukada.eu.org"
-                }
             }
         },
         {
