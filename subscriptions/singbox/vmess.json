@@ -124,9 +124,9 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇸🇪SE | vmess | 3YED | 158",
-                "🇺🇸US | vmess | 3YED | 159",
-                "🇸🇪SE | vmess | 3YED | 176",
+                "🇸🇪SE | vmess | 3YED | 168",
+                "🇺🇸US | vmess | 3YED | 169",
+                "🇸🇪SE | vmess | 3YED | 186",
                 "🇮🇷IR | vmess | 3YED | 18",
                 "🇸🇪SE | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -135,9 +135,8 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇷🇺RU | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -174,9 +173,9 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇸🇪SE | vmess | 3YED | 158",
-                "🇺🇸US | vmess | 3YED | 159",
-                "🇸🇪SE | vmess | 3YED | 176",
+                "🇸🇪SE | vmess | 3YED | 168",
+                "🇺🇸US | vmess | 3YED | 169",
+                "🇸🇪SE | vmess | 3YED | 186",
                 "🇮🇷IR | vmess | 3YED | 18",
                 "🇸🇪SE | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -185,9 +184,8 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇷🇺RU | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -661,7 +659,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 158",
+            "tag": "🇸🇪SE | vmess | 3YED | 168",
             "type": "vmess",
             "server": "185.146.173.237",
             "server_port": 2052,
@@ -685,7 +683,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 159",
+            "tag": "🇺🇸US | vmess | 3YED | 169",
             "type": "vmess",
             "server": "167.88.171.12",
             "server_port": 80,
@@ -702,7 +700,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 176",
+            "tag": "🇸🇪SE | vmess | 3YED | 186",
             "type": "vmess",
             "server": "5.42.72.16",
             "server_port": 80,
@@ -927,64 +925,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "172.67.166.192",
-            "server_port": 80,
-            "uuid": "cd1db809-2de0-409c-aef5-861e95eff53e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.166.192"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
@@ -1015,6 +955,40 @@
                 "path": "\/linkvws",
                 "headers": {
                     "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
