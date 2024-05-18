@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇺🇸US | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ]
         },
@@ -114,7 +114,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @FreakConfig | 3",
+                "🇺🇸US | vless | @FreakConfig | 3",
                 "🇮🇷IR | vless | @Good_V2rayy | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,11 +138,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "tag": "🇺🇸US | vless | @FreakConfig | 3",
             "type": "vless",
-            "server": "104.21.3.182",
+            "server": "104.21.66.93",
             "server_port": 443,
-            "uuid": "f8f5dce2-e66b-45bd-957e-53c1ecdda37a",
+            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -152,7 +152,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jAVIdshAh.PageS.deV",
+                "server_name": "v2fly.milik-fukada.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -164,7 +164,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "jAVIdshAh.PageS.deV"
+                    "Host": "v2fly.milik-fukada.eu.org"
                 }
             }
         },
