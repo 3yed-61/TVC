@@ -221,6 +221,7 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2",
@@ -358,6 +359,7 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇮🇷IR | vmess | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2",
@@ -3013,6 +3015,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 4",
+            "type": "vless",
+            "server": "188.114.96.2",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "miumiUMadReKoSE.pAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "miumiUMadReKoSE.pAgES.dEv"
                 }
             }
         },
