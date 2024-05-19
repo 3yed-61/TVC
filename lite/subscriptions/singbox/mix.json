@@ -106,15 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇸🇪SE | vmess | @v2ray1_ng | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇳CN | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -127,15 +127,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇸🇪SE | vmess | @v2ray1_ng | 4",
                 "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🇨🇳CN | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇬🇧GB | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -164,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "52.214.115.250",
+            "server": "51.21.77.0",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -276,30 +276,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @v2ray1_ng | 4",
-            "type": "vmess",
-            "server": "185.146.173.237",
-            "server_port": 2052,
-            "uuid": "0c67786d-985e-4c67-a0dc-67827f37f050",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mehrosaboran",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "149.202.82.172",
@@ -340,6 +316,30 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 4",
+            "type": "vmess",
+            "server": "hkcm.dfnode.top",
+            "server_port": 19300,
+            "uuid": "dc8b6a8b-af76-3294-93e4-634d6e1b24a7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2ray",
+                "headers": {
+                    "Host": "hkcm.dfnode.top"
                 }
             }
         },
