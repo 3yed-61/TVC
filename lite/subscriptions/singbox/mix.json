@@ -106,18 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | vmess | @prrofile_purple | 196",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
-                "🇬🇧GB | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -128,18 +128,18 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇸🇪SE | vmess | @prrofile_purple | 196",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 5",
-                "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
-                "🇬🇧GB | vmess | @v2Line | 8",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.175.68.150",
+            "server": "99.81.100.41",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,7 +190,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.133.233.66",
+            "server": "3.128.41.16",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -295,12 +295,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "149.202.82.172",
-            "server_port": 9101,
+            "server": "145.239.6.202",
+            "server_port": 8008,
             "method": "aes-256-gcm",
-            "password": "e4FCWrgpkji3QY",
+            "password": "XKFKl2rULjIp74",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -407,11 +407,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | vmess | @v2Line | 8",
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
-            "server": "172.99.190.12",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -421,6 +421,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
