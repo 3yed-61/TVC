@@ -111,10 +111,11 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇷🇺RU | vmess | @ShadowProxy66 | 5",
+                "🇷🇺RU | vmess | @ShadowProxy66 | 10",
+                "🇳🇱NL | vless | @ServerNett | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 2",
+                "🇳🇱NL | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
@@ -134,10 +135,11 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
-                "🇷🇺RU | vmess | @ShadowProxy66 | 5",
+                "🇷🇺RU | vmess | @ShadowProxy66 | 10",
+                "🇳🇱NL | vless | @ServerNett | 15",
                 "🇸🇪SE | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇳🇱NL | vmess | @Hope_Net | 2",
+                "🇳🇱NL | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 2",
@@ -263,7 +265,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @ShadowProxy66 | 5",
+            "tag": "🇷🇺RU | vmess | @ShadowProxy66 | 10",
             "type": "vmess",
             "server": "46.17.45.13",
             "server_port": 33879,
@@ -277,6 +279,35 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | @ServerNett | 15",
+            "type": "vless",
+            "server": "xeon.realsudo.com",
+            "server_port": 8080,
+            "uuid": "0e08ea94-6f77-41f6-fa9b-8e584ff02472",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6P_NQdJQKG9Z-TC62Lmny1-mgX0ZFJFOWQtkbPBNyDk",
+                    "short_id": "dc3a9fef8a20"
+                }
             }
         },
         {
@@ -324,7 +355,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | @Hope_Net | 2",
+            "tag": "🇳🇱NL | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "hdfy8d1.cpionline.co",
             "server_port": 80,
