@@ -118,13 +118,14 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇰🇿KZ | vmess | 3YED | 15",
                 "🇮🇱IL | vmess | 3YED | 16",
-                "🇩🇪DE | vmess | 3YED | 0",
-                "🇳🇱NL | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇩🇪DE | vmess | 3YED | 1",
+                "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇫🇷FR | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 5",
+                "🇫🇷FR | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 169",
                 "🇸🇪SE | vmess | 3YED | 187",
                 "🇺🇸US | vmess | 3YED | 188",
@@ -145,7 +146,6 @@
                 "🏳️XX | vmess | 3YED | 4",
                 "🇫🇷FR | vmess | 3YED | 6",
                 "🇯🇵JP | vmess | 3YED | 7",
-                "🇭🇰HK | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -179,13 +179,14 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇰🇿KZ | vmess | 3YED | 15",
                 "🇮🇱IL | vmess | 3YED | 16",
-                "🇩🇪DE | vmess | 3YED | 0",
-                "🇳🇱NL | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇩🇪DE | vmess | 3YED | 1",
+                "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇫🇷FR | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 5",
+                "🇫🇷FR | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 169",
                 "🇸🇪SE | vmess | 3YED | 187",
                 "🇺🇸US | vmess | 3YED | 188",
@@ -206,7 +207,6 @@
                 "🏳️XX | vmess | 3YED | 4",
                 "🇫🇷FR | vmess | 3YED | 6",
                 "🇯🇵JP | vmess | 3YED | 7",
-                "🇭🇰HK | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -530,7 +530,41 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | 3YED | 1",
             "type": "vmess",
             "server": "172.104.240.164",
             "server_port": 123,
@@ -554,7 +588,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | 3YED | 1",
+            "tag": "🇳🇱NL | vmess | 3YED | 2",
             "type": "vmess",
             "server": "45.14.244.133",
             "server_port": 2024,
@@ -578,7 +612,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "104.21.80.53",
             "server_port": 2053,
@@ -612,7 +646,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "38.207.169.136",
             "server_port": 50542,
@@ -636,7 +670,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
@@ -670,7 +704,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vmess | 3YED | 5",
+            "tag": "🇫🇷FR | vmess | 3YED | 6",
             "type": "vmess",
             "server": "162.19.25.207",
             "server_port": 44513,
@@ -687,7 +721,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 6",
+            "tag": "🇺🇸US | vmess | 3YED | 7",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -1287,30 +1321,6 @@
             "type": "vmess",
             "server": "z-cn2.mceee.xyz",
             "server_port": 25933,
-            "uuid": "bca2b267-61ac-3152-9525-ea1757f8d9f2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/download",
-                "headers": {
-                    "Host": "z-cn2.mceee.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | 3YED | 10",
-            "type": "vmess",
-            "server": "z-cn2.mceee.xyz",
-            "server_port": 24935,
             "uuid": "bca2b267-61ac-3152-9525-ea1757f8d9f2",
             "security": "auto",
             "alter_id": 0,
