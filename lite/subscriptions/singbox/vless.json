@@ -106,14 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vless | @TVCminer | 11"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇮🇷IR | vless | @Good_V2rayy | 1",
+                "🇨🇦CA | vless | @TVCminer | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -161,6 +163,37 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
                     "short_id": "291ef87c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @TVCminer | 11",
+            "type": "vless",
+            "server": "104.18.34.21",
+            "server_port": 443,
+            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bpb.RADICaliZatIOn.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/NHtQZSf1mdr3TeZa",
+                "headers": {
+                    "Host": "bpb.RADICaliZatIOn.IR"
                 }
             }
         }
