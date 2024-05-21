@@ -177,7 +177,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 82",
                 "🇬🇧GB | ss | 3YED | 0",
@@ -214,6 +214,7 @@
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇵🇱PL | ss | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 2",
@@ -303,7 +304,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇬🇧GB | ss | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 82",
                 "🇬🇧GB | ss | 3YED | 0",
@@ -340,6 +341,7 @@
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇵🇱PL | ss | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 2",
@@ -2070,7 +2072,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 6",
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "128.140.54.142",
             "server_port": 57458,
@@ -2820,6 +2822,37 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
                 }
             }
         },
