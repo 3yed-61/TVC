@@ -106,22 +106,20 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
-                "🇳🇱NL | vless | @ServerNett | 15",
+                "🇺🇸US | vmess | @vless_vmess | 0",
                 "🇹🇷TR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 9",
+                "🇮🇹IT | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇮🇷IR | vmess | @kingofilter | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ]
@@ -130,22 +128,20 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+                "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
-                "🇳🇱NL | vless | @ServerNett | 15",
+                "🇺🇸US | vmess | @vless_vmess | 0",
                 "🇹🇷TR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇭🇰HK | vmess | @Hope_Net | 9",
+                "🇮🇹IT | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇮🇷IR | vmess | @kingofilter | 0",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🏳️XX | vmess | @ROMAX_VPN | 2"
             ],
@@ -170,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.76.58.39",
+            "server": "15.236.172.4",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -192,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "13.48.152.136",
+            "server": "13.36.35.32",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -248,11 +244,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇳🇱NL | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "104.21.80.53",
-            "server_port": 2053,
-            "uuid": "869caccc-12af-4276-f458-366fa256f8a0",
+            "server": "45.14.244.133",
+            "server_port": 2024,
+            "uuid": "39d755be-0123-418b-9638-a383957a28d2",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -263,21 +259,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "qin15.rong1104.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/qin15",
+                "path": "\/",
                 "headers": {
-                    "Host": "qin15.rong1104.uk"
+                    "Host": ""
                 }
             }
         },
@@ -299,32 +285,20 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | vless | @ServerNett | 15",
-            "type": "vless",
-            "server": "xeon.realsudo.com",
-            "server_port": 8080,
-            "uuid": "0e08ea94-6f77-41f6-fa9b-8e584ff02472",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 0",
+            "type": "vmess",
+            "server": "141.98.168.113",
+            "server_port": 8081,
+            "uuid": "3130521a-2fd4-42c6-9179-dcf433a6d398",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "6P_NQdJQKG9Z-TC62Lmny1-mgX0ZFJFOWQtkbPBNyDk",
-                    "short_id": "dc3a9fef8a20"
-                }
             }
         },
         {
@@ -372,13 +346,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇭🇰HK | vmess | @Hope_Net | 9",
+            "tag": "🇮🇹IT | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "18.167.90.167",
-            "server_port": 10006,
-            "uuid": "119f999c-2cf9-36cd-bf7b-08fdf66dbd45",
+            "server": "95.164.46.203",
+            "server_port": 8442,
+            "uuid": "4a0abf2f-40f4-47d2-8382-0b553cbe9b21",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -386,13 +360,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/videos",
-                "headers": {
-                    "Host": "18.167.90.167"
-                }
             }
         },
         {
@@ -447,37 +414,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
-            "type": "vless",
-            "server": "172.67.204.39",
-            "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
-                }
-            }
-        },
-        {
             "tag": "🇵🇱PL | ss | @FAKEOFTVC | 0",
             "type": "shadowsocks",
             "server": "51.77.53.200",
@@ -519,23 +455,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | @kingofilter | 0",
-            "type": "vmess",
-            "server": "89.235.116.8",
-            "server_port": 8880,
-            "uuid": "d25f72c9-3bfd-4772-c763-73f3056e4494",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
