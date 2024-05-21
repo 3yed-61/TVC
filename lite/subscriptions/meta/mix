@@ -120,8 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷FR | trojan | @PrivateVPNs | 18","type":"trojan","server":"13.36.159.182","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | trojan | @DirectVPN | 18","type":"trojan","server":"15.157.163.64","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | trojan | @PrivateVPNs | 18","type":"trojan","server":"52.56.220.251","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | trojan | @DirectVPN | 18","type":"trojan","server":"18.217.106.1","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | @mftizi | 19","type":"vmess","server":"183.236.51.59","port":"54437","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇳🇱NL | vmess | @oneclickvpnkeys | 7","type":"vmess","server":"45.14.244.133","port":"2024","cipher":"auto","uuid":"39d755be-0123-418b-9638-a383957a28d2","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
@@ -132,7 +132,7 @@ proxies:
   - {"name":"🇵🇱PL | ss | @FAKEOFTVC | 0","type":"ss","server":"51.77.53.200","port":8091,"password":"PCnnH6SQSnfoS27","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vmess | @nofiltering2 | 1","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
   - {"name":"🇮🇷IR | vless | @Good_V2rayy | 1","type":"vless","server":"89.44.112.229","port":2053,"udp":true,"uuid":"edd7f66d-74dc-45a0-8270-5df829cf1aa8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI","short-id":"291ef87c"}}
-  - {"name":"🏳️XX | vmess | @ROMAX_VPN | 2","type":"vmess","server":"f42.maryam1500.top","port":"2098","cipher":"auto","uuid":"83876222-64a4-4912-aa18-b7d9d34959de","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇦🇪AE | ss | @ROMAX_VPN | 1","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | vless | @TVCminer | 11","type":"vless","server":"104.18.34.21","port":443,"udp":false,"uuid":"5007dc3f-0270-4ed8-a210-1a1d7952756d","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"bpb.RADICaliZatIOn.IR","ws-opts":{"path":"/NHtQZSf1mdr3TeZa?ed=2048"}}
 proxy-groups:
   - name: MANUAL
@@ -140,8 +140,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
-      - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
+      - '🇺🇸US | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 7'
@@ -152,7 +152,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @FAKEOFTVC | 0'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
-      - '🏳️XX | vmess | @ROMAX_VPN | 2'
+      - '🇦🇪AE | ss | @ROMAX_VPN | 1'
       - '🇨🇦CA | vless | @TVCminer | 11'
   - name: URL-TEST
     type: url-test
@@ -160,8 +160,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
-      - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
+      - '🇺🇸US | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 7'
@@ -172,15 +172,15 @@ proxy-groups:
       - '🇵🇱PL | ss | @FAKEOFTVC | 0'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
-      - '🏳️XX | vmess | @ROMAX_VPN | 2'
+      - '🇦🇪AE | ss | @ROMAX_VPN | 1'
       - '🇨🇦CA | vless | @TVCminer | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | trojan | @PrivateVPNs | 18'
-      - '🇨🇦CA | trojan | @DirectVPN | 18'
+      - '🇬🇧GB | trojan | @PrivateVPNs | 18'
+      - '🇺🇸US | trojan | @DirectVPN | 18'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇨🇳CN | vmess | @mftizi | 19'
       - '🇳🇱NL | vmess | @oneclickvpnkeys | 7'
@@ -191,7 +191,7 @@ proxy-groups:
       - '🇵🇱PL | ss | @FAKEOFTVC | 0'
       - '🇨🇦CA | vmess | @nofiltering2 | 1'
       - '🇮🇷IR | vless | @Good_V2rayy | 1'
-      - '🏳️XX | vmess | @ROMAX_VPN | 2'
+      - '🇦🇪AE | ss | @ROMAX_VPN | 1'
       - '🇨🇦CA | vless | @TVCminer | 11'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}

@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 18",
-                "🇨🇦CA | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
@@ -121,7 +121,7 @@ https://github.com/3yed-61
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🏳️XX | vmess | @ROMAX_VPN | 2",
+                "🇦🇪AE | ss | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TVCminer | 11"
             ]
         },
@@ -129,8 +129,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 18",
-                "🇨🇦CA | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
@@ -144,7 +144,7 @@ https://github.com/3yed-61
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vless | @Good_V2rayy | 1",
-                "🏳️XX | vmess | @ROMAX_VPN | 2",
+                "🇦🇪AE | ss | @ROMAX_VPN | 1",
                 "🇨🇦CA | vless | @TVCminer | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -168,9 +168,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.36.159.182",
+            "server": "52.56.220.251",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,9 +190,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "15.157.163.64",
+            "server": "18.217.106.1",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -506,21 +506,14 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @ROMAX_VPN | 2",
-            "type": "vmess",
-            "server": "f42.maryam1500.top",
-            "server_port": 2098,
-            "uuid": "83876222-64a4-4912-aa18-b7d9d34959de",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
+            "tag": "🇦🇪AE | ss | @ROMAX_VPN | 1",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vless | @TVCminer | 11",
