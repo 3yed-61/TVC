@@ -193,7 +193,7 @@ proxies:
   - {"name":"🇩🇪DE | vless | 3YED | 2","type":"vless","server":"overcommitment.footballlovernews.com","port":443,"udp":false,"uuid":"e6e9d520-18ec-46c3-8141-a92ed6a90806","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇩🇪DE | vless | 3YED | 6","type":"vless","server":"128.140.54.142","port":57458,"udp":true,"uuid":"42c626b8-171d-4e11-9582-09f1b07c45d8","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"zula.ir","reality-opts":{"public-key":"PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk","short-id":"5a93d4ff"}}
   - {"name":"🇬🇧GB | ss | 3YED | 2","type":"ss","server":"18.175.76.93","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇷IR | vmess | 3YED | 81","type":"vmess","server":"94.182.150.230","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷IR | vmess | 3YED | 82","type":"vmess","server":"94.182.150.230","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷FR | ss | 3YED | 0","type":"ss","server":"149.202.82.172","port":5600,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇩🇪DE | ss | 3YED | 1","type":"ss","server":"217.182.198.219","port":3306,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | ss | 3YED | 2","type":"ss","server":"23.162.200.181","port":8008,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
@@ -317,7 +317,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 6'
       - '🇬🇧GB | ss | 3YED | 2'
-      - '🇮🇷IR | vmess | 3YED | 81'
+      - '🇮🇷IR | vmess | 3YED | 82'
       - '🇫🇷FR | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇨🇦CA | ss | 3YED | 2'
@@ -441,7 +441,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 6'
       - '🇬🇧GB | ss | 3YED | 2'
-      - '🇮🇷IR | vmess | 3YED | 81'
+      - '🇮🇷IR | vmess | 3YED | 82'
       - '🇫🇷FR | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇨🇦CA | ss | 3YED | 2'
@@ -564,7 +564,7 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇩🇪DE | vless | 3YED | 6'
       - '🇬🇧GB | ss | 3YED | 2'
-      - '🇮🇷IR | vmess | 3YED | 81'
+      - '🇮🇷IR | vmess | 3YED | 82'
       - '🇫🇷FR | ss | 3YED | 0'
       - '🇩🇪DE | ss | 3YED | 1'
       - '🇨🇦CA | ss | 3YED | 2'
