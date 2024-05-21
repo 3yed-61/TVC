@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
-                "🇺🇸US | vmess | @vless_vmess | 1",
+                "🇺🇸US | vmess | @vless_vmess | 2",
                 "🇹🇷TR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
@@ -129,16 +129,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
-                "🇺🇸US | vmess | @vless_vmess | 1",
+                "🇺🇸US | vmess | @vless_vmess | 2",
                 "🇹🇷TR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇵🇱PL | vmess | @v2Line | 7",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
@@ -168,9 +168,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.120.19.78",
+            "server": "13.36.159.182",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -192,7 +192,7 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.98.222.175",
+            "server": "15.157.163.64",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -287,7 +287,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @vless_vmess | 1",
+            "tag": "🇺🇸US | vmess | @vless_vmess | 2",
             "type": "vmess",
             "server": "141.98.168.113",
             "server_port": 8081,
@@ -348,13 +348,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "pologzcm.3sx.xyz",
-            "server_port": 20002,
-            "uuid": "1a7eec81-ad52-4f88-a578-7b2f09525271",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -363,11 +363,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/index",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "pologzcm.3sx.xyz"
+                    "Host": "obdii.cfd"
                 }
             }
         },
