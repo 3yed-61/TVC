@@ -122,9 +122,7 @@
                 "🇺🇸US | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🏳️XX | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16"
+                "🇺🇸US | vless | 3YED | 11"
             ]
         },
         {
@@ -148,9 +146,7 @@
                 "🇺🇸US | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🏳️XX | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16"
+                "🇺🇸US | vless | 3YED | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -700,68 +696,6 @@
                 "path": "\/NHtQZSf1mdr3TeZa",
                 "headers": {
                     "Host": "bpb.RADICaliZatIOn.IR"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vless | 3YED | 15",
-            "type": "vless",
-            "server": "161f5c4e.mahdiserver-cmr.pages.dev",
-            "server_port": 443,
-            "uuid": "d7f36d12-2ae1-42c0-9fd5-84d8f4efbb02",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "161f5c4e.mahdiserver-cmr.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--@Mester_V2ray--\/",
-                "headers": {
-                    "Host": "161f5c4e.mahdiserver-cmr.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 16",
-            "type": "vless",
-            "server": "172.66.44.67",
-            "server_port": 443,
-            "uuid": "d7f36d12-2ae1-42c0-9fd5-84d8f4efbb02",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "161f5c4e.mahdiserver-cmr.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "161f5c4e.mahdiserver-cmr.pages.dev"
                 }
             }
         }
