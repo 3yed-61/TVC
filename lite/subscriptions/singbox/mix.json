@@ -107,17 +107,17 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇨🇳CN | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 6",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 1"
@@ -128,17 +128,17 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+                "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🇨🇳CN | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
-                "🇨🇦CA | vmess | @v2Line | 7",
+                "🇨🇦CA | vmess | @v2Line | 6",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 1"
@@ -166,7 +166,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "54.229.20.147",
+            "server": "108.128.187.59",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 18",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.15.109.6",
+            "server": "51.20.247.99",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -305,12 +305,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇫🇷FR | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
-            "server": "23.162.200.239",
-            "server_port": 8888,
-            "method": "aes-256-gcm",
-            "password": "Y6R9pAtvxxzmGC",
+            "server": "51.178.87.37",
+            "server_port": 810,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -349,13 +349,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 10",
+            "tag": "🇨🇳CN | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "ingress-i2.onebox6.org",
-            "server_port": 38101,
-            "uuid": "79386685-16da-327c-9e14-aa6d702d86bc",
+            "server": "120.238.122.243",
+            "server_port": 40259,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
             "security": "auto",
-            "alter_id": 1,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -363,13 +363,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/hls\/cctv5phd.m3u8",
-                "headers": {
-                    "Host": "ingress-i2.onebox6.org"
-                }
             }
         },
         {
@@ -407,11 +400,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 7",
+            "tag": "🇨🇦CA | vmess | @v2Line | 6",
             "type": "vmess",
-            "server": "172.67.71.160",
+            "server": "104.21.15.212",
             "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -424,7 +417,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "obdii.cfd",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -436,7 +429,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
