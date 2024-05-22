@@ -109,20 +109,17 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇮🇷IR | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11"
+                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7"
             ]
         },
         {
@@ -133,20 +130,17 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇮🇷IR | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11"
+                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -280,7 +274,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 6",
+            "tag": "🇮🇷IR | vless | 3YED | 1",
+            "type": "vless",
+            "server": "order.gomgom.tech",
+            "server_port": 2004,
+            "uuid": "08fe3471-6e81-4af3-819f-9f8e03c81336",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SHVNyUSseB1aZcaBOtrb4Tm4o5kDob6DgzRcRgaEpAE",
+                    "short_id": "585a3054"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "128.140.54.142",
             "server_port": 57458,
@@ -485,7 +508,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "104.22.2.79",
             "server_port": 443,
@@ -516,7 +539,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "9052b030.joinmahdiserver-90p.pages.dev",
             "server_port": 443,
@@ -547,7 +570,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
             "server": "172.67.20.220",
             "server_port": 2096,
@@ -574,130 +597,6 @@
                 "path": "\/Telegram-V2ray_Alpha\/",
                 "headers": {
                     "Host": "vpnxw.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "104.21.192.45",
-            "server_port": 443,
-            "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test35.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "test35.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 9",
-            "type": "vless",
-            "server": "104.17.88.212",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "BPb.RADIcaLiZAtion.iR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ZiRNBN8yXECvWrQT",
-                "headers": {
-                    "Host": "BPb.RADIcaLiZAtion.iR"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "172.66.44.194",
-            "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-chanel-ab-841-vpns.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "telegram-chanel-ab-841-vpns.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "104.18.34.21",
-            "server_port": 443,
-            "uuid": "5007dc3f-0270-4ed8-a210-1a1d7952756d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb.RADICaliZatIOn.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/NHtQZSf1mdr3TeZa",
-                "headers": {
-                    "Host": "bpb.RADICaliZatIOn.IR"
                 }
             }
         }

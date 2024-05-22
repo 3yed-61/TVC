@@ -108,7 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇮🇷IR | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -123,7 +124,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 6",
+                "🇮🇷IR | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -238,7 +240,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 6",
+            "tag": "🇮🇷IR | vless | 3YED | 1",
+            "type": "vless",
+            "server": "order.gomgom.tech",
+            "server_port": 2004,
+            "uuid": "08fe3471-6e81-4af3-819f-9f8e03c81336",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SHVNyUSseB1aZcaBOtrb4Tm4o5kDob6DgzRcRgaEpAE",
+                    "short_id": "585a3054"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "128.140.54.142",
             "server_port": 57458,
