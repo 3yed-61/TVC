@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇩🇪DE | vless | @v2ray1_ng | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @Good_V2rayy | 1"
+                "🇩🇪DE | vless | @v2ray1_ng | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
+            "tag": "🇩🇪DE | vless | @v2ray1_ng | 8",
             "type": "vless",
-            "server": "89.44.112.229",
-            "server_port": 2053,
-            "uuid": "edd7f66d-74dc-45a0-8270-5df829cf1aa8",
+            "server": "128.140.54.142",
+            "server_port": 57458,
+            "uuid": "42c626b8-171d-4e11-9582-09f1b07c45d8",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "discord.com",
+                "server_name": "zula.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -159,8 +159,8 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
-                    "short_id": "291ef87c"
+                    "public_key": "PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk",
+                    "short_id": "5a93d4ff"
                 }
             }
         }
