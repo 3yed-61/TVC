@@ -106,42 +106,42 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 0"
+                "🇮🇷IR | vmess | @ROMAX_VPN | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 7",
                 "🇷🇺RU | vmess | @ShadowProxy66 | 10",
                 "🇩🇪DE | vless | @v2ray1_ng | 8",
-                "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 11",
+                "🏳️XX | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇵🇱PL | ss | @FAKEOFTVC | 0",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 0"
+                "🇮🇷IR | vmess | @ROMAX_VPN | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -164,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.175.111.77",
+            "server": "54.229.20.147",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "18.220.233.213",
+            "server": "3.15.109.6",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -305,12 +305,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "38.110.1.197",
-            "server_port": 5003,
+            "server": "23.162.200.239",
+            "server_port": 8888,
             "method": "aes-256-gcm",
-            "password": "g5MeD6Ft3CWlJId",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -349,13 +349,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 11",
+            "tag": "🏳️XX | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "hk.aqvpn.me",
-            "server_port": 80,
-            "uuid": "d00083c7-e3db-4707-a24d-5662912368ff",
+            "server": "ingress-i2.onebox6.org",
+            "server_port": 38101,
+            "uuid": "79386685-16da-327c-9e14-aa6d702d86bc",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 1,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -366,9 +366,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/hls\/cctv5phd.m3u8",
                 "headers": {
-                    "Host": "hk.aqvpn.me"
+                    "Host": "ingress-i2.onebox6.org"
                 }
             }
         },
@@ -409,9 +409,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @v2Line | 7",
             "type": "vmess",
-            "server": "172.67.170.13",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -424,7 +424,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.sbs",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -436,7 +436,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -485,7 +485,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 0",
+            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 1",
             "type": "vmess",
             "server": "178.239.150.170",
             "server_port": 80,
