@@ -179,7 +179,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 8",
+                "🇮🇷IR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 8",
                 "🇬🇧GB | ss | 3YED | 4",
                 "🇮🇷IR | vmess | 3YED | 50",
@@ -207,8 +207,8 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇪🇸ES | vmess | 3YED | 0",
-                "🇳🇱NL | vmess | 3YED | 6",
+                "🇫🇷FR | vmess | 3YED | 0",
+                "🇪🇸ES | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -310,7 +310,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 8",
+                "🇮🇷IR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 8",
                 "🇬🇧GB | ss | 3YED | 4",
                 "🇮🇷IR | vmess | 3YED | 50",
@@ -338,8 +338,8 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇪🇸ES | vmess | 3YED | 0",
-                "🇳🇱NL | vmess | 3YED | 6",
+                "🇫🇷FR | vmess | 3YED | 0",
+                "🇪🇸ES | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -2131,7 +2131,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 8",
+            "tag": "🇮🇷IR | vless | 3YED | 10",
             "type": "vless",
             "server": "order.gomgom.tech",
             "server_port": 2004,
@@ -2584,7 +2584,24 @@
             }
         },
         {
-            "tag": "🇪🇸ES | vmess | 3YED | 0",
+            "tag": "🇫🇷FR | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "213.32.120.138",
+            "server_port": 56908,
+            "uuid": "f5817062-094a-4e77-e18d-124b38f958ae",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇪🇸ES | vmess | 3YED | 1",
             "type": "vmess",
             "server": "es-full.privateip.net",
             "server_port": 443,
@@ -2614,40 +2631,6 @@
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": "es-full.privateip.net"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "nl2-full.privateip.net",
-            "server_port": 443,
-            "uuid": "cb1178a1-ed8b-46d9-a173-7e6c1de73399",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "nl2-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "nl2-full.privateip.net"
                 }
             }
         },
