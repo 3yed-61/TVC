@@ -127,7 +127,7 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 164",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🏳️XX | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 4",
@@ -137,6 +137,7 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
+                "🇮🇷IR | vmess | 3YED | 50",
                 "🇮🇷IR | vmess | 3YED | 71",
                 "🇸🇪SE | vmess | 3YED | 73",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -145,7 +146,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇪🇸ES | vmess | 3YED | 0",
-                "🇮🇷IR | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -186,7 +186,7 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 164",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🏳️XX | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 4",
@@ -196,6 +196,7 @@
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇷🇺RU | vmess | 3YED | 10",
+                "🇮🇷IR | vmess | 3YED | 50",
                 "🇮🇷IR | vmess | 3YED | 71",
                 "🇸🇪SE | vmess | 3YED | 73",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -204,7 +205,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇪🇸ES | vmess | 3YED | 0",
-                "🇮🇷IR | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -778,7 +778,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1040,6 +1040,30 @@
             }
         },
         {
+            "tag": "🇮🇷IR | vmess | 3YED | 50",
+            "type": "vmess",
+            "server": "2.189.89.169",
+            "server_port": 8080,
+            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇮🇷IR | vmess | 3YED | 71",
             "type": "vmess",
             "server": "188.75.92.107",
@@ -1261,30 +1285,6 @@
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": "es-full.privateip.net"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "2.189.89.169",
-            "server_port": 8080,
-            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
