@@ -107,15 +107,15 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 4",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -127,15 +127,15 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇮🇪IE | trojan | @PrivateVPNs | 18",
-                "🇺🇸US | trojan | @DirectVPN | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇷🇺RU | vmess | @oneclickvpnkeys | 4",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -164,7 +164,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "34.250.149.249",
+            "server": "18.202.9.70",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 18",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.129.168.112",
+            "server": "51.20.161.8",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -240,11 +240,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇷🇺RU | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "caretaker.com",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "46.17.45.13",
+            "server_port": 49460,
+            "uuid": "1e7b7c32-a2f0-472a-9963-d330ccf83885",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -254,23 +254,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
-                }
             }
         },
         {
@@ -352,7 +335,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "upload.ir",
             "server_port": 80,
