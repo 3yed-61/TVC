@@ -113,7 +113,6 @@
                 "🏳️XX | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 16",
-                "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇷🇺RU | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -127,7 +126,7 @@
                 "🇮🇹IT | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 4",
-                "🇮🇷IR | vmess | 3YED | 51",
+                "🇮🇷IR | vmess | 3YED | 62",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -139,7 +138,6 @@
                 "🇪🇸ES | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇫🇷FR | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -166,7 +164,6 @@
                 "🏳️XX | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 16",
-                "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇷🇺RU | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -180,7 +177,7 @@
                 "🇮🇹IT | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 4",
-                "🇮🇷IR | vmess | 3YED | 51",
+                "🇮🇷IR | vmess | 3YED | 62",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -192,7 +189,6 @@
                 "🇪🇸ES | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇫🇷FR | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -381,40 +377,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
@@ -755,7 +717,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 51",
+            "tag": "🇮🇷IR | vmess | 3YED | 62",
             "type": "vmess",
             "server": "2.189.89.169",
             "server_port": 8080,
@@ -1080,23 +1042,6 @@
                 "headers": {
                     "Host": "jplin005.xmrth-node.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "213.32.120.138",
-            "server_port": 56908,
-            "uuid": "f5817062-094a-4e77-e18d-124b38f958ae",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
