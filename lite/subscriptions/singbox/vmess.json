@@ -112,7 +112,7 @@ https://github.com/3yed-61
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇮🇷IR | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -129,7 +129,7 @@ https://github.com/3yed-61
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
                 "🇺🇸US | vmess | @vless_vmess | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇮🇷IR | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -175,11 +175,11 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "120.238.122.243",
-            "server_port": 40259,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -187,6 +187,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -282,11 +289,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇮🇷IR | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2082,
-            "uuid": "1ed3f9fd-7adb-4971-b8c0-3d4916290982",
+            "server": "2.189.89.169",
+            "server_port": 8080,
+            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -299,9 +306,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/CuTy87zAzV\/",
+                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
                 "headers": {
-                    "Host": "cfcdn1.sanfencdn9.com"
+                    "Host": ""
                 }
             }
         },
