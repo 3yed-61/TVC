@@ -105,8 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 11",
+                "🇩🇪DE | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 12",
                 "🇨🇦CA | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇷🇺RU | ss | 3YED | 2",
@@ -130,8 +130,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 11",
+                "🇩🇪DE | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 12",
                 "🇨🇦CA | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇷🇺RU | ss | 3YED | 2",
@@ -171,7 +171,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 2",
+            "tag": "🇩🇪DE | ss | 3YED | 3",
             "type": "shadowsocks",
             "server": "18.185.85.30",
             "server_port": 8080,
@@ -181,7 +181,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 11",
+            "tag": "🇬🇧GB | ss | 3YED | 12",
             "type": "shadowsocks",
             "server": "18.175.76.93",
             "server_port": 443,
