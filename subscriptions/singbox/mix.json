@@ -160,8 +160,6 @@
                 "🇮🇷IR | vmess | 3YED | 153",
                 "🇺🇸US | vmess | 3YED | 155",
                 "🇺🇸US | vmess | 3YED | 156",
-                "🇨🇦CA | vmess | 3YED | 183",
-                "🇨🇦CA | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
@@ -169,10 +167,10 @@
                 "🇹🇷TR | vmess | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 17",
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇳🇱NL | vless | 3YED | 4",
-                "🇬🇧GB | ss | 3YED | 9",
-                "🇨🇦CA | vmess | 3YED | 110",
+                "🇩🇪DE | ss | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 110",
                 "🇺🇸US | ss | 3YED | 0",
                 "🇷🇺RU | ss | 3YED | 1",
                 "🇷🇺RU | ss | 3YED | 2",
@@ -202,7 +200,6 @@
                 "🏳️XX | vmess | 3YED | 5",
                 "🇨🇳CN | vmess | 3YED | 6",
                 "🇮🇷IR | vmess | 3YED | 7",
-                "🇭🇰HK | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -284,8 +281,6 @@
                 "🇮🇷IR | vmess | 3YED | 153",
                 "🇺🇸US | vmess | 3YED | 155",
                 "🇺🇸US | vmess | 3YED | 156",
-                "🇨🇦CA | vmess | 3YED | 183",
-                "🇨🇦CA | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
@@ -293,10 +288,10 @@
                 "🇹🇷TR | vmess | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇮🇷IR | vless | 3YED | 17",
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇳🇱NL | vless | 3YED | 4",
-                "🇬🇧GB | ss | 3YED | 9",
-                "🇨🇦CA | vmess | 3YED | 110",
+                "🇩🇪DE | ss | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 110",
                 "🇺🇸US | ss | 3YED | 0",
                 "🇷🇺RU | ss | 3YED | 1",
                 "🇷🇺RU | ss | 3YED | 2",
@@ -326,7 +321,6 @@
                 "🏳️XX | vmess | 3YED | 5",
                 "🇨🇳CN | vmess | 3YED | 6",
                 "🇮🇷IR | vmess | 3YED | 7",
-                "🇭🇰HK | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -1606,64 +1600,6 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 183",
-            "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "1ed3f9fd-7adb-4971-b8c0-3d4916290982",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/c9efxRCi",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
             "server": "141.98.168.113",
@@ -1819,7 +1755,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 0",
+            "tag": "🇩🇪DE | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "18.185.85.30",
             "server_port": 8080,
@@ -1829,7 +1765,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | vless | 3YED | 4",
+            "tag": "🇳🇱NL | vless | 3YED | 5",
             "type": "vless",
             "server": "185.142.238.222",
             "server_port": 8443,
@@ -1858,7 +1794,7 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 9",
+            "tag": "🇬🇧GB | ss | 3YED | 10",
             "type": "shadowsocks",
             "server": "18.175.76.93",
             "server_port": 443,
@@ -1868,7 +1804,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 110",
+            "tag": "🇺🇸US | vmess | 3YED | 110",
             "type": "vmess",
             "server": "jp01.appleid.bf",
             "server_port": 2086,
@@ -2386,30 +2322,6 @@
                 "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "20.239.182.18",
-            "server_port": 80,
-            "uuid": "4a2faefb-e947-48c2-a9a3-403659433f36",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "20.239.182.18"
                 }
             }
         },
