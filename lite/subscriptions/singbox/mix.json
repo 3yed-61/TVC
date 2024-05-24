@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -116,10 +116,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @DailyV2RY | 133",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
             ]
         },
@@ -127,7 +127,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -137,10 +137,10 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @DailyV2RY | 133",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇺🇸US | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -164,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.153.245.242",
+            "server": "13.39.246.196",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "99.79.19.46",
+            "server": "15.222.138.39",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -385,7 +385,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "us3e-mmnnfr9dop0.v2freevpn.com",
             "server_port": 80,
@@ -477,7 +477,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
+            "tag": "🇺🇸US | vmess | @nofiltering2 | 1",
             "type": "vmess",
             "server": "172.67.74.4",
             "server_port": 443,
