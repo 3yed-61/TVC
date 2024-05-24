@@ -118,9 +118,9 @@
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 146",
-                "🇮🇷IR | vmess | 3YED | 163",
+                "🇩🇪DE | vmess | 3YED | 163",
                 "🇺🇸US | vmess | 3YED | 165",
-                "🇺🇸US | vmess | 3YED | 166",
+                "🇦🇪AE | vmess | 3YED | 166",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
@@ -137,8 +137,6 @@
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 5",
-                "🇨🇳CN | vmess | 3YED | 6",
-                "🇮🇷IR | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -169,9 +167,9 @@
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 146",
-                "🇮🇷IR | vmess | 3YED | 163",
+                "🇩🇪DE | vmess | 3YED | 163",
                 "🇺🇸US | vmess | 3YED | 165",
-                "🇺🇸US | vmess | 3YED | 166",
+                "🇦🇪AE | vmess | 3YED | 166",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 1",
                 "🇮🇹IT | vmess | 3YED | 2",
@@ -188,8 +186,6 @@
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🏳️XX | vmess | 3YED | 5",
-                "🇨🇳CN | vmess | 3YED | 6",
-                "🇮🇷IR | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
@@ -540,7 +536,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 163",
+            "tag": "🇩🇪DE | vmess | 3YED | 163",
             "type": "vmess",
             "server": "pro.iranspeed.shop",
             "server_port": 80,
@@ -581,7 +577,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 166",
+            "tag": "🇦🇪AE | vmess | 3YED | 166",
             "type": "vmess",
             "server": "MAil.IrANspeED.SHOp",
             "server_port": 80,
@@ -1007,54 +1003,6 @@
                 "path": "\/TS\/recharge\/tzUrl.html",
                 "headers": {
                     "Host": "hk01gs.v2yun.vip"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "120.233.204.126",
-            "server_port": 16632,
-            "uuid": "d9a9d508-67e1-4929-8bea-8733d5a30c93",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "120.233.204.126"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "2.189.89.169",
-            "server_port": 8080,
-            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
