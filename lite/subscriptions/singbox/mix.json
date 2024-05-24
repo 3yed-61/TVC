@@ -106,16 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
+                "🇮🇷IR | vless | @proxyymeliii | 19",
                 "🇺🇸US | vmess | @vless_vmess | 6",
+                "🇨🇦CA | vmess | @DailyV2RY | 122",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -126,16 +128,18 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
                 "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇹🇷TR | vmess | @ShadowProxy66 | 4",
+                "🇮🇷IR | vless | @proxyymeliii | 19",
                 "🇺🇸US | vmess | @vless_vmess | 6",
+                "🇨🇦CA | vmess | @DailyV2RY | 122",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇮🇷IR | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 4",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -162,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "13.53.64.94",
+            "server": "52.59.88.193",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,7 +190,7 @@ https://github.com/3yed-61
         {
             "tag": "🇮🇪IE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "63.34.222.198",
+            "server": "52.16.91.189",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -298,6 +302,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 19",
+            "type": "vless",
+            "server": "order.gomgom.tech",
+            "server_port": 2004,
+            "uuid": "08fe3471-6e81-4af3-819f-9f8e03c81336",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SHVNyUSseB1aZcaBOtrb4Tm4o5kDob6DgzRcRgaEpAE",
+                    "short_id": "585a3054"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | @vless_vmess | 6",
             "type": "vmess",
             "server": "141.98.168.113",
@@ -312,6 +345,30 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @DailyV2RY | 122",
+            "type": "vmess",
+            "server": "jp01.appleid.bf",
+            "server_port": 2086,
+            "uuid": "f27f9fa4-31c0-4fcc-9886-d73324e90e90",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -359,11 +416,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @Hope_Net | 7",
+            "tag": "🏳️XX | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "2.189.89.169",
-            "server_port": 8080,
-            "uuid": "703c72a7-9ee7-40b6-b134-9f8fa513fa8a",
+            "server": "hk01gs.v2yun.vip",
+            "server_port": 80,
+            "uuid": "f66a5167-fde0-3e21-8f41-90595e6ab12a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -376,9 +433,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/CAT,Extrude-Aside-Aware,Reusable-Partner-Panther,Gear-Posture-Sprig,Outfit-Natural-Absolve,Unshipped-Twilight-Reselect,Profane-Fancy-Ship,Nineteen-Slicer-Hence,Could-Unwary-Manual,Ardently-Browse-Subscribe-Expire?ed=2056",
+                "path": "\/TS\/recharge\/tzUrl.html",
                 "headers": {
-                    "Host": ""
+                    "Host": "hk01gs.v2yun.vip"
                 }
             }
         },

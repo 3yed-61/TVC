@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @v2ray1_ng | 8"
+                "🇮🇷IR | vless | @proxyymeliii | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @v2ray1_ng | 8"
+                "🇮🇷IR | vless | @proxyymeliii | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @v2ray1_ng | 8",
+            "tag": "🇮🇷IR | vless | @proxyymeliii | 19",
             "type": "vless",
-            "server": "128.140.54.142",
-            "server_port": 57458,
-            "uuid": "42c626b8-171d-4e11-9582-09f1b07c45d8",
+            "server": "order.gomgom.tech",
+            "server_port": 2004,
+            "uuid": "08fe3471-6e81-4af3-819f-9f8e03c81336",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zula.ir",
+                "server_name": "www.speedtest.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -159,8 +159,8 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "PpfDUc1F8zQGeaDUcnSQSqzwy_a654XoT7KT2HsCykk",
-                    "short_id": "5a93d4ff"
+                    "public_key": "SHVNyUSseB1aZcaBOtrb4Tm4o5kDob6DgzRcRgaEpAE",
+                    "short_id": "585a3054"
                 }
             }
         }
