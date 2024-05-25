@@ -107,13 +107,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
@@ -124,13 +123,12 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇳CN | vmess | @Hope_Net | 3",
-                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2Line | 7",
                 "🇨🇦CA | vless | @FreakConfig | 7",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
@@ -178,9 +176,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "13.51.23.171",
+            "server": "18.153.114.70",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -309,24 +307,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @Hope_Net | 3",
-            "type": "vmess",
-            "server": "183.240.179.207",
-            "server_port": 30127,
-            "uuid": "5bd5899a-4b78-4d75-8570-4d21b43422c4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
