@@ -113,15 +113,16 @@
                 "🇨🇦CA | vmess | 3YED | 12",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 18",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇸🇪SE | vmess | 3YED | 1",
-                "🇨🇦CA | vmess | 3YED | 2",
+                "🇨🇷CR | vmess | 3YED | 0",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇸🇪SE | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
+                "🇨🇦CA | vmess | 3YED | 169",
                 "🏳️XX | vmess | 3YED | 176",
-                "🇨🇦CA | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 6",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
@@ -130,10 +131,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇮🇳IN | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🇨🇳CN | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇮🇳IN | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -158,15 +158,16 @@
                 "🇨🇦CA | vmess | 3YED | 12",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 18",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇸🇪SE | vmess | 3YED | 1",
-                "🇨🇦CA | vmess | 3YED | 2",
+                "🇨🇷CR | vmess | 3YED | 0",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇸🇪SE | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
+                "🇨🇦CA | vmess | 3YED | 169",
                 "🏳️XX | vmess | 3YED | 176",
-                "🇨🇦CA | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 6",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
@@ -175,10 +176,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇮🇳IN | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🇨🇳CN | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇮🇳IN | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -368,7 +368,31 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 0",
+            "tag": "🇨🇷CR | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "190.93.247.155",
+            "server_port": 80,
+            "uuid": "e9e37a10-1ab6-11ef-b932-205c6d5f5d78",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/7v1nbpfs",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
@@ -402,7 +426,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 1",
+            "tag": "🇸🇪SE | vmess | 3YED | 2",
             "type": "vmess",
             "server": "web.mobilemostafa.ir",
             "server_port": 8080,
@@ -426,7 +450,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 2",
+            "tag": "🇨🇦CA | vmess | 3YED | 3",
             "type": "vmess",
             "server": "104.21.15.36",
             "server_port": 443,
@@ -460,7 +484,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 3",
+            "tag": "🇨🇦CA | vmess | 3YED | 4",
             "type": "vmess",
             "server": "104.26.6.65",
             "server_port": 443,
@@ -494,7 +518,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 4",
+            "tag": "🇨🇦CA | vmess | 3YED | 5",
             "type": "vmess",
             "server": "caretaker.com",
             "server_port": 443,
@@ -528,7 +552,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 5",
+            "tag": "🇨🇦CA | vmess | 3YED | 6",
             "type": "vmess",
             "server": "visa.com",
             "server_port": 443,
@@ -562,7 +586,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 6",
+            "tag": "🇨🇦CA | vmess | 3YED | 169",
             "type": "vmess",
             "server": "172.67.71.160",
             "server_port": 443,
@@ -630,7 +654,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 6",
+            "tag": "🇺🇸US | vmess | 3YED | 6",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
@@ -916,7 +940,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
             "server": "s1c.v2.v001sss.xyz",
             "server_port": 2082,
@@ -940,7 +964,7 @@
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | 3YED | 1",
+            "tag": "🇮🇳IN | vmess | 3YED | 2",
             "type": "vmess",
             "server": "in-full.privateip.net",
             "server_port": 443,
@@ -974,7 +998,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "505.outline-vpn.cloud",
             "server_port": 443,
@@ -1005,23 +1029,6 @@
                 "headers": {
                     "Host": "kellie.makeup"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "183.240.179.207",
-            "server_port": 30127,
-            "uuid": "5bd5899a-4b78-4d75-8570-4d21b43422c4",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
