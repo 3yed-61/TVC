@@ -193,9 +193,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "visa.com",
+            "server": "caretaker.com",
             "server_port": 443,
-            "uuid": "f5f123f8-123e-40bf-b1c1-1c9f0c3dcfbd",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +208,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "de3.v2vmess.site",
+                "server_name": "mikasa.yaemiko.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -218,9 +218,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "de3.v2vmess.site"
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
