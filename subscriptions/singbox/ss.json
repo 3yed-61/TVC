@@ -105,9 +105,9 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | ss | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 5",
-                "🇩🇪DE | ss | 3YED | 10",
+                "🇬🇧GB | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 6",
+                "🇩🇪DE | ss | 3YED | 11",
                 "🇫🇷FR | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 1",
                 "🇨🇦CA | ss | 3YED | 2",
@@ -130,9 +130,9 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | ss | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 5",
-                "🇩🇪DE | ss | 3YED | 10",
+                "🇬🇧GB | ss | 3YED | 3",
+                "🇬🇧GB | ss | 3YED | 6",
+                "🇩🇪DE | ss | 3YED | 11",
                 "🇫🇷FR | ss | 3YED | 0",
                 "🇩🇪DE | ss | 3YED | 1",
                 "🇨🇦CA | ss | 3YED | 2",
@@ -171,7 +171,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 2",
+            "tag": "🇬🇧GB | ss | 3YED | 3",
             "type": "shadowsocks",
             "server": "51.145.101.254",
             "server_port": 19054,
@@ -181,7 +181,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 5",
+            "tag": "🇬🇧GB | ss | 3YED | 6",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -191,7 +191,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 10",
+            "tag": "🇩🇪DE | ss | 3YED | 11",
             "type": "shadowsocks",
             "server": "18.185.85.30",
             "server_port": 8080,
