@@ -141,6 +141,7 @@
                 "🇫🇷FR | trojan | 3YED | 13",
                 "🇫🇷FR | trojan | 3YED | 14",
                 "🇸🇪SE | trojan | 3YED | 15",
+                "🇸🇪SE | trojan | 3YED | 16",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 1",
@@ -162,8 +163,8 @@
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇸🇪SE | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇸🇪SE | vmess | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 1",
                 "🇬🇧GB | ss | 3YED | 5",
                 "🇬🇧GB | ss | 3YED | 10",
@@ -204,9 +205,11 @@
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇦🇪AE | ss | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🇮🇷IR | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 8"
@@ -252,6 +255,7 @@
                 "🇫🇷FR | trojan | 3YED | 13",
                 "🇫🇷FR | trojan | 3YED | 14",
                 "🇸🇪SE | trojan | 3YED | 15",
+                "🇸🇪SE | trojan | 3YED | 16",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 1",
@@ -273,8 +277,8 @@
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 0",
-                "🇸🇪SE | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
+                "🇸🇪SE | vmess | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 1",
                 "🇬🇧GB | ss | 3YED | 5",
                 "🇬🇧GB | ss | 3YED | 10",
@@ -315,9 +319,11 @@
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇦🇪AE | ss | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🇮🇷IR | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 6",
                 "🇺🇸US | vless | 3YED | 7",
                 "🇺🇸US | vless | 3YED | 8"
@@ -1156,6 +1162,28 @@
             }
         },
         {
+            "tag": "🇸🇪SE | trojan | 3YED | 16",
+            "type": "trojan",
+            "server": "13.51.34.86",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷FR | vmess | 3YED | 0",
             "type": "vmess",
             "server": "146.59.147.250",
@@ -1705,7 +1733,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 0",
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
             "type": "vmess",
             "server": "104.26.7.65",
             "server_port": 443,
@@ -1739,7 +1767,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 1",
+            "tag": "🇸🇪SE | vmess | 3YED | 2",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 80,
@@ -2558,6 +2586,16 @@
             }
         },
         {
+            "tag": "🇦🇪AE | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "51.112.118.115",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
             "tag": "🇳🇱NL | vless | 3YED | 2",
             "type": "vless",
             "server": "GozargahVPN.anten.cloud",
@@ -2587,7 +2625,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "172.67.166.192",
             "server_port": 80,
@@ -2611,7 +2683,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 3",
+            "tag": "🇮🇷IR | vmess | 3YED | 4",
             "type": "vmess",
             "server": "178.239.150.170",
             "server_port": 80,
