@@ -166,10 +166,10 @@
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 4",
-                "🇬🇧GB | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 12",
-                "🇳🇱NL | vless | 3YED | 16",
+                "🇬🇧GB | ss | 3YED | 0",
+                "🇬🇧GB | ss | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 8",
+                "🇩🇪DE | ss | 3YED | 13",
                 "🇬🇧GB | ss | 3YED | 0",
                 "🇫🇷FR | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 2",
@@ -199,7 +199,6 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🏳️XX | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -286,10 +285,10 @@
                 "🇨🇦CA | vmess | 3YED | 4",
                 "🇨🇦CA | vmess | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇬🇧GB | ss | 3YED | 4",
-                "🇬🇧GB | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 12",
-                "🇳🇱NL | vless | 3YED | 16",
+                "🇬🇧GB | ss | 3YED | 0",
+                "🇬🇧GB | ss | 3YED | 5",
+                "🇬🇧GB | ss | 3YED | 8",
+                "🇩🇪DE | ss | 3YED | 13",
                 "🇬🇧GB | ss | 3YED | 0",
                 "🇫🇷FR | ss | 3YED | 1",
                 "🇩🇪DE | ss | 3YED | 2",
@@ -319,7 +318,6 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🏳️XX | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -1833,7 +1831,17 @@
             }
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 4",
+            "tag": "🇬🇧GB | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | ss | 3YED | 5",
             "type": "shadowsocks",
             "server": "51.145.101.254",
             "server_port": 19054,
@@ -1843,7 +1851,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 7",
+            "tag": "🇬🇧GB | ss | 3YED | 8",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -1853,7 +1861,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 12",
+            "tag": "🇩🇪DE | ss | 3YED | 13",
             "type": "shadowsocks",
             "server": "18.185.85.30",
             "server_port": 8080,
@@ -1861,35 +1869,6 @@
             "password": "tKMfzd1wFempVDn3\/FKUn31V0SAwv33GD13hdyFDTiE=",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 16",
-            "type": "vless",
-            "server": "185.142.238.222",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
-                }
-            }
         },
         {
             "tag": "🇬🇧GB | ss | 3YED | 0",
@@ -2426,40 +2405,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "de3.v2vmess.site"
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "app.ssfree.ru",
-            "server_port": 443,
-            "uuid": "51433202-dca8-11ec-a58f-000017022008",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "app.ssfree.ru",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/getweather",
-                "headers": {
-                    "Host": "app.ssfree.ru"
                 }
             }
         },
