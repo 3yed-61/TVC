@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇷IR | vless | @proxyymeliii | 19"
+                "🇳🇱NL | vless | @VmessProtocol | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇷IR | vless | @proxyymeliii | 19"
+                "🇳🇱NL | vless | @VmessProtocol | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇷IR | vless | @proxyymeliii | 19",
+            "tag": "🇳🇱NL | vless | @VmessProtocol | 15",
             "type": "vless",
-            "server": "order.gomgom.tech",
-            "server_port": 2004,
-            "uuid": "08fe3471-6e81-4af3-819f-9f8e03c81336",
+            "server": "185.142.238.222",
+            "server_port": 8443,
+            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,17 +150,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "maps.google.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "SHVNyUSseB1aZcaBOtrb4Tm4o5kDob6DgzRcRgaEpAE",
-                    "short_id": "585a3054"
+                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
+                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         }
