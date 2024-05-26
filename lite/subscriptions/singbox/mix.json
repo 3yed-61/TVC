@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
@@ -117,8 +117,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ]
         },
@@ -126,8 +124,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
@@ -137,8 +135,6 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 7",
-                "🇨🇦CA | vless | @FreakConfig | 7",
-                "🇮🇷IR | vless | @Good_V2rayy | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -162,9 +158,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 17",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "3.78.42.174",
+            "server": "13.38.151.219",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +180,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "18.153.114.70",
+            "server": "16.16.239.162",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -249,7 +245,7 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "caretaker.com",
+            "server": "104.26.6.65",
             "server_port": 443,
             "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
@@ -452,66 +448,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 7",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | @Good_V2rayy | 1",
-            "type": "vless",
-            "server": "89.44.112.229",
-            "server_port": 2053,
-            "uuid": "edd7f66d-74dc-45a0-8270-5df829cf1aa8",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "D_1lbvqN7gAukXBMN4jgwQY8BO3LBW-tOyiTXx-zckI",
-                    "short_id": "291ef87c"
                 }
             }
         },
