@@ -132,7 +132,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇩🇪DE | vmess | 3YED | 0",
-                "🇭🇰HK | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇮🇳IN | vmess | 3YED | 0",
@@ -180,7 +179,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇩🇪DE | vmess | 3YED | 0",
-                "🇭🇰HK | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇮🇳IN | vmess | 3YED | 0",
@@ -909,30 +907,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vmess | 3YED | 3",
-            "type": "vmess",
-            "server": "45.82.78.151",
-            "server_port": 80,
-            "uuid": "61dab065-7fc7-4d57-a952-58b41250d766",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "45.82.78.151"
                 }
             }
         },
