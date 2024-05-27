@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇬🇧GB | ss | 3YED | 6",
-                "🇬🇧GB | ss | 3YED | 11",
-                "🇬🇧GB | ss | 3YED | 14",
+                "🇩🇪DE | ss | 3YED | 1",
+                "🇬🇧GB | ss | 3YED | 7",
+                "🇬🇧GB | ss | 3YED | 12",
+                "🇬🇧GB | ss | 3YED | 15",
                 "🇵🇱PL | ss | 3YED | 0",
                 "🇳🇱NL | ss | 3YED | 1",
                 "🇬🇧GB | ss | 3YED | 2",
@@ -126,17 +126,17 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇪SE | ss | 3YED | 16",
-                "🇦🇪AE | ss | 3YED | 0"
+                "🇦🇪AE | ss | 3YED | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇬🇧GB | ss | 3YED | 6",
-                "🇬🇧GB | ss | 3YED | 11",
-                "🇬🇧GB | ss | 3YED | 14",
+                "🇩🇪DE | ss | 3YED | 1",
+                "🇬🇧GB | ss | 3YED | 7",
+                "🇬🇧GB | ss | 3YED | 12",
+                "🇬🇧GB | ss | 3YED | 15",
                 "🇵🇱PL | ss | 3YED | 0",
                 "🇳🇱NL | ss | 3YED | 1",
                 "🇬🇧GB | ss | 3YED | 2",
@@ -154,7 +154,7 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇪SE | ss | 3YED | 16",
-                "🇦🇪AE | ss | 3YED | 0"
+                "🇦🇪AE | ss | 3YED | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -177,7 +177,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 0",
+            "tag": "🇩🇪DE | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "3.120.139.146",
             "server_port": 8080,
@@ -187,7 +187,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 6",
+            "tag": "🇬🇧GB | ss | 3YED | 7",
             "type": "shadowsocks",
             "server": "series-a2.varzesh360.co",
             "server_port": 443,
@@ -197,7 +197,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 11",
+            "tag": "🇬🇧GB | ss | 3YED | 12",
             "type": "shadowsocks",
             "server": "51.145.101.254",
             "server_port": 19054,
@@ -207,7 +207,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 14",
+            "tag": "🇬🇧GB | ss | 3YED | 15",
             "type": "shadowsocks",
             "server": "series-a2.samanehha.co",
             "server_port": 443,
@@ -387,7 +387,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇪AE | ss | 3YED | 0",
+            "tag": "🇦🇪AE | ss | 3YED | 1",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
