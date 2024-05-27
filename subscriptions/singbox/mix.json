@@ -108,6 +108,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇨🇦CA | vmess | 3YED | 0",
                 "🇮🇪IE | trojan | 3YED | 0",
                 "🇮🇪IE | trojan | 3YED | 1",
                 "🇬🇧GB | trojan | 3YED | 2",
@@ -151,10 +152,10 @@
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 18",
                 "🇨🇦CA | vmess | 3YED | 0",
-                "🇨🇦CA | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇨🇷CR | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇸🇪SE | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 152",
@@ -226,6 +227,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇨🇦CA | vmess | 3YED | 0",
                 "🇮🇪IE | trojan | 3YED | 0",
                 "🇮🇪IE | trojan | 3YED | 1",
                 "🇬🇧GB | trojan | 3YED | 2",
@@ -269,10 +271,10 @@
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 18",
                 "🇨🇦CA | vmess | 3YED | 0",
-                "🇨🇦CA | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇨🇷CR | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇸🇪SE | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 152",
@@ -440,6 +442,30 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "104.22.30.97",
+            "server_port": 80,
+            "uuid": "baec1a72-8a19-49c9-acb9-09db4f694311",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "ai.cloudflare.com"
                 }
             }
         },
@@ -1383,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "p1.v2raybrasil.cloud",
             "server_port": 2052,
@@ -1407,7 +1433,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "caretaker.com",
             "server_port": 443,
@@ -1465,7 +1491,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 5",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
