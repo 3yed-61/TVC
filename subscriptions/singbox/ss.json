@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | ss | 3YED | 18",
                 "🇩🇪DE | ss | 3YED | 3",
                 "🇬🇧GB | ss | 3YED | 9",
                 "🇬🇧GB | ss | 3YED | 14",
@@ -132,6 +133,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | ss | 3YED | 18",
                 "🇩🇪DE | ss | 3YED | 3",
                 "🇬🇧GB | ss | 3YED | 9",
                 "🇬🇧GB | ss | 3YED | 14",
@@ -173,6 +175,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | ss | 3YED | 18",
+            "type": "shadowsocks",
+            "server": "67.220.86.72",
+            "server_port": 8882,
+            "method": "aes-256-gcm",
+            "password": "kDWvXYZoTBcGkC4",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | ss | 3YED | 3",
