@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇳🇱NL | vless | @VmessProtocol | 16"
+                "🇨🇦CA | vless | @FreakConfig | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇳🇱NL | vless | @VmessProtocol | 16"
+                "🇨🇦CA | vless | @FreakConfig | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,12 +136,12 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇳🇱NL | vless | @VmessProtocol | 16",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
             "type": "vless",
-            "server": "185.142.238.222",
+            "server": "zula.ir",
             "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
+            "uuid": "4f0efec2-9a6e-4122-9bcc-a8ab1c83c298",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -150,17 +150,19 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "maps.google.com",
+                "server_name": "telegram-falcunargo-ukrine.falcunar.asso.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "telegram-falcunargo-ukrine.falcunar.asso.eu.org"
                 }
             }
         }
