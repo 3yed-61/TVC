@@ -107,14 +107,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
                 "🇸🇪SE | vmess | @v2ray1_ng | 5",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -128,14 +127,13 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
                 "🇺🇸US | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
                 "🇸🇪SE | vmess | @v2ray1_ng | 5",
-                "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
+                "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -188,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.134.49.124",
+            "server": "54.78.116.202",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -212,7 +210,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.12.247.93",
+            "server": "18.218.73.193",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -273,40 +271,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
-            }
-        },
-        {
             "tag": "🇫🇷FR | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
             "server": "194.116.214.218",
@@ -348,7 +312,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 16",
+            "tag": "🇨🇦CA | ss | @OutlineVpnOfficial | 17",
             "type": "shadowsocks",
             "server": "23.162.200.181",
             "server_port": 8008,
