@@ -111,13 +111,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @customv2ray | 14",
                 "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -132,13 +132,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+                "🇺🇸US | vmess | @DeamNet_Proxy | 18",
                 "🇫🇷FR | vmess | @oneclickvpnkeys | 4",
                 "🇨🇦CA | vmess | @customv2ray | 14",
                 "🇸🇪SE | vmess | @ShadowProxy66 | 25",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -266,11 +266,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
+            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 18",
             "type": "vmess",
-            "server": "afrhms16v.bestxray.buzz",
+            "server": "cold-dawn-9246.fly.dev",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -283,7 +283,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "cold-dawn-9246.fly.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -293,9 +293,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "cold-dawn-9246.fly.dev"
                 }
             }
         },
@@ -419,7 +419,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
             "server": "104.16.60.8",
             "server_port": 443,
