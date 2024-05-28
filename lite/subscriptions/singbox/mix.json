@@ -108,7 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇮🇪IE | trojan | @DirectVPN | 18",
+                "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
@@ -128,7 +128,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
                 "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇮🇪IE | trojan | @DirectVPN | 18",
+                "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @DeamNet_Proxy | 18",
@@ -188,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.193.154.253",
+            "server": "3.70.43.83",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -208,9 +208,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 18",
+            "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "63.33.33.171",
+            "server": "15.222.48.23",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -392,9 +392,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "172.67.220.64",
-            "server_port": 443,
-            "uuid": "f24bba0f-8656-44f8-b21e-a0e3a190c4c5",
+            "server": "104.21.70.242",
+            "server_port": 2086,
+            "uuid": "246eb986-96f3-4abe-be9e-5dcf76717980",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -405,21 +405,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.31000oooowe2.bf",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/df97b21e-3943-4865-af18-b5ea9676b037",
+                "path": "\/ws",
                 "headers": {
-                    "Host": "www.31000oooowe2.bf"
+                    "Host": "104.21.70.242"
                 }
             }
         },
