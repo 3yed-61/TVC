@@ -107,19 +107,19 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
-                "🇩🇪DE | trojan | @DirectVPN | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 7",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇮🇷IR | ss | @FAKEOFTVC | 0",
+                "🇮🇷IR | ss | @FAKEOFTVC | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ]
         },
@@ -128,19 +128,19 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vmess | @azadi_az_inja_migzare | 0",
-                "🇸🇪SE | trojan | @PrivateVPNs | 18",
-                "🇩🇪DE | trojan | @DirectVPN | 18",
+                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇸🇪SE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 7",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇺🇸US | vless | @Outlinev2rayNG | 13",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 8",
-                "🇮🇷IR | ss | @FAKEOFTVC | 0",
+                "🇮🇷IR | ss | @FAKEOFTVC | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 18",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "51.20.170.250",
+            "server": "3.121.12.19",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -210,9 +210,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 18",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "35.156.41.24",
+            "server": "13.48.20.59",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -351,11 +351,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 7",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "35ca576f-75f7-4e03-9ecc-ccbf5253e881",
+            "server": "129.226.95.251",
+            "server_port": 27354,
+            "uuid": "dfd10b52-d4fd-4711-9df2-7ec4204024a3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -365,13 +365,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mehrosaboran",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -503,7 +496,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 0",
+            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 1",
             "type": "shadowsocks",
             "server": "eu-legion-10.kevinzone.online",
             "server_port": 31158,

@@ -111,7 +111,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 7",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -126,7 +126,7 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇪SE | vmess | @Hope_Net | 7",
+                "🇸🇬SG | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
@@ -285,11 +285,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @Hope_Net | 7",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "35ca576f-75f7-4e03-9ecc-ccbf5253e881",
+            "server": "129.226.95.251",
+            "server_port": 27354,
+            "uuid": "dfd10b52-d4fd-4711-9df2-7ec4204024a3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -299,13 +299,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mehrosaboran",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
