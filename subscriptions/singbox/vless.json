@@ -108,10 +108,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -120,8 +120,7 @@
                 "🇺🇸US | vless | 3YED | 10",
                 "🇳🇱NL | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8"
+                "🇺🇸US | vless | 3YED | 7"
             ]
         },
         {
@@ -131,10 +130,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -143,8 +142,7 @@
                 "🇺🇸US | vless | 3YED | 10",
                 "🇳🇱NL | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8"
+                "🇺🇸US | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -254,7 +252,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "91.107.175.193",
             "server_port": 443,
@@ -336,7 +334,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 9",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -630,37 +628,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "9052b030.joinmahdiserver-90p.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "172.67.20.220",
-            "server_port": 2096,
-            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnxw.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-V2ray_Alpha\/",
-                "headers": {
-                    "Host": "vpnxw.pages.dev"
                 }
             }
         }
