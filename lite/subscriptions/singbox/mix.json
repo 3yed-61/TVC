@@ -110,16 +110,16 @@ https://github.com/3yed-61
                 "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇳🇱NL | trojan | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇷🇺RU | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇮🇷IR | ss | @FAKEOFTVC | 1",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 4"
+                "🇮🇷IR | ss | @FAKEOFTVC | 2",
+                "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -130,16 +130,16 @@ https://github.com/3yed-61
                 "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
+                "🇳🇱NL | trojan | @oneclickvpnkeys | 9",
                 "🇨🇦CA | vmess | @v2ray1_ng | 5",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇷🇺RU | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vless | @FreakConfig | 8",
-                "🇮🇷IR | ss | @FAKEOFTVC | 1",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 4"
+                "🇮🇷IR | ss | @FAKEOFTVC | 2",
+                "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -247,20 +247,25 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
-            "type": "vmess",
-            "server": "89.169.53.36",
-            "server_port": 59985,
-            "uuid": "d572d74e-427b-4525-9d0d-88608d1a4f19",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇳🇱NL | trojan | @oneclickvpnkeys | 9",
+            "type": "trojan",
+            "server": "209.250.246.191",
+            "server_port": 443,
+            "password": "wkmY1R4EcP",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "z-v2-003294.kailib.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
             }
         },
         {
@@ -342,11 +347,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 8",
+            "tag": "🇷🇺RU | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "129.226.95.251",
-            "server_port": 27354,
-            "uuid": "dfd10b52-d4fd-4711-9df2-7ec4204024a3",
+            "server": "45.147.200.170",
+            "server_port": 31219,
+            "uuid": "d45f3ae9-ab2e-4d27-a9cf-0257679ec4ff",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -458,7 +463,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 1",
+            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 2",
             "type": "shadowsocks",
             "server": "eu-legion-10.kevinzone.online",
             "server_port": 31158,
@@ -468,7 +473,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 4",
+            "tag": "🇮🇷IR | vmess | @ROMAX_VPN | 5",
             "type": "vmess",
             "server": "178.239.150.170",
             "server_port": 80,
