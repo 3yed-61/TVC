@@ -106,15 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | trojan | @oneclickvpnkeys | 10",
                 "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇸🇬SG | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 10",
@@ -126,15 +127,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇳🇱NL | trojan | @oneclickvpnkeys | 10",
                 "🇳🇴NO | vless | @VmessProtocol | 19",
                 "🇨🇦CA | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇸🇬SG | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vless | @Outlinev2rayNG | 16",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 10",
@@ -162,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "18.135.136.64",
+            "server": "52.48.149.252",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +186,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.59.141.221",
+            "server": "16.170.117.173",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -342,11 +344,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 3",
             "type": "vmess",
-            "server": "172.67.199.185",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "server": "129.226.95.251",
+            "server_port": 27354,
+            "uuid": "dfd10b52-d4fd-4711-9df2-7ec4204024a3",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -356,12 +358,34 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | @Outlinev2rayNG | 16",
+            "type": "vless",
+            "server": "91.107.176.13",
+            "server_port": 8080,
+            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.199.185"
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
+                    "short_id": "18cada"
                 }
             }
         },
