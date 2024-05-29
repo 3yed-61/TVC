@@ -112,9 +112,9 @@
                 "🇨🇳CN | vmess | 3YED | 7",
                 "🇨🇦CA | vmess | 3YED | 15",
                 "🇨🇳CN | vmess | 3YED | 16",
-                "🇨🇦CA | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 5",
-                "🇨🇦CA | vmess | 3YED | 13",
+                "🇨🇦CA | vmess | 3YED | 7",
+                "🇨🇦CA | vmess | 3YED | 10",
+                "🇸🇪SE | vmess | 3YED | 15",
                 "🇷🇺RU | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -160,9 +160,9 @@
                 "🇨🇳CN | vmess | 3YED | 7",
                 "🇨🇦CA | vmess | 3YED | 15",
                 "🇨🇳CN | vmess | 3YED | 16",
-                "🇨🇦CA | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 5",
-                "🇨🇦CA | vmess | 3YED | 13",
+                "🇨🇦CA | vmess | 3YED | 7",
+                "🇨🇦CA | vmess | 3YED | 10",
+                "🇸🇪SE | vmess | 3YED | 15",
                 "🇷🇺RU | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -357,11 +357,35 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 2",
+            "tag": "🇨🇦CA | vmess | 3YED | 7",
             "type": "vmess",
-            "server": "172.67.138.140",
+            "server": "f1abba9.qg.glados-config.com",
+            "server_port": 8880,
+            "uuid": "57e0cb4d-eae5-48ec-8091-149dc2b309e0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/d\/f1abba9.fm.apple.com:93750",
+                "headers": {
+                    "Host": "f1abba9.qg.glados-config.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | 3YED | 10",
+            "type": "vmess",
+            "server": "hms02opi.fxiaomi.sbs",
             "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -374,7 +398,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jahfkjha.cfd",
+                "server_name": "hms02.fxiaomi.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -384,42 +408,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/link",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 5",
+            "tag": "🇸🇪SE | vmess | 3YED | 15",
             "type": "vmess",
-            "server": "104.19.45.235",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.19.45.235"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | 3YED | 13",
-            "type": "vmess",
-            "server": "crackthecode.ftp.sh",
+            "server": "185.146.173.58",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -432,7 +432,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vcp3.dehel15354.woRKErS.Dev",
+                "server_name": "mikasa.yaemiko.cloudns.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -442,9 +442,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/gwdef.sbs:443\/linkws",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": "vcp3.dehel15354.woRKErS.Dev"
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
