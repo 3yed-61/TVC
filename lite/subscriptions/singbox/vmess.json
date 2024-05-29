@@ -108,9 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇷🇺RU | vmess | @Hope_Net | 6",
+                "🇸🇬SG | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
@@ -122,9 +122,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @v2ray1_ng | 5",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇷🇺RU | vmess | @Hope_Net | 6",
+                "🇸🇬SG | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
@@ -191,11 +191,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray1_ng | 5",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 19",
             "type": "vmess",
-            "server": "104.26.7.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -206,21 +206,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/v118-fccxmxm35",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
                 }
             }
         },
@@ -259,11 +249,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | @Hope_Net | 6",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "45.147.200.170",
-            "server_port": 31219,
-            "uuid": "d45f3ae9-ab2e-4d27-a9cf-0257679ec4ff",
+            "server": "129.226.213.241",
+            "server_port": 24824,
+            "uuid": "8c1e17cf-c378-403f-862c-62897510116c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
