@@ -111,14 +111,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇮🇷IR | ss | @FAKEOFTVC | 0",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ]
@@ -132,14 +131,13 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇸🇪SE | vmess | @v2ray1_ng | 6",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇺🇸US | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇺🇸US | vless | @FreakConfig | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8",
                 "🇮🇷IR | ss | @FAKEOFTVC | 0",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 4"
             ],
@@ -269,30 +267,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-            "type": "vmess",
-            "server": "188.114.97.100",
-            "server_port": 80,
-            "uuid": "d18c7f2d-f696-4961-a12c-111fb5808654",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/google",
-                "headers": {
-                    "Host": "188.114.97.100"
                 }
             }
         },
@@ -457,7 +431,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 8",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
