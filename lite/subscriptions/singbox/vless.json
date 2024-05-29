@@ -106,16 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
-                "🇨🇦CA | vless | @FreakConfig | 8"
+                "🇺🇸US | vless | @FreakConfig | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | vless | @Outlinev2rayNG | 13",
-                "🇨🇦CA | vless | @FreakConfig | 8"
+                "🇺🇸US | vless | @FreakConfig | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,36 +136,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | vless | @Outlinev2rayNG | 13",
-            "type": "vless",
-            "server": "74.48.95.50",
-            "server_port": 17974,
-            "uuid": "64db2a61-4296-4747-8f50-017201a4c5e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "17FnGUGQ9rrtCtJvtYWywWCYtAc0dyxVbwNbNEp05yE",
-                    "short_id": "6a565d14"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
+            "tag": "🇺🇸US | vless | @FreakConfig | 8",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
