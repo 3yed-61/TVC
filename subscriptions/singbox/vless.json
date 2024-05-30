@@ -116,10 +116,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8"
+                "🇳🇱NL | vless | 3YED | 2"
             ]
         },
         {
@@ -137,10 +134,7 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇳🇱NL | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8"
+                "🇳🇱NL | vless | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -504,99 +498,6 @@
                     "enabled": true,
                     "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
                     "short_id": "e0"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 6",
-            "type": "vless",
-            "server": "104.22.2.79",
-            "server_port": 443,
-            "uuid": "664f5f11-1231-486d-b416-b7b3ecdae76a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HETZNER-D.pages.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "HETZNER-D.pages.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 7",
-            "type": "vless",
-            "server": "9052b030.joinmahdiserver-90p.pages.dev",
-            "server_port": 443,
-            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "172.67.20.220",
-            "server_port": 2096,
-            "uuid": "77a571fb-4fd2-4b37-8596-2b7d9728bb5c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpnxw.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-V2ray_Alpha\/",
-                "headers": {
-                    "Host": "vpnxw.pages.dev"
                 }
             }
         }
