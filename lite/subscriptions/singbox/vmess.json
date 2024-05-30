@@ -108,10 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
@@ -123,10 +123,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 8",
+                "🇸🇬SG | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
@@ -193,11 +193,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 9",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
             "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,21 +208,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "obdii.cfd"
+                    "Host": ""
                 }
             }
         },
@@ -278,7 +268,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 8",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 9",
             "type": "vmess",
             "server": "129.226.93.47",
             "server_port": 54592,
