@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | ss | 3YED | 3",
+                "🇺🇸US | ss | 3YED | 2",
+                "🇺🇸US | ss | 3YED | 5",
                 "🇦🇪AE | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 7",
                 "🇩🇪DE | ss | 3YED | 0",
@@ -124,7 +125,7 @@
                 "🇷🇺RU | ss | 3YED | 13",
                 "🇷🇺RU | ss | 3YED | 14",
                 "🇵🇱PL | ss | 3YED | 15",
-                "🇺🇸US | ss | 3YED | 16",
+                "🇳🇱NL | ss | 3YED | 16",
                 "🇬🇧GB | ss | 3YED | 17",
                 "🇫🇷FR | ss | 3YED | 18",
                 "🇮🇷IR | ss | 3YED | 5"
@@ -134,7 +135,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | ss | 3YED | 3",
+                "🇺🇸US | ss | 3YED | 2",
+                "🇺🇸US | ss | 3YED | 5",
                 "🇦🇪AE | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 7",
                 "🇩🇪DE | ss | 3YED | 0",
@@ -153,7 +155,7 @@
                 "🇷🇺RU | ss | 3YED | 13",
                 "🇷🇺RU | ss | 3YED | 14",
                 "🇵🇱PL | ss | 3YED | 15",
-                "🇺🇸US | ss | 3YED | 16",
+                "🇳🇱NL | ss | 3YED | 16",
                 "🇬🇧GB | ss | 3YED | 17",
                 "🇫🇷FR | ss | 3YED | 18",
                 "🇮🇷IR | ss | 3YED | 5"
@@ -179,12 +181,22 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 3",
+            "tag": "🇺🇸US | ss | 3YED | 2",
             "type": "shadowsocks",
-            "server": "38.107.226.146",
-            "server_port": 1230,
-            "method": "chacha20-ietf-poly1305",
-            "password": "H5S0hvcxRi#YLmgU",
+            "server": "154.3.8.151",
+            "server_port": 30067,
+            "method": "aes-256-gcm",
+            "password": "iUB0923RBA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | ss | 3YED | 5",
+            "type": "shadowsocks",
+            "server": "15.204.87.225",
+            "server_port": 8000,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -369,7 +381,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 16",
+            "tag": "🇳🇱NL | ss | 3YED | 16",
             "type": "shadowsocks",
             "server": "beedoost.org",
             "server_port": 8080,
