@@ -106,15 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | ss | @FAKEOFTVC | 5",
@@ -126,15 +126,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇮🇷IR | ss | @FAKEOFTVC | 5",
@@ -162,9 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 15",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "52.57.143.166",
+            "server": "35.181.69.74",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 13",
             "type": "trojan",
-            "server": "3.74.142.93",
+            "server": "51.44.39.106",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -325,7 +325,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
             "server": "linde06.indiavideo.sbs",
             "server_port": 443,
