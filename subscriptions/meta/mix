@@ -205,8 +205,8 @@ proxies:
   - {"name":"🇺🇸US | vmess | 3YED | 2","type":"vmess","server":"107.149.119.43","port":"37000","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/040318142507","headers":{"host":"107.149.119.43"}}}
   - {"name":"🏳️XX | vmess | 3YED | 3","type":"vmess","server":"admin.arzonhost.ir","port":"2086","cipher":"auto","uuid":"7d93e992-48cf-42d4-84f8-75768e815a4c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"admin.arzonhost.ir"}}}
   - {"name":"🇨🇳CN | vmess | 3YED | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"172.67.229.37","port":"2086","cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
-  - {"name":"🇹🇼TW | vmess | 3YED | 1","type":"vmess","server":"tw1g.forlive.live","port":"80","cipher":"auto","uuid":"bb7d0ae0-85bd-4d9f-8391-b3d927ccb497","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 1","type":"vmess","server":"172.67.229.37","port":"2086","cipher":"auto","uuid":"58fe1542-5290-40ad-815a-77707a81afe5","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/IOebhLMhl1CTbFHbL95myfRX2","headers":{"host":"ca6.tehme100.fun"}}}
+  - {"name":"🇹🇼TW | vmess | 3YED | 2","type":"vmess","server":"tw1g.forlive.live","port":"80","cipher":"auto","uuid":"bb7d0ae0-85bd-4d9f-8391-b3d927ccb497","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇳🇱NL | vless | 3YED | 8","type":"vless","server":"159.223.4.137","port":38915,"udp":true,"uuid":"24f6cf45-67ef-493c-8db8-5cad032bf123","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"V7PuAOITOyH7RZ-PRJndYVA5udmu-DqAp7LdjpNYwUQ","short-id":"33c38f16"}}
   - {"name":"🇳🇱NL | vless | 3YED | 18","type":"vless","server":"178.62.240.53","port":15177,"udp":true,"uuid":"373e6d58-210f-4433-b623-e34b47cca8de","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.cloudflare.com","reality-opts":{"public-key":"QPIfuN2b5h3qV-dLKEEPzE7WneDIIan5jgPNDR9NDBo","short-id":"457aa090"}}
@@ -317,8 +317,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
-      - '🇺🇸US | vmess | 3YED | 0'
-      - '🇹🇼TW | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
+      - '🇹🇼TW | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
@@ -429,8 +429,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
-      - '🇺🇸US | vmess | 3YED | 0'
-      - '🇹🇼TW | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
+      - '🇹🇼TW | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
@@ -540,8 +540,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🏳️XX | vmess | 3YED | 3'
       - '🇨🇳CN | vmess | 3YED | 4'
-      - '🇺🇸US | vmess | 3YED | 0'
-      - '🇹🇼TW | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
+      - '🇹🇼TW | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
