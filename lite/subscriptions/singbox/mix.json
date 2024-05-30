@@ -111,15 +111,15 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇮🇷IR | ss | @FAKEOFTVC | 2",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 5",
-                "🇨🇦CA | vless | @TVCminer | 7"
+                "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -131,15 +131,15 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 11",
+                "🇩🇪DE | vmess | @ShadowProxy66 | 28",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇺🇸US | vless | @FreakConfig | 10",
+                "🇨🇦CA | vless | @FreakConfig | 10",
                 "🇮🇷IR | ss | @FAKEOFTVC | 2",
-                "🇮🇷IR | vmess | @ROMAX_VPN | 5",
-                "🇨🇦CA | vless | @TVCminer | 7"
+                "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -281,6 +281,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @ShadowProxy66 | 28",
+            "type": "vmess",
+            "server": "91.107.130.229",
+            "server_port": 35262,
+            "uuid": "2d5e5a73-8fa1-4c43-b67f-c0211ba34a03",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "217.182.198.219",
@@ -325,7 +342,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "172.67.229.37",
             "server_port": 2086,
@@ -417,7 +434,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vless | @FreakConfig | 10",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 10",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 8443,
@@ -472,37 +489,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @TVCminer | 7",
-            "type": "vless",
-            "server": "9052b030.joinmahdiserver-90p.pages.dev",
-            "server_port": 443,
-            "uuid": "79473718-0451-41c3-a0a2-9f6d21c99f75",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "9052b030.joinmahdiserver-90p.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "9052b030.joinmahdiserver-90p.pages.dev"
-                }
             }
         }
     ],
