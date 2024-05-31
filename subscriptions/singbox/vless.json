@@ -105,15 +105,14 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 8",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -129,15 +128,14 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 1",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 2",
+                "🇩🇪DE | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇪DE | vless | 3YED | 8",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -169,7 +167,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 2",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -200,7 +198,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "tag": "🇩🇪DE | vless | 3YED | 4",
             "type": "vless",
             "server": "136.243.33.215",
             "server_port": 443,
@@ -323,7 +321,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 8",
             "type": "vless",
             "server": "91.107.175.193",
             "server_port": 443,
@@ -401,35 +399,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 12",
-            "type": "vless",
-            "server": "91.107.176.13",
-            "server_port": 8080,
-            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
-                    "short_id": "18cada"
                 }
             }
         },
