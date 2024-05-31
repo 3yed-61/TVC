@@ -144,6 +144,7 @@
                 "🇫🇷FR | trojan | 3YED | 13",
                 "🇫🇷FR | trojan | 3YED | 14",
                 "🇸🇪SE | trojan | 3YED | 15",
+                "🇸🇪SE | trojan | 3YED | 16",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 5",
@@ -202,7 +203,7 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -270,6 +271,7 @@
                 "🇫🇷FR | trojan | 3YED | 13",
                 "🇫🇷FR | trojan | 3YED | 14",
                 "🇸🇪SE | trojan | 3YED | 15",
+                "🇸🇪SE | trojan | 3YED | 16",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 5",
@@ -328,7 +330,7 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1265,6 +1267,28 @@
             "tag": "🇸🇪SE | trojan | 3YED | 15",
             "type": "trojan",
             "server": "13.49.248.238",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | trojan | 3YED | 16",
+            "type": "trojan",
+            "server": "16.171.201.148",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -2413,11 +2437,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
-            "server": "107.172.25.132",
-            "server_port": 18117,
-            "uuid": "e2cfd504-b51f-42a4-cc18-665f82f2549c",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "ccd92698-4499-472d-a06f-f90e7e89ba4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2427,6 +2451,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/3YKfzGw4",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
