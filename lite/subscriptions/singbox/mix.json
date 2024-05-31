@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
-                "🇬🇧GB | trojan | @DirectVPN | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
@@ -117,7 +117,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇮🇷IR | ss | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ]
@@ -126,8 +125,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 18",
-                "🇬🇧GB | trojan | @DirectVPN | 18",
+                "🇮🇪IE | trojan | @PrivateVPNs | 18",
+                "🇮🇪IE | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 9",
@@ -137,7 +136,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
-                "🇮🇷IR | ss | @FAKEOFTVC | 6",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
                 "🇮🇷IR | vmess | @ROMAX_VPN | 5"
             ],
@@ -162,9 +160,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 18",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.169.206.181",
+            "server": "52.49.20.127",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,9 +182,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 18",
+            "tag": "🇮🇪IE | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "18.170.233.81",
+            "server": "54.228.109.189",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -401,16 +399,6 @@ https://github.com/3yed-61
                     "Host": "hms02.fxiaomi.sbs"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷IR | ss | @FAKEOFTVC | 6",
-            "type": "shadowsocks",
-            "server": "eu-legion-10.kevinzone.online",
-            "server_port": 31158,
-            "method": "chacha20-ietf-poly1305",
-            "password": "0ac82bf5f8b22ec",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @nofiltering2 | 1",
