@@ -105,14 +105,15 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 8",
-                "🇩🇪DE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -126,14 +127,15 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇨🇦CA | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 8",
-                "🇩🇪DE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -163,7 +165,38 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "tag": "🇨🇦CA | vless | 3YED | 1",
+            "type": "vless",
+            "server": "m.mashti.link.",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m.mashti.link.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 3",
             "type": "vless",
             "server": "136.243.33.215",
             "server_port": 443,
@@ -368,7 +401,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "tag": "🇩🇪DE | vless | 3YED | 3",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
