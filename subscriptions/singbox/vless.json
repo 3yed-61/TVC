@@ -121,7 +121,6 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 9",
-                "🇮🇷IR | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2"
             ]
         },
@@ -145,7 +144,6 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 9",
-                "🇮🇷IR | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -641,30 +639,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "jAVidSHAH-aRiaMeHR.pagEs.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 0",
-            "type": "vless",
-            "server": "81.12.93.83",
-            "server_port": 443,
-            "uuid": "526272f9-047d-44dc-8e62-afa29d84bcb8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sha1.noobdog.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },

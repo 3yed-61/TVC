@@ -134,7 +134,6 @@ proxies:
   - {"name":"🇺🇸US | vless | 3YED | 0","type":"vless","server":"172.67.204.39","port":443,"udp":false,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"turkmenistan.armanibash.Shop.","ws-opts":{"path":"/","headers":{"host":"turkmenistan.armanibash.Shop."}}}
   - {"name":"🇺🇸US | vless | 3YED | 1","type":"vless","server":"151.101.2.133","port":443,"udp":false,"uuid":"cefffd1d-cc58-4560-b4d1-44f1af528f30","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"www.arizona.edu","ws-opts":{"path":"/","headers":{"host":"ton.apple"}}}
   - {"name":"🇺🇸US | vless | 3YED | 9","type":"vless","server":"188.114.97.3","port":443,"udp":false,"uuid":"82299fb9-f8b0-43bc-ae63-290881a89f72","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"jAVidSHAH-aRiaMeHR.pagEs.DEV","ws-opts":{"path":"/","headers":{"host":"jAviDSHAH-ArIamEhR.PageS.deV"}}}
-  - {"name":"🇮🇷IR | vless | 3YED | 0","type":"vless","server":"81.12.93.83","port":443,"udp":false,"uuid":"526272f9-047d-44dc-8e62-afa29d84bcb8","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"sha1.noobdog.shop"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -155,7 +154,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 9'
-      - '🇮🇷IR | vless | 3YED | 0'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -176,7 +174,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 9'
-      - '🇮🇷IR | vless | 3YED | 0'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -196,7 +193,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 9'
-      - '🇮🇷IR | vless | 3YED | 0'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
