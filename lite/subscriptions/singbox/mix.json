@@ -106,18 +106,20 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
+                "🇩🇪DE | vmess | @proxyymeliii | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇮🇷IR | vless | @proxy_mtm | 0",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -125,18 +127,20 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
                 "🇨🇦CA | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 10",
                 "🇩🇪DE | vmess | @ShadowProxy66 | 28",
+                "🇩🇪DE | vmess | @proxyymeliii | 17",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 2",
+                "🇨🇦CA | vmess | @Hope_Net | 3",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
+                "🇮🇷IR | vless | @proxy_mtm | 0",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -160,9 +164,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "3.73.255.248",
+            "server": "35.180.154.120",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "35.182.39.30",
+            "server": "15.157.153.47",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -289,6 +293,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | vmess | @proxyymeliii | 17",
+            "type": "vmess",
+            "server": "49.13.238.156",
+            "server_port": 18172,
+            "uuid": "9b287b5b-13f0-4564-9eea-893c51a5174e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "beedoost.org",
@@ -333,7 +354,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
             "type": "vmess",
             "server": "c2.v2raybrasil.cloud",
             "server_port": 2082,
@@ -455,6 +476,30 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | @proxy_mtm | 0",
+            "type": "vless",
+            "server": "81.12.93.83",
+            "server_port": 443,
+            "uuid": "526272f9-047d-44dc-8e62-afa29d84bcb8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sha1.noobdog.shop",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
