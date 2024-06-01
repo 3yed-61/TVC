@@ -120,7 +120,8 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦CA | vless | 3YED | 1","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"4916b9da-1622-45a0-95dd-d1e91d8fe630","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
+  - {"name":"🇨🇦CA | vless | 3YED | 0","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"02a99135-d557-4c65-b63b-4d8cf0d84e1a","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
+  - {"name":"🇨🇦CA | vless | 3YED | 3","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"4916b9da-1622-45a0-95dd-d1e91d8fe630","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
   - {"name":"🇩🇪DE | vless | 3YED | 9","type":"vless","server":"49.13.113.114","port":8443,"udp":true,"uuid":"8c8bb03a-0476-4f47-94c9-5f25f97f22ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"amazoon.namavaa.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇩🇪DE | vless | 3YED | 12","type":"vless","server":"94.130.183.41","port":1503,"udp":true,"uuid":"482931a4-fa81-4d82-a6fd-f5efa846b586","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"0first.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0"}}
   - {"name":"🇫🇮FI | vless | 3YED | 13","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
@@ -131,16 +132,16 @@ proxies:
   - {"name":"🇳🇱NL | vless | 3YED | 18","type":"vless","server":"178.62.240.53","port":15177,"udp":true,"uuid":"373e6d58-210f-4433-b623-e34b47cca8de","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.cloudflare.com","reality-opts":{"public-key":"QPIfuN2b5h3qV-dLKEEPzE7WneDIIan5jgPNDR9NDBo","short-id":"457aa090"}}
   - {"name":"🇳🇱NL | vless | 3YED | 20","type":"vless","server":"64.225.81.175","port":31175,"udp":true,"uuid":"98314183-548a-4606-a177-bdb2f67ac272","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"greenpepper.ir","reality-opts":{"public-key":"kX8rU0xptxqGhyfK7SiPtyvaU24IT1_yvHIXmsMqsTE","short-id":"f2e78b8b"}}
   - {"name":"🏳️XX | vless | 3YED | 24","type":"vless","server":"tele.jokerv2ray.store","port":15557,"udp":true,"uuid":"945a6635-9884-46e4-b7e8-78fb7c79359b","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"telegram-id.jokerv2ray.store","reality-opts":{"public-key":"7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA","short-id":"7dd63855"}}
-  - {"name":"🇺🇸US | vless | 3YED | 1","type":"vless","server":"172.67.204.39","port":443,"udp":false,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"turkmenistan.armanibash.Shop.","ws-opts":{"path":"/","headers":{"host":"turkmenistan.armanibash.Shop."}}}
-  - {"name":"🇺🇸US | vless | 3YED | 2","type":"vless","server":"151.101.2.133","port":443,"udp":false,"uuid":"cefffd1d-cc58-4560-b4d1-44f1af528f30","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"www.arizona.edu","ws-opts":{"path":"/","headers":{"host":"ton.apple"}}}
-  - {"name":"🇺🇸US | vless | 3YED | 10","type":"vless","server":"188.114.97.3","port":443,"udp":false,"uuid":"82299fb9-f8b0-43bc-ae63-290881a89f72","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"jAVidSHAH-aRiaMeHR.pagEs.DEV","ws-opts":{"path":"/","headers":{"host":"jAviDSHAH-ArIamEhR.PageS.deV"}}}
+  - {"name":"🇺🇸US | vless | 3YED | 2","type":"vless","server":"172.67.204.39","port":443,"udp":false,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"turkmenistan.armanibash.Shop.","ws-opts":{"path":"/","headers":{"host":"turkmenistan.armanibash.Shop."}}}
+  - {"name":"🇺🇸US | vless | 3YED | 3","type":"vless","server":"151.101.2.133","port":443,"udp":false,"uuid":"cefffd1d-cc58-4560-b4d1-44f1af528f30","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"www.arizona.edu","ws-opts":{"path":"/","headers":{"host":"ton.apple"}}}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | vless | 3YED | 1'
+      - '🇨🇦CA | vless | 3YED | 0'
+      - '🇨🇦CA | vless | 3YED | 3'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
       - '🇫🇮FI | vless | 3YED | 13'
@@ -151,16 +152,16 @@ proxy-groups:
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'
       - '🏳️XX | vless | 3YED | 24'
-      - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 2'
-      - '🇺🇸US | vless | 3YED | 10'
+      - '🇺🇸US | vless | 3YED | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | vless | 3YED | 1'
+      - '🇨🇦CA | vless | 3YED | 0'
+      - '🇨🇦CA | vless | 3YED | 3'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
       - '🇫🇮FI | vless | 3YED | 13'
@@ -171,15 +172,15 @@ proxy-groups:
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'
       - '🏳️XX | vless | 3YED | 24'
-      - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 2'
-      - '🇺🇸US | vless | 3YED | 10'
+      - '🇺🇸US | vless | 3YED | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | vless | 3YED | 1'
+      - '🇨🇦CA | vless | 3YED | 0'
+      - '🇨🇦CA | vless | 3YED | 3'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
       - '🇫🇮FI | vless | 3YED | 13'
@@ -190,9 +191,8 @@ proxy-groups:
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'
       - '🏳️XX | vless | 3YED | 24'
-      - '🇺🇸US | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 2'
-      - '🇺🇸US | vless | 3YED | 10'
+      - '🇺🇸US | vless | 3YED | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
