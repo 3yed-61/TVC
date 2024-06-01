@@ -125,9 +125,8 @@
                 "🇺🇸US | vmess | 3YED | 167",
                 "🇸🇪SE | vmess | 3YED | 168",
                 "🇸🇪SE | vmess | 3YED | 172",
-                "🇸🇪SE | vmess | 3YED | 185",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇩🇪DE | vmess | 3YED | 19",
+                "🇩🇪DE | vmess | 3YED | 21",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇮🇷IR | vmess | 3YED | 38",
@@ -181,9 +180,8 @@
                 "🇺🇸US | vmess | 3YED | 167",
                 "🇸🇪SE | vmess | 3YED | 168",
                 "🇸🇪SE | vmess | 3YED | 172",
-                "🇸🇪SE | vmess | 3YED | 185",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇩🇪DE | vmess | 3YED | 19",
+                "🇩🇪DE | vmess | 3YED | 21",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇮🇷IR | vmess | 3YED | 38",
@@ -707,30 +705,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 185",
-            "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "2bd935ac-5eea-4f47-8243-98cf5104530e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mehrosaboran",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "Tgju.org",
@@ -755,7 +729,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | 3YED | 19",
+            "tag": "🇩🇪DE | vmess | 3YED | 21",
             "type": "vmess",
             "server": "49.13.238.156",
             "server_port": 18172,
