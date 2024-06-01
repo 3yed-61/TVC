@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 6",
-                "🇨🇦CA | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 12",
+                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 12",
+                "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -128,10 +128,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 3",
-                "🇨🇦CA | vless | 3YED | 6",
-                "🇨🇦CA | vless | 3YED | 10",
-                "🇩🇪DE | vless | 3YED | 12",
+                "🇨🇦CA | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 12",
+                "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -167,7 +167,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 3",
+            "tag": "🇨🇦CA | vless | 3YED | 5",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -198,7 +198,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 6",
+            "tag": "🇨🇦CA | vless | 3YED | 8",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -229,7 +229,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 10",
+            "tag": "🇨🇦CA | vless | 3YED | 12",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -260,7 +260,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 12",
+            "tag": "🇩🇪DE | vless | 3YED | 14",
             "type": "vless",
             "server": "136.243.33.215",
             "server_port": 443,
