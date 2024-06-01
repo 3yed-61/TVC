@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 9",
-                "🇩🇪DE | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -204,7 +204,6 @@
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇩🇪DE | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
-                "🇨🇳CN | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -232,10 +231,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 2",
-                "🇨🇦CA | vless | 3YED | 5",
-                "🇨🇦CA | vless | 3YED | 9",
-                "🇩🇪DE | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 3",
+                "🇨🇦CA | vless | 3YED | 6",
+                "🇨🇦CA | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -331,7 +330,6 @@
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇩🇪DE | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
-                "🇨🇳CN | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -375,7 +373,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "tag": "🇨🇦CA | vless | 3YED | 3",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -406,7 +404,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 5",
+            "tag": "🇨🇦CA | vless | 3YED | 6",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -437,7 +435,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 9",
+            "tag": "🇨🇦CA | vless | 3YED | 10",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -468,7 +466,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 11",
+            "tag": "🇩🇪DE | vless | 3YED | 12",
             "type": "vless",
             "server": "136.243.33.215",
             "server_port": 443,
@@ -2513,23 +2511,6 @@
                 "headers": {
                     "Host": "vip3.niuniupremium.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇳CN | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "183.232.170.47",
-            "server_port": 15606,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
