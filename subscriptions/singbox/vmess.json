@@ -125,10 +125,9 @@
                 "🇸🇪SE | vmess | 3YED | 172",
                 "🇺🇸US | vmess | 3YED | 176",
                 "🇸🇪SE | vmess | 3YED | 177",
-                "🇸🇪SE | vmess | 3YED | 181",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇮🇷IR | vmess | 3YED | 38",
+                "🇮🇷IR | vmess | 3YED | 43",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -179,10 +178,9 @@
                 "🇸🇪SE | vmess | 3YED | 172",
                 "🇺🇸US | vmess | 3YED | 176",
                 "🇸🇪SE | vmess | 3YED | 177",
-                "🇸🇪SE | vmess | 3YED | 181",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇮🇷IR | vmess | 3YED | 38",
+                "🇮🇷IR | vmess | 3YED | 43",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -710,30 +708,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 181",
-            "type": "vmess",
-            "server": "185.146.173.94",
-            "server_port": 80,
-            "uuid": "229f2722-6aec-4a12-a979-be4b6ec733b3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@mehrosaboran",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "Tgju.org",
@@ -792,7 +766,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 38",
+            "tag": "🇮🇷IR | vmess | 3YED | 43",
             "type": "vmess",
             "server": "188.75.92.107",
             "server_port": 12077,
