@@ -106,9 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @ARv2ray | 18",
-                "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇺🇸US | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @PrivateVPNs | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
@@ -119,7 +118,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇦🇪AE | ss | @proxy_mtm | 0",
+                "🇦🇪AE | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -127,9 +126,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @ARv2ray | 18",
-                "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇺🇸US | trojan | @DirectVPN | 16",
+                "🇸🇪SE | trojan | @PrivateVPNs | 16",
+                "🇸🇪SE | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 10",
@@ -140,7 +138,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
-                "🇦🇪AE | ss | @proxy_mtm | 0",
+                "🇦🇪AE | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -164,45 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @ARv2ray | 18",
-            "type": "vless",
-            "server": "136.243.33.215",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "2v5IhvNxU9WbnVxZEEzXWzwgNMA5ebX0NLmMWL8XBhk",
-                    "short_id": "f0ed07d0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 16",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "63.35.99.167",
+            "server": "13.48.184.230",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -222,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 16",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "35.164.121.75",
+            "server": "13.49.182.40",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -492,7 +454,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @proxy_mtm | 0",
+            "tag": "🇦🇪AE | ss | @proxy_mtm | 1",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
