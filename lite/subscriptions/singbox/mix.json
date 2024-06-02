@@ -106,15 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 9",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -125,15 +125,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
-                "🇩🇪DE | trojan | @DirectVPN | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
                 "🇺🇸US | vmess | @ShadowProxy66 | 29",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇸🇬SG | vmess | @Hope_Net | 9",
+                "🇸🇬SG | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -160,9 +160,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 17",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "3.74.23.217",
+            "server": "15.237.22.137",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -182,9 +182,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.64.112.107",
+            "server": "16.171.245.103",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -238,11 +238,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 7",
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "31.47.51.229",
-            "server_port": 11002,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
+            "server": "91.107.130.229",
+            "server_port": 35262,
+            "uuid": "2d5e5a73-8fa1-4c43-b67f-c0211ba34a03",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -252,13 +252,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
@@ -323,7 +316,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇬SG | vmess | @Hope_Net | 9",
+            "tag": "🇸🇬SG | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "129.226.216.124",
             "server_port": 14728,
