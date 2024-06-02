@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | vless | 3YED | 5","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"02a99135-d557-4c65-b63b-4d8cf0d84e1a","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
+  - {"name":"🇨🇦CA | vless | 3YED | 5","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"02a99135-d557-4c65-b63b-4d8cf0d84e1a","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
   - {"name":"🇨🇦CA | vless | 3YED | 8","type":"vless","server":"m.mashti.link.","port":443,"udp":false,"uuid":"4916b9da-1622-45a0-95dd-d1e91d8fe630","tls":true,"network":"grpc","client-fingerprint":"chrome","grpc-opts":{"grpc-service-name":"@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray"}}
   - {"name":"🇩🇪DE | vless | 3YED | 9","type":"vless","server":"49.13.113.114","port":8443,"udp":true,"uuid":"8c8bb03a-0476-4f47-94c9-5f25f97f22ba","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"amazoon.namavaa.online","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇩🇪DE | vless | 3YED | 12","type":"vless","server":"94.130.183.41","port":1503,"udp":true,"uuid":"482931a4-fa81-4d82-a6fd-f5efa846b586","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"0first.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"21-4cyes9zNNaaOPl-xOlkESjzaRaCUnEXyYZE8rmW0"}}
@@ -141,7 +141,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | vless | 3YED | 5'
+      - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
@@ -162,7 +162,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | vless | 3YED | 5'
+      - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
@@ -182,7 +182,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | vless | 3YED | 5'
+      - '🇨🇦CA | vless | 3YED | 5'
       - '🇨🇦CA | vless | 3YED | 8'
       - '🇩🇪DE | vless | 3YED | 9'
       - '🇩🇪DE | vless | 3YED | 12'
