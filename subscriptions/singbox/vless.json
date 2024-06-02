@@ -118,9 +118,10 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 2"
             ]
         },
@@ -141,9 +142,10 @@
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 3",
                 "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -516,6 +518,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "172.67.128.158",
+            "server_port": 443,
+            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "who-cares.BacheBiaPain.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "who-cares.BacheBiaPain.IR"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "b2n.ir",
             "server_port": 443,
             "uuid": "1235b6fb-7f15-4361-8da3-d1a079bdf484",
@@ -545,7 +578,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "104.21.2.27",
             "server_port": 443,
@@ -576,7 +609,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 6",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
             "server": "172.67.204.39",
             "server_port": 443,
@@ -607,7 +640,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "151.101.2.133",
             "server_port": 443,
