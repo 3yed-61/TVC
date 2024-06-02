@@ -105,10 +105,10 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | 3YED | 7",
-                "🇨🇦CA | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 14",
-                "🇩🇪DE | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 15",
+                "🇩🇪DE | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -119,9 +119,10 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 2"
             ]
         },
@@ -129,10 +130,10 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | 3YED | 7",
-                "🇨🇦CA | vless | 3YED | 10",
-                "🇨🇦CA | vless | 3YED | 14",
-                "🇩🇪DE | vless | 3YED | 16",
+                "🇨🇦CA | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 11",
+                "🇨🇦CA | vless | 3YED | 15",
+                "🇩🇪DE | vless | 3YED | 17",
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
@@ -143,9 +144,10 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -169,7 +171,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 7",
+            "tag": "🇨🇦CA | vless | 3YED | 8",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -200,7 +202,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 10",
+            "tag": "🇨🇦CA | vless | 3YED | 11",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -231,7 +233,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vless | 3YED | 14",
+            "tag": "🇨🇦CA | vless | 3YED | 15",
             "type": "vless",
             "server": "m.mashti.link.",
             "server_port": 443,
@@ -262,7 +264,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 16",
+            "tag": "🇩🇪DE | vless | 3YED | 17",
             "type": "vless",
             "server": "136.243.33.215",
             "server_port": 443,
@@ -583,7 +585,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "b2n.ir",
+            "server_port": 443,
+            "uuid": "1235b6fb-7f15-4361-8da3-d1a079bdf484",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "who-doesnt-care.BacheBiaPain.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "who-doesnt-care.BacheBiaPain.IR"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "104.21.2.27",
             "server_port": 443,
@@ -614,7 +647,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "172.67.204.39",
             "server_port": 443,
@@ -645,7 +678,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 6",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
             "server": "151.101.2.133",
             "server_port": 443,
