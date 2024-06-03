@@ -113,6 +113,10 @@
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 12",
+                "🇸🇪SE | vless | 3YED | 3",
+                "🇸🇪SE | vless | 3YED | 5",
+                "🇸🇪SE | vless | 3YED | 7",
+                "🇸🇪SE | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -137,6 +141,10 @@
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 12",
+                "🇸🇪SE | vless | 3YED | 3",
+                "🇸🇪SE | vless | 3YED | 5",
+                "🇸🇪SE | vless | 3YED | 7",
+                "🇸🇪SE | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -396,6 +404,130 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 3",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "le1.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "le1.nicolkidman.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 5",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lb1.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lb1.nicolkidman.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 7",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lf1.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lf1.nicolkidman.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 9",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lb3.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lb3.nicolkidman.com"
                 }
             }
         },
