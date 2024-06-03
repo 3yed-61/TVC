@@ -108,10 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 8",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -124,10 +124,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @oneclickvpnkeys | 8",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
+                "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇺🇸US | vmess | @ShadowProxy66 | 31",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 12",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -195,11 +195,28 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @oneclickvpnkeys | 8",
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
             "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
+            "server": "213.142.149.116",
+            "server_port": 41858,
+            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @customv2ray | 13",
+            "type": "vmess",
+            "server": "Tgju.org",
+            "server_port": 2052,
+            "uuid": "5f12b2e0-11b0-4b1e-863c-164e4606028c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -212,7 +229,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
+                "path": "\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za\/@HosseinStore_Za",
                 "headers": {
                     "Host": ""
                 }
@@ -266,40 +283,6 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 12",
-            "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
