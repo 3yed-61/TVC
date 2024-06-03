@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇨🇦CA | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
@@ -115,9 +115,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 63",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | trojan | @proxystore11 | 2",
+                "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -128,8 +128,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇨🇦CA | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 8",
@@ -137,9 +137,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇸🇪SE | vless | @DailyV2RY | 63",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | trojan | @proxystore11 | 2",
+                "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "35.181.233.219",
+            "server": "18.170.255.25",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 17",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "35.182.149.143",
+            "server": "3.16.210.66",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -362,7 +362,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | trojan | @proxystore11 | 2",
+            "tag": "🇩🇪DE | trojan | @proxystore11 | 3",
             "type": "trojan",
             "server": "3.70.146.72",
             "server_port": 22222,
@@ -418,11 +418,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "104.26.6.65",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "31488365-7b6a-434a-8b7b-8f35012c6a22",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -433,21 +433,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
