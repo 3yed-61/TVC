@@ -109,6 +109,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 18",
+                "🇮🇷IR | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇸🇪SE | vless | 3YED | 58",
@@ -144,6 +145,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 18",
+                "🇮🇷IR | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇸🇪SE | vless | 3YED | 58",
@@ -304,6 +306,37 @@
                     "public_key": "pn6ftnZq6diZMdi3m1pfrbn9onjRQUicQa3sugHellQ",
                     "short_id": "934e52ce"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | vless | 3YED | 0",
+            "type": "vless",
+            "server": "bia-to2.unlimiteddev.site",
+            "server_port": 443,
+            "uuid": "ec5ad73f-0d3c-4e33-8057-608f60c3fd29",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Channel:@UnlimitedDev",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
