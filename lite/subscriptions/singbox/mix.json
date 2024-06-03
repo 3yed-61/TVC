@@ -114,7 +114,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @ShadowProxy66 | 31",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -133,7 +133,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @ShadowProxy66 | 31",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇩🇪DE | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vmess | @nofiltering2 | 1",
@@ -333,11 +333,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "91.107.130.229",
-            "server_port": 35262,
-            "uuid": "2d5e5a73-8fa1-4c43-b67f-c0211ba34a03",
+            "server": "172.67.164.164",
+            "server_port": 443,
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -347,6 +347,23 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms07.xfixedfloat.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms07.xfixedfloat.cfd"
+                }
             }
         },
         {
