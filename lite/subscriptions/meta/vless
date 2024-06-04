@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇸🇪SE | vless | @DailyV2RY | 169","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"lb3.nicolkidman.com","ws-opts":{"path":"/","headers":{"host":"lb3.nicolkidman.com"}}}
+  - {"name":"🇸🇪SE | vless | @DailyV2RY | 180","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"lb3.nicolkidman.com","ws-opts":{"path":"/","headers":{"host":"lb3.nicolkidman.com"}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 14","type":"vless","server":"172.67.204.39","port":443,"udp":false,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"turkmenistan.armanibash.Shop.","ws-opts":{"path":"/","headers":{"host":"turkmenistan.armanibash.Shop."}}}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +128,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇸🇪SE | vless | @DailyV2RY | 169'
+      - '🇸🇪SE | vless | @DailyV2RY | 180'
       - '🇨🇦CA | vless | @FreakConfig | 14'
   - name: URL-TEST
     type: url-test
@@ -136,14 +136,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇸🇪SE | vless | @DailyV2RY | 169'
+      - '🇸🇪SE | vless | @DailyV2RY | 180'
       - '🇨🇦CA | vless | @FreakConfig | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇸🇪SE | vless | @DailyV2RY | 169'
+      - '🇸🇪SE | vless | @DailyV2RY | 180'
       - '🇨🇦CA | vless | @FreakConfig | 14'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
