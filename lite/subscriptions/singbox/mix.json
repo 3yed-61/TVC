@@ -106,11 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 40",
@@ -118,9 +118,10 @@ https://github.com/3yed-61
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇺🇸US | vless | @FreakConfig | 12",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 6"
             ]
         },
@@ -128,11 +129,11 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 16",
-                "🇬🇧GB | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 18",
+                "🇫🇷FR | trojan | @DirectVPN | 18",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇦CA | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇩🇪DE | vless | @Outline_Vpn | 19",
                 "🇨🇦CA | vmess | @customv2ray | 13",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 40",
@@ -140,9 +141,10 @@ https://github.com/3yed-61
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 3",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇺🇸US | vless | @FreakConfig | 12",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -166,9 +168,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 16",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 18",
             "type": "trojan",
-            "server": "18.169.86.35",
+            "server": "35.181.183.87",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +190,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 16",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 18",
             "type": "trojan",
-            "server": "3.10.155.95",
+            "server": "13.39.208.75",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -227,11 +229,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @mftizi | 19",
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "hk.wish.ml",
-            "server_port": 2052,
-            "uuid": "4168440c-41a1-4671-a5b2-8abfe318e1bb",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -251,11 +253,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
             "type": "vmess",
-            "server": "188.114.97.79",
+            "server": "obdii.cfd",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -268,7 +270,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -280,7 +282,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -445,7 +447,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
             "server": "Tgju.org",
             "server_port": 2095,
@@ -533,6 +535,37 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | @FreakConfig | 12",
+            "type": "vless",
+            "server": "151.101.2.133",
+            "server_port": 443,
+            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.arizona.edu",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "www.arizona.edu"
                 }
             }
         },
