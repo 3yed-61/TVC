@@ -113,6 +113,7 @@
                 "🇨🇳CN | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -120,7 +121,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇸🇪SE | vmess | 3YED | 147",
+                "🇸🇪SE | vmess | 3YED | 156",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -168,6 +169,7 @@
                 "🇨🇳CN | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -175,7 +177,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇸🇪SE | vmess | 3YED | 147",
+                "🇸🇪SE | vmess | 3YED | 156",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇮🇷IR | vmess | 3YED | 9",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -368,6 +370,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.67.172.234",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.172.234"
+                }
             }
         },
         {
@@ -643,7 +669,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | 3YED | 147",
+            "tag": "🇸🇪SE | vmess | 3YED | 156",
             "type": "vmess",
             "server": "185.146.173.94",
             "server_port": 2082,
