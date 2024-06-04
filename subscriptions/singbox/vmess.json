@@ -135,6 +135,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -187,6 +188,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -953,6 +955,40 @@
         {
             "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "104.26.0.95",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
             "server": "Tgju.org",
             "server_port": 2095,
             "uuid": "c8c1e652-fe34-4e04-879f-fea8940d7980",
@@ -975,7 +1011,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "108.181.23.161",
             "server_port": 8080,
@@ -999,7 +1035,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
