@@ -106,16 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @DailyV2RY | 158",
-                "🇺🇸US | vless | @FreakConfig | 12"
+                "🇸🇪SE | vless | @DailyV2RY | 158"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @DailyV2RY | 158",
-                "🇺🇸US | vless | @FreakConfig | 12"
+                "🇸🇪SE | vless | @DailyV2RY | 158"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -165,37 +163,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "lb3.nicolkidman.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @FreakConfig | 12",
-            "type": "vless",
-            "server": "151.101.2.133",
-            "server_port": 443,
-            "uuid": "cefffd1d-cc58-4560-b4d1-44f1af528f30",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.arizona.edu",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "www.arizona.edu"
                 }
             }
         }

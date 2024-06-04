@@ -121,7 +121,6 @@ dns:
 
 proxies:
   - {"name":"🇸🇪SE | vless | @DailyV2RY | 158","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"lb3.nicolkidman.com","ws-opts":{"path":"/","headers":{"host":"lb3.nicolkidman.com"}}}
-  - {"name":"🇺🇸US | vless | @FreakConfig | 12","type":"vless","server":"151.101.2.133","port":443,"udp":false,"uuid":"cefffd1d-cc58-4560-b4d1-44f1af528f30","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"www.arizona.edu","ws-opts":{"path":"/","headers":{"host":"ton.apple"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +128,6 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇸🇪SE | vless | @DailyV2RY | 158'
-      - '🇺🇸US | vless | @FreakConfig | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +135,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇸🇪SE | vless | @DailyV2RY | 158'
-      - '🇺🇸US | vless | @FreakConfig | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇸🇪SE | vless | @DailyV2RY | 158'
-      - '🇺🇸US | vless | @FreakConfig | 12'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
