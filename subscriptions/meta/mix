@@ -162,7 +162,7 @@ proxies:
   - {"name":"🇺🇸US | trojan | 3YED | 17","type":"trojan","server":"3.135.148.239","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | trojan | 3YED | 18","type":"trojan","server":"18.217.92.27","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | 3YED | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | 3YED | 1","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"bb1af7d3-9526-44f1-9155-788773cc629e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 1","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"bb1af7d3-9526-44f1-9155-788773cc629e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 8","type":"vmess","server":"hk.wish.ml","port":"2052","cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk2.wish.ml"}}}
   - {"name":"🇨🇳CN | vmess | 3YED | 9","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"104.21.55.234","port":"443","cipher":"auto","uuid":"bc864078-dcf3-4bf4-8dbf-ca9f200b56be","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"gwdef.sbs"}}}
@@ -177,6 +177,8 @@ proxies:
   - {"name":"🇺🇸US | vmess | 3YED | 2","type":"vmess","server":"172.67.164.164","port":"443","cipher":"auto","uuid":"a1655f51-1e20-4a92-8a11-b7ca30a7a353","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms07.xfixedfloat.cfd"}}}
   - {"name":"🇮🇷IR | vmess | 3YED | 9","type":"vmess","server":"178.239.150.171","port":"80","cipher":"auto","uuid":"2b7ce1d2-0372-4104-aa06-f7d999f26e1d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | vless | 3YED | 2","type":"vless","server":"bia-to2.unlimiteddev.site","port":443,"udp":false,"uuid":"ec5ad73f-0d3c-4e33-8057-608f60c3fd29","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"mci.unlimiteddev-vpn.Com.","grpc-opts":{"grpc-service-name":"Channel:@UnlimitedDev"}}
+  - {"name":"🇩🇪DE | vless | 3YED | 0","type":"vless","server":"5.42.107.217","port":443,"udp":true,"uuid":"75123565-5f6b-429e-a4ee-9b58cc70b39a","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"discord.com","reality-opts":{"public-key":"hqlaFTOjUTY5PbGUmrYLFE9wZIfQNBodzLQWYnEh120","short-id":"dd0e228f"}}
+  - {"name":"🇩🇪DE | vless | 3YED | 1","type":"vless","server":"49.13.132.109","port":443,"udp":true,"uuid":"31ff1f36-5a9a-4d22-bb8c-62941e50db10","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"androidcentral.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"rXW0N--Snt1UiVM6nZLVJVJLVWXhLo7rM4Xpj18jbEo","short-id":"a0c384bbcd1fa2ad"}}
   - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"172.233.164.32","port":"39841","cipher":"auto","uuid":"4242d74d-b748-4e74-a7c2-2bfb9d6ed121","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇩🇪DE | vless | 3YED | 2","type":"vless","server":"overcommitment.footballlovernews.com","port":443,"udp":false,"uuid":"e6e9d520-18ec-46c3-8141-a92ed6a90806","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | vmess | 3YED | 1","type":"vmess","server":"172.67.175.56","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
@@ -300,7 +302,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 17'
       - '🇺🇸US | trojan | 3YED | 18'
       - '🇫🇷FR | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 8'
       - '🇨🇳CN | vmess | 3YED | 9'
       - '🇺🇸US | vmess | 3YED | 0'
@@ -315,6 +317,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇮🇷IR | vmess | 3YED | 9'
       - '🇮🇷IR | vless | 3YED | 2'
+      - '🇩🇪DE | vless | 3YED | 0'
+      - '🇩🇪DE | vless | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 1'
@@ -438,7 +442,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 17'
       - '🇺🇸US | trojan | 3YED | 18'
       - '🇫🇷FR | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 8'
       - '🇨🇳CN | vmess | 3YED | 9'
       - '🇺🇸US | vmess | 3YED | 0'
@@ -453,6 +457,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇮🇷IR | vmess | 3YED | 9'
       - '🇮🇷IR | vless | 3YED | 2'
+      - '🇩🇪DE | vless | 3YED | 0'
+      - '🇩🇪DE | vless | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 1'
@@ -575,7 +581,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 17'
       - '🇺🇸US | trojan | 3YED | 18'
       - '🇫🇷FR | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 1'
+      - '🇺🇸US | vmess | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 8'
       - '🇨🇳CN | vmess | 3YED | 9'
       - '🇺🇸US | vmess | 3YED | 0'
@@ -590,6 +596,8 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇮🇷IR | vmess | 3YED | 9'
       - '🇮🇷IR | vless | 3YED | 2'
+      - '🇩🇪DE | vless | 3YED | 0'
+      - '🇩🇪DE | vless | 3YED | 1'
       - '🇺🇸US | vmess | 3YED | 0'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 1'
