@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @DailyV2RY | 94"
+                "🇸🇪SE | vless | @DailyV2RY | 105"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @DailyV2RY | 94"
+                "🇸🇪SE | vless | @DailyV2RY | 105"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,7 +136,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 94",
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 105",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
