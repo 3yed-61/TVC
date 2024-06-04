@@ -162,6 +162,7 @@
                 "🇮🇷IR | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇷CR | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 15",
@@ -294,6 +295,7 @@
                 "🇮🇷IR | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇷CR | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 15",
@@ -1740,6 +1742,23 @@
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.233.164.32",
+            "server_port": 39841,
+            "uuid": "4242d74d-b748-4e74-a7c2-2bfb9d6ed121",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
