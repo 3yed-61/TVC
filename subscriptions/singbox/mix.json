@@ -165,22 +165,23 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇷CR | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 15",
                 "🇦🇪AE | ss | 3YED | 40",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇬🇧GB | ss | 3YED | 14",
-                "🇸🇪SE | vless | 3YED | 58",
-                "🇸🇪SE | vless | 3YED | 60",
-                "🇸🇪SE | vless | 3YED | 62",
-                "🇸🇪SE | vless | 3YED | 66",
-                "🇸🇪SE | vless | 3YED | 67",
-                "🇸🇪SE | vless | 3YED | 68",
                 "🇸🇪SE | vless | 3YED | 69",
-                "🇸🇪SE | vless | 3YED | 74",
-                "🇸🇪SE | vless | 3YED | 75",
-                "🇸🇪SE | vless | 3YED | 83",
+                "🇸🇪SE | vless | 3YED | 71",
+                "🇸🇪SE | vless | 3YED | 73",
+                "🇸🇪SE | vless | 3YED | 77",
+                "🇸🇪SE | vless | 3YED | 78",
+                "🇸🇪SE | vless | 3YED | 79",
+                "🇸🇪SE | vless | 3YED | 80",
                 "🇸🇪SE | vless | 3YED | 85",
-                "🇸🇪SE | vless | 3YED | 88",
+                "🇸🇪SE | vless | 3YED | 86",
+                "🇸🇪SE | vless | 3YED | 94",
+                "🇸🇪SE | vless | 3YED | 96",
+                "🇸🇪SE | vless | 3YED | 99",
                 "🇬🇧GB | ss | 3YED | 1",
                 "🏳️XX | ss | 3YED | 2",
                 "🇫🇮FI | ss | 3YED | 3",
@@ -300,22 +301,23 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇨🇷CR | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 15",
                 "🇦🇪AE | ss | 3YED | 40",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇬🇧GB | ss | 3YED | 14",
-                "🇸🇪SE | vless | 3YED | 58",
-                "🇸🇪SE | vless | 3YED | 60",
-                "🇸🇪SE | vless | 3YED | 62",
-                "🇸🇪SE | vless | 3YED | 66",
-                "🇸🇪SE | vless | 3YED | 67",
-                "🇸🇪SE | vless | 3YED | 68",
                 "🇸🇪SE | vless | 3YED | 69",
-                "🇸🇪SE | vless | 3YED | 74",
-                "🇸🇪SE | vless | 3YED | 75",
-                "🇸🇪SE | vless | 3YED | 83",
+                "🇸🇪SE | vless | 3YED | 71",
+                "🇸🇪SE | vless | 3YED | 73",
+                "🇸🇪SE | vless | 3YED | 77",
+                "🇸🇪SE | vless | 3YED | 78",
+                "🇸🇪SE | vless | 3YED | 79",
+                "🇸🇪SE | vless | 3YED | 80",
                 "🇸🇪SE | vless | 3YED | 85",
-                "🇸🇪SE | vless | 3YED | 88",
+                "🇸🇪SE | vless | 3YED | 86",
+                "🇸🇪SE | vless | 3YED | 94",
+                "🇸🇪SE | vless | 3YED | 96",
+                "🇸🇪SE | vless | 3YED | 99",
                 "🇬🇧GB | ss | 3YED | 1",
                 "🏳️XX | ss | 3YED | 2",
                 "🇫🇮FI | ss | 3YED | 3",
@@ -1814,6 +1816,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vmess | 3YED | 15",
             "type": "vmess",
             "server": "188.114.97.3",
@@ -1887,7 +1923,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 58",
+            "tag": "🇸🇪SE | vless | 3YED | 69",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -1918,7 +1954,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 60",
+            "tag": "🇸🇪SE | vless | 3YED | 71",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -1949,7 +1985,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 62",
+            "tag": "🇸🇪SE | vless | 3YED | 73",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -1980,7 +2016,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 66",
+            "tag": "🇸🇪SE | vless | 3YED | 77",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2011,7 +2047,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 67",
+            "tag": "🇸🇪SE | vless | 3YED | 78",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2042,7 +2078,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 68",
+            "tag": "🇸🇪SE | vless | 3YED | 79",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2073,7 +2109,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 69",
+            "tag": "🇸🇪SE | vless | 3YED | 80",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2104,7 +2140,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 74",
+            "tag": "🇸🇪SE | vless | 3YED | 85",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2135,7 +2171,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 75",
+            "tag": "🇸🇪SE | vless | 3YED | 86",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2166,7 +2202,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 83",
+            "tag": "🇸🇪SE | vless | 3YED | 94",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2197,7 +2233,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 85",
+            "tag": "🇸🇪SE | vless | 3YED | 96",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -2228,7 +2264,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 88",
+            "tag": "🇸🇪SE | vless | 3YED | 99",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
