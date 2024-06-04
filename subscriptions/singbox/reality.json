@@ -108,8 +108,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 1",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -125,8 +123,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 1",
                 "🇳🇴NO | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -238,64 +234,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 0",
-            "type": "vless",
-            "server": "5.42.107.217",
-            "server_port": 443,
-            "uuid": "75123565-5f6b-429e-a4ee-9b58cc70b39a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hqlaFTOjUTY5PbGUmrYLFE9wZIfQNBodzLQWYnEh120",
-                    "short_id": "dd0e228f"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 1",
-            "type": "vless",
-            "server": "49.13.132.109",
-            "server_port": 443,
-            "uuid": "31ff1f36-5a9a-4d22-bb8c-62941e50db10",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "androidcentral.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "rXW0N--Snt1UiVM6nZLVJVJLVWXhLo7rM4Xpj18jbEo",
-                    "short_id": "a0c384bbcd1fa2ad"
                 }
             }
         },
