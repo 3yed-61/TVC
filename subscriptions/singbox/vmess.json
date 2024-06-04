@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
@@ -115,7 +115,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
@@ -135,8 +135,9 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -161,7 +162,7 @@
             "outbounds": [
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
@@ -169,7 +170,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
@@ -189,8 +190,9 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -263,7 +265,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -471,7 +473,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -1001,6 +1003,23 @@
         {
             "tag": "🇺🇸US | vmess | 3YED | 0",
             "type": "vmess",
+            "server": "107.148.192.148",
+            "server_port": 41911,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
             "server": "104.26.0.95",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
@@ -1033,7 +1052,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1067,7 +1086,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "Tgju.org",
             "server_port": 2095,
@@ -1091,7 +1110,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "108.181.23.161",
             "server_port": 8080,
