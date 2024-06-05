@@ -127,6 +127,7 @@
                 "🇫🇷FR | trojan | 3YED | 15",
                 "🇩🇪DE | trojan | 3YED | 16",
                 "🇩🇪DE | trojan | 3YED | 17",
+                "🇸🇪SE | trojan | 3YED | 18",
                 "🇩🇪DE | trojan | 3YED | 0",
                 "🇩🇪DE | trojan | 3YED | 1",
                 "🇸🇪SE | trojan | 3YED | 2",
@@ -145,9 +146,10 @@
                 "🇸🇪SE | trojan | 3YED | 15",
                 "🇸🇪SE | trojan | 3YED | 16",
                 "🇩🇪DE | trojan | 3YED | 17",
+                "🇩🇪DE | trojan | 3YED | 18",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇨🇦CA | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
@@ -211,9 +213,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -268,6 +270,7 @@
                 "🇫🇷FR | trojan | 3YED | 15",
                 "🇩🇪DE | trojan | 3YED | 16",
                 "🇩🇪DE | trojan | 3YED | 17",
+                "🇸🇪SE | trojan | 3YED | 18",
                 "🇩🇪DE | trojan | 3YED | 0",
                 "🇩🇪DE | trojan | 3YED | 1",
                 "🇸🇪SE | trojan | 3YED | 2",
@@ -286,9 +289,10 @@
                 "🇸🇪SE | trojan | 3YED | 15",
                 "🇸🇪SE | trojan | 3YED | 16",
                 "🇩🇪DE | trojan | 3YED | 17",
+                "🇩🇪DE | trojan | 3YED | 18",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇨🇦CA | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
@@ -352,9 +356,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -909,6 +913,28 @@
             }
         },
         {
+            "tag": "🇸🇪SE | trojan | 3YED | 18",
+            "type": "trojan",
+            "server": "13.49.188.46",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | trojan | 3YED | 0",
             "type": "trojan",
             "server": "52.28.68.110",
@@ -1305,6 +1331,28 @@
             }
         },
         {
+            "tag": "🇩🇪DE | trojan | 3YED | 18",
+            "type": "trojan",
+            "server": "3.124.238.139",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇫🇷FR | vmess | 3YED | 0",
             "type": "vmess",
             "server": "146.59.147.250",
@@ -1339,7 +1387,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -2723,7 +2771,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "104.16.61.8",
             "server_port": 2082,
@@ -2747,7 +2795,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -2781,7 +2829,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "npmjs.com",
             "server_port": 443,
