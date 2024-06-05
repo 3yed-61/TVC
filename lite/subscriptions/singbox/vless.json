@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @FreakConfig | 12"
+                "🇨🇦CA | vless | @FreakConfig | 9"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @FreakConfig | 12"
+                "🇨🇦CA | vless | @FreakConfig | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 12",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 9",
             "type": "vless",
-            "server": "104.21.2.27",
+            "server": "172.66.47.126",
             "server_port": 443,
-            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "who-cares.BacheBiaPain.IR",
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -162,7 +162,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "who-cares.BacheBiaPain.IR"
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
                 }
             }
         }
