@@ -109,10 +109,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇴NO | vless | 3YED | 12",
+                "🇳🇴NO | vless | 3YED | 0",
                 "🇸🇪SE | vless | 3YED | 130",
                 "🇸🇪SE | vless | 3YED | 132",
                 "🇸🇪SE | vless | 3YED | 135",
@@ -144,10 +145,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇴NO | vless | 3YED | 12",
+                "🇳🇴NO | vless | 3YED | 0",
                 "🇸🇪SE | vless | 3YED | 130",
                 "🇸🇪SE | vless | 3YED | 132",
                 "🇸🇪SE | vless | 3YED | 135",
@@ -309,7 +311,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "type": "vless",
+            "server": "91.107.176.13",
+            "server_port": 8080,
+            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
+                    "short_id": "18cada"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 6",
             "type": "vless",
             "server": "5.42.107.217",
             "server_port": 443,
@@ -338,7 +369,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 1",
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "49.13.132.109",
             "server_port": 443,
@@ -391,7 +422,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | 3YED | 12",
+            "tag": "🇳🇴NO | vless | 3YED | 0",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
