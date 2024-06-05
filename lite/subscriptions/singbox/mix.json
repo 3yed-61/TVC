@@ -106,18 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
-                "🇨🇷CR | vmess | @vless_vmess | 4",
+                "🇨🇷CR | vmess | @vless_vmess | 5",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 14",
@@ -128,18 +128,18 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
-                "🇨🇷CR | vmess | @vless_vmess | 4",
+                "🇨🇷CR | vmess | @vless_vmess | 5",
                 "🇦🇪AE | ss | @vmess_vless_v2rayng | 48",
                 "🇸🇪SE | vless | @DailyV2RY | 157",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
                 "🇨🇦CA | vless | @FreakConfig | 14",
@@ -166,9 +166,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.134.106.35",
+            "server": "13.36.122.147",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -188,9 +188,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "35.176.16.25",
+            "server": "13.38.226.232",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -285,7 +285,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇷CR | vmess | @vless_vmess | 4",
+            "tag": "🇨🇷CR | vmess | @vless_vmess | 5",
             "type": "vmess",
             "server": "190.93.247.155",
             "server_port": 80,
@@ -416,11 +416,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "1886c4a7-c395-4aee-a1a2-a816722f5d29",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -431,21 +431,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "zula.ir"
                 }
             }
         },
