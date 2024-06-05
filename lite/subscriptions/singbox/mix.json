@@ -112,13 +112,14 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇷CR | vmess | @vless_vmess | 7",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 51",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 53",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 7"
             ]
         },
@@ -132,13 +133,14 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇨🇷CR | vmess | @vless_vmess | 7",
-                "🇦🇪AE | ss | @vmess_vless_v2rayng | 51",
+                "🇦🇪AE | ss | @vmess_vless_v2rayng | 53",
                 "🇷🇺RU | ss | @OutlineVpnOfficial | 18",
                 "🇩🇪DE | trojan | @proxystore11 | 4",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 2",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 10",
+                "🇨🇦CA | vless | @FreakConfig | 12",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -164,7 +166,7 @@ https://github.com/3yed-61
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.135.137.104",
+            "server": "18.175.36.39",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "18.220.91.48",
+            "server": "13.59.207.172",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -305,7 +307,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 51",
+            "tag": "🇦🇪AE | ss | @vmess_vless_v2rayng | 53",
             "type": "shadowsocks",
             "server": "51.112.118.115",
             "server_port": 443,
@@ -381,11 +383,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 2",
             "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2083,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "npmjs.com",
+            "server_port": 443,
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -398,7 +400,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "worker-lingering-fog-c021.gesofog870.workers.dev",
+                "server_name": "hdfy1c2.freeairlaines.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -408,9 +410,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linde06.indiavideo.sbs\/linkws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
                 "headers": {
-                    "Host": "worker-lingering-fog-c021.gesofog870.workers.dev"
+                    "Host": "hdfy1c2.freeairlaines.com"
                 }
             }
         },
@@ -479,6 +481,37 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "glweidf.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 12",
+            "type": "vless",
+            "server": "104.21.2.27",
+            "server_port": 443,
+            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "who-cares.BacheBiaPain.IR",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "who-cares.BacheBiaPain.IR"
                 }
             }
         },

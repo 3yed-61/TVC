@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | vless | @DailyV2RY | 168"
+                "🇨🇦CA | vless | @FreakConfig | 12"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | vless | @DailyV2RY | 168"
+                "🇨🇦CA | vless | @FreakConfig | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 168",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 12",
             "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "server": "104.21.2.27",
+            "server_port": 443,
+            "uuid": "0905460d-6edc-4a82-8ec8-6b76090b41c8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lg1.nicolkidman.com",
+                "server_name": "who-cares.BacheBiaPain.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -162,7 +162,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "lg1.nicolkidman.com"
+                    "Host": "who-cares.BacheBiaPain.IR"
                 }
             }
         }
