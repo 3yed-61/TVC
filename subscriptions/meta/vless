@@ -150,6 +150,8 @@ proxies:
   - {"name":"🇲🇾MY | vless | 3YED | 1","type":"vless","server":"172.66.47.2","port":443,"udp":false,"uuid":"bcf50589-9654-4331-93a6-da896914ec47","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"de4ecf6b.isvphp-4g8.pages.dev","ws-opts":{"path":"/","headers":{"host":"de4ecf6b.isvphp-4g8.pages.dev"}}}
   - {"name":"🇺🇸US | vless | 3YED | 4","type":"vless","server":"188.114.96.3","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"MaNsor427-pANeL2.PAGeS.dEV","ws-opts":{"path":"/","headers":{"host":"maNSor427-pANel2.PAgES.DeV"}}}
   - {"name":"🇺🇸US | vless | 3YED | 8","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
+  - {"name":"🇺🇸US | vless | 3YED | 11","type":"vless","server":"172.67.204.39","port":443,"udp":false,"uuid":"7f3b2f37-819e-49ee-9f5c-215467bfde61","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"turkmenistan.armanibash.Shop.","ws-opts":{"path":"/","headers":{"host":"turkmenistan.armanibash.Shop."}}}
+  - {"name":"🇲🇾MY | vless | 3YED | 12","type":"vless","server":"172.66.47.126","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"00e463Dc.beSTVPn-4xi.PAgES.dEv","ws-opts":{"path":"/","headers":{"host":"00e463Dc.beSTVPn-4xi.PAgES.dEv"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -186,6 +188,8 @@ proxy-groups:
       - '🇲🇾MY | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇺🇸US | vless | 3YED | 8'
+      - '🇺🇸US | vless | 3YED | 11'
+      - '🇲🇾MY | vless | 3YED | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -222,6 +226,8 @@ proxy-groups:
       - '🇲🇾MY | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇺🇸US | vless | 3YED | 8'
+      - '🇺🇸US | vless | 3YED | 11'
+      - '🇲🇾MY | vless | 3YED | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -257,6 +263,8 @@ proxy-groups:
       - '🇲🇾MY | vless | 3YED | 1'
       - '🇺🇸US | vless | 3YED | 4'
       - '🇺🇸US | vless | 3YED | 8'
+      - '🇺🇸US | vless | 3YED | 11'
+      - '🇲🇾MY | vless | 3YED | 12'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
