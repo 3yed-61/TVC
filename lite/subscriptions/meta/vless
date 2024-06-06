@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇳🇴NO | vless | @VmessProtocol | 16","type":"vless","server":"185.125.171.13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"partner.g2.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
+  - {"name":"🇸🇪SE | vless | @DailyV2RY | 154","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"lg1.nicolkidman.com","ws-opts":{"path":"/","headers":{"host":"lg1.nicolkidman.com"}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 6","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
 proxy-groups:
   - name: MANUAL
@@ -129,6 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇳🇴NO | vless | @VmessProtocol | 16'
+      - '🇸🇪SE | vless | @DailyV2RY | 154'
       - '🇨🇦CA | vless | @FreakConfig | 6'
   - name: URL-TEST
     type: url-test
@@ -137,6 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇳🇴NO | vless | @VmessProtocol | 16'
+      - '🇸🇪SE | vless | @DailyV2RY | 154'
       - '🇨🇦CA | vless | @FreakConfig | 6'
   - name: FALLBACK
     type: fallback
@@ -144,6 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇳🇴NO | vless | @VmessProtocol | 16'
+      - '🇸🇪SE | vless | @DailyV2RY | 154'
       - '🇨🇦CA | vless | @FreakConfig | 6'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
