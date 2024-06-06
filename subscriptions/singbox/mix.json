@@ -149,9 +149,9 @@
                 "🇩🇪DE | trojan | 3YED | 18",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇬🇧GB | ss | 3YED | 2",
@@ -213,7 +213,6 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -292,9 +291,9 @@
                 "🇩🇪DE | trojan | 3YED | 18",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
-                "🇺🇸US | vmess | 3YED | 1",
+                "🇨🇦CA | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
-                "🇨🇦CA | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇬🇧GB | ss | 3YED | 2",
@@ -356,7 +355,6 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1387,7 +1385,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇨🇦CA | vmess | 3YED | 1",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -1428,7 +1426,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 8",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -2767,30 +2765,6 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2082,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "104.16.61.8"
                 }
             }
         },
