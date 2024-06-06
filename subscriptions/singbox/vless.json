@@ -118,15 +118,14 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 6",
                 "🇳🇴NO | vless | 3YED | 1",
+                "🇸🇪SE | vless | 3YED | 126",
                 "🇸🇪SE | vless | 3YED | 128",
-                "🇸🇪SE | vless | 3YED | 129",
-                "🇸🇪SE | vless | 3YED | 135",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 141",
-                "🇸🇪SE | vless | 3YED | 143",
-                "🇸🇪SE | vless | 3YED | 156",
-                "🇸🇪SE | vless | 3YED | 159",
-                "🇸🇪SE | vless | 3YED | 160",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 138",
+                "🇸🇪SE | vless | 3YED | 139",
+                "🇸🇪SE | vless | 3YED | 145",
+                "🇸🇪SE | vless | 3YED | 147",
+                "🇸🇪SE | vless | 3YED | 151",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -154,15 +153,14 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 6",
                 "🇳🇴NO | vless | 3YED | 1",
+                "🇸🇪SE | vless | 3YED | 126",
                 "🇸🇪SE | vless | 3YED | 128",
-                "🇸🇪SE | vless | 3YED | 129",
-                "🇸🇪SE | vless | 3YED | 135",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 141",
-                "🇸🇪SE | vless | 3YED | 143",
-                "🇸🇪SE | vless | 3YED | 156",
-                "🇸🇪SE | vless | 3YED | 159",
-                "🇸🇪SE | vless | 3YED | 160",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 138",
+                "🇸🇪SE | vless | 3YED | 139",
+                "🇸🇪SE | vless | 3YED | 145",
+                "🇸🇪SE | vless | 3YED | 147",
+                "🇸🇪SE | vless | 3YED | 151",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -574,6 +572,37 @@
             }
         },
         {
+            "tag": "🇸🇪SE | vless | 3YED | 126",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "lf1.bamata20.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "lf1.bamata20.com"
+                }
+            }
+        },
+        {
             "tag": "🇸🇪SE | vless | 3YED | 128",
             "type": "vless",
             "server": "cloud.kinononva.top",
@@ -588,7 +617,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lg3.nicolkidman.com",
+                "server_name": "lf2.bamata20.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -600,136 +629,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "lg3.nicolkidman.com"
+                    "Host": "lf2.bamata20.com"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 129",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "le3.nicolkidman.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "le3.nicolkidman.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 135",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "lf3.bamata20.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "lf3.bamata20.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 137",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "le5.nicolkidman.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "le5.nicolkidman.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 141",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "le7.nicolkidman.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "le7.nicolkidman.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 143",
+            "tag": "🇸🇪SE | vless | 3YED | 134",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -760,7 +665,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 156",
+            "tag": "🇸🇪SE | vless | 3YED | 138",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -774,7 +679,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lg2.nicolkidman.com",
+                "server_name": "lg3.nicolkidman.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -786,12 +691,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "lg2.nicolkidman.com"
+                    "Host": "lg3.nicolkidman.com"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 159",
+            "tag": "🇸🇪SE | vless | 3YED | 139",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -805,7 +710,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "le6.nicolkidman.com",
+                "server_name": "le3.nicolkidman.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -817,12 +722,12 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "le6.nicolkidman.com"
+                    "Host": "le3.nicolkidman.com"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 160",
+            "tag": "🇸🇪SE | vless | 3YED | 145",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -836,7 +741,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "lf1.bamata20.com",
+                "server_name": "lf3.bamata20.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -848,7 +753,69 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "lf1.bamata20.com"
+                    "Host": "lf3.bamata20.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 147",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "le5.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "le5.nicolkidman.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 151",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "le7.nicolkidman.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "le7.nicolkidman.com"
                 }
             }
         },
