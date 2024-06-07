@@ -160,7 +160,7 @@ proxies:
   - {"name":"🇺🇸US | trojan | 3YED | 16","type":"trojan","server":"35.95.177.37","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | 3YED | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇳CN | vmess | 3YED | 0","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇨🇦CA | vmess | 3YED | 2","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"bb1af7d3-9526-44f1-9155-788773cc629e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 2","type":"vmess","server":"cfcdn1.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"bb1af7d3-9526-44f1-9155-788773cc629e","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/GQ2qE5Us9g","headers":{"host":"tw1bQiWSE4x.fzbqfrse.xyz"}}}
   - {"name":"🇨🇦CA | vmess | 3YED | 9","type":"vmess","server":"hk.wish.ml","port":"2052","cipher":"auto","uuid":"c286daa2-59de-455c-8de8-ec032b6ce2e8","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk2.wish.ml"}}}
   - {"name":"🇨🇳CN | vmess | 3YED | 10","type":"vmess","server":"m.cnmjin.net","port":"16632","cipher":"auto","uuid":"2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 2","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":0,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
@@ -191,14 +191,13 @@ proxies:
   - {"name":"🇩🇪DE | vless | 3YED | 0","type":"vless","server":"95.164.68.37","port":8443,"udp":true,"uuid":"501ad7a2-6387-4c12-b4f2-7803e7ec9974","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"104.21.70.42","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw","short-id":"fabb696169ae2a95"}}
   - {"name":"🇺🇸US | ss | 3YED | 5","type":"ss","server":"205.134.180.139","port":443,"password":"lWaGPVFjmnag","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇴NO | vless | 3YED | 6","type":"vless","server":"185.125.171.13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"partner.g2.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
-  - {"name":"🇸🇪SE | vless | 3YED | 116","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB3.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB3.family2036.com"}}}
-  - {"name":"🇸🇪SE | vless | 3YED | 120","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB2.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB2.family2036.com"}}}
-  - {"name":"🇸🇪SE | vless | 3YED | 121","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB8.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB8.family2036.com"}}}
-  - {"name":"🇸🇪SE | vless | 3YED | 123","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB5.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB5.family2036.com"}}}
+  - {"name":"🇸🇪SE | vless | 3YED | 131","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB3.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB3.family2036.com"}}}
   - {"name":"🇸🇪SE | vless | 3YED | 133","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB6.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB6.family2036.com"}}}
   - {"name":"🇸🇪SE | vless | 3YED | 137","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB10.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB10.family2036.com"}}}
   - {"name":"🇸🇪SE | vless | 3YED | 142","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"nonon3.family2036.com","ws-opts":{"path":"/","headers":{"host":"nonon3.family2036.com"}}}
   - {"name":"🇸🇪SE | vless | 3YED | 143","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB4.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB4.family2036.com"}}}
+  - {"name":"🇸🇪SE | vless | 3YED | 147","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB5.family2036.com","ws-opts":{"path":"/","headers":{"host":"LB5.family2036.com"}}}
+  - {"name":"🇸🇪SE | vless | 3YED | 162","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vic2.family2036.com","ws-opts":{"path":"/","headers":{"host":"vic2.family2036.com"}}}
   - {"name":"🇳🇱NL | ss | 3YED | 0","type":"ss","server":"45.158.171.10","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | ss | 3YED | 2","type":"ss","server":"51.145.96.134","port":18869,"password":"V8QywnpW9gaAwJfzkStkVp","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🏳️XX | ss | 3YED | 3","type":"ss","server":"[::ffff:185.231.205.80]","port":1443,"password":"YjA5YmMx","cipher":"chacha20-ietf-poly1305"}
@@ -293,7 +292,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 16'
       - '🇫🇷FR | vmess | 3YED | 0'
       - '🇨🇳CN | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 2'
+      - '🇺🇸US | vmess | 3YED | 2'
       - '🇨🇦CA | vmess | 3YED | 9'
       - '🇨🇳CN | vmess | 3YED | 10'
       - '🇺🇸US | vmess | 3YED | 2'
@@ -324,14 +323,13 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 5'
       - '🇳🇴NO | vless | 3YED | 6'
-      - '🇸🇪SE | vless | 3YED | 116'
-      - '🇸🇪SE | vless | 3YED | 120'
-      - '🇸🇪SE | vless | 3YED | 121'
-      - '🇸🇪SE | vless | 3YED | 123'
+      - '🇸🇪SE | vless | 3YED | 131'
       - '🇸🇪SE | vless | 3YED | 133'
       - '🇸🇪SE | vless | 3YED | 137'
       - '🇸🇪SE | vless | 3YED | 142'
       - '🇸🇪SE | vless | 3YED | 143'
+      - '🇸🇪SE | vless | 3YED | 147'
+      - '🇸🇪SE | vless | 3YED | 162'
       - '🇳🇱NL | ss | 3YED | 0'
       - '🇬🇧GB | ss | 3YED | 2'
       - '🏳️XX | ss | 3YED | 3'
@@ -426,7 +424,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 16'
       - '🇫🇷FR | vmess | 3YED | 0'
       - '🇨🇳CN | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 2'
+      - '🇺🇸US | vmess | 3YED | 2'
       - '🇨🇦CA | vmess | 3YED | 9'
       - '🇨🇳CN | vmess | 3YED | 10'
       - '🇺🇸US | vmess | 3YED | 2'
@@ -457,14 +455,13 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 5'
       - '🇳🇴NO | vless | 3YED | 6'
-      - '🇸🇪SE | vless | 3YED | 116'
-      - '🇸🇪SE | vless | 3YED | 120'
-      - '🇸🇪SE | vless | 3YED | 121'
-      - '🇸🇪SE | vless | 3YED | 123'
+      - '🇸🇪SE | vless | 3YED | 131'
       - '🇸🇪SE | vless | 3YED | 133'
       - '🇸🇪SE | vless | 3YED | 137'
       - '🇸🇪SE | vless | 3YED | 142'
       - '🇸🇪SE | vless | 3YED | 143'
+      - '🇸🇪SE | vless | 3YED | 147'
+      - '🇸🇪SE | vless | 3YED | 162'
       - '🇳🇱NL | ss | 3YED | 0'
       - '🇬🇧GB | ss | 3YED | 2'
       - '🏳️XX | ss | 3YED | 3'
@@ -558,7 +555,7 @@ proxy-groups:
       - '🇺🇸US | trojan | 3YED | 16'
       - '🇫🇷FR | vmess | 3YED | 0'
       - '🇨🇳CN | vmess | 3YED | 0'
-      - '🇨🇦CA | vmess | 3YED | 2'
+      - '🇺🇸US | vmess | 3YED | 2'
       - '🇨🇦CA | vmess | 3YED | 9'
       - '🇨🇳CN | vmess | 3YED | 10'
       - '🇺🇸US | vmess | 3YED | 2'
@@ -589,14 +586,13 @@ proxy-groups:
       - '🇩🇪DE | vless | 3YED | 0'
       - '🇺🇸US | ss | 3YED | 5'
       - '🇳🇴NO | vless | 3YED | 6'
-      - '🇸🇪SE | vless | 3YED | 116'
-      - '🇸🇪SE | vless | 3YED | 120'
-      - '🇸🇪SE | vless | 3YED | 121'
-      - '🇸🇪SE | vless | 3YED | 123'
+      - '🇸🇪SE | vless | 3YED | 131'
       - '🇸🇪SE | vless | 3YED | 133'
       - '🇸🇪SE | vless | 3YED | 137'
       - '🇸🇪SE | vless | 3YED | 142'
       - '🇸🇪SE | vless | 3YED | 143'
+      - '🇸🇪SE | vless | 3YED | 147'
+      - '🇸🇪SE | vless | 3YED | 162'
       - '🇳🇱NL | ss | 3YED | 0'
       - '🇬🇧GB | ss | 3YED | 2'
       - '🏳️XX | ss | 3YED | 3'
