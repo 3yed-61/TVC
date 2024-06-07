@@ -118,12 +118,11 @@
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇴NO | vless | 3YED | 6",
-                "🇸🇪SE | vless | 3YED | 141",
-                "🇸🇪SE | vless | 3YED | 152",
-                "🇸🇪SE | vless | 3YED | 159",
-                "🇸🇪SE | vless | 3YED | 160",
+                "🇸🇪SE | vless | 3YED | 136",
+                "🇸🇪SE | vless | 3YED | 151",
+                "🇸🇪SE | vless | 3YED | 162",
                 "🇸🇪SE | vless | 3YED | 169",
-                "🇸🇪SE | vless | 3YED | 173",
+                "🇸🇪SE | vless | 3YED | 170",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -151,12 +150,11 @@
                 "🇩🇪DE | vless | 3YED | 14",
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇳🇴NO | vless | 3YED | 6",
-                "🇸🇪SE | vless | 3YED | 141",
-                "🇸🇪SE | vless | 3YED | 152",
-                "🇸🇪SE | vless | 3YED | 159",
-                "🇸🇪SE | vless | 3YED | 160",
+                "🇸🇪SE | vless | 3YED | 136",
+                "🇸🇪SE | vless | 3YED | 151",
+                "🇸🇪SE | vless | 3YED | 162",
                 "🇸🇪SE | vless | 3YED | 169",
-                "🇸🇪SE | vless | 3YED | 173",
+                "🇸🇪SE | vless | 3YED | 170",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -570,7 +568,38 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 141",
+            "tag": "🇸🇪SE | vless | 3YED | 136",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "LB5.family2036.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LB5.family2036.com"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 151",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -601,7 +630,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 152",
+            "tag": "🇸🇪SE | vless | 3YED | 162",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -632,7 +661,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 159",
+            "tag": "🇸🇪SE | vless | 3YED | 169",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -663,7 +692,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 160",
+            "tag": "🇸🇪SE | vless | 3YED | 170",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -690,68 +719,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vic1.family2036.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 169",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vic3.family2036.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vic3.family2036.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 173",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pelpel3.family2036.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pelpel3.family2036.com"
                 }
             }
         },
