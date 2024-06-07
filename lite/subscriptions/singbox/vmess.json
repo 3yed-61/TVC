@@ -110,10 +110,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 7"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ]
         },
         {
@@ -124,10 +124,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 7"
+                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -193,9 +193,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "caretaker.com",
+            "server": "172.67.170.13",
             "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -208,7 +208,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -218,9 +218,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -259,11 +259,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "188.114.97.3",
+            "server": "107.173.146.129",
             "server_port": 80,
-            "uuid": "b25f8da6-54a2-49b3-bacf-8403b4c36556",
+            "uuid": "5820093a-bb7d-4e15-8575-1a529f2d8282",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -341,7 +341,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 7",
+            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 8",
             "type": "vmess",
             "server": "172.67.166.192",
             "server_port": 80,
