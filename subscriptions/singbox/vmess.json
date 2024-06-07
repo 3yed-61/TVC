@@ -110,7 +110,7 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇳CN | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 9",
+                "🇨🇦CA | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -124,7 +124,6 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 151",
                 "🇺🇸US | vmess | 3YED | 156",
-                "🇺🇸US | vmess | 3YED | 30",
                 "🇩🇪DE | vmess | 3YED | 15",
                 "🇩🇪DE | vmess | 3YED | 16",
                 "🇺🇸US | vmess | 3YED | 21",
@@ -140,7 +139,6 @@
                 "🇩🇪DE | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇨🇱CL | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -168,7 +166,7 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇦CA | vmess | 3YED | 2",
                 "🇨🇳CN | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 9",
+                "🇨🇦CA | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -182,7 +180,6 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 151",
                 "🇺🇸US | vmess | 3YED | 156",
-                "🇺🇸US | vmess | 3YED | 30",
                 "🇩🇪DE | vmess | 3YED | 15",
                 "🇩🇪DE | vmess | 3YED | 16",
                 "🇺🇸US | vmess | 3YED | 21",
@@ -198,7 +195,6 @@
                 "🇩🇪DE | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🇨🇱CL | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -329,7 +325,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 9",
+            "tag": "🇨🇦CA | vmess | 3YED | 9",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -684,23 +680,6 @@
                 "headers": {
                     "Host": "jahfkjha.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 30",
-            "type": "vmess",
-            "server": "172.233.164.32",
-            "server_port": 39841,
-            "uuid": "4242d74d-b748-4e74-a7c2-2bfb9d6ed121",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1110,23 +1089,6 @@
                 "headers": {
                     "Host": "chaoji2.chaozhijc.xyz"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇱CL | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "64.176.15.74",
-            "server_port": 3389,
-            "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
