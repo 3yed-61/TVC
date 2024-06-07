@@ -110,10 +110,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
+                "🇨🇦CA | vmess | @v2Line | 9"
             ]
         },
         {
@@ -124,10 +123,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 7",
+                "🇨🇦CA | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 9",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 8"
+                "🇨🇦CA | vmess | @v2Line | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -249,11 +247,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "107.173.146.129",
-            "server_port": 80,
-            "uuid": "5820093a-bb7d-4e15-8575-1a529f2d8282",
+            "server": "172.67.170.13",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -264,11 +262,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "glweidf.sbs"
                 }
             }
         },
@@ -325,30 +333,6 @@ https://github.com/3yed-61
             "transport": {
                 "type": "ws",
                 "path": "\/v118-fccxmxm35",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 8",
-            "type": "vmess",
-            "server": "172.67.166.192",
-            "server_port": 80,
-            "uuid": "cd1db809-2de0-409c-aef5-861e95eff53e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
                 "headers": {
                     "Host": ""
                 }
