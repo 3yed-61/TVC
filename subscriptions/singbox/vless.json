@@ -109,7 +109,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 180",
                 "🇮🇷IR | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
@@ -129,11 +128,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇲🇾MY | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇲🇾MY | vless | 3YED | 12",
+                "🇲🇾MY | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 4"
             ]
         },
@@ -145,7 +142,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🏳️XX | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 180",
                 "🇮🇷IR | vless | 3YED | 6",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
@@ -165,11 +161,9 @@
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇲🇾MY | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇲🇾MY | vless | 3YED | 12",
+                "🇲🇾MY | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -307,35 +301,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "marketepicnode1.epicmarketsub.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 180",
-            "type": "vless",
-            "server": "74.48.95.50",
-            "server_port": 17974,
-            "uuid": "64db2a61-4296-4747-8f50-017201a4c5e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "17FnGUGQ9rrtCtJvtYWywWCYtAc0dyxVbwNbNEp05yE",
-                    "short_id": "6a565d14"
                 }
             }
         },
@@ -909,7 +874,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | 3YED | 1",
+            "tag": "🇲🇾MY | vless | 3YED | 2",
             "type": "vless",
             "server": "172.66.47.2",
             "server_port": 443,
@@ -940,7 +905,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
@@ -971,7 +936,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
@@ -998,68 +963,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "172.67.204.39",
-            "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾MY | vless | 3YED | 12",
-            "type": "vless",
-            "server": "172.66.47.126",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
                 }
             }
         },

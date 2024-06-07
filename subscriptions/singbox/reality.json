@@ -108,7 +108,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 180",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 12",
@@ -129,7 +128,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 180",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 12",
@@ -246,35 +244,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 180",
-            "type": "vless",
-            "server": "74.48.95.50",
-            "server_port": 17974,
-            "uuid": "64db2a61-4296-4747-8f50-017201a4c5e4",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "17FnGUGQ9rrtCtJvtYWywWCYtAc0dyxVbwNbNEp05yE",
-                    "short_id": "6a565d14"
                 }
             }
         },
