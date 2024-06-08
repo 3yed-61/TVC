@@ -108,6 +108,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🏳️XX | vless | 3YED | 3",
                 "🇮🇷IR | vless | 3YED | 141",
                 "🇮🇷IR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 15",
@@ -115,8 +116,9 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 20",
                 "🇩🇪DE | vless | 3YED | 21",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇴NO | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇳🇴NO | vless | 3YED | 9",
+                "🇨🇦CA | vless | 3YED | 16",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -134,6 +136,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🏳️XX | vless | 3YED | 3",
                 "🇮🇷IR | vless | 3YED | 141",
                 "🇮🇷IR | vless | 3YED | 10",
                 "🇩🇪DE | vless | 3YED | 15",
@@ -141,8 +144,9 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 20",
                 "🇩🇪DE | vless | 3YED | 21",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇳🇴NO | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇳🇴NO | vless | 3YED | 9",
+                "🇨🇦CA | vless | 3YED | 16",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -256,6 +260,37 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vless | 3YED | 3",
+            "type": "vless",
+            "server": "marketepicnode1.epicmarketsub.ir",
+            "server_port": 2083,
+            "uuid": "7cfb0575-9759-4953-846e-f55127eea2d8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marketepicnode1.epicmarketsub.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "marketepicnode1.epicmarketsub.ir"
                 }
             }
         },
@@ -462,7 +497,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "tag": "🇩🇪DE | vless | 3YED | 3",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -491,7 +526,7 @@
             }
         },
         {
-            "tag": "🇳🇴NO | vless | 3YED | 8",
+            "tag": "🇳🇴NO | vless | 3YED | 9",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -516,6 +551,30 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 16",
+            "type": "vless",
+            "server": "103.98.215.248",
+            "server_port": 443,
+            "uuid": "c54dd620-fa5f-46de-82c2-9d1492ee74e4",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tor2.jarviskit.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
