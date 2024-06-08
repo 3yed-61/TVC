@@ -112,7 +112,6 @@
                 "🇮🇷IR | vless | 3YED | 8",
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 21",
-                "🇳🇱NL | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 16",
@@ -139,7 +138,6 @@
                 "🇮🇷IR | vless | 3YED | 8",
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 21",
-                "🇳🇱NL | vless | 3YED | 29",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 15",
                 "🇩🇪DE | vless | 3YED | 16",
@@ -378,35 +376,6 @@
                     "enabled": true,
                     "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
                     "short_id": "18cada"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 29",
-            "type": "vless",
-            "server": "185.142.238.222",
-            "server_port": 8443,
-            "uuid": "ae5aed77-be23-4f6c-bd51-c73745038952",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "maps.google.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "NbtOWq_km9k_SKgCJatXla3Jl7gGKVbjQ-GAtGg4bEk",
-                    "short_id": "bfde1c85a6a4112a"
                 }
             }
         },
