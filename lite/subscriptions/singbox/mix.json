@@ -110,12 +110,11 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ]
@@ -128,12 +127,11 @@ https://github.com/3yed-61
                 "🇸🇪SE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @DeamNet_Proxy | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+                "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
                 "🇩🇪DE | trojan | @proxystore11 | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 15",
+                "🇨🇦CA | vmess | @Hope_Net | 14",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇺🇸US | vmess | @v2Line | 8"
             ],
@@ -243,40 +241,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DeamNet_Proxy | 19",
-            "type": "vmess",
-            "server": "oracle1.mysupp.com",
-            "server_port": 25943,
-            "uuid": "520c82fe-3e74-43b9-9dfb-87cae71e8cc0",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "oracle1.mysupp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/canada",
-                "headers": {
-                    "Host": "oracle1.mysupp.com"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
             "server": "217.160.45.31",
@@ -301,12 +265,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 14",
+            "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 16",
             "type": "shadowsocks",
-            "server": "51.68.206.229",
-            "server_port": 8080,
+            "server": "217.182.198.219",
+            "server_port": 3389,
             "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
+            "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -367,11 +331,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 15",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 14",
             "type": "vmess",
-            "server": "188.114.97.3",
+            "server": "104.21.83.108",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -384,7 +348,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "hms02.fxiaomi.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -394,9 +358,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/link",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
