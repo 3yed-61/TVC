@@ -125,8 +125,8 @@ proxies:
   - {"name":"🇫🇮FI | vless | 3YED | 13","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
   - {"name":"🇩🇪DE | vless | 3YED | 15","type":"vless","server":"3.76.7.64","port":443,"udp":true,"uuid":"4c10355d-4269-43c1-96cb-e7a794d102fc","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"mgL6BgbmKbzsngIMqe_PTsFdFBVuYJVkGoTDgIn3O2M","short-id":"39a26a2ba3b26562"}}
   - {"name":"🇩🇪DE | vless | 3YED | 21","type":"vless","server":"91.107.176.13","port":8080,"udp":true,"uuid":"07669291-5061-4e74-a5d7-1f94a5a36367","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"mdundo.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU","short-id":"18cada"}}
-  - {"name":"🇩🇪DE | vless | 3YED | 17","type":"vless","server":"194.87.148.205","port":2053,"udp":true,"uuid":"52079469-96e1-403e-87e4-f9497c07048b","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"discordapp.com","grpc-opts":{"grpc-service-name":"xyz"},"reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
-  - {"name":"🇩🇪DE | vless | 3YED | 18","type":"vless","server":"194.87.148.205","port":8443,"udp":true,"uuid":"52079469-96e1-403e-87e4-f9497c07048b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"discordapp.com","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
+  - {"name":"🇩🇪DE | vless | 3YED | 18","type":"vless","server":"194.87.148.205","port":2053,"udp":true,"uuid":"52079469-96e1-403e-87e4-f9497c07048b","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"discordapp.com","grpc-opts":{"grpc-service-name":"xyz"},"reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
+  - {"name":"🇩🇪DE | vless | 3YED | 19","type":"vless","server":"194.87.148.205","port":8443,"udp":true,"uuid":"52079469-96e1-403e-87e4-f9497c07048b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"discordapp.com","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇩🇪DE | vless | 3YED | 2","type":"vless","server":"95.164.68.37","port":8443,"udp":true,"uuid":"501ad7a2-6387-4c12-b4f2-7803e7ec9974","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"104.21.70.42","flow":"xtls-rprx-vision","reality-opts":{"public-key":"UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw","short-id":"fabb696169ae2a95"}}
   - {"name":"🇳🇴NO | vless | 3YED | 8","type":"vless","server":"185.125.171.13","port":443,"udp":true,"uuid":"a09373e2-e120-457d-9ec9-ea7fe8bedb52","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"partner.g2.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc"}}
   - {"name":"🇳🇱NL | vless | 3YED | 8","type":"vless","server":"159.223.4.137","port":38915,"udp":true,"uuid":"24f6cf45-67ef-493c-8db8-5cad032bf123","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"V7PuAOITOyH7RZ-PRJndYVA5udmu-DqAp7LdjpNYwUQ","short-id":"33c38f16"}}
@@ -144,8 +144,8 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 15'
       - '🇩🇪DE | vless | 3YED | 21'
-      - '🇩🇪DE | vless | 3YED | 17'
       - '🇩🇪DE | vless | 3YED | 18'
+      - '🇩🇪DE | vless | 3YED | 19'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇳🇴NO | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 8'
@@ -163,8 +163,8 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 15'
       - '🇩🇪DE | vless | 3YED | 21'
-      - '🇩🇪DE | vless | 3YED | 17'
       - '🇩🇪DE | vless | 3YED | 18'
+      - '🇩🇪DE | vless | 3YED | 19'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇳🇴NO | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 8'
@@ -181,8 +181,8 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 15'
       - '🇩🇪DE | vless | 3YED | 21'
-      - '🇩🇪DE | vless | 3YED | 17'
       - '🇩🇪DE | vless | 3YED | 18'
+      - '🇩🇪DE | vless | 3YED | 19'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇳🇴NO | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 8'
