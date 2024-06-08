@@ -108,9 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8"
             ]
@@ -121,9 +122,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 6",
+                "🇺🇸US | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8"
             ],
@@ -182,11 +184,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 17",
             "type": "vmess",
-            "server": "217.160.45.31",
-            "server_port": 8880,
-            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
+            "server": "172.67.172.50",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -201,7 +203,41 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "172.67.172.50"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 6",
+            "type": "vmess",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
@@ -240,11 +276,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 6",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "oracle1.mysupp.com",
-            "server_port": 25943,
-            "uuid": "520c82fe-3e74-43b9-9dfb-87cae71e8cc0",
+            "server": "172.64.97.235",
+            "server_port": 8080,
+            "uuid": "ef8c954e-014f-4b36-8273-9b5086afab34",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -255,21 +291,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "oracle1.mysupp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/canada",
+                "path": "\/ef8c954e-014f-4b36-8273-9b5086afab34-vm",
                 "headers": {
-                    "Host": "oracle1.mysupp.com"
+                    "Host": "172.64.97.235"
                 }
             }
         },
