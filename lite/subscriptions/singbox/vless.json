@@ -106,16 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @ProxyForOpeta | 3",
-                "🇨🇦CA | vless | @FreakConfig | 9"
+                "🏳️XX | vless | @ProxyForOpeta | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @ProxyForOpeta | 3",
-                "🇨🇦CA | vless | @FreakConfig | 9"
+                "🏳️XX | vless | @ProxyForOpeta | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -165,37 +163,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "marketepicnode1.epicmarketsub.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 9",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "MaNsor427-pANeL2.PAGeS.dEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "MaNsor427-pANeL2.PAGeS.dEV"
                 }
             }
         }
