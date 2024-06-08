@@ -106,7 +106,6 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇨🇦CA | vless | @FreakConfig | 8"
             ]
         },
@@ -114,7 +113,6 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🏳️XX | vless | @ProxyForOpeta | 3",
                 "🇨🇦CA | vless | @FreakConfig | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -136,37 +134,6 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🏳️XX | vless | @ProxyForOpeta | 3",
-            "type": "vless",
-            "server": "marketepicnode1.epicmarketsub.ir",
-            "server_port": 2083,
-            "uuid": "7cfb0575-9759-4953-846e-f55127eea2d8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marketepicnode1.epicmarketsub.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "marketepicnode1.epicmarketsub.ir"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vless | @FreakConfig | 8",

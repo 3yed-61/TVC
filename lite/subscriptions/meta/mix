@@ -120,12 +120,11 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🏳️XX | vless | @ProxyForOpeta | 3","type":"vless","server":"marketepicnode1.epicmarketsub.ir","port":2083,"udp":false,"uuid":"7cfb0575-9759-4953-846e-f55127eea2d8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"marketepicnode1.epicmarketsub.ir","ws-opts":{"path":"/"}}
-  - {"name":"🇸🇪SE | trojan | @PrivateVPNs | 17","type":"trojan","server":"13.48.208.197","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | trojan | @DirectVPN | 17","type":"trojan","server":"34.252.172.145","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | trojan | @PrivateVPNs | 17","type":"trojan","server":"3.127.125.40","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | trojan | @DirectVPN | 17","type":"trojan","server":"3.97.121.24","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | vmess | @v2ray_outlineir | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷FR | ss | @OutlineVpnOfficial | 16","type":"ss","server":"149.202.82.172","port":7307,"password":"FoOiGlkAA9yPEGP","cipher":"aes-256-gcm"}
-  - {"name":"🇯🇵JP | vmess | @Hope_Net | 7","type":"vmess","server":"jp-full.privateip.net","port":"443","cipher":"auto","uuid":"124fe4ff-0ee4-4189-bd99-ed1a317b42dd","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":""}}}
+  - {"name":"🇺🇸US | vmess | @Hope_Net | 7","type":"vmess","server":"2.58.87.221","port":"46628","cipher":"auto","uuid":"f6ba9e5a-711c-496f-be60-ac5464dec2b8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | vmess | @v2Line | 8","type":"vmess","server":"104.21.44.106","port":"443","cipher":"auto","uuid":"93ea486a-bada-42a4-ac38-d088b320fa1e","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"xmivideo.cfd"}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 8","type":"vless","server":"188.114.96.3","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"MaNsor427-pANeL2.PAGeS.dEV","ws-opts":{"path":"/","headers":{"host":"maNSor427-pANel2.PAgES.DeV"}}}
 proxy-groups:
@@ -134,12 +133,11 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🏳️XX | vless | @ProxyForOpeta | 3'
-      - '🇸🇪SE | trojan | @PrivateVPNs | 17'
-      - '🇮🇪IE | trojan | @DirectVPN | 17'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇨🇦CA | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 16'
-      - '🇯🇵JP | vmess | @Hope_Net | 7'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 8'
   - name: URL-TEST
@@ -148,12 +146,11 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🏳️XX | vless | @ProxyForOpeta | 3'
-      - '🇸🇪SE | trojan | @PrivateVPNs | 17'
-      - '🇮🇪IE | trojan | @DirectVPN | 17'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇨🇦CA | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 16'
-      - '🇯🇵JP | vmess | @Hope_Net | 7'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 8'
   - name: FALLBACK
@@ -161,12 +158,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🏳️XX | vless | @ProxyForOpeta | 3'
-      - '🇸🇪SE | trojan | @PrivateVPNs | 17'
-      - '🇮🇪IE | trojan | @DirectVPN | 17'
+      - '🇩🇪DE | trojan | @PrivateVPNs | 17'
+      - '🇨🇦CA | trojan | @DirectVPN | 17'
       - '🇫🇷FR | vmess | @v2ray_outlineir | 0'
       - '🇫🇷FR | ss | @OutlineVpnOfficial | 16'
-      - '🇯🇵JP | vmess | @Hope_Net | 7'
+      - '🇺🇸US | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 8'
 rule-providers:
