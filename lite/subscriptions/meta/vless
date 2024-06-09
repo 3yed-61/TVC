@@ -121,7 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇩🇪DE | vless | @v2rayNG_Matsuri | 28","type":"vless","server":"3.76.7.64","port":443,"udp":true,"uuid":"4c10355d-4269-43c1-96cb-e7a794d102fc","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.tgju.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"mgL6BgbmKbzsngIMqe_PTsFdFBVuYJVkGoTDgIn3O2M","short-id":"39a26a2ba3b26562"}}
-  - {"name":"🇸🇪SE | vless | @DailyV2RY | 139","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB7.owayoins.net","ws-opts":{"path":"/","headers":{"host":"LB7.owayoins.net"}}}
+  - {"name":"🇸🇪SE | vless | @DailyV2RY | 150","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"LB7.owayoins.net","ws-opts":{"path":"/","headers":{"host":"LB7.owayoins.net"}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 5","type":"vless","server":"188.114.96.3","port":443,"udp":false,"uuid":"89b3cbba-e6ac-485a-9481-976a0415eab9","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"viEEzer-pANeL.paGES.DEv","ws-opts":{"path":"/","headers":{"host":"vIeEZEr-PaNeL.PAGes.dev"}}}
 proxy-groups:
   - name: MANUAL
@@ -130,7 +130,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇩🇪DE | vless | @v2rayNG_Matsuri | 28'
-      - '🇸🇪SE | vless | @DailyV2RY | 139'
+      - '🇸🇪SE | vless | @DailyV2RY | 150'
       - '🇨🇦CA | vless | @FreakConfig | 5'
   - name: URL-TEST
     type: url-test
@@ -139,7 +139,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇩🇪DE | vless | @v2rayNG_Matsuri | 28'
-      - '🇸🇪SE | vless | @DailyV2RY | 139'
+      - '🇸🇪SE | vless | @DailyV2RY | 150'
       - '🇨🇦CA | vless | @FreakConfig | 5'
   - name: FALLBACK
     type: fallback
@@ -147,7 +147,7 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇩🇪DE | vless | @v2rayNG_Matsuri | 28'
-      - '🇸🇪SE | vless | @DailyV2RY | 139'
+      - '🇸🇪SE | vless | @DailyV2RY | 150'
       - '🇨🇦CA | vless | @FreakConfig | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
