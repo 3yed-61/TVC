@@ -109,9 +109,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 6"
@@ -124,9 +125,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
-                "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @ConfigsHUB | 5",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 6"
@@ -220,11 +222,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "in06.dns2024.org",
-            "server_port": 61017,
-            "uuid": "9eac8830-5da5-3ee2-a4b2-b49598275623",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -234,6 +236,57 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 5",
+            "type": "vmess",
+            "server": "188.114.98.39",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
             }
         },
         {
@@ -271,7 +324,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
             "server": "172.67.131.108",
             "server_port": 443,
