@@ -105,13 +105,38 @@ https://github.com/3yed-61
             "tag": "proxy",
             "type": "selector",
             "outbounds": [
-                "URL-TEST"
+                "URL-TEST",
+                "🇬🇧GB | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 3",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
+                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
-            "outbounds": [],
+            "outbounds": [
+                "🇬🇧GB | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 15",
+                "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇩🇪DE | vmess | @oneclickvpnkeys | 3",
+                "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
+                "🇸🇪SE | trojan | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @yaney_01 | 5",
+                "🏳️XX | vmess | @Hope_Net | 13",
+                "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+                "🇨🇦CA | vmess | @v2Line | 8",
+                "🇨🇦CA | vless | @FreakConfig | 8"
+            ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
             "tolerance": 50
@@ -131,6 +156,297 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
+            "type": "trojan",
+            "server": "18.168.113.47",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 15",
+            "type": "trojan",
+            "server": "52.47.51.137",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | vmess | @v2ray_outlineir | 0",
+            "type": "vmess",
+            "server": "146.59.147.250",
+            "server_port": 29776,
+            "uuid": "82447abf-dcb9-408a-9ca6-79e0a7698d08",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "type": "vmess",
+            "server": "183.240.179.195",
+            "server_port": 15603,
+            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vmess | @oneclickvpnkeys | 3",
+            "type": "vmess",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 16",
+            "type": "shadowsocks",
+            "server": "51.68.206.229",
+            "server_port": 8080,
+            "method": "aes-256-gcm",
+            "password": "KixLvKzwjekG00rm",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 19",
+            "type": "trojan",
+            "server": "13.50.222.252",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
+            "type": "vmess",
+            "server": "104.26.8.210",
+            "server_port": 443,
+            "uuid": "206259fd-09af-46ee-ec6d-5ac8a8291d6d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "104.26.8.210",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/66",
+                "headers": {
+                    "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🏳️XX | vmess | @Hope_Net | 13",
+            "type": "vmess",
+            "server": "cn.zzv01.infonode.xyz",
+            "server_port": 17014,
+            "uuid": "edac1153-eff4-3719-92a3-c7620ea00bd7",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/v2ray",
+                "headers": {
+                    "Host": "cn.zzv01.infonode.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
+            "type": "vmess",
+            "server": "505.outline-vpn.cloud",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kellie.makeup",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "kellie.makeup"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 8",
+            "type": "vless",
+            "server": "172.66.47.2",
+            "server_port": 443,
+            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
+                }
+            }
         }
     ],
     "route": {
