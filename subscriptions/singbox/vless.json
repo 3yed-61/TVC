@@ -109,17 +109,17 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 150",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇬SG | vless | 3YED | 3",
-                "🇫🇮FI | vless | 3YED | 4",
-                "🇩🇪DE | vless | 3YED | 20",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇸🇬SG | vless | 3YED | 5",
+                "🇫🇮FI | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -137,17 +137,17 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 150",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇬SG | vless | 3YED | 3",
-                "🇫🇮FI | vless | 3YED | 4",
-                "🇩🇪DE | vless | 3YED | 20",
+                "🇩🇪DE | vless | 3YED | 4",
+                "🇸🇬SG | vless | 3YED | 5",
+                "🇫🇮FI | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 22",
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 9",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -288,7 +288,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "tag": "🇩🇪DE | vless | 3YED | 4",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -317,7 +317,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | 3YED | 3",
+            "tag": "🇸🇬SG | vless | 3YED | 5",
             "type": "vless",
             "server": "172.104.163.203",
             "server_port": 56702,
@@ -346,7 +346,7 @@
             }
         },
         {
-            "tag": "🇫🇮FI | vless | 3YED | 4",
+            "tag": "🇫🇮FI | vless | 3YED | 6",
             "type": "vless",
             "server": "135.181.202.101",
             "server_port": 10559,
@@ -375,7 +375,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 20",
+            "tag": "🇩🇪DE | vless | 3YED | 22",
             "type": "vless",
             "server": "3.76.7.64",
             "server_port": 443,
@@ -551,11 +551,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
+            "tag": "🇺🇸US | vless | 3YED | 7",
             "type": "vless",
-            "server": "104.21.58.195",
-            "server_port": 2083,
-            "uuid": "713b8fef-6873-47bd-bc51-06eb7d89c09c",
+            "server": "104.21.20.148",
+            "server_port": 2053,
+            "uuid": "63e5b2d4-3975-40e7-8c7c-258b3e0cf6b8",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -565,7 +565,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "khabar.shoponetop.com",
+                "server_name": "zerma.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -574,17 +574,17 @@
                 }
             },
             "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/@vpn4ir_1\/@vpn4ir_1\/@vpn4ir_1\/@vpn4ir_1\/@vpn4ir_1\/@vpn4ir_1\/@vpn4ir_1\/?ed=2560",
+                "headers": {
+                    "Host": "zerma.ir"
+                }
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 11",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
-            "server": "104.26.5.57",
+            "server": "104.18.5.237",
             "server_port": 2096,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
