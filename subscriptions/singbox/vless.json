@@ -118,7 +118,7 @@
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -145,7 +145,7 @@
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -549,11 +549,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 11",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
-            "server": "104.21.88.52",
-            "server_port": 2087,
-            "uuid": "7a0671f5-7838-41db-957d-39983579a971",
+            "server": "104.16.61.8",
+            "server_port": 2053,
+            "uuid": "5874cb3d-dadb-4537-e7bc-d56fcb90d7cb",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -563,7 +563,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "d.liopiol.ir",
+                "server_name": "pk.tecnophone.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -575,7 +575,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "d.liopiol.ir"
+                    "Host": "pk.tecnophone.sbs"
                 }
             }
         },

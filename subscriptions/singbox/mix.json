@@ -201,20 +201,21 @@
                 "🇵🇱PL | ss | 3YED | 14",
                 "🇳🇱NL | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇷🇺RU | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇷🇺RU | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🏳️XX | vmess | 3YED | 6",
-                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 6",
+                "🏳️XX | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -341,20 +342,21 @@
                 "🇵🇱PL | ss | 3YED | 14",
                 "🇳🇱NL | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇷🇺RU | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇷🇺RU | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
-                "🏳️XX | vmess | 3YED | 6",
-                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 6",
+                "🏳️XX | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -2404,11 +2406,42 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 6",
+            "type": "vless",
+            "server": "104.16.61.8",
+            "server_port": 2053,
+            "uuid": "5874cb3d-dadb-4537-e7bc-d56fcb90d7cb",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pk.tecnophone.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "pk.tecnophone.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 9",
             "type": "vmess",
-            "server": "104.20.39.186",
+            "server": "172.67.164.164",
             "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2421,7 +2454,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vmess.taxar71054.workers.dev",
+                "server_name": "afrhms07.xfixedfloat.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2431,40 +2464,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "vmess.taxar71054.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "104.21.88.52",
-            "server_port": 2087,
-            "uuid": "7a0671f5-7838-41db-957d-39983579a971",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "d.liopiol.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "d.liopiol.ir"
+                    "Host": "afrhms07.xfixedfloat.cfd"
                 }
             }
         },
@@ -2619,7 +2621,65 @@
             }
         },
         {
-            "tag": "🇷🇺RU | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.19.47.140",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳 @WangCai2",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺RU | vmess | 3YED | 2",
             "type": "vmess",
             "server": "eedp257bubu2wefy.lovebaipiao.net",
             "server_port": 54321,
@@ -2643,7 +2703,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "172.67.185.242",
             "server_port": 8080,
@@ -2667,7 +2727,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "107.173.146.129",
             "server_port": 80,
@@ -2691,7 +2751,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "188.114.97.79",
             "server_port": 443,
@@ -2725,7 +2785,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇺🇸US | vmess | 3YED | 6",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -2759,7 +2819,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 6",
+            "tag": "🏳️XX | vmess | 3YED | 8",
             "type": "vmess",
             "server": "cn.zzv01.infonode.xyz",
             "server_port": 17014,
@@ -2779,40 +2839,6 @@
                 "path": "\/v2ray",
                 "headers": {
                     "Host": "cn.zzv01.infonode.xyz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
