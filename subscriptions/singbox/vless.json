@@ -118,6 +118,7 @@
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -144,6 +145,7 @@
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇩🇪DE | vless | 3YED | 4",
                 "🇳🇴NO | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -543,6 +545,37 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
+            "type": "vless",
+            "server": "104.21.88.52",
+            "server_port": 2087,
+            "uuid": "7a0671f5-7838-41db-957d-39983579a971",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "d.liopiol.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "d.liopiol.ir"
                 }
             }
         },

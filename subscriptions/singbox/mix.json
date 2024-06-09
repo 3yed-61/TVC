@@ -201,20 +201,20 @@
                 "🇵🇱PL | ss | 3YED | 14",
                 "🇳🇱NL | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 4",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇷🇺RU | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🏳️XX | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 4",
+                "🏳️XX | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -341,20 +341,20 @@
                 "🇵🇱PL | ss | 3YED | 14",
                 "🇳🇱NL | ss | 3YED | 15",
                 "🇬🇧GB | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 4",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇷🇺RU | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🏳️XX | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 4",
+                "🏳️XX | vmess | 3YED | 6",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -2404,28 +2404,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "129.146.46.181",
-            "server_port": 52408,
-            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "us-hn.yangon.club",
+            "server": "104.20.39.186",
             "server_port": 443,
-            "uuid": "37f45d4c-ac4d-48b3-8cf9-456825795f0d",
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -2438,12 +2421,50 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "vmess.taxar71054.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "vmess.taxar71054.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
+            "type": "vless",
+            "server": "104.21.88.52",
+            "server_port": 2087,
+            "uuid": "7a0671f5-7838-41db-957d-39983579a971",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "d.liopiol.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "d.liopiol.ir"
                 }
             }
         },
@@ -2598,7 +2619,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇷🇺RU | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "eedp257bubu2wefy.lovebaipiao.net",
+            "server_port": 54321,
+            "uuid": "38a7f467-f1c8-4392-a6e9-0ed23e93775c",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/iphone",
+                "headers": {
+                    "Host": "eedp257bubu2wefy.lovebaipiao.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
             "server": "172.67.185.242",
             "server_port": 8080,
@@ -2622,7 +2667,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "107.173.146.129",
             "server_port": 80,
@@ -2646,7 +2691,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "188.114.97.79",
             "server_port": 443,
@@ -2680,7 +2725,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -2714,7 +2759,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 5",
+            "tag": "🏳️XX | vmess | 3YED | 6",
             "type": "vmess",
             "server": "cn.zzv01.infonode.xyz",
             "server_port": 17014,
@@ -2738,7 +2783,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 7",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
             "server": "104.21.15.36",
             "server_port": 443,
@@ -2768,30 +2813,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 10",
-            "type": "vmess",
-            "server": "104.16.253.64",
-            "server_port": 2052,
-            "uuid": "1d95edba-c8c7-4f0e-be25-5503fa31b509",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
