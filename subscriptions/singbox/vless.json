@@ -109,9 +109,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 170",
+                "🇩🇪DE | vless | 3YED | 10",
+                "🇸🇬SG | vless | 3YED | 11",
+                "🇫🇮FI | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇪DE | vless | 3YED | 8",
                 "🇳🇴NO | vless | 3YED | 13",
                 "🇸🇪SE | vless | 3YED | 112",
                 "🇸🇪SE | vless | 3YED | 113",
@@ -129,7 +131,8 @@
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 150",
-                "🇺🇸US | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -147,9 +150,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇮🇷IR | vless | 3YED | 170",
+                "🇩🇪DE | vless | 3YED | 10",
+                "🇸🇬SG | vless | 3YED | 11",
+                "🇫🇮FI | vless | 3YED | 12",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇪DE | vless | 3YED | 8",
                 "🇳🇴NO | vless | 3YED | 13",
                 "🇸🇪SE | vless | 3YED | 112",
                 "🇸🇪SE | vless | 3YED | 113",
@@ -167,7 +172,8 @@
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 150",
-                "🇺🇸US | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -308,6 +314,93 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 10",
+            "type": "vless",
+            "server": "91.107.176.13",
+            "server_port": 8080,
+            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
+                    "short_id": "18cada"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | 3YED | 11",
+            "type": "vless",
+            "server": "172.104.163.203",
+            "server_port": 56702,
+            "uuid": "71a162cc-7fad-409d-87fa-5ca9e13474fb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "addons.mozilla.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8",
+                    "short_id": "792147b8"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | 3YED | 12",
+            "type": "vless",
+            "server": "135.181.202.101",
+            "server_port": 10559,
+            "uuid": "44b1db28-a819-4914-9c6f-ee7c7599a894",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c",
+                    "short_id": "c5f1f156"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -357,35 +450,6 @@
                     "enabled": true,
                     "public_key": "UPDaAp6tkfjOWDDIAJXNtNqRRriaSQm_C8mcAQQP8nw",
                     "short_id": "fabb696169ae2a95"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 8",
-            "type": "vless",
-            "server": "91.107.176.13",
-            "server_port": 8080,
-            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mdundo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
-                    "short_id": "18cada"
                 }
             }
         },
@@ -915,11 +979,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 12",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "188.114.96.2",
+            "server": "172.66.213.38",
             "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "uuid": "3e33acba-13b9-4485-9c0c-ae5501e2b468",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -929,7 +993,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "miumiUMadReKoSE.pAgES.dEv",
+                "server_name": "pardazeshvpn-tg31.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -939,9 +1003,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/@VPNHTTPInjectorfree",
                 "headers": {
-                    "Host": "miumiUMadReKoSE.pAgES.dEv"
+                    "Host": "pardazeshvpn-tg31.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 17",
+            "type": "vless",
+            "server": "172.67.70.92",
+            "server_port": 8443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xin009.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "xin009.ylks.link"
                 }
             }
         },
