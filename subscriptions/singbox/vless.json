@@ -115,23 +115,28 @@
                 "🇩🇪DE | vless | 3YED | 10",
                 "🇳🇴NO | vless | 3YED | 16",
                 "🇸🇪SE | vless | 3YED | 120",
-                "🇸🇪SE | vless | 3YED | 121",
+                "🇸🇪SE | vless | 3YED | 122",
                 "🇸🇪SE | vless | 3YED | 123",
+                "🇸🇪SE | vless | 3YED | 124",
                 "🇸🇪SE | vless | 3YED | 125",
-                "🇸🇪SE | vless | 3YED | 128",
+                "🇸🇪SE | vless | 3YED | 126",
+                "🇸🇪SE | vless | 3YED | 130",
                 "🇸🇪SE | vless | 3YED | 131",
                 "🇸🇪SE | vless | 3YED | 132",
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 136",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 138",
                 "🇸🇪SE | vless | 3YED | 139",
-                "🇸🇪SE | vless | 3YED | 140",
                 "🇸🇪SE | vless | 3YED | 142",
                 "🇸🇪SE | vless | 3YED | 143",
+                "🇸🇪SE | vless | 3YED | 145",
+                "🇸🇪SE | vless | 3YED | 147",
                 "🇸🇪SE | vless | 3YED | 148",
+                "🇸🇪SE | vless | 3YED | 149",
+                "🇸🇪SE | vless | 3YED | 150",
+                "🇸🇪SE | vless | 3YED | 151",
                 "🇸🇪SE | vless | 3YED | 153",
-                "🇸🇪SE | vless | 3YED | 157",
+                "🇸🇪SE | vless | 3YED | 154",
+                "🇸🇪SE | vless | 3YED | 159",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -154,23 +159,28 @@
                 "🇩🇪DE | vless | 3YED | 10",
                 "🇳🇴NO | vless | 3YED | 16",
                 "🇸🇪SE | vless | 3YED | 120",
-                "🇸🇪SE | vless | 3YED | 121",
+                "🇸🇪SE | vless | 3YED | 122",
                 "🇸🇪SE | vless | 3YED | 123",
+                "🇸🇪SE | vless | 3YED | 124",
                 "🇸🇪SE | vless | 3YED | 125",
-                "🇸🇪SE | vless | 3YED | 128",
+                "🇸🇪SE | vless | 3YED | 126",
+                "🇸🇪SE | vless | 3YED | 130",
                 "🇸🇪SE | vless | 3YED | 131",
                 "🇸🇪SE | vless | 3YED | 132",
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 136",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 138",
                 "🇸🇪SE | vless | 3YED | 139",
-                "🇸🇪SE | vless | 3YED | 140",
                 "🇸🇪SE | vless | 3YED | 142",
                 "🇸🇪SE | vless | 3YED | 143",
+                "🇸🇪SE | vless | 3YED | 145",
+                "🇸🇪SE | vless | 3YED | 147",
                 "🇸🇪SE | vless | 3YED | 148",
+                "🇸🇪SE | vless | 3YED | 149",
+                "🇸🇪SE | vless | 3YED | 150",
+                "🇸🇪SE | vless | 3YED | 151",
                 "🇸🇪SE | vless | 3YED | 153",
-                "🇸🇪SE | vless | 3YED | 157",
+                "🇸🇪SE | vless | 3YED | 154",
+                "🇸🇪SE | vless | 3YED | 159",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -469,6 +479,223 @@
             },
             "tls": {
                 "enabled": true,
+                "server_name": "LB8.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LB8.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 122",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "LB2.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LB2.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 123",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vla6.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vla6.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 124",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vla5.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vla5.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 125",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vla2.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vla2.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 126",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLC4.odamgames.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VLC4.odamgames.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 130",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "LB3.owayoins.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LB3.owayoins.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 131",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
                 "server_name": "LB10.owayoins.one",
                 "insecure": true,
                 "disable_sni": false,
@@ -486,7 +713,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 121",
+            "tag": "🇸🇪SE | vless | 3YED | 132",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -517,7 +744,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 123",
+            "tag": "🇸🇪SE | vless | 3YED | 134",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -548,7 +775,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 125",
+            "tag": "🇸🇪SE | vless | 3YED | 136",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -579,7 +806,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 128",
+            "tag": "🇸🇪SE | vless | 3YED | 139",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -610,7 +837,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 131",
+            "tag": "🇸🇪SE | vless | 3YED | 142",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -641,7 +868,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 132",
+            "tag": "🇸🇪SE | vless | 3YED | 143",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -672,7 +899,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 134",
+            "tag": "🇸🇪SE | vless | 3YED | 145",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -703,7 +930,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 136",
+            "tag": "🇸🇪SE | vless | 3YED | 147",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -734,7 +961,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 137",
+            "tag": "🇸🇪SE | vless | 3YED | 148",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -765,7 +992,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 138",
+            "tag": "🇸🇪SE | vless | 3YED | 149",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -796,7 +1023,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 139",
+            "tag": "🇸🇪SE | vless | 3YED | 150",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -827,7 +1054,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 140",
+            "tag": "🇸🇪SE | vless | 3YED | 151",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -858,7 +1085,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 142",
+            "tag": "🇸🇪SE | vless | 3YED | 153",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -889,7 +1116,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 143",
+            "tag": "🇸🇪SE | vless | 3YED | 154",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -920,7 +1147,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 148",
+            "tag": "🇸🇪SE | vless | 3YED | 159",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -947,68 +1174,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "VLC4.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 153",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "LB4.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LB4.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 157",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLB5.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VLB5.owayoins.net"
                 }
             }
         },
