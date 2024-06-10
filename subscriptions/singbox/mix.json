@@ -176,9 +176,9 @@
                 "🇺🇸US | vmess | 3YED | 24",
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇺🇸US | vmess | 3YED | 40",
-                "🇩🇪DE | vless | 3YED | 7",
-                "🇺🇸US | ss | 3YED | 12",
-                "🇳🇴NO | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 8",
+                "🇺🇸US | ss | 3YED | 13",
+                "🇳🇴NO | vless | 3YED | 14",
                 "🇸🇪SE | vless | 3YED | 115",
                 "🇸🇪SE | vless | 3YED | 119",
                 "🇸🇪SE | vless | 3YED | 120",
@@ -213,10 +213,8 @@
                 "🇬🇧GB | ss | 3YED | 16",
                 "🇫🇷FR | ss | 3YED | 17",
                 "🇩🇪DE | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 12",
-                "🇺🇸US | vmess | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 15",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -329,9 +327,9 @@
                 "🇺🇸US | vmess | 3YED | 24",
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇺🇸US | vmess | 3YED | 40",
-                "🇩🇪DE | vless | 3YED | 7",
-                "🇺🇸US | ss | 3YED | 12",
-                "🇳🇴NO | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 8",
+                "🇺🇸US | ss | 3YED | 13",
+                "🇳🇴NO | vless | 3YED | 14",
                 "🇸🇪SE | vless | 3YED | 115",
                 "🇸🇪SE | vless | 3YED | 119",
                 "🇸🇪SE | vless | 3YED | 120",
@@ -366,10 +364,8 @@
                 "🇬🇧GB | ss | 3YED | 16",
                 "🇫🇷FR | ss | 3YED | 17",
                 "🇩🇪DE | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 12",
-                "🇺🇸US | vmess | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 15",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -2133,7 +2129,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 8",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -2162,7 +2158,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 12",
+            "tag": "🇺🇸US | ss | 3YED | 13",
             "type": "shadowsocks",
             "server": "205.134.180.139",
             "server_port": 443,
@@ -2172,7 +2168,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇴NO | vless | 3YED | 13",
+            "tag": "🇳🇴NO | vless | 3YED | 14",
             "type": "vless",
             "server": "185.125.171.13",
             "server_port": 443,
@@ -2877,79 +2873,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
-            "type": "vmess",
-            "server": "188.114.99.205",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 9",
-            "type": "vmess",
-            "server": "172.67.161.77",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 12",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
-            "server": "104.31.16.121",
-            "server_port": 443,
-            "uuid": "739aef27-7cf4-4457-839c-449e707d64ea",
+            "server": "104.26.14.16",
+            "server_port": 8443,
+            "uuid": "40bd0854-8a76-428a-993d-fea77db2a59d",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2959,7 +2887,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "sqvsjpkqkfw5lgfvcznq.digikala.network",
+                "server_name": "telegram-falcunargo-stoniya.falcunar.asso.eu.org.",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2969,27 +2897,41 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/12979\/Digi-Atl",
+                "path": "\/",
                 "headers": {
-                    "Host": "sqvsjpkqkfw5lgfvcznq.digikala.network"
+                    "Host": "telegram-falcunargo-stoniya.falcunar.asso.eu.org."
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "129.146.46.181",
-            "server_port": 52408,
-            "uuid": "a797ff7b-8161-40a6-d577-1b2c213b3885",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | vless | 3YED | 15",
+            "type": "vless",
+            "server": "104.19.84.84",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
             }
         },
         {
