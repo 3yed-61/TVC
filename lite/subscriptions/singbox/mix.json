@@ -112,11 +112,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -133,11 +131,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
-                "🇸🇪SE | vless | @DailyV2RY | 150",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
-                "🇩🇪DE | trojan | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🏳️XX | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 6",
@@ -310,37 +306,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 150",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "LB7.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LB7.owayoins.net"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "217.182.198.219",
@@ -349,28 +314,6 @@ https://github.com/3yed-61
             "password": "Y6R9pAtvxxzmGC",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | trojan | @ConfigsHUB | 19",
-            "type": "trojan",
-            "server": "52.29.157.126",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -407,11 +350,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🏳️XX | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "172.67.174.42",
+            "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "3ab520f6-6eb6-4faa-a8d7-519cc740d231",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -424,7 +367,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "Dusseldorf.kotick.site",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -434,9 +377,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
