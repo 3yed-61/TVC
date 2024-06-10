@@ -108,7 +108,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇮🇷IR | vless | 3YED | 170",
                 "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇬SG | vless | 3YED | 17",
                 "🇫🇮FI | vless | 3YED | 18",
@@ -145,7 +144,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇮🇷IR | vless | 3YED | 170",
                 "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇬SG | vless | 3YED | 17",
                 "🇫🇮FI | vless | 3YED | 18",
@@ -278,30 +276,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 170",
-            "type": "vless",
-            "server": "81.12.93.83",
-            "server_port": 443,
-            "uuid": "526272f9-047d-44dc-8e62-afa29d84bcb8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sha1.noobdog.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
