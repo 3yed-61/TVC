@@ -113,10 +113,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇳🇴NO | vless | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇩🇪DE | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -135,10 +134,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @DeamNet_Proxy | 18",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 8",
                 "🇳🇴NO | vless | @VmessProtocol | 16",
-                "🇸🇪SE | vless | @DailyV2RY | 159",
                 "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🇩🇪DE | vmess | @Hope_Net | 6",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
@@ -168,7 +166,7 @@ https://github.com/3yed-61
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "52.56.138.217",
+            "server": "18.171.30.80",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -190,7 +188,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.132.57.185",
+            "server": "3.133.220.40",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -324,37 +322,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 159",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "LB8.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LB8.owayoins.net"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "217.182.198.219",
@@ -399,11 +366,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.17.78.61",
-            "server_port": 2052,
-            "uuid": "bf475e6c-a607-415e-a7f7-45c889320633",
+            "server": "217.160.45.31",
+            "server_port": 8880,
+            "uuid": "4e186678-fcca-4325-e4bc-b2916bdf6708",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -416,9 +383,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/video\/9TfVEyku",
+                "path": "\/",
                 "headers": {
-                    "Host": "104.17.78.61"
+                    "Host": ""
                 }
             }
         },
