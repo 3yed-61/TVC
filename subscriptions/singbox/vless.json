@@ -131,8 +131,6 @@
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 150",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -172,8 +170,6 @@
                 "🇸🇪SE | vless | 3YED | 134",
                 "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 150",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -975,68 +971,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "LB7.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "172.66.213.38",
-            "server_port": 443,
-            "uuid": "3e33acba-13b9-4485-9c0c-ae5501e2b468",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pardazeshvpn-tg31.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNHTTPInjectorfree",
-                "headers": {
-                    "Host": "pardazeshvpn-tg31.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 17",
-            "type": "vless",
-            "server": "172.67.70.92",
-            "server_port": 8443,
-            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xin009.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "xin009.ylks.link"
                 }
             }
         },
