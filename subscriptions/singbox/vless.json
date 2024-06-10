@@ -108,7 +108,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇮🇷IR | vless | 3YED | 180",
                 "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇬SG | vless | 3YED | 17",
                 "🇫🇮FI | vless | 3YED | 18",
@@ -119,19 +118,20 @@
                 "🇸🇪SE | vless | 3YED | 121",
                 "🇸🇪SE | vless | 3YED | 123",
                 "🇸🇪SE | vless | 3YED | 125",
-                "🇸🇪SE | vless | 3YED | 126",
-                "🇸🇪SE | vless | 3YED | 127",
                 "🇸🇪SE | vless | 3YED | 128",
-                "🇸🇪SE | vless | 3YED | 129",
                 "🇸🇪SE | vless | 3YED | 131",
                 "🇸🇪SE | vless | 3YED | 132",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 136",
                 "🇸🇪SE | vless | 3YED | 137",
+                "🇸🇪SE | vless | 3YED | 138",
+                "🇸🇪SE | vless | 3YED | 139",
+                "🇸🇪SE | vless | 3YED | 140",
                 "🇸🇪SE | vless | 3YED | 142",
-                "🇸🇪SE | vless | 3YED | 146",
-                "🇸🇪SE | vless | 3YED | 152",
+                "🇸🇪SE | vless | 3YED | 143",
+                "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 153",
-                "🇸🇪SE | vless | 3YED | 154",
-                "🇸🇪SE | vless | 3YED | 159",
+                "🇸🇪SE | vless | 3YED | 157",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -147,7 +147,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇮🇷IR | vless | 3YED | 180",
                 "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇬SG | vless | 3YED | 17",
                 "🇫🇮FI | vless | 3YED | 18",
@@ -158,19 +157,20 @@
                 "🇸🇪SE | vless | 3YED | 121",
                 "🇸🇪SE | vless | 3YED | 123",
                 "🇸🇪SE | vless | 3YED | 125",
-                "🇸🇪SE | vless | 3YED | 126",
-                "🇸🇪SE | vless | 3YED | 127",
                 "🇸🇪SE | vless | 3YED | 128",
-                "🇸🇪SE | vless | 3YED | 129",
                 "🇸🇪SE | vless | 3YED | 131",
                 "🇸🇪SE | vless | 3YED | 132",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 136",
                 "🇸🇪SE | vless | 3YED | 137",
+                "🇸🇪SE | vless | 3YED | 138",
+                "🇸🇪SE | vless | 3YED | 139",
+                "🇸🇪SE | vless | 3YED | 140",
                 "🇸🇪SE | vless | 3YED | 142",
-                "🇸🇪SE | vless | 3YED | 146",
-                "🇸🇪SE | vless | 3YED | 152",
+                "🇸🇪SE | vless | 3YED | 143",
+                "🇸🇪SE | vless | 3YED | 148",
                 "🇸🇪SE | vless | 3YED | 153",
-                "🇸🇪SE | vless | 3YED | 154",
-                "🇸🇪SE | vless | 3YED | 159",
+                "🇸🇪SE | vless | 3YED | 157",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -282,30 +282,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 180",
-            "type": "vless",
-            "server": "81.12.93.83",
-            "server_port": 443,
-            "uuid": "526272f9-047d-44dc-8e62-afa29d84bcb8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sha1.noobdog.shop",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
@@ -493,6 +469,161 @@
             },
             "tls": {
                 "enabled": true,
+                "server_name": "LB10.owayoins.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "LB10.owayoins.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 121",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLC3.owayoins.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VLC3.owayoins.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 123",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLC2.owayoins.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VLC2.owayoins.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 125",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vla1.owayoins.one",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vla1.owayoins.one"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 128",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vla1.owayoins.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vla1.owayoins.net"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | 3YED | 131",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
                 "server_name": "LB10.owayoins.net",
                 "insecure": true,
                 "disable_sni": false,
@@ -510,7 +641,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 121",
+            "tag": "🇸🇪SE | vless | 3YED | 132",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -541,7 +672,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 123",
+            "tag": "🇸🇪SE | vless | 3YED | 134",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -572,7 +703,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 125",
+            "tag": "🇸🇪SE | vless | 3YED | 136",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -603,7 +734,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 126",
+            "tag": "🇸🇪SE | vless | 3YED | 137",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -634,7 +765,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 127",
+            "tag": "🇸🇪SE | vless | 3YED | 138",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -665,7 +796,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 128",
+            "tag": "🇸🇪SE | vless | 3YED | 139",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -696,7 +827,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 129",
+            "tag": "🇸🇪SE | vless | 3YED | 140",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -727,7 +858,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 131",
+            "tag": "🇸🇪SE | vless | 3YED | 142",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -758,7 +889,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 132",
+            "tag": "🇸🇪SE | vless | 3YED | 143",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -789,7 +920,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 137",
+            "tag": "🇸🇪SE | vless | 3YED | 148",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -820,7 +951,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 142",
+            "tag": "🇸🇪SE | vless | 3YED | 153",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -851,7 +982,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 146",
+            "tag": "🇸🇪SE | vless | 3YED | 157",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -878,130 +1009,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "VLB5.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 152",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLC2.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VLC2.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 153",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "LB1.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LB1.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 154",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vla4.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vla4.owayoins.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 159",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "LB8.owayoins.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "LB8.owayoins.net"
                 }
             }
         },
