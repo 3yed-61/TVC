@@ -108,9 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @proxyymeliii | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 6",
+                "🇹🇷TR | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -122,9 +122,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇬🇧GB | vmess | @proxyymeliii | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇹🇷TR | vmess | @Hope_Net | 6",
+                "🇹🇷TR | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
@@ -184,11 +184,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
+            "tag": "🇬🇧GB | vmess | @proxyymeliii | 17",
             "type": "vmess",
-            "server": "188.114.99.183",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "206.71.149.171",
+            "server_port": 2096,
+            "uuid": "ae8b8d2c-e3a0-463a-c9d2-26165ffac498",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -198,23 +198,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
@@ -252,7 +235,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @Hope_Net | 6",
+            "tag": "🇹🇷TR | vmess | @Hope_Net | 7",
             "type": "vmess",
             "server": "213.142.149.116",
             "server_port": 41858,
