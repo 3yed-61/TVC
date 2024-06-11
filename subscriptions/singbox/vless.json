@@ -112,7 +112,7 @@
                 "🇸🇬SG | vless | 3YED | 19",
                 "🇫🇮FI | vless | 3YED | 20",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 12",
+                "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇪SE | vless | 3YED | 122",
                 "🇸🇪SE | vless | 3YED | 123",
                 "🇸🇪SE | vless | 3YED | 126",
@@ -130,8 +130,6 @@
                 "🇸🇪SE | vless | 3YED | 151",
                 "🇸🇪SE | vless | 3YED | 153",
                 "🇸🇪SE | vless | 3YED | 157",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -151,7 +149,7 @@
                 "🇸🇬SG | vless | 3YED | 19",
                 "🇫🇮FI | vless | 3YED | 20",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 12",
+                "🇩🇪DE | vless | 3YED | 16",
                 "🇸🇪SE | vless | 3YED | 122",
                 "🇸🇪SE | vless | 3YED | 123",
                 "🇸🇪SE | vless | 3YED | 126",
@@ -169,8 +167,6 @@
                 "🇸🇪SE | vless | 3YED | 151",
                 "🇸🇪SE | vless | 3YED | 153",
                 "🇸🇪SE | vless | 3YED | 157",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -397,7 +393,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 12",
+            "tag": "🇩🇪DE | vless | 3YED | 16",
             "type": "vless",
             "server": "95.164.68.37",
             "server_port": 8443,
@@ -949,68 +945,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vla6.melodievents.one"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "packetsender.com",
-            "server_port": 2096,
-            "uuid": "23beafe4-135e-4387-b0f2-c228476694fb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Tu.osirisgames.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "Tu.osirisgames.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 1",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 443,
-            "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "channel-ma-vip-programs.hsjsak.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed",
-                "headers": {
-                    "Host": "channel-ma-vip-programs.hsjsak.ir"
                 }
             }
         },
