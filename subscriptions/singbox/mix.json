@@ -149,7 +149,7 @@
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 14",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -222,8 +222,8 @@
                 "🇬🇧GB | ss | 3YED | 16",
                 "🇫🇷FR | ss | 3YED | 17",
                 "🇩🇪DE | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -309,7 +309,7 @@
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
-                "🇨🇦CA | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 10",
                 "🇨🇳CN | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 14",
                 "🇺🇸US | vmess | 3YED | 3",
@@ -382,8 +382,8 @@
                 "🇬🇧GB | ss | 3YED | 16",
                 "🇫🇷FR | ss | 3YED | 17",
                 "🇩🇪DE | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -1412,7 +1412,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 10",
+            "tag": "🇺🇸US | vmess | 3YED | 10",
             "type": "vmess",
             "server": "hk.wish.ml",
             "server_port": 2052,
@@ -3159,7 +3159,41 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 7",
+            "type": "vmess",
+            "server": "upload.ir",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
             "server": "104.19.174.68",
             "server_port": 2096,
@@ -3186,40 +3220,6 @@
                 "path": "\/blue",
                 "headers": {
                     "Host": "jp111.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "104.26.0.95",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
