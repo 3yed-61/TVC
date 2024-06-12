@@ -121,7 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇫🇮FI | vless | @v2rayNG_Matsuri | 25","type":"vless","server":"135.181.202.101","port":10559,"udp":true,"uuid":"44b1db28-a819-4914-9c6f-ee7c7599a894","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c","short-id":"c5f1f156"}}
-  - {"name":"🇨🇦CA | vless | @FreakConfig | 4","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
+  - {"name":"🇪🇸ES | vless | @ConfigsHUB | 19","type":"vless","server":"185.18.250.25","port":443,"udp":false,"uuid":"48198295-b7ba-4b5c-8d85-085d55a6c869","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"xin221.ylks.link","ws-opts":{"path":"/proxyip"}}
+  - {"name":"🇨🇦CA | vless | @FreakConfig | 5","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +130,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
-      - '🇨🇦CA | vless | @FreakConfig | 4'
+      - '🇪🇸ES | vless | @ConfigsHUB | 19'
+      - '🇨🇦CA | vless | @FreakConfig | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -137,14 +139,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
-      - '🇨🇦CA | vless | @FreakConfig | 4'
+      - '🇪🇸ES | vless | @ConfigsHUB | 19'
+      - '🇨🇦CA | vless | @FreakConfig | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
-      - '🇨🇦CA | vless | @FreakConfig | 4'
+      - '🇪🇸ES | vless | @ConfigsHUB | 19'
+      - '🇨🇦CA | vless | @FreakConfig | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

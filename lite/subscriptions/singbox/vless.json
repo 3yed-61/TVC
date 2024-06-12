@@ -107,7 +107,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇨🇦CA | vless | @FreakConfig | 4"
+                "🇪🇸ES | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @FreakConfig | 5"
             ]
         },
         {
@@ -115,7 +116,8 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇨🇦CA | vless | @FreakConfig | 4"
+                "🇪🇸ES | vless | @ConfigsHUB | 19",
+                "🇨🇦CA | vless | @FreakConfig | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -167,7 +169,38 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 4",
+            "tag": "🇪🇸ES | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "185.18.250.25",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xin221.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/proxyip",
+                "headers": {
+                    "Host": "xin221.ylks.link"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
