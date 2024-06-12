@@ -110,12 +110,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇹🇷TR | vmess | @FreakConfig | 3",
@@ -130,12 +130,12 @@ https://github.com/3yed-61
                 "🇩🇪DE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+                "🇸🇪SE | vless | @DailyV2RY | 142",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇹🇷TR | vmess | @FreakConfig | 3",
@@ -186,7 +186,7 @@ https://github.com/3yed-61
         {
             "tag": "🇩🇪DE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.124.122.77",
+            "server": "3.68.177.44",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -240,40 +240,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
-            "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
             "type": "vless",
             "server": "135.181.202.101",
@@ -303,7 +269,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 19",
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -333,6 +299,37 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 142",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLC5.kiadomnss2.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VLC5.kiadomnss2.net"
                 }
             }
         },
@@ -381,11 +378,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "v3.ssrsub.com",
-            "server_port": 18443,
-            "uuid": "f736834f-1fc8-4738-9884-9afe0eb0d818",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "a91c3fbf-0a68-474b-ac24-bf801db981f6",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -396,21 +393,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "v3.ssrsub.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/api\/v3\/download.getFile",
+                "path": "\/video\/3YKfzGw4",
                 "headers": {
-                    "Host": "v3.ssrsub.com"
+                    "Host": ""
                 }
             }
         },

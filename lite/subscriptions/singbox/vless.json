@@ -106,14 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25"
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
+                "🇸🇪SE | vless | @DailyV2RY | 142"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25"
+                "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
+                "🇸🇪SE | vless | @DailyV2RY | 142"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -161,6 +163,37 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c",
                     "short_id": "c5f1f156"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | vless | @DailyV2RY | 142",
+            "type": "vless",
+            "server": "cloud.kinononva.top",
+            "server_port": 2096,
+            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VLC5.kiadomnss2.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VLC5.kiadomnss2.net"
                 }
             }
         }

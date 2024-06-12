@@ -121,6 +121,7 @@ dns:
 
 proxies:
   - {"name":"🇫🇮FI | vless | @v2rayNG_Matsuri | 25","type":"vless","server":"135.181.202.101","port":10559,"udp":true,"uuid":"44b1db28-a819-4914-9c6f-ee7c7599a894","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"yahoo.com","reality-opts":{"public-key":"JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c","short-id":"c5f1f156"}}
+  - {"name":"🇸🇪SE | vless | @DailyV2RY | 142","type":"vless","server":"cloud.kinononva.top","port":2096,"udp":false,"uuid":"2a3263e2-891c-4446-b474-a8c63acb6e25","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"VLC5.kiadomnss2.net","ws-opts":{"path":"/","headers":{"host":"VLC5.kiadomnss2.net"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -128,6 +129,7 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
+      - '🇸🇪SE | vless | @DailyV2RY | 142'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -135,12 +137,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
+      - '🇸🇪SE | vless | @DailyV2RY | 142'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
       - '🇫🇮FI | vless | @v2rayNG_Matsuri | 25'
+      - '🇸🇪SE | vless | @DailyV2RY | 142'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
