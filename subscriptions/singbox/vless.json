@@ -113,16 +113,12 @@
                 "🇸🇬SG | vless | 3YED | 24",
                 "🇫🇮FI | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇪SE | vless | 3YED | 134",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 142",
-                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 6",
                 "🏳️XX | vless | 3YED | 7"
@@ -140,16 +136,12 @@
                 "🇸🇬SG | vless | 3YED | 24",
                 "🇫🇮FI | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇪SE | vless | 3YED | 134",
-                "🇸🇪SE | vless | 3YED | 137",
-                "🇸🇪SE | vless | 3YED | 142",
-                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 6",
                 "🏳️XX | vless | 3YED | 7"
@@ -404,130 +396,6 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 134",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLC4.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VLC4.kiadomnss2.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 137",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLC1.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VLC1.kiadomnss2.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 142",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLC5.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "VLC5.kiadomnss2.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 6",
-            "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2096,
-            "uuid": "d4b40aaf-f90a-4224-ab98-8c9eafa595c6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "962f65bab20fad8a.morgensport.nl",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM",
-                "headers": {
-                    "Host": "962f65bab20fad8a.morgensport.nl"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | 3YED | 8",
             "type": "vless",
             "server": "159.223.4.137",
@@ -646,37 +514,6 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "172.64.101.233",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
             "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
@@ -702,6 +539,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
+            "server": "172.64.101.233",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
