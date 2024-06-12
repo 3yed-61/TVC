@@ -108,24 +108,23 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇸🇬SG | vless | 3YED | 24",
                 "🇫🇮FI | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇪SE | vless | 3YED | 124",
-                "🇸🇪SE | vless | 3YED | 127",
-                "🇸🇪SE | vless | 3YED | 132",
-                "🇸🇪SE | vless | 3YED | 133",
-                "🇸🇪SE | vless | 3YED | 136",
-                "🇸🇪SE | vless | 3YED | 140",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 137",
+                "🇸🇪SE | vless | 3YED | 142",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 6",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -136,24 +135,23 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇨🇦CA | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 23",
                 "🇸🇬SG | vless | 3YED | 24",
                 "🇫🇮FI | vless | 3YED | 25",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇸🇪SE | vless | 3YED | 124",
-                "🇸🇪SE | vless | 3YED | 127",
-                "🇸🇪SE | vless | 3YED | 132",
-                "🇸🇪SE | vless | 3YED | 133",
-                "🇸🇪SE | vless | 3YED | 136",
-                "🇸🇪SE | vless | 3YED | 140",
+                "🇸🇪SE | vless | 3YED | 134",
+                "🇸🇪SE | vless | 3YED | 137",
+                "🇸🇪SE | vless | 3YED | 142",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 4",
                 "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 6",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -260,6 +258,37 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 2",
+            "type": "vless",
+            "server": "marketepicnode10.bestgameir2.ir",
+            "server_port": 2083,
+            "uuid": "6ae78853-9cae-44bd-88bd-9f32723eb685",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "marketepicnode10.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "marketepicnode10.bestgameir2.ir"
                 }
             }
         },
@@ -375,7 +404,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 124",
+            "tag": "🇸🇪SE | vless | 3YED | 134",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -406,7 +435,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 127",
+            "tag": "🇸🇪SE | vless | 3YED | 137",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -437,7 +466,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 132",
+            "tag": "🇸🇪SE | vless | 3YED | 142",
             "type": "vless",
             "server": "cloud.kinononva.top",
             "server_port": 2096,
@@ -468,11 +497,11 @@
             }
         },
         {
-            "tag": "🇸🇪SE | vless | 3YED | 133",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
-            "server": "cloud.kinononva.top",
+            "server": "zula.ir",
             "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
+            "uuid": "d4b40aaf-f90a-4224-ab98-8c9eafa595c6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -482,7 +511,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "VLB3.kiadomnss2.net",
+                "server_name": "962f65bab20fad8a.morgensport.nl",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -492,71 +521,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM",
                 "headers": {
-                    "Host": "VLB3.kiadomnss2.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 136",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vla12.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vla12.kiadomnss2.net"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 140",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vla7.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vla7.kiadomnss2.net"
+                    "Host": "962f65bab20fad8a.morgensport.nl"
                 }
             }
         },
@@ -739,7 +706,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "marketepicnode8.prolucky.ir",
             "server_port": 2083,
@@ -770,7 +737,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "marketepicnode6.nabarbest.ir",
             "server_port": 2083,
