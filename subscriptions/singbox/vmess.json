@@ -144,18 +144,16 @@
                 "🇺🇸US | vmess | 3YED | 24",
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇺🇸US | vmess | 3YED | 40",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇫🇷FR | vmess | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🏳️XX | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🏳️XX | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇬🇧GB | vmess | 3YED | 0",
@@ -217,18 +215,16 @@
                 "🇺🇸US | vmess | 3YED | 24",
                 "🇺🇸US | vmess | 3YED | 28",
                 "🇺🇸US | vmess | 3YED | 40",
-                "🇺🇸US | vmess | 3YED | 3",
-                "🇫🇷FR | vmess | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🏳️XX | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🏳️XX | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇬🇧GB | vmess | 3YED | 0",
@@ -1276,11 +1272,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 12",
             "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "38.75.137.27",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1290,98 +1286,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | 3YED | 16",
-            "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 18",
-            "type": "vmess",
-            "server": "107.182.189.201",
-            "server_port": 55187,
-            "uuid": "26670a76-5fe2-4738-a84b-1229905e0354",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "188.114.98.39",
-            "server_port": 443,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mikasa.yaemiko.cloudns.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "mikasa.yaemiko.cloudns.org"
-                }
             }
         },
         {
@@ -1535,58 +1439,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
-            "type": "vmess",
-            "server": "51.81.223.19",
-            "server_port": 443,
-            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
-            "security": "auto",
-            "alter_id": 32,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "51.81.223.19",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
-            "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "a91c3fbf-0a68-474b-ac24-bf801db981f6",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/3YKfzGw4",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🏳️XX | vmess | 3YED | 3",
+            "tag": "🏳️XX | vmess | 3YED | 0",
             "type": "vmess",
             "server": "v3.ssrsub.com",
             "server_port": 18443,
@@ -1616,6 +1469,91 @@
                 "path": "\/api\/v3\/download.getFile",
                 "headers": {
                     "Host": "v3.ssrsub.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "188.114.98.39",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ivideos.sbs\/linkws",
+                "headers": {
+                    "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "51.81.223.19",
+            "server_port": 443,
+            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
+            "security": "auto",
+            "alter_id": 32,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "51.81.223.19",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "type": "vmess",
+            "server": "cfcdn2.sanfencdn9.com",
+            "server_port": 2052,
+            "uuid": "a91c3fbf-0a68-474b-ac24-bf801db981f6",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/video\/3YKfzGw4",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
