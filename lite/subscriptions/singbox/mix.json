@@ -111,14 +111,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
-                "🇸🇪SE | vless | @DailyV2RY | 142",
+                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @vless_vmess | 16",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇹🇷TR | vmess | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ]
         },
@@ -131,14 +131,14 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇫🇮FI | vless | @v2rayNG_Matsuri | 25",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 19",
-                "🇸🇪SE | vless | @DailyV2RY | 142",
+                "🇺🇸US | vmess | @ShadowProxy66 | 19",
+                "🇨🇦CA | vmess | @vless_vmess | 16",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇺🇸US | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
-                "🇹🇷TR | vmess | @FreakConfig | 3",
+                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇺🇸US | vmess | @ROMAX_VPN | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -269,7 +269,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 19",
+            "tag": "🇺🇸US | vmess | @ShadowProxy66 | 19",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -303,33 +303,26 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vless | @DailyV2RY | 142",
-            "type": "vless",
-            "server": "cloud.kinononva.top",
-            "server_port": 2096,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇨🇦CA | vmess | @vless_vmess | 16",
+            "type": "vmess",
+            "server": "188.114.97.3",
+            "server_port": 80,
+            "uuid": "b25f8da6-54a2-49b3-bacf-8403b4c36556",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "VLC5.kiadomnss2.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "VLC5.kiadomnss2.net"
+                    "Host": ""
                 }
             }
         },
@@ -378,13 +371,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "cfcdn2.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "a91c3fbf-0a68-474b-ac24-bf801db981f6",
+            "server": "51.81.223.19",
+            "server_port": 443,
+            "uuid": "c0156451-4efb-45e2-84fc-8d315c4650db",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 32,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -393,11 +386,14 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/3YKfzGw4",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "51.81.223.19",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -470,20 +466,34 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @FreakConfig | 3",
-            "type": "vmess",
-            "server": "213.142.149.116",
-            "server_port": 41858,
-            "uuid": "d2c7b321-5e48-4d28-80e2-f64c6ddfad96",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 2096,
+            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                }
             }
         },
         {
