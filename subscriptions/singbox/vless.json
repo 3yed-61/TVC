@@ -110,14 +110,15 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇰DK | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇰DK | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 98",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7"
             ]
@@ -131,14 +132,15 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇨🇦CA | vless | 3YED | 4",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇰DK | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇰DK | vless | 3YED | 6",
+                "🇺🇸US | vless | 3YED | 98",
+                "🇺🇸US | vless | 3YED | 6",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7"
             ],
@@ -305,7 +307,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
+            "tag": "🇩🇪DE | vless | 3YED | 3",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -334,7 +336,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 3",
+            "tag": "🇩🇰DK | vless | 3YED | 6",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
@@ -359,6 +361,68 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 98",
+            "type": "vless",
+            "server": "104.25.85.27",
+            "server_port": 2053,
+            "uuid": "85821876-72e5-4271-941f-d9428dbb03d0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/drv2rayng-V2rayngdr-telegram-dr_v2rayng?ed=80",
+                "headers": {
+                    "Host": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 6",
+            "type": "vless",
+            "server": "104.21.80.190",
+            "server_port": 2083,
+            "uuid": "0ebb1677-4902-476f-bc03-3e8c7ca6fd21",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "node.vauth.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "node.vauth.workers.dev"
                 }
             }
         },
@@ -479,7 +543,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "172.64.146.118",
             "server_port": 8443,
@@ -510,7 +574,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
@@ -537,37 +601,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
-            "type": "vless",
-            "server": "172.64.101.233",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },

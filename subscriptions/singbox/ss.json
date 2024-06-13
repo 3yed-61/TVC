@@ -106,8 +106,8 @@
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | ss | 3YED | 0",
-                "🇩🇪DE | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 14",
+                "🇨🇦CA | ss | 3YED | 0",
+                "🇩🇪DE | ss | 3YED | 10",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇺🇸US | ss | 3YED | 2",
@@ -133,8 +133,8 @@
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | ss | 3YED | 0",
-                "🇩🇪DE | ss | 3YED | 7",
-                "🇩🇪DE | ss | 3YED | 14",
+                "🇨🇦CA | ss | 3YED | 0",
+                "🇩🇪DE | ss | 3YED | 10",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇺🇸US | ss | 3YED | 2",
@@ -185,22 +185,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 7",
+            "tag": "🇨🇦CA | ss | 3YED | 0",
+            "type": "shadowsocks",
+            "server": "ca.yangon.club",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qkotZ0f94vUH38YhrXGkUd",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | ss | 3YED | 10",
             "type": "shadowsocks",
             "server": "18.195.204.72",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "6i\/1PSQ2nFMEwezwm0VGTyhbfSQ86ZbDuJoZJCum6fs=",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇩🇪DE | ss | 3YED | 14",
-            "type": "shadowsocks",
-            "server": "18.156.137.107",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mk4l9LxGJiXyxYkUgNdsCtXhrAHqvaZxodY5NU9frXg=",
             "plugin": "",
             "plugin_opts": ""
         },
