@@ -112,9 +112,6 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇲🇾MY | vless | 3YED | 17",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -122,7 +119,7 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -137,9 +134,6 @@
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇲🇾MY | vless | 3YED | 17",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -147,7 +141,7 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -371,99 +365,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "172.67.187.56",
-            "server_port": 2083,
-            "uuid": "ca8cfe0d-61f5-4cd1-8de5-b6671adfe798",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marketepicnode10.bestgameir2.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "marketepicnode10.bestgameir2.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾MY | vless | 3YED | 17",
-            "type": "vless",
-            "server": "172.66.47.74",
-            "server_port": 2053,
-            "uuid": "ca4e46f9-be28-4fae-8ba1-40c4522a4f49",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "androidyt.androidyteuorg.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vless-ws\/",
-                "headers": {
-                    "Host": "androidyt.androidyteuorg.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 18",
-            "type": "vless",
-            "server": "172.67.173.10",
-            "server_port": 2087,
-            "uuid": "a99ab406-6967-47c4-b700-2ec169edceb1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "a.liopiol.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "a.liopiol.ir"
-                }
-            }
-        },
-        {
             "tag": "🇳🇱NL | vless | 3YED | 8",
             "type": "vless",
             "server": "159.223.4.137",
@@ -673,7 +574,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 13",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
             "server": "marketepicnode8.prolucky.ir",
             "server_port": 2083,
