@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇨🇦CA | vless | @ProxyForOpeta | 5","type":"vless","server":"marketepicnode10.bestgameir2.ir","port":2083,"udp":false,"uuid":"6ae78853-9cae-44bd-88bd-9f32723eb685","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"marketepicnode10.bestgameir2.ir","ws-opts":{"path":"","headers":{"host":""}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 4","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
 proxy-groups:
   - name: MANUAL
@@ -127,6 +128,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇨🇦CA | vless | @ProxyForOpeta | 5'
       - '🇨🇦CA | vless | @FreakConfig | 4'
   - name: URL-TEST
     type: url-test
@@ -134,12 +136,14 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇨🇦CA | vless | @ProxyForOpeta | 5'
       - '🇨🇦CA | vless | @FreakConfig | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇨🇦CA | vless | @ProxyForOpeta | 5'
       - '🇨🇦CA | vless | @FreakConfig | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
