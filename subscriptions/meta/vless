@@ -134,7 +134,6 @@ proxies:
   - {"name":"🇺🇸US | vless | 3YED | 0","type":"vless","server":"172.64.146.118","port":8443,"udp":false,"uuid":"ecc19b72-2cc8-4690-b23d-960d3e3c6d40","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"pardazeshvpn-tg24.pages.dev","ws-opts":{"path":"/","headers":{"host":"pardazeshvpn-tg24.pages.dev"}}}
   - {"name":"🇺🇸US | vless | 3YED | 2","type":"vless","server":"www.speedtest.net","port":2096,"udp":false,"uuid":"b41e1631-ceb3-47c9-ba87-c65a46f2f5a8","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"vpNeRor.SAjadHADadi.WEbsiTe","ws-opts":{"path":"/","headers":{"host":"VPnerOr.sajAdHaDaDI.WEbSITe"}}}
   - {"name":"🇺🇸US | vless | 3YED | 3","type":"vless","server":"172.64.101.233","port":443,"udp":false,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"mmdv2.pages.dev","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
-  - {"name":"🇺🇸US | vless | 3YED | 14","type":"vless","server":"marketepicnode8.prolucky.ir","port":2083,"udp":false,"uuid":"6ae78853-9cae-44bd-88bd-9f32723eb685","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"marketepicnode8.prolucky.ir","ws-opts":{"path":"/"}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -155,7 +154,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 3'
-      - '🇺🇸US | vless | 3YED | 14'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -176,7 +174,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 3'
-      - '🇺🇸US | vless | 3YED | 14'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -196,7 +193,6 @@ proxy-groups:
       - '🇺🇸US | vless | 3YED | 0'
       - '🇺🇸US | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 3'
-      - '🇺🇸US | vless | 3YED | 14'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

@@ -119,7 +119,6 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -141,7 +140,6 @@
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 14",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -570,37 +568,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 14",
-            "type": "vless",
-            "server": "marketepicnode8.prolucky.ir",
-            "server_port": 2083,
-            "uuid": "6ae78853-9cae-44bd-88bd-9f32723eb685",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marketepicnode8.prolucky.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "marketepicnode8.prolucky.ir"
                 }
             }
         },
