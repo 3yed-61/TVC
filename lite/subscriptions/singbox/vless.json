@@ -106,18 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 13"
+                "🇺🇸US | vless | @FreakConfig | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @ConfigsHUB | 19",
-                "🇨🇦CA | vless | @FreakConfig | 5",
-                "🇨🇦CA | vless | @flyv2ray | 13"
+                "🇺🇸US | vless | @FreakConfig | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 19",
+            "tag": "🇺🇸US | vless | @FreakConfig | 4",
             "type": "vless",
-            "server": "172.67.173.10",
-            "server_port": 2087,
-            "uuid": "a99ab406-6967-47c4-b700-2ec169edceb1",
+            "server": "172.64.101.233",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -154,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "a.liopiol.ir",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -166,69 +162,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "a.liopiol.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 5",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @flyv2ray | 13",
-            "type": "vless",
-            "server": "marketepicnode8.prolucky.ir",
-            "server_port": 2083,
-            "uuid": "6ae78853-9cae-44bd-88bd-9f32723eb685",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marketepicnode8.prolucky.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "marketepicnode8.prolucky.ir"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         }
