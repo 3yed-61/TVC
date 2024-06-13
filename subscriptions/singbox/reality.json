@@ -108,9 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 23",
-                "🇸🇬SG | vless | 3YED | 24",
-                "🇫🇮FI | vless | 3YED | 25",
+                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -125,9 +124,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 23",
-                "🇸🇬SG | vless | 3YED | 24",
-                "🇫🇮FI | vless | 3YED | 25",
+                "🇩🇪DE | vless | 3YED | 1",
+                "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -242,7 +240,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 23",
+            "tag": "🇩🇪DE | vless | 3YED | 1",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -271,11 +269,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | 3YED | 24",
+            "tag": "🇩🇰DK | vless | 3YED | 0",
             "type": "vless",
-            "server": "172.104.163.203",
-            "server_port": 56702,
-            "uuid": "71a162cc-7fad-409d-87fa-5ca9e13474fb",
+            "server": "46.29.235.78",
+            "server_port": 80,
+            "uuid": "7e08dc93-a81d-4a24-995e-76ce0e11defa",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -285,7 +283,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "addons.mozilla.org",
+                "server_name": "dash.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -294,37 +292,8 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "sW8BfHeovVzmbFuAnr9nH8oJaKYze6shKoKMdek5ai8",
-                    "short_id": "792147b8"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | 3YED | 25",
-            "type": "vless",
-            "server": "135.181.202.101",
-            "server_port": 10559,
-            "uuid": "44b1db28-a819-4914-9c6f-ee7c7599a894",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "JTt7Au4cLeKLnQfD8O-yO19nS5u2CgP3fIO1DHlej1c",
-                    "short_id": "c5f1f156"
+                    "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
+                    "short_id": "95becf1c4d3adc04"
                 }
             }
         },
