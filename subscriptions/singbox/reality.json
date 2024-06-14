@@ -109,8 +109,9 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇰DK | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇩🇰DK | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -126,8 +127,9 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 0",
-                "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇰DK | vless | 3YED | 10",
+                "🇩🇪DE | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 0",
+                "🇩🇰DK | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -271,7 +273,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇩🇪DE | vless | 3YED | 8",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -300,7 +302,36 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 10",
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "104.168.107.230",
+            "server_port": 4342,
+            "uuid": "9a9cd928-36da-4486-bfd0-42ef6b312b3b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.who.int",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
+                    "short_id": "ba345106595e9c3c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇰DK | vless | 3YED | 11",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
