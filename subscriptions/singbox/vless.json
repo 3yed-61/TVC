@@ -108,11 +108,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇰DK | vless | 3YED | 6",
-                "🇮🇷IR | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -129,11 +128,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇨🇦CA | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇰DK | vless | 3YED | 6",
-                "🇮🇷IR | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -250,7 +248,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇨🇦CA | vless | 3YED | 5",
             "type": "vless",
             "server": "marketepicnode10.bestgameir2.ir",
             "server_port": 2083,
@@ -359,30 +357,6 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 14",
-            "type": "vless",
-            "server": "185.219.114.113",
-            "server_port": 19518,
-            "uuid": "05b959a7-95bc-4f83-82ae-1653bc554cff",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "rzm3.feeliran.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
