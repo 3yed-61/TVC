@@ -108,8 +108,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇰DK | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇰DK | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -124,8 +125,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇰DK | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 0",
+                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇰DK | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -240,7 +242,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 5",
+            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "3.120.224.79",
+            "server_port": 2083,
+            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.datacamp.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
+                    "short_id": "a64f68ec13dda1"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -269,7 +300,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 6",
+            "tag": "🇩🇰DK | vless | 3YED | 8",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,

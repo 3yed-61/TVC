@@ -109,16 +109,18 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇰DK | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇰DK | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 98",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -130,16 +132,18 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇨🇦CA | vless | 3YED | 5",
+                "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇰DK | vless | 3YED | 6",
+                "🇩🇪DE | vless | 3YED | 7",
+                "🇩🇰DK | vless | 3YED | 8",
                 "🇺🇸US | vless | 3YED | 98",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -281,6 +285,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 0",
+            "type": "vless",
+            "server": "3.120.224.79",
+            "server_port": 2083,
+            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.datacamp.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
+                    "short_id": "a64f68ec13dda1"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -305,7 +338,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 5",
+            "tag": "🇩🇪DE | vless | 3YED | 7",
             "type": "vless",
             "server": "91.107.176.13",
             "server_port": 8080,
@@ -334,7 +367,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 6",
+            "tag": "🇩🇰DK | vless | 3YED | 8",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
@@ -512,6 +545,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "104.18.5.2",
+            "server_port": 2096,
+            "uuid": "85b94f20-e563-498b-9d4b-a75438a51101",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "VFIvE-teLeGram.PAGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "VFIvE-teLeGram.PAGEs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "172.64.111.69",
             "server_port": 443,
             "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
@@ -541,7 +605,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
             "server": "172.64.146.118",
             "server_port": 8443,
