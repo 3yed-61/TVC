@@ -107,6 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @FreakConfig | 4"
             ]
         },
@@ -115,6 +116,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @ProxyForOpeta | 6",
+                "🇨🇦CA | vless | @ConfigsHUB | 15",
                 "🇨🇦CA | vless | @FreakConfig | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,6 +167,37 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "marketepicnode10.bestgameir2.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | @ConfigsHUB | 15",
+            "type": "vless",
+            "server": "172.67.204.84",
+            "server_port": 2096,
+            "uuid": "3407852b-5e2a-4856-ae27-d9be0df0735b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "935092fd35608b0b.morgensport.nl",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM, VMESSKHODAM",
+                "headers": {
+                    "Host": "935092fd35608b0b.morgensport.nl"
                 }
             }
         },
