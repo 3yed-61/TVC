@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @FreakConfig | 4"
             ]
         },
@@ -116,7 +115,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇨🇦CA | vless | @ProxyForOpeta | 5",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇩🇪DE | vless | @FreakConfig | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -167,37 +165,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "marketepicnode10.bestgameir2.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 2053,
-            "uuid": "63e6b3d4-3975-40e2-8c7c-258b3e0cf6b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zerma.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zerma.ir"
                 }
             }
         },

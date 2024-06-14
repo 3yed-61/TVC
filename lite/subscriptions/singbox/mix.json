@@ -113,13 +113,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇹🇷TR | trojan | @oneclickvpnkeys | 6",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @FreakConfig | 4",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ]
         },
         {
@@ -133,13 +132,12 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇹🇷TR | trojan | @oneclickvpnkeys | 6",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vless | @ConfigsHUB | 17",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇩🇪DE | vless | @FreakConfig | 4",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇺🇸US | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -310,37 +308,6 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vless | @ConfigsHUB | 17",
-            "type": "vless",
-            "server": "104.21.20.148",
-            "server_port": 2053,
-            "uuid": "63e6b3d4-3975-40e2-8c7c-258b3e0cf6b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zerma.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "zerma.ir"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -375,7 +342,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "172.67.170.13",
             "server_port": 443,
@@ -506,7 +473,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 5",
+            "tag": "🇺🇸US | vmess | @ROMAX_VPN | 5",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
