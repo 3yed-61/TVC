@@ -115,8 +115,9 @@
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
                 "🇨🇳CN | vmess | 3YED | 17",
-                "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 12",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇩🇪DE | vmess | 3YED | 2",
@@ -126,8 +127,9 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇸🇪SE | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 143",
-                "🇺🇸US | vmess | 3YED | 148",
+                "🇮🇪IE | vmess | 3YED | 140",
+                "🇺🇸US | vmess | 3YED | 153",
+                "🇺🇸US | vmess | 3YED | 158",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -143,7 +145,6 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇯🇵JP | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇯🇵JP | vmess | 3YED | 0",
@@ -177,8 +178,9 @@
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
                 "🇨🇳CN | vmess | 3YED | 17",
-                "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 12",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇩🇪DE | vmess | 3YED | 2",
@@ -188,8 +190,9 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 8",
                 "🇸🇪SE | vmess | 3YED | 9",
-                "🇺🇸US | vmess | 3YED | 143",
-                "🇺🇸US | vmess | 3YED | 148",
+                "🇮🇪IE | vmess | 3YED | 140",
+                "🇺🇸US | vmess | 3YED | 153",
+                "🇺🇸US | vmess | 3YED | 158",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -205,7 +208,6 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇯🇵JP | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇯🇵JP | vmess | 3YED | 0",
@@ -450,7 +452,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 9",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "172.67.172.141",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "172.67.172.141"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 12",
             "type": "vmess",
             "server": "104.16.68.38",
             "server_port": 8443,
@@ -484,7 +510,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 11",
+            "tag": "🇺🇸US | vmess | 3YED | 14",
             "type": "vmess",
             "server": "us3e-mmnnfr9dop0.v2freevpn.com",
             "server_port": 80,
@@ -757,7 +783,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 143",
+            "tag": "🇮🇪IE | vmess | 3YED | 140",
+            "type": "vmess",
+            "server": "v2.armodestore.xyz",
+            "server_port": 34044,
+            "uuid": "f66e1ccf-494a-4371-9372-62f6cbbe0d96",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 153",
             "type": "vmess",
             "server": "172.67.164.164",
             "server_port": 443,
@@ -791,7 +834,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 148",
+            "tag": "🇺🇸US | vmess | 3YED | 158",
             "type": "vmess",
             "server": "172.67.171.49",
             "server_port": 80,
@@ -1257,40 +1300,6 @@
                 "path": "\/afrhms16v.bestxray.buzz\/linkws",
                 "headers": {
                     "Host": "mysan2.jaquay22.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vmess | 3YED | 6",
-            "type": "vmess",
-            "server": "jp-full.privateip.net",
-            "server_port": 443,
-            "uuid": "7c8c641f-c970-471b-9785-08817a305b0a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp-full.privateip.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": "jp-full.privateip.net"
                 }
             }
         },

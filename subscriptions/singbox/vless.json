@@ -112,8 +112,7 @@
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇰DK | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 98",
+                "🇩🇰DK | vless | 3YED | 10",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -135,8 +134,7 @@
                 "🇩🇪DE | vless | 3YED | 0",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 7",
-                "🇩🇰DK | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 98",
+                "🇩🇰DK | vless | 3YED | 10",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -367,7 +365,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 8",
+            "tag": "🇩🇰DK | vless | 3YED | 10",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
@@ -392,37 +390,6 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 98",
-            "type": "vless",
-            "server": "104.25.85.27",
-            "server_port": 2053,
-            "uuid": "85821876-72e5-4271-941f-d9428dbb03d0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/drv2rayng-V2rayngdr-telegram-dr_v2rayng?ed=80",
-                "headers": {
-                    "Host": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM."
                 }
             }
         },
