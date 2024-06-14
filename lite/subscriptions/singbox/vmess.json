@@ -108,10 +108,9 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -123,10 +122,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
-                "🇸🇪SE | vmess | @DeamNet_Proxy | 19",
-                "🇺🇸US | vmess | @ConfigsHUB | 19",
+                "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 5",
+                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -193,11 +191,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | vmess | @DeamNet_Proxy | 19",
+            "tag": "🇨🇦CA | vmess | @DeamNet_Proxy | 16",
             "type": "vmess",
-            "server": "185.146.173.59",
+            "server": "crackthecode.ftp.sh",
             "server_port": 443,
-            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -210,7 +208,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms02.fxiaomi.sbs",
+                "server_name": "vcp3.dehel15354.wORKERs.Dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -220,33 +218,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/link",
+                "path": "\/afrhms16v.bestxray.buzz:443\/linkws",
                 "headers": {
-                    "Host": "hms02.fxiaomi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | @ConfigsHUB | 19",
-            "type": "vmess",
-            "server": "pa.wqfe1.xyz",
-            "server_port": 16617,
-            "uuid": "ecf05dec-37cc-484d-b0fe-87ae087d263f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/cctv3\/hd.m3u8",
-                "headers": {
-                    "Host": ""
+                    "Host": "vcp3.dehel15354.wORKERs.Dev"
                 }
             }
         },
@@ -285,11 +259,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 5",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
             "type": "vmess",
-            "server": "jp-full.privateip.net",
+            "server": "172.67.170.13",
             "server_port": 443,
-            "uuid": "7c8c641f-c970-471b-9785-08817a305b0a",
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -302,7 +276,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jp-full.privateip.net",
+                "server_name": "glweidf.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -312,9 +286,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "jp-full.privateip.net"
+                    "Host": "glweidf.sbs"
                 }
             }
         },
