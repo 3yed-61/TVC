@@ -114,6 +114,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇩🇰DK | vless | 3YED | 11",
+                "🇮🇪IE | vless | 3YED | 1",
+                "🇮🇪IE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -136,6 +138,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇩🇰DK | vless | 3YED | 11",
+                "🇮🇪IE | vless | 3YED | 1",
+                "🇮🇪IE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -420,6 +424,61 @@
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇪IE | vless | 3YED | 1",
+            "type": "vless",
+            "server": "95.164.44.221",
+            "server_port": 443,
+            "uuid": "ca364c92-b528-4ebb-a9e3-ba539f5ff916",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇪IE | vless | 3YED | 7",
+            "type": "vless",
+            "server": "95.164.44.221",
+            "server_port": 443,
+            "uuid": "ca364c92-b528-4ebb-a9e3-ba539f5ff916",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sourceforge.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "grpc",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
