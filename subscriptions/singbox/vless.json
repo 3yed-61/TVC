@@ -112,11 +112,8 @@
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇩🇰DK | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇸🇬SG | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇩🇰DK | vless | 3YED | 13",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -137,11 +134,8 @@
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇩🇰DK | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇸🇬SG | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇩🇰DK | vless | 3YED | 13",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -371,7 +365,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4342,
@@ -400,7 +394,7 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 11",
+            "tag": "🇩🇰DK | vless | 3YED | 13",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
@@ -425,99 +419,6 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "172.67.140.54",
-            "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "TeST-TESt-tEst-tESt.PagES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "TeST-TESt-tEst-tESt.PagES.DEV"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | 3YED | 12",
-            "type": "vless",
-            "server": "47.236.254.120",
-            "server_port": 8443,
-            "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v033.ylkszy.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/proxyip",
-                "headers": {
-                    "Host": "v033.ylkszy.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.21.40.63",
-            "server_port": 443,
-            "uuid": "43e00e4c-2316-4dc9-8262-cef31886dc56",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "marly.toptechnonews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/nimws",
-                "headers": {
-                    "Host": "marly.toptechnonews.com"
                 }
             }
         },
