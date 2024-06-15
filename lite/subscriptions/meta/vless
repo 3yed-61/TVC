@@ -120,27 +120,27 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇨🇦CA | vless | @FreakConfig | 2","type":"vless","server":"104.18.5.2","port":2096,"udp":false,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"VFIvE-teLeGram.PAGEs.Dev","ws-opts":{"path":"/","headers":{"host":"VFIvE-teLeGram.PAGEs.Dev"}}}
+  - {"name":"🇨🇦CA | vless | @FreakConfig | 3","type":"vless","server":"104.18.5.2","port":2096,"udp":false,"uuid":"85b94f20-e563-498b-9d4b-a75438a51101","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"VFIvE-teLeGram.PAGEs.Dev","ws-opts":{"path":"/","headers":{"host":"VFIvE-teLeGram.PAGEs.Dev"}}}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | vless | @FreakConfig | 2'
+      - '🇨🇦CA | vless | @FreakConfig | 3'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | vless | @FreakConfig | 2'
+      - '🇨🇦CA | vless | @FreakConfig | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | vless | @FreakConfig | 2'
+      - '🇨🇦CA | vless | @FreakConfig | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}

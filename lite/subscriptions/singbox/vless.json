@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @FreakConfig | 2"
+                "🇨🇦CA | vless | @FreakConfig | 3"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @FreakConfig | 2"
+                "🇨🇦CA | vless | @FreakConfig | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,7 +136,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 2",
+            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
             "type": "vless",
             "server": "104.18.5.2",
             "server_port": 2096,
