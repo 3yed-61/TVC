@@ -125,7 +125,6 @@ proxies:
   - {"name":"🇫🇮FI | vless | 3YED | 13","type":"vless","server":"95.217.31.246","port":18929,"udp":true,"uuid":"4100d055-5857-44fb-9b7b-9d699dd4f347","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"testv6.tigervp.xyz","reality-opts":{"public-key":"rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU","short-id":"cfef326c"}}
   - {"name":"🇩🇪DE | vless | 3YED | 2","type":"vless","server":"overcommitment.footballlovernews.com","port":443,"udp":false,"uuid":"e6e9d520-18ec-46c3-8141-a92ed6a90806","tls":true,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | vless | 3YED | 5","type":"vless","server":"104.168.107.230","port":4342,"udp":true,"uuid":"9a9cd928-36da-4486-bfd0-42ef6b312b3b","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"www.who.int","flow":"xtls-rprx-vision","reality-opts":{"public-key":"nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU","short-id":"ba345106595e9c3c"}}
-  - {"name":"🇺🇸US | vless | 3YED | 18","type":"vless","server":"104.23.107.241","port":2053,"udp":false,"uuid":"9eb374e4-bbcb-46bd-9ea4-71c0dacb8eb6","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"aabbjjc.f-vipo.ir","ws-opts":{"path":"/?ed=2087","headers":{"host":"aabbjjc.f-vipo.ir"}}}
   - {"name":"🇳🇱NL | vless | 3YED | 8","type":"vless","server":"159.223.4.137","port":38915,"udp":true,"uuid":"24f6cf45-67ef-493c-8db8-5cad032bf123","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"sourceforge.net","reality-opts":{"public-key":"V7PuAOITOyH7RZ-PRJndYVA5udmu-DqAp7LdjpNYwUQ","short-id":"33c38f16"}}
   - {"name":"🇳🇱NL | vless | 3YED | 18","type":"vless","server":"178.62.240.53","port":15177,"udp":true,"uuid":"373e6d58-210f-4433-b623-e34b47cca8de","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"www.cloudflare.com","reality-opts":{"public-key":"QPIfuN2b5h3qV-dLKEEPzE7WneDIIan5jgPNDR9NDBo","short-id":"457aa090"}}
   - {"name":"🇳🇱NL | vless | 3YED | 20","type":"vless","server":"64.225.81.175","port":31175,"udp":true,"uuid":"98314183-548a-4606-a177-bdb2f67ac272","tls":true,"network":"tcp","client-fingerprint":"firefox","servername":"greenpepper.ir","reality-opts":{"public-key":"kX8rU0xptxqGhyfK7SiPtyvaU24IT1_yvHIXmsMqsTE","short-id":"f2e78b8b"}}
@@ -143,7 +142,6 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 5'
-      - '🇺🇸US | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'
@@ -161,7 +159,6 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 5'
-      - '🇺🇸US | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'
@@ -178,7 +175,6 @@ proxy-groups:
       - '🇫🇮FI | vless | 3YED | 13'
       - '🇩🇪DE | vless | 3YED | 2'
       - '🇺🇸US | vless | 3YED | 5'
-      - '🇺🇸US | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 8'
       - '🇳🇱NL | vless | 3YED | 18'
       - '🇳🇱NL | vless | 3YED | 20'

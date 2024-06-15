@@ -111,7 +111,6 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -131,7 +130,6 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -326,37 +324,6 @@
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 18",
-            "type": "vless",
-            "server": "104.23.107.241",
-            "server_port": 2053,
-            "uuid": "9eb374e4-bbcb-46bd-9ea4-71c0dacb8eb6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aabbjjc.f-vipo.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2087",
-                "headers": {
-                    "Host": "aabbjjc.f-vipo.ir"
                 }
             }
         },
