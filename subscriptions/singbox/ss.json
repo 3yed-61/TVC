@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | ss | 3YED | 10",
+                "🇨🇦CA | ss | 3YED | 4",
+                "🇨🇦CA | ss | 3YED | 11",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇺🇸US | ss | 3YED | 2",
@@ -131,7 +132,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | ss | 3YED | 10",
+                "🇨🇦CA | ss | 3YED | 4",
+                "🇨🇦CA | ss | 3YED | 11",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
                 "🇺🇸US | ss | 3YED | 2",
@@ -173,7 +175,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | ss | 3YED | 10",
+            "tag": "🇨🇦CA | ss | 3YED | 4",
+            "type": "shadowsocks",
+            "server": "134.195.196.178",
+            "server_port": 812,
+            "method": "chacha20-ietf-poly1305",
+            "password": "G!yBwPWH3Vao",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | ss | 3YED | 11",
             "type": "shadowsocks",
             "server": "ca.yangon.club",
             "server_port": 443,
