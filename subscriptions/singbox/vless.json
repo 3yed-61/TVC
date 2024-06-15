@@ -114,8 +114,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇩🇰DK | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 106",
-                "🇺🇸US | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -138,8 +136,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇩🇰DK | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 106",
-                "🇺🇸US | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -423,68 +419,6 @@
                     "enabled": true,
                     "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
                     "short_id": "95becf1c4d3adc04"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 106",
-            "type": "vless",
-            "server": "104.25.85.27",
-            "server_port": 2053,
-            "uuid": "85821876-72e5-4271-941f-d9428dbb03d0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/drv2rayng-V2rayngdr-telegram-dr_v2rayng?ed=80",
-                "headers": {
-                    "Host": "QwoiQjufhgjksdCnvnbvbdhDuDuryrhqjbqfjkaidahsdplmkasjsahdhgf.DrLimit2.CoM."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 14",
-            "type": "vless",
-            "server": "172.67.167.116",
-            "server_port": 443,
-            "uuid": "1e038ff0-8678-464c-af28-0612d0c92b96",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pesu.minusober.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/pesu",
-                "headers": {
-                    "Host": "pesu.minusober.com"
                 }
             }
         },
