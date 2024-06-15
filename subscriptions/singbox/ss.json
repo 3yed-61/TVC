@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | ss | 3YED | 12",
+                "🇨🇦CA | ss | 3YED | 3",
                 "🇨🇦CA | ss | 3YED | 10",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
@@ -132,7 +132,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | ss | 3YED | 12",
+                "🇨🇦CA | ss | 3YED | 3",
                 "🇨🇦CA | ss | 3YED | 10",
                 "🇦🇹AT | ss | 3YED | 0",
                 "🇺🇸US | ss | 3YED | 1",
@@ -175,12 +175,12 @@
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | ss | 3YED | 12",
+            "tag": "🇨🇦CA | ss | 3YED | 3",
             "type": "shadowsocks",
-            "server": "series-a2-mec.varzesh360.co",
-            "server_port": 443,
+            "server": "134.195.196.178",
+            "server_port": 811,
             "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
+            "password": "G!yBwPWH3Vao",
             "plugin": "",
             "plugin_opts": ""
         },

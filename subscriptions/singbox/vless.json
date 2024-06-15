@@ -111,13 +111,12 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🏳️XX | vless | 3YED | 7"
             ]
@@ -132,13 +131,12 @@
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 2",
                 "🏳️XX | vless | 3YED | 7"
             ],
@@ -332,11 +330,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 18",
             "type": "vless",
-            "server": "69.84.182.23",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "server": "104.23.107.241",
+            "server_port": 2053,
+            "uuid": "9eb374e4-bbcb-46bd-9ea4-71c0dacb8eb6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -346,7 +344,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hk333.ylks.link",
+                "server_name": "aabbjjc.f-vipo.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -356,9 +354,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/?ed=2087",
                 "headers": {
-                    "Host": "hk333.ylks.link"
+                    "Host": "aabbjjc.f-vipo.ir"
                 }
             }
         },
@@ -510,7 +508,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "104.18.5.2",
             "server_port": 2096,
@@ -537,37 +535,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "VFIvE-teLeGram.PAGEs.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
-            "server": "172.64.111.69",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
