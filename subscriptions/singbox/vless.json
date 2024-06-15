@@ -108,9 +108,15 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇲🇾MY | vless | 3YED | 10",
+                "🇰🇷KR | vless | 3YED | 6",
+                "🇸🇬SG | vless | 3YED | 11",
+                "🇬🇧GB | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇳🇱NL | vless | 3YED | 16",
+                "🇬🇧GB | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -127,9 +133,15 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇲🇾MY | vless | 3YED | 10",
+                "🇰🇷KR | vless | 3YED | 6",
+                "🇸🇬SG | vless | 3YED | 11",
+                "🇬🇧GB | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇳🇱NL | vless | 3YED | 16",
+                "🇬🇧GB | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -246,6 +258,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 5",
+            "type": "vless",
+            "server": "3.120.224.79",
+            "server_port": 2083,
+            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.datacamp.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
+                    "short_id": "a64f68ec13dda1"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | vless | 3YED | 2",
             "type": "vless",
             "server": "overcommitment.footballlovernews.com",
@@ -299,11 +340,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | 3YED | 10",
+            "tag": "🇰🇷KR | vless | 3YED | 6",
             "type": "vless",
-            "server": "172.66.44.86",
+            "server": "158.180.85.117",
             "server_port": 443,
-            "uuid": "cc771b27-27ad-4bf3-bc42-f42cd673edbe",
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -313,7 +354,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nooshin-2d9.pages.dev",
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -325,7 +366,162 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "nooshin-2d9.pages.dev"
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | 3YED | 11",
+            "type": "vless",
+            "server": "8.219.161.129",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | 3YED | 12",
+            "type": "vless",
+            "server": "143.47.228.213",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 13",
+            "type": "vless",
+            "server": "104.20.19.168",
+            "server_port": 443,
+            "uuid": "9aaff036-05ad-4ba7-bea9-378412fd26a7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2raylandd-87.upftsx.workers.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "v2raylandd-87.upftsx.workers.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 16",
+            "type": "vless",
+            "server": "141.148.229.96",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | 3YED | 18",
+            "type": "vless",
+            "server": "152.67.128.152",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
