@@ -108,15 +108,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇸🇬SG | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 13",
-                "🇬🇧GB | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16",
-                "🇯🇵JP | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -134,15 +129,10 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 5",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇺🇸US | vless | 3YED | 5",
-                "🇸🇬SG | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 13",
-                "🇬🇧GB | vless | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 16",
-                "🇯🇵JP | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -260,7 +250,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "tag": "🇩🇪DE | vless | 3YED | 5",
             "type": "vless",
             "server": "3.120.224.79",
             "server_port": 2083,
@@ -367,161 +357,6 @@
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | 3YED | 4",
-            "type": "vless",
-            "server": "8.219.111.147",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 13",
-            "type": "vless",
-            "server": "172.67.216.85",
-            "server_port": 443,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "PPal03.daLE-TIRSo.WoRKErs.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ilrcB0gy14LsQOCf?ed=2560",
-                "headers": {
-                    "Host": "PPal03.daLE-TIRSo.WoRKErs.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | 3YED | 15",
-            "type": "vless",
-            "server": "194.36.55.51",
-            "server_port": 443,
-            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "xin333.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "xin333.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 16",
-            "type": "vless",
-            "server": "188.114.97.3",
-            "server_port": 443,
-            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/telegram-@v2ray_alpha\/?ed=2560",
-                "headers": {
-                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇯🇵JP | vless | 3YED | 17",
-            "type": "vless",
-            "server": "64.110.101.125",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
