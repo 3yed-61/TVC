@@ -111,8 +111,10 @@
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇩🇰DK | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -132,8 +134,10 @@
                 "🇩🇪DE | vless | 3YED | 3",
                 "🇩🇪DE | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 2",
-                "🇩🇰DK | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -332,7 +336,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4342,
@@ -361,12 +365,12 @@
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 13",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
-            "server": "46.29.235.78",
-            "server_port": 80,
-            "uuid": "7e08dc93-a81d-4a24-995e-76ce0e11defa",
-            "flow": "xtls-rprx-vision",
+            "server": "104.31.16.125",
+            "server_port": 443,
+            "uuid": "376b9861-2fc6-4647-959c-18185cd9c95a",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -375,17 +379,81 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "dash.cloudflare.com",
+                "server_name": "lmn1715683972331.lmn15534.info",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/srvacc1",
+                "headers": {
+                    "Host": "lmn1715683972331.lmn15534.info"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 4",
+            "type": "vless",
+            "server": "www.visa.com.tw",
+            "server_port": 8443,
+            "uuid": "32235aa7-695c-4bac-b942-8ee6c0f35c46",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free2.fylink.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
                     "enabled": true,
-                    "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
-                    "short_id": "95becf1c4d3adc04"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "free2.fylink.tech"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 5",
+            "type": "vless",
+            "server": "104.21.66.93",
+            "server_port": 443,
+            "uuid": "f0f67b84-2770-4413-8b26-cfb302fac247",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v2fly.milik-fukada.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "v2fly.milik-fukada.eu.org"
                 }
             }
         },
