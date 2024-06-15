@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | vless | @ProxyForOpeta | 7"
+                "🇺🇸US | vless | @FreakConfig | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | vless | @ProxyForOpeta | 7"
+                "🇺🇸US | vless | @FreakConfig | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇦CA | vless | @ProxyForOpeta | 7",
+            "tag": "🇺🇸US | vless | @FreakConfig | 2",
             "type": "vless",
-            "server": "marketepicnode10.bestgameir2.ir",
-            "server_port": 2083,
-            "uuid": "6ae78853-9cae-44bd-88bd-9f32723eb685",
+            "server": "172.64.111.69",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,7 +150,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "marketepicnode10.bestgameir2.ir",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -162,7 +162,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "marketepicnode10.bestgameir2.ir"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         }
