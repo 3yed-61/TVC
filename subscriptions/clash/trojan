@@ -164,6 +164,7 @@ proxies:
   - {"name":"🇳🇱NL | trojan | 3YED | 9","type":"trojan","server":"51.158.217.161","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tewmk.phooeyunfold.com"}
   - {"name":"🇳🇱NL | trojan | 3YED | 12","type":"trojan","server":"51.158.217.195","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wnbtg.phooeyunfold.com"}
   - {"name":"🇺🇸US | trojan | 3YED | 14","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
+  - {"name":"🇸🇰SK | trojan | 3YED | 12","type":"trojan","server":"libertyzone.xyz","port":443,"udp":false,"password":"fyy75RVvaT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"libertyzone.xyz"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -216,6 +217,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | 3YED | 9'
       - '🇳🇱NL | trojan | 3YED | 12'
       - '🇺🇸US | trojan | 3YED | 14'
+      - '🇸🇰SK | trojan | 3YED | 12'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -268,6 +270,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | 3YED | 9'
       - '🇳🇱NL | trojan | 3YED | 12'
       - '🇺🇸US | trojan | 3YED | 14'
+      - '🇸🇰SK | trojan | 3YED | 12'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -319,6 +322,7 @@ proxy-groups:
       - '🇳🇱NL | trojan | 3YED | 9'
       - '🇳🇱NL | trojan | 3YED | 12'
       - '🇺🇸US | trojan | 3YED | 14'
+      - '🇸🇰SK | trojan | 3YED | 12'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
