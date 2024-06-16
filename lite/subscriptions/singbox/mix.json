@@ -106,15 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇹IT | trojan | @VmessProtocol | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
@@ -125,15 +124,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
                 "🇨🇦CA | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇮🇹IT | trojan | @VmessProtocol | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇯🇵JP | vmess | @Hope_Net | 4",
+                "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 2",
@@ -160,9 +158,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 17",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.196.202.210",
+            "server": "13.37.134.91",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -184,7 +182,7 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇦CA | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.98.9.224",
+            "server": "15.222.48.14",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -272,28 +270,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇹IT | trojan | @VmessProtocol | 13",
-            "type": "trojan",
-            "server": "212.102.54.11",
-            "server_port": 43118,
-            "password": "ypDt8RkT7J",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tpmrq.phooeyunfold.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "51.68.206.229",
@@ -338,13 +314,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @Hope_Net | 4",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "210.230.206.25",
-            "server_port": 38296,
-            "uuid": "18648ee3-e06a-82bf-5a48-2d976b41febd",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -352,6 +328,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "zula.ir"
+                }
             }
         },
         {
