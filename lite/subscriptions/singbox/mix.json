@@ -106,14 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -124,14 +126,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇸🇪SE | trojan | @PrivateVPNs | 17",
+                "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | vless | @VmessProtocol | 13",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 3",
+                "🇺🇸US | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -158,9 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
+            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "52.48.197.95",
+            "server": "16.170.100.142",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -180,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 17",
+            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "54.69.16.56",
+            "server": "16.16.189.103",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -270,6 +274,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | vless | @VmessProtocol | 13",
+            "type": "vless",
+            "server": "104.168.107.230",
+            "server_port": 4342,
+            "uuid": "9a9cd928-36da-4486-bfd0-42ef6b312b3b",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.who.int",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
+                    "short_id": "ba345106595e9c3c"
+                }
+            }
+        },
+        {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
             "server": "51.68.206.229",
@@ -278,6 +311,37 @@ https://github.com/3yed-61
             "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇸🇬SG | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "206.238.237.151",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zdy000.kpcloud.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?proxyip",
+                "headers": {
+                    "Host": "zdy000.kpcloud.eu.org"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -314,13 +378,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 3",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 4",
             "type": "vmess",
-            "server": "crackthecode.ftp.sh",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "server": "38.33.34.20",
+            "server_port": 38001,
+            "uuid": "b65da4af-a12a-4a59-9316-4549e12ba62c",
             "security": "auto",
-            "alter_id": 0,
+            "alter_id": 64,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -331,7 +395,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vcp3.dehel15354.woRKErS.Dev",
+                "server_name": "38.33.34.20",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -341,9 +405,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/gwdef.sbs:443\/linkws",
+                "path": "\/path\/191019072927",
                 "headers": {
-                    "Host": "vcp3.dehel15354.woRKErS.Dev"
+                    "Host": "38.33.34.20"
                 }
             }
         },
