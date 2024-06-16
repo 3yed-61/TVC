@@ -109,10 +109,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇸🇪SE | vless | 3YED | 8",
-                "🇸🇬SG | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -130,10 +127,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇸🇪SE | vless | 3YED | 8",
-                "🇸🇬SG | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -279,7 +273,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4342,
@@ -304,99 +298,6 @@
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 6",
-            "type": "vless",
-            "server": "63.141.128.102",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp333.ylks01.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "jp333.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vless | 3YED | 8",
-            "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 2083,
-            "uuid": "6e4b2a33-0b48-444d-9595-2b511b6ca6e2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Hideng_App.cgnm.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "Hideng_App.cgnm.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | 3YED | 9",
-            "type": "vless",
-            "server": "8.222.222.64",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
