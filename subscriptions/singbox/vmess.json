@@ -137,8 +137,8 @@
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
-                "🇯🇵JP | vmess | 3YED | 11",
-                "🇸🇰SK | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 14",
+                "🇺🇸US | vmess | 3YED | 16",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -198,8 +198,8 @@
                 "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
-                "🇯🇵JP | vmess | 3YED | 11",
-                "🇸🇰SK | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 14",
+                "🇺🇸US | vmess | 3YED | 16",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -1099,28 +1099,11 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | 3YED | 11",
+            "tag": "🇺🇸US | vmess | 3YED | 14",
             "type": "vmess",
-            "server": "210.230.206.25",
-            "server_port": 38296,
-            "uuid": "18648ee3-e06a-82bf-5a48-2d976b41febd",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇸🇰SK | vmess | 3YED | 13",
-            "type": "vmess",
-            "server": "libertyzone.xyz",
-            "server_port": 8443,
-            "uuid": "33afd3af-6280-4e66-a631-843be5b79485",
+            "server": "172.67.161.77",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1130,6 +1113,57 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 16",
+            "type": "vmess",
+            "server": "188.114.97.79",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
             }
         },
         {
