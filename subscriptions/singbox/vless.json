@@ -109,13 +109,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇰🇷KR | vless | 3YED | 6",
-                "🇸🇬SG | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 13",
-                "🇳🇱NL | vless | 3YED | 16",
+                "🇸🇪SE | vless | 3YED | 6",
+                "🇳🇱NL | vless | 3YED | 14",
+                "🇫🇷FR | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
                 "🇬🇧GB | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -134,13 +132,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 5",
-                "🇩🇪DE | vless | 3YED | 2",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇰🇷KR | vless | 3YED | 6",
-                "🇸🇬SG | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 13",
-                "🇳🇱NL | vless | 3YED | 16",
+                "🇸🇪SE | vless | 3YED | 6",
+                "🇳🇱NL | vless | 3YED | 14",
+                "🇫🇷FR | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
                 "🇬🇧GB | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -287,30 +283,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 2",
-            "type": "vless",
-            "server": "overcommitment.footballlovernews.com",
-            "server_port": 443,
-            "uuid": "e6e9d520-18ec-46c3-8141-a92ed6a90806",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "overcommitment.footballlovernews.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
             "server": "104.168.107.230",
@@ -340,9 +312,40 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | 3YED | 6",
+            "tag": "🇸🇪SE | vless | 3YED | 6",
             "type": "vless",
-            "server": "158.180.85.117",
+            "server": "Next.salarvand.org",
+            "server_port": 2083,
+            "uuid": "6e4b2a33-0b48-444d-9595-2b511b6ca6e2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Hideng_App.cgnm.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/channel-@Hideng_App?ed=1048",
+                "headers": {
+                    "Host": "Hideng_App.cgnm.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 14",
+            "type": "vless",
+            "server": "158.101.209.44",
             "server_port": 443,
             "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
@@ -371,11 +374,11 @@
             }
         },
         {
-            "tag": "🇸🇬SG | vless | 3YED | 11",
+            "tag": "🇫🇷FR | vless | 3YED | 16",
             "type": "vless",
-            "server": "8.219.161.129",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "server": "13.39.183.149",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -385,7 +388,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -395,78 +398,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB | vless | 3YED | 12",
+            "tag": "🇳🇱NL | vless | 3YED | 17",
             "type": "vless",
-            "server": "143.47.228.213",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.20.19.168",
-            "server_port": 443,
-            "uuid": "9aaff036-05ad-4ba7-bea9-378412fd26a7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2raylandd-87.upftsx.workers.Dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "v2raylandd-87.upftsx.workers.Dev"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 16",
-            "type": "vless",
-            "server": "141.148.229.96",
+            "server": "143.47.189.109",
             "server_port": 443,
             "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
@@ -497,7 +438,7 @@
         {
             "tag": "🇬🇧GB | vless | 3YED | 18",
             "type": "vless",
-            "server": "152.67.128.152",
+            "server": "150.230.118.183",
             "server_port": 443,
             "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
