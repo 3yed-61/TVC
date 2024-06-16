@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇺🇸US | vless | @VmessProtocol | 13",
-                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @FreakConfig | 3"
             ]
         },
@@ -116,7 +115,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇺🇸US | vless | @VmessProtocol | 13",
-                "🇸🇬SG | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vless | @FreakConfig | 3"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -165,37 +163,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "206.238.237.151",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy000.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "zdy000.kpcloud.eu.org"
                 }
             }
         },
