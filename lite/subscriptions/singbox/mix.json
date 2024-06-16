@@ -106,17 +106,17 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @PrivateVPNs | 16",
+                "🇬🇧GB | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇵🇱PL | trojan | @VmessProtocol | 15",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | ss | @VmessProtocol | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
-                "🇺🇸US | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -124,17 +124,17 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 18",
-                "🇸🇪SE | trojan | @DirectVPN | 18",
+                "🇬🇧GB | trojan | @PrivateVPNs | 16",
+                "🇬🇧GB | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇵🇱PL | trojan | @VmessProtocol | 15",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇨🇦CA | ss | @VmessProtocol | 15",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
-                "🇺🇸US | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -158,9 +158,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 18",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "18.199.135.133",
+            "server": "13.40.240.182",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -180,9 +180,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 18",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "51.21.59.213",
+            "server": "13.41.84.221",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -236,11 +236,16 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇱PL | trojan | @VmessProtocol | 15",
-            "type": "trojan",
-            "server": "151.115.83.178",
-            "server_port": 43118,
-            "password": "ypDt8RkT7J",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+            "type": "vmess",
+            "server": "104.21.44.106",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -248,14 +253,31 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eimna.phooeyunfold.com",
+                "server_name": "xmivideo.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
             }
+        },
+        {
+            "tag": "🇨🇦CA | ss | @VmessProtocol | 15",
+            "type": "shadowsocks",
+            "server": "ca.yangon.club",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "qkotZ0f94vUH38YhrXGkUd",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
@@ -399,16 +421,6 @@ https://github.com/3yed-61
                     "Host": "VFIvE-teLeGram.PAGEs.Dev"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸US | ss | @proxy_mtm | 1",
-            "type": "shadowsocks",
-            "server": "45.158.171.138",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 5",
