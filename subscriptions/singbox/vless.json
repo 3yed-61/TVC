@@ -110,9 +110,10 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇩🇪DE | vless | 3YED | 6",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇸🇰SK | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇬🇧GB | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -131,9 +132,10 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 5",
                 "🇺🇸US | vless | 3YED | 6",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇩🇪DE | vless | 3YED | 6",
-                "🇩🇪DE | vless | 3YED | 7",
+                "🇸🇰SK | vless | 3YED | 8",
+                "🇩🇪DE | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇬🇧GB | vless | 3YED | 12",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -308,11 +310,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 4",
+            "tag": "🇸🇰SK | vless | 3YED | 8",
             "type": "vless",
-            "server": "69.84.182.216",
+            "server": "libertyzone.xyz",
             "server_port": 443,
-            "uuid": "c82f8880-bdd8-4a35-b8e7-ad5aa880f7d0",
+            "uuid": "93b665e3-7f2a-405c-a618-7988ea4c2fc7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -322,7 +324,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "v333.ylkszy.eu.org",
+                "server_name": "libertyzone.xyz",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -332,16 +334,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed",
+                "path": "\/22876\/@persvpn",
                 "headers": {
-                    "Host": "v333.ylkszy.eu.org"
+                    "Host": "libertyzone.xyz"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 6",
+            "tag": "🇩🇪DE | vless | 3YED | 9",
             "type": "vless",
-            "server": "129.159.201.0",
+            "server": "141.147.13.23",
             "server_port": 443,
             "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
@@ -353,7 +355,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "server_name": "chanelselincselincselinc.hutzwrrj.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -365,14 +367,45 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                    "Host": "chanelselincselincselinc.hutzwrrj.workers.dev"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 11",
             "type": "vless",
-            "server": "130.61.15.34",
+            "server": "34.41.252.92",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xin333.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "xin333.ylks.link"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧GB | vless | 3YED | 12",
+            "type": "vless",
+            "server": "143.47.233.104",
             "server_port": 443,
             "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
