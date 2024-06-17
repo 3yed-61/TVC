@@ -158,7 +158,6 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 177",
                 "🇺🇸US | vmess | 3YED | 179",
-                "🇩🇪DE | vless | 3YED | 19",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇫🇷FR | ss | 3YED | 7",
@@ -181,11 +180,7 @@
                 "🇵🇱PL | ss | 3YED | 16",
                 "🇳🇱NL | ss | 3YED | 17",
                 "🇬🇧GB | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 11",
-                "🇸🇬SG | vless | 3YED | 13",
-                "🇧🇿BZ | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -212,8 +207,7 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇮🇳IN | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
                 "🏳️XX | vless | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -280,7 +274,6 @@
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 177",
                 "🇺🇸US | vmess | 3YED | 179",
-                "🇩🇪DE | vless | 3YED | 19",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇫🇷FR | ss | 3YED | 7",
@@ -303,11 +296,7 @@
                 "🇵🇱PL | ss | 3YED | 16",
                 "🇳🇱NL | ss | 3YED | 17",
                 "🇬🇧GB | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 11",
-                "🇸🇬SG | vless | 3YED | 13",
-                "🇧🇿BZ | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -334,8 +323,7 @@
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇮🇳IN | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
                 "🏳️XX | vless | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -1593,35 +1581,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 19",
-            "type": "vless",
-            "server": "3.120.224.79",
-            "server_port": 2083,
-            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.datacamp.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
-                    "short_id": "a64f68ec13dda1"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 10",
             "type": "vmess",
             "server": "104.21.55.234",
@@ -1909,45 +1868,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 1",
-            "type": "vmess",
-            "server": "upload.ir",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 16",
             "type": "vless",
-            "server": "104.19.254.182",
+            "server": "172.67.161.13",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1957,7 +1882,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "PROdUcTiOn.pPaL03.aDhAM-EsSa.WoRKers.deV",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1969,93 +1894,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 11",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "1e99893d-8046-4825-9d28-f6de91147337",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | 3YED | 13",
-            "type": "vless",
-            "server": "206.238.237.151",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk111.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "hk111.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "🇧🇿BZ | vless | 3YED | 15",
-            "type": "vless",
-            "server": "45.131.5.130",
-            "server_port": 2083,
-            "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "t-netplus1.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "t-netplus1.pages.dev"
+                    "Host": "PROdUcTiOn.pPaL03.aDhAM-EsSa.WoRKers.deV"
                 }
             }
         },
@@ -2857,7 +2696,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
             "server": "188.114.96.6",
             "server_port": 443,
@@ -2888,7 +2727,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "172.64.143.172",
             "server_port": 443,
@@ -2915,37 +2754,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 3",
-            "type": "vless",
-            "server": "188.114.96.3",
-            "server_port": 443,
-            "uuid": "c064eb24-643c-405f-a222-043d29e151bf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "faRAHDIba.pagES.DEV",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "faRAHDIba.pagES.DEV"
                 }
             }
         },
