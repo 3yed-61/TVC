@@ -111,7 +111,8 @@
                 "🇩🇪DE | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇰🇷KR | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -132,7 +133,8 @@
                 "🇩🇪DE | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇰🇷KR | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -337,11 +339,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
-            "server": "104.17.61.133",
+            "server": "104.19.228.176",
             "server_port": 443,
-            "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -351,7 +353,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "juzibaipiao.5112233.xyz",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -363,7 +365,38 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "juzibaipiao.5112233.xyz"
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇰🇷KR | vless | 3YED | 7",
+            "type": "vless",
+            "server": "158.180.73.130",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
