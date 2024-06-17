@@ -110,6 +110,7 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇺🇸US | vless | 3YED | 8",
+                "🇸🇬SG | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -129,6 +130,7 @@
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 19",
                 "🇺🇸US | vless | 3YED | 8",
+                "🇸🇬SG | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -300,6 +302,37 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇬SG | vless | 3YED | 18",
+            "type": "vless",
+            "server": "47.236.145.85",
+            "server_port": 2083,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "zdy111.kpcloud.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "zdy111.kpcloud.eu.org"
                 }
             }
         },
