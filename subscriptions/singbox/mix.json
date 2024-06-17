@@ -138,6 +138,8 @@
                 "🇬🇧GB | trojan | 3YED | 11",
                 "🇬🇧GB | trojan | 3YED | 12",
                 "🇫🇷FR | trojan | 3YED | 13",
+                "🇫🇷FR | trojan | 3YED | 14",
+                "🇸🇪SE | trojan | 3YED | 15",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 2",
@@ -180,7 +182,13 @@
                 "🇵🇱PL | ss | 3YED | 16",
                 "🇳🇱NL | ss | 3YED | 17",
                 "🇬🇧GB | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 4",
+                "🇳🇱NL | vless | 3YED | 14",
+                "🇳🇱NL | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
+                "🇩🇪DE | vless | 3YED | 18",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -210,6 +218,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -255,6 +264,8 @@
                 "🇬🇧GB | trojan | 3YED | 11",
                 "🇬🇧GB | trojan | 3YED | 12",
                 "🇫🇷FR | trojan | 3YED | 13",
+                "🇫🇷FR | trojan | 3YED | 14",
+                "🇸🇪SE | trojan | 3YED | 15",
                 "🇫🇷FR | vmess | 3YED | 0",
                 "🇨🇳CN | vmess | 3YED | 0",
                 "🇨🇦CA | vmess | 3YED | 2",
@@ -297,7 +308,13 @@
                 "🇵🇱PL | ss | 3YED | 16",
                 "🇳🇱NL | ss | 3YED | 17",
                 "🇬🇧GB | ss | 3YED | 18",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇳🇱NL | vless | 3YED | 4",
+                "🇳🇱NL | vless | 3YED | 14",
+                "🇳🇱NL | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
+                "🇩🇪DE | vless | 3YED | 18",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -327,6 +344,7 @@
                 "🇺🇸US | vmess | 3YED | 9",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -1083,6 +1101,50 @@
             "tag": "🇫🇷FR | trojan | 3YED | 13",
             "type": "trojan",
             "server": "15.236.163.110",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | trojan | 3YED | 14",
+            "type": "trojan",
+            "server": "13.36.242.142",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | trojan | 3YED | 15",
+            "type": "trojan",
+            "server": "13.50.7.173",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -1870,9 +1932,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "172.67.191.45",
+            "server": "104.26.0.95",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
@@ -1887,7 +1949,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1897,9 +1959,195 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws\/obdii.cfd",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "nezuko.raidenshogun.cloudns.org"
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 4",
+            "type": "vless",
+            "server": "143.47.181.15",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 14",
+            "type": "vless",
+            "server": "141.148.235.52",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 15",
+            "type": "vless",
+            "server": "141.144.204.246",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 16",
+            "type": "vless",
+            "server": "104.18.13.229",
+            "server_port": 8443,
+            "uuid": "f3dc958a-1f2c-4d10-b781-b2deeaabecce",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "free1.fylink.tech",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "free1.fylink.tech"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 17",
+            "type": "vless",
+            "server": "146.70.169.118",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 18",
+            "type": "vless",
+            "server": "138.2.154.150",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
@@ -2783,6 +3031,37 @@
                 "path": "\/",
                 "headers": {
                     "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 4",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "c064eb24-643c-405f-a222-043d29e151bf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "faRAHDIba.pagES.DEV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "faRAHDIba.pagES.DEV"
                 }
             }
         },

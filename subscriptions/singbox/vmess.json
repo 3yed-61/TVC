@@ -126,7 +126,7 @@
                 "🇺🇸US | vmess | 3YED | 179",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -182,7 +182,7 @@
                 "🇺🇸US | vmess | 3YED | 179",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇺🇸US | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -772,9 +772,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "172.67.191.45",
+            "server": "104.26.0.95",
             "server_port": 443,
             "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
@@ -789,7 +789,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "nezuko.raidenshogun.cloudns.org",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -799,9 +799,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws\/obdii.cfd",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "nezuko.raidenshogun.cloudns.org"
+                    "Host": "obdii.cfd"
                 }
             }
         },
