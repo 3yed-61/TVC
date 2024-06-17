@@ -111,8 +111,6 @@
                 "🇩🇪DE | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -133,8 +131,6 @@
                 "🇩🇪DE | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 1",
                 "🇺🇸US | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 6",
-                "🇩🇪DE | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -335,68 +331,6 @@
                     "enabled": true,
                     "public_key": "nLDsqH0iqy2tsJS62RP-viiKwJoGAcCq5rGh6hKnGFU",
                     "short_id": "ba345106595e9c3c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 6",
-            "type": "vless",
-            "server": "66.235.200.122",
-            "server_port": 8443,
-            "uuid": "7e414b29-7414-4007-8bc0-3a21f65aeb39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "vmessorg.xn--54qv00ez5ar77g.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "vmessorg.xn--54qv00ez5ar77g.co"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | vless | 3YED | 7",
-            "type": "vless",
-            "server": "141.144.238.115",
-            "server_port": 443,
-            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
