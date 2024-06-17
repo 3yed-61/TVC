@@ -109,13 +109,16 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 19",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 19",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 3",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -127,13 +130,16 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 19",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 8",
+                "🇨🇦CA | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 19",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 3",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -273,7 +279,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4212,
@@ -298,6 +304,68 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vless | 3YED | 16",
+            "type": "vless",
+            "server": "15.156.148.28",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 19",
+            "type": "vless",
+            "server": "172.67.187.56",
+            "server_port": 2083,
+            "uuid": "eaa8cb8a-fa6d-4ecf-a53e-822711014c50",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "emifree.bestgameir2.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "emifree.bestgameir2.ir"
                 }
             }
         },
@@ -418,7 +486,38 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 0",
+            "type": "vless",
+            "server": "188.114.96.6",
+            "server_port": 443,
+            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "DisVpn.us.kg",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "DisVpn.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "172.64.143.172",
             "server_port": 443,
@@ -449,7 +548,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 2",
+            "tag": "🇺🇸US | vless | 3YED | 3",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 443,
