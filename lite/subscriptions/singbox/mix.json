@@ -111,10 +111,11 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @v2ray_swhil | 12",
+                "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -130,10 +131,11 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @v2ray_swhil | 12",
+                "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇺🇸US | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 5",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇨🇦CA | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 3",
@@ -272,7 +274,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 12",
+            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 10",
             "type": "vmess",
             "server": "104.21.55.234",
             "server_port": 443,
@@ -316,6 +318,37 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
+            "tag": "🇺🇸US | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "162.159.241.117",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -350,13 +383,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 5",
             "type": "vmess",
-            "server": "free.qdns.live",
+            "server": "www.speedtest.net",
             "server_port": 80,
-            "uuid": "ad6afad6-5659-3f25-9477-029735d5401c",
+            "uuid": "1e99893d-8046-4825-9d28-f6de91147337",
             "security": "auto",
-            "alter_id": 2,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -369,7 +402,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "free.qdns.live"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
