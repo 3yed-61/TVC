@@ -113,7 +113,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 11",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -132,7 +132,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 11",
+                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -323,16 +323,13 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 11",
-            "type": "vmess",
-            "server": "188.114.97.7",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
+            "type": "vless",
+            "server": "65.109.178.68",
+            "server_port": 45315,
+            "uuid": "f08fec47-e785-4b3a-a923-80f5e139c2bc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -340,19 +337,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "HB3hnc85JraKAWNm5yVV4GS5Gp3vExQsr6LReKusXRo",
+                    "short_id": "1c5ad876"
                 }
             }
         },

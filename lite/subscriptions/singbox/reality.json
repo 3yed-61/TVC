@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 22"
+                "🇫🇮FI | vless | @ConfigsHUB | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | vless | @v2rayNG_Matsuri | 22"
+                "🇫🇮FI | vless | @ConfigsHUB | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,11 +136,11 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
             "type": "vless",
-            "server": "3.120.224.79",
-            "server_port": 2083,
-            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "server": "65.109.178.68",
+            "server_port": 45315,
+            "uuid": "f08fec47-e785-4b3a-a923-80f5e139c2bc",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -150,17 +150,17 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.datacamp.co.uk",
+                "server_name": "yahoo.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
-                    "short_id": "a64f68ec13dda1"
+                    "public_key": "HB3hnc85JraKAWNm5yVV4GS5Gp3vExQsr6LReKusXRo",
+                    "short_id": "1c5ad876"
                 }
             }
         }
