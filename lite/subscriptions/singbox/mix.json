@@ -106,17 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇬🇧GB | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇺🇸US | vless | @VmessProtocol | 9",
+                "🇫🇷FR | ss | @VmessProtocol | 10",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇮🇳IN | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -127,17 +126,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇮🇪IE | trojan | @PrivateVPNs | 13",
-                "🇮🇪IE | trojan | @DirectVPN | 13",
+                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇬🇧GB | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
-                "🇨🇳CN | vmess | @mftizi | 19",
+                "🇨🇦CA | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
                 "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
-                "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇺🇸US | vless | @VmessProtocol | 9",
+                "🇫🇷FR | ss | @VmessProtocol | 10",
                 "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 10",
+                "🏳️XX | vmess | @Hope_Net | 11",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
                 "🇮🇳IN | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @FreakConfig | 3",
@@ -164,9 +162,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 13",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "34.250.134.147",
+            "server": "3.10.94.95",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -186,9 +184,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 13",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "52.215.195.200",
+            "server": "35.179.25.72",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -225,11 +223,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | vmess | @mftizi | 19",
+            "tag": "🇨🇦CA | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.240.179.195",
-            "server_port": 15603,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "hk.wish.ml",
+            "server_port": 2052,
+            "uuid": "c286daa2-59de-455c-8de8-ec032b6ce2e8",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -239,6 +237,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -295,67 +300,14 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 10",
-            "type": "vmess",
-            "server": "104.21.55.234",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "gwdef.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | @VmessProtocol | 9",
-            "type": "vless",
-            "server": "104.168.107.230",
-            "server_port": 4212,
-            "uuid": "db9abed0-d37a-49bc-aa8e-8321e02bc9e6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "poynter.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
-                    "short_id": "db68e802226b21cd"
-                }
-            }
+            "tag": "🇫🇷FR | ss | @VmessProtocol | 10",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8090,
+            "method": "aes-256-gcm",
+            "password": "PCnnH6SQSnfoS27",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
@@ -402,7 +354,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 10",
+            "tag": "🏳️XX | vmess | @Hope_Net | 11",
             "type": "vmess",
             "server": "mci.mosi.mosipro.ml",
             "server_port": 443,

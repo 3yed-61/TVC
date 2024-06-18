@@ -120,7 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | vless | @VmessProtocol | 9","type":"vless","server":"104.168.107.230","port":4212,"udp":true,"uuid":"db9abed0-d37a-49bc-aa8e-8321e02bc9e6","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"poynter.org","flow":"xtls-rprx-vision","reality-opts":{"public-key":"QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4","short-id":"db68e802226b21cd"}}
   - {"name":"🇺🇸US | vless | @FreakConfig | 3","type":"vless","server":"172.64.143.172","port":443,"udp":false,"uuid":"d9eb0df3-3190-4447-86b6-656fe5ff1119","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"mmdv2.pages.dev","ws-opts":{"path":"/","headers":{"host":"mmdv2.pages.dev"}}}
 proxy-groups:
   - name: MANUAL
@@ -128,7 +127,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | vless | @VmessProtocol | 9'
       - '🇺🇸US | vless | @FreakConfig | 3'
   - name: URL-TEST
     type: url-test
@@ -136,14 +134,12 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | vless | @VmessProtocol | 9'
       - '🇺🇸US | vless | @FreakConfig | 3'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | vless | @VmessProtocol | 9'
       - '🇺🇸US | vless | @FreakConfig | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
