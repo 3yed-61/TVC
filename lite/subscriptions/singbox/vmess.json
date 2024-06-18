@@ -112,7 +112,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 6",
-                "🇮🇳IN | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -126,7 +126,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🏳️XX | vmess | @Hope_Net | 6",
-                "🇮🇳IN | vmess | @v2Line | 9",
+                "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -297,7 +297,7 @@ https://github.com/3yed-61
             "type": "vmess",
             "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
-            "uuid": "380847f9-fb02-40f1-8368-881fe9f3522f",
+            "uuid": "2b522d79-cae6-46dc-8714-eab674369932",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -327,11 +327,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇳IN | vmess | @v2Line | 9",
+            "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
-            "server": "in-full.privateip.net",
+            "server": "104.21.83.108",
             "server_port": 443,
-            "uuid": "a2081592-fb7a-4b0a-b93b-33ddf0825410",
+            "uuid": "6c168fcc-2231-4f3b-8c1e-f6391692df4a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -344,7 +344,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "",
+                "server_name": "hms02.fxiaomi.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -354,9 +354,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/RACEVPN",
+                "path": "\/link",
                 "headers": {
-                    "Host": ""
+                    "Host": "hms02.fxiaomi.sbs"
                 }
             }
         },
