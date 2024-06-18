@@ -109,7 +109,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇧🇿BZ | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -128,7 +129,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇧🇿BZ | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -275,11 +277,11 @@
             }
         },
         {
-            "tag": "🇧🇿BZ | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
-            "server": "45.131.5.130",
-            "server_port": 2083,
-            "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
+            "server": "172.67.151.162",
+            "server_port": 443,
+            "uuid": "bc827d67-f095-4c65-9327-33039decb888",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -289,7 +291,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus1.pages.dev",
+                "server_name": "s5c.giga-downloader.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -299,9 +301,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/ws5\/8080",
                 "headers": {
-                    "Host": "t-netplus1.pages.dev"
+                    "Host": "s5c.giga-downloader.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
+            "type": "vless",
+            "server": "104.22.36.243",
+            "server_port": 2053,
+            "uuid": "770e8a1b-980e-474d-b583-2e4e98acb854",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "notls.11111111.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
+                "headers": {
+                    "Host": "notls.11111111.eu.org"
                 }
             }
         },
