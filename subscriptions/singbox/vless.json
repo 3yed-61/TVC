@@ -108,8 +108,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇲🇾MY | vless | 3YED | 14",
-                "🇭🇰HK | vless | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -127,8 +126,7 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇲🇾MY | vless | 3YED | 14",
-                "🇭🇰HK | vless | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 14",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -246,11 +244,11 @@
             }
         },
         {
-            "tag": "🇲🇾MY | vless | 3YED | 14",
+            "tag": "🇺🇸US | vless | 3YED | 14",
             "type": "vless",
-            "server": "172.66.44.249",
+            "server": "172.67.188.9",
             "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "uuid": "10b3cbba-e6ac-485a-8381-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -260,7 +258,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "jp999.ylks01.eu.org",
+                "server_name": "EsETSEcurityLICensE.siqiLwDQ.WOrKeRS.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -270,40 +268,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/",
                 "headers": {
-                    "Host": "jp999.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | vless | 3YED | 18",
-            "type": "vless",
-            "server": "47.243.107.148",
-            "server_port": 8443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kk999.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "kk999.ylks.link"
+                    "Host": "EsETSEcurityLICensE.siqiLwDQ.WOrKeRS.DEv"
                 }
             }
         },
