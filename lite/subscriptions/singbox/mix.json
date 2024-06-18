@@ -112,9 +112,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
+                "🇸🇬SG | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇮🇳IN | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -130,9 +130,9 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
-                "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
+                "🇸🇬SG | ss | @OutlineVpnOfficial | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
+                "🏳️XX | vmess | @Hope_Net | 6",
                 "🇮🇳IN | vmess | @v2Line | 9",
                 "🇺🇸US | vless | @FreakConfig | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -311,12 +311,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇸🇬SG | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
-            "server": "185.229.65.157",
-            "server_port": 8234,
+            "server": "91.192.81.21",
+            "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
-            "password": "u6RYZyNId5RmoWTNTum0nz",
+            "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -355,11 +355,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
+            "tag": "🏳️XX | vmess | @Hope_Net | 6",
             "type": "vmess",
-            "server": "104.21.69.44",
-            "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "380847f9-fb02-40f1-8368-881fe9f3522f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -370,11 +370,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/speedtest",
                 "headers": {
-                    "Host": "104.21.69.44"
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
