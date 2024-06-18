@@ -108,7 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 22",
+                "🇲🇾MY | vless | 3YED | 14",
+                "🇭🇰HK | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -126,7 +127,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 22",
+                "🇲🇾MY | vless | 3YED | 14",
+                "🇭🇰HK | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -244,12 +246,12 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 22",
+            "tag": "🇲🇾MY | vless | 3YED | 14",
             "type": "vless",
-            "server": "3.120.224.79",
-            "server_port": 2083,
-            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
-            "flow": "xtls-rprx-vision",
+            "server": "172.66.44.249",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -258,17 +260,50 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.datacamp.co.uk",
+                "server_name": "jp999.ylks01.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "randomized"
-                },
-                "reality": {
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "jp999.ylks01.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰HK | vless | 3YED | 18",
+            "type": "vless",
+            "server": "47.243.107.148",
+            "server_port": 8443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kk999.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
                     "enabled": true,
-                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
-                    "short_id": "a64f68ec13dda1"
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "kk999.ylks.link"
                 }
             }
         },
