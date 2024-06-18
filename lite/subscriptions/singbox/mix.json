@@ -111,12 +111,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 9",
+                "🇮🇳IN | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
@@ -130,12 +130,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇺🇸US | vmess | @oneclickvpnkeys | 5",
-                "🇨🇦CA | vmess | @v2ray_swhil | 10",
-                "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+                "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 6",
+                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
-                "🇨🇦CA | vmess | @v2Line | 9",
+                "🇮🇳IN | vmess | @v2Line | 9",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
@@ -262,16 +262,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 10",
-            "type": "vmess",
-            "server": "104.21.55.234",
-            "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇩🇪DE | vless | @v2rayNG_Matsuri | 22",
+            "type": "vless",
+            "server": "3.120.224.79",
+            "server_port": 2083,
+            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -279,29 +276,27 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "www.datacamp.co.uk",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "gwdef.sbs"
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
+                    "short_id": "a64f68ec13dda1"
                 }
             }
         },
         {
-            "tag": "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+            "tag": "🇳🇱NL | ss | @OutlineVpnOfficial | 18",
             "type": "shadowsocks",
-            "server": "51.68.206.229",
-            "server_port": 8080,
-            "method": "aes-256-gcm",
-            "password": "KixLvKzwjekG00rm",
+            "server": "185.229.65.157",
+            "server_port": 8234,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u6RYZyNId5RmoWTNTum0nz",
             "plugin": "",
             "plugin_opts": ""
         },
@@ -340,11 +335,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 6",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "380847f9-fb02-40f1-8368-881fe9f3522f",
+            "server": "104.19.51.232",
+            "server_port": 2086,
+            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -355,21 +350,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/29eebb60-b27b-4a9d-bba5-947763d9205e-vm",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "104.19.51.232"
                 }
             }
         },
@@ -408,11 +393,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2Line | 9",
+            "tag": "🇮🇳IN | vmess | @v2Line | 9",
             "type": "vmess",
-            "server": "104.21.44.106",
+            "server": "in-full.privateip.net",
             "server_port": 443,
-            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "uuid": "a2081592-fb7a-4b0a-b93b-33ddf0825410",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -425,7 +410,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "xmivideo.cfd",
+                "server_name": "",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -435,9 +420,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/RACEVPN",
                 "headers": {
-                    "Host": "xmivideo.cfd"
+                    "Host": ""
                 }
             }
         },
