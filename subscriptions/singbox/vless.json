@@ -108,9 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 22",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -128,9 +127,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 22",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 4",
-                "🇺🇸US | vless | 3YED | 11",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -248,6 +246,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | vless | 3YED | 22",
+            "type": "vless",
+            "server": "3.120.224.79",
+            "server_port": 2083,
+            "uuid": "5539f391-553a-478c-d9e4-45561741917c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.datacamp.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "randomized"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "EFRbZwSK0V4XyMi45Na_4klKDTCo1IFJLvnZ6-Z6Zn4",
+                    "short_id": "a64f68ec13dda1"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | vless | 3YED | 8",
             "type": "vless",
             "server": "104.168.107.230",
@@ -273,68 +300,6 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
-            "type": "vless",
-            "server": "172.67.151.162",
-            "server_port": 443,
-            "uuid": "bc827d67-f095-4c65-9327-33039decb888",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s5c.giga-downloader.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws5\/8080",
-                "headers": {
-                    "Host": "s5c.giga-downloader.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "104.22.36.243",
-            "server_port": 2053,
-            "uuid": "770e8a1b-980e-474d-b583-2e4e98acb854",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "notls.11111111.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/?ed=2560",
-                "headers": {
-                    "Host": "notls.11111111.eu.org"
                 }
             }
         },
