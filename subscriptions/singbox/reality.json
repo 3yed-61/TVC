@@ -109,7 +109,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 22",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 9",
+                "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -125,7 +126,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 22",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 9",
+                "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -269,7 +271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 9",
             "type": "vless",
             "server": "104.168.107.230",
             "server_port": 4212,
@@ -294,6 +296,35 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇰DK | vless | 3YED | 0",
+            "type": "vless",
+            "server": "46.29.235.78",
+            "server_port": 80,
+            "uuid": "7e08dc93-a81d-4a24-995e-76ce0e11defa",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0",
+                    "short_id": "95becf1c4d3adc04"
                 }
             }
         },
