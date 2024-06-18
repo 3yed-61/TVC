@@ -109,7 +109,9 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇧🇿BZ | vless | 3YED | 4",
+                "🇳🇴NO | vless | 3YED | 10",
+                "🇫🇮FI | vless | 3YED | 12",
+                "🇳🇱NL | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -128,7 +130,9 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
-                "🇧🇿BZ | vless | 3YED | 4",
+                "🇳🇴NO | vless | 3YED | 10",
+                "🇫🇮FI | vless | 3YED | 12",
+                "🇳🇱NL | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -275,11 +279,69 @@
             }
         },
         {
-            "tag": "🇧🇿BZ | vless | 3YED | 4",
+            "tag": "🇳🇴NO | vless | 3YED | 10",
             "type": "vless",
-            "server": "45.131.5.130",
-            "server_port": 2083,
-            "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
+            "server": "185.125.171.13",
+            "server_port": 443,
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | vless | 3YED | 12",
+            "type": "vless",
+            "server": "65.109.195.165",
+            "server_port": 443,
+            "uuid": "ee07639f-ca84-4b93-950b-eac9c1f4eb3f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "m05r3bf1t7.execute-api.eu-west-1.amazonaws.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "cN11L2DIETgMceN6hX0p7ZRKArOgcZUXvEMfImeSmGo",
+                    "short_id": "97ad8890"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 17",
+            "type": "vless",
+            "server": "141.148.225.44",
+            "server_port": 443,
+            "uuid": "76ddbbc0-e7d8-404f-8a2e-761b7226ce65",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -289,7 +351,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "t-netplus1.pages.dev",
+                "server_name": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,7 +363,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "t-netplus1.pages.dev"
+                    "Host": "chanel----selinc----selinc----selinc.hutzwrrj.workers.dev"
                 }
             }
         },
