@@ -109,6 +109,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
+                "🇧🇿BZ | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -127,6 +128,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇺🇸US | vless | 3YED | 8",
+                "🇧🇿BZ | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -269,6 +271,37 @@
                     "enabled": true,
                     "public_key": "QQHxQK7ocGHvaCmqtW3QapnKiBVd4ZjjM3zhCGVMPS4",
                     "short_id": "db68e802226b21cd"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | vless | 3YED | 4",
+            "type": "vless",
+            "server": "45.131.5.130",
+            "server_port": 2083,
+            "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "t-netplus1.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "t-netplus1.pages.dev"
                 }
             }
         },
