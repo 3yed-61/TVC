@@ -113,6 +113,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇷🇺RU | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -132,6 +133,7 @@ https://github.com/3yed-61
                 "🇺🇸US | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 10",
                 "🇬🇧GB | ss | @OutlineVpnOfficial | 18",
+                "🇷🇺RU | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 4",
                 "🇨🇦CA | vmess | @v2rayng_config_amin | 5",
@@ -304,6 +306,28 @@ https://github.com/3yed-61
             "password": "KixLvKzwjekG00rm",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | trojan | @ConfigsHUB | 18",
+            "type": "trojan",
+            "server": "31.172.67.242",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tpmwh.phooeyunfold.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
