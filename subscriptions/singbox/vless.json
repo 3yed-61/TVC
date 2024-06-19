@@ -109,13 +109,15 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -127,13 +129,15 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 0",
+                "🇺🇸US | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -270,6 +274,68 @@
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 10",
+            "type": "vless",
+            "server": "172.64.143.172",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 13",
+            "type": "vless",
+            "server": "104.17.147.22",
+            "server_port": 2083,
+            "uuid": "b6f65db8-451b-4e8d-988e-9b9d8bdf1b35",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "all3.savagev2ray.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "@SavageV2ray,@SavageV2ray,@SavageV2ray,@SavageV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -420,6 +486,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "HovEyda-ARIAMEHR-KinG.PAgEs.Dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 443,
             "uuid": "b8d718c6-7516-4259-b4e6-253e280bc6b6",
@@ -445,37 +542,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "bia-vip-programs.hsjsak.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 3",
-            "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
                 }
             }
         },
