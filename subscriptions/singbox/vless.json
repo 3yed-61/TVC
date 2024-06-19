@@ -109,8 +109,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇯🇵JP | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇫🇷FR | vless | 3YED | 9",
+                "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -118,6 +118,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🏳️XX | vless | 3YED | 7"
             ]
         },
@@ -129,8 +130,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇯🇵JP | vless | 3YED | 0",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇫🇷FR | vless | 3YED | 9",
+                "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -138,6 +139,7 @@
                 "🏳️XX | vless | 3YED | 24",
                 "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🏳️XX | vless | 3YED | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -277,12 +279,12 @@
             }
         },
         {
-            "tag": "🇯🇵JP | vless | 3YED | 0",
+            "tag": "🇫🇷FR | vless | 3YED | 9",
             "type": "vless",
-            "server": "176.97.73.82",
+            "server": "95.179.214.39",
             "server_port": 8443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-            "flow": "",
+            "uuid": "75e7d7eb-60b7-46d0-9fd1-8b52534dfd5b",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -291,29 +293,27 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "a.ssll.gay",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "a.ssll.gay"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "PYzMT_U8v3KaH_DyC-g9jqkDxloM-lBDuGFFtf0vVXM",
+                    "short_id": "41f1e7f8"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇫🇮FI | vless | 3YED | 13",
             "type": "vless",
-            "server": "172.67.68.157",
-            "server_port": 443,
-            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
-            "flow": "",
+            "server": "65.109.206.208",
+            "server_port": 10001,
+            "uuid": "ad9708f4-9676-4781-eb75-1bf71f621561",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -322,19 +322,17 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "pardazeshvpn-tg3.pages.dev",
+                "server_name": "abolimigidadaei.nicemen.co",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "pardazeshvpn-tg3.pages.dev"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "Z922NCteZ946jYBeziZpjRVRAEoqtJMQojeZ3zCl4QE",
+                    "short_id": "3e8d64d0"
                 }
             }
         },
@@ -486,6 +484,37 @@
         {
             "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
+            "server": "allsms.rozfa.com",
+            "server_port": 443,
+            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "test-teSt-tEsT-teSt.pagES.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "test-teSt-tEsT-teSt.pagES.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 1",
+            "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
             "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
@@ -515,7 +544,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
             "server": "ns.cloudflare.com",
             "server_port": 443,
