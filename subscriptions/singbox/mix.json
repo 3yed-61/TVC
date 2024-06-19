@@ -190,8 +190,7 @@
                 "🇨🇭CH | ss | 3YED | 13",
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 2",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -199,9 +198,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🏳️XX | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -315,8 +314,7 @@
                 "🇨🇭CH | ss | 3YED | 13",
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 2",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -324,9 +322,9 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 2",
-                "🏳️XX | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 3",
+                "🏳️XX | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -2124,65 +2122,27 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "172.64.143.172",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "1e99893d-8046-4825-9d28-f6de91147337",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 13",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 2083,
-            "uuid": "b6f65db8-451b-4e8d-988e-9b9d8bdf1b35",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "all3.savagev2ray.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@SavageV2ray,@SavageV2ray,@SavageV2ray,@SavageV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -2399,7 +2359,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
             "server": "104.19.50.201",
             "server_port": 2082,
@@ -2423,7 +2383,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 3",
+            "tag": "🏳️XX | vmess | 3YED | 4",
             "type": "vmess",
             "server": "mci.mosi.mosipro.ml",
             "server_port": 443,
@@ -2457,7 +2417,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "tag": "🇺🇸US | vmess | 3YED | 5",
             "type": "vmess",
             "server": "172.67.156.22",
             "server_port": 443,
