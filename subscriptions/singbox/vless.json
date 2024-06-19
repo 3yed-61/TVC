@@ -108,8 +108,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇫🇮FI | vless | 3YED | 15",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -126,8 +124,6 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 2",
-                "🇫🇮FI | vless | 3YED | 15",
                 "🇩🇰DK | vless | 3YED | 0",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -240,66 +236,6 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
-            "server": "104.21.7.50",
-            "server_port": 443,
-            "uuid": "85b5ac4c-364a-4703-90d3-158bace384cf",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "api2.htve.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "api2.htve.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | 3YED | 15",
-            "type": "vless",
-            "server": "65.109.178.68",
-            "server_port": 45315,
-            "uuid": "f08fec47-e785-4b3a-a923-80f5e139c2bc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HB3hnc85JraKAWNm5yVV4GS5Gp3vExQsr6LReKusXRo",
-                    "short_id": "1c5ad876"
                 }
             }
         },
