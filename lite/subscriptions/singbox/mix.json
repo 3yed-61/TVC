@@ -110,13 +110,10 @@ https://github.com/3yed-61
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -128,13 +125,10 @@ https://github.com/3yed-61
                 "🇺🇸US | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇨🇦CA | vmess | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 10",
+                "🇺🇸US | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vless | @FreakConfig | 3",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -160,7 +154,7 @@ https://github.com/3yed-61
         {
             "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.130.165.99",
+            "server": "18.175.97.93",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -182,7 +176,7 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.140.129.167",
+            "server": "3.14.18.239",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -236,23 +230,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 4",
-            "type": "vmess",
-            "server": "141.105.130.201",
-            "server_port": 36561,
-            "uuid": "7e2d4115-adf5-4d26-aa5e-a5167ec99a50",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | ss | @OutlineVpnOfficial | 15",
             "type": "shadowsocks",
             "server": "38.75.137.105",
@@ -261,30 +238,6 @@ https://github.com/3yed-61
             "password": "e4FCWrgpkji3QY",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 18",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "1e99893d-8046-4825-9d28-f6de91147337",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -321,11 +274,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
+            "tag": "🇺🇸US | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "00f2237d-d8c4-45c9-8c2e-ca07adb295ab",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -336,11 +289,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "www.speedtest.net"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -375,37 +338,6 @@ https://github.com/3yed-61
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vless | @FreakConfig | 3",
-            "type": "vless",
-            "server": "188.114.96.6",
-            "server_port": 443,
-            "uuid": "300ed34d-5378-4028-874d-43e1e05bc06d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
                 }
             }
         },
