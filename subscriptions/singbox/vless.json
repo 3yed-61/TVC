@@ -108,8 +108,14 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇸🇬SG | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -126,8 +132,14 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇺🇸US | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 5",
+                "🇸🇬SG | vless | 3YED | 9",
+                "🇺🇸US | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 11",
+                "🇺🇸US | vless | 3YED | 12",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇩🇪DE | vless | 3YED | 14",
+                "🇺🇸US | vless | 3YED | 16",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -244,9 +256,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 3",
+            "tag": "🇺🇸US | vless | 3YED | 5",
             "type": "vless",
-            "server": "205.233.181.90",
+            "server": "205.233.181.245",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
@@ -275,9 +287,102 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 18",
+            "tag": "🇸🇬SG | vless | 3YED | 9",
             "type": "vless",
-            "server": "198.62.62.15",
+            "server": "47.236.202.91",
+            "server_port": 2083,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp555.ylks01.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "jp555.ylks01.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 10",
+            "type": "vless",
+            "server": "160.79.104.45",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp555.ylks01.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "jp555.ylks01.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
+            "type": "vless",
+            "server": "104.26.5.60",
+            "server_port": 2087,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jp555.ylks01.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "jp555.ylks01.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 12",
+            "type": "vless",
+            "server": "69.84.182.247",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
@@ -300,6 +405,99 @@
             "transport": {
                 "type": "ws",
                 "path": "\/blue",
+                "headers": {
+                    "Host": "kk555.ylks.link"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 13",
+            "type": "vless",
+            "server": "172.67.25.165",
+            "server_port": 443,
+            "uuid": "5ef5d9e9-5f05-47c0-8683-ecc26818f369",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ee1.v2vless.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vless?ed=@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi,@alpha_v2ray_fazayi?ed",
+                "headers": {
+                    "Host": "ee1.v2vless.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | vless | 3YED | 14",
+            "type": "vless",
+            "server": "18.158.108.2",
+            "server_port": 22222,
+            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-channel-vlessconfig-ws",
+                "headers": {
+                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 16",
+            "type": "vless",
+            "server": "192.200.160.50",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kk555.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?proxyip",
                 "headers": {
                     "Host": "kk555.ylks.link"
                 }
