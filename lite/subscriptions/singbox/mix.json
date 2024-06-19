@@ -113,9 +113,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -132,9 +131,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 3",
                 "🇨🇦CA | vmess | @v2ray_swhil | 11",
                 "🇺🇸US | ss | @OutlineVpnOfficial | 15",
-                "🇫🇮FI | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 11",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 2",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -323,35 +321,6 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | vless | @ConfigsHUB | 19",
-            "type": "vless",
-            "server": "65.109.178.68",
-            "server_port": 45315,
-            "uuid": "f08fec47-e785-4b3a-a923-80f5e139c2bc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yahoo.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "HB3hnc85JraKAWNm5yVV4GS5Gp3vExQsr6LReKusXRo",
-                    "short_id": "1c5ad876"
-                }
-            }
-        },
-        {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
             "type": "vmess",
             "server": "104.26.8.210",
@@ -386,11 +355,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 11",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "lzyjc.779917.xyz",
-            "server_port": 80,
-            "uuid": "557dd7d1-9085-4f39-970f-7d2bb79b164e",
+            "server": "188.114.97.3",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -401,11 +370,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "lzyjc.779917.xyz"
+                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
