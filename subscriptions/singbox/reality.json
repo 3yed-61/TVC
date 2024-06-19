@@ -109,8 +109,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇫🇷FR | vless | 3YED | 9",
-                "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -127,8 +125,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇫🇷FR | vless | 3YED | 9",
-                "🇫🇮FI | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -269,64 +265,6 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vless | 3YED | 9",
-            "type": "vless",
-            "server": "95.179.214.39",
-            "server_port": 8443,
-            "uuid": "75e7d7eb-60b7-46d0-9fd1-8b52534dfd5b",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "PYzMT_U8v3KaH_DyC-g9jqkDxloM-lBDuGFFtf0vVXM",
-                    "short_id": "41f1e7f8"
-                }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | vless | 3YED | 13",
-            "type": "vless",
-            "server": "65.109.206.208",
-            "server_port": 10001,
-            "uuid": "ad9708f4-9676-4781-eb75-1bf71f621561",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "abolimigidadaei.nicemen.co",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Z922NCteZ946jYBeziZpjRVRAEoqtJMQojeZ3zCl4QE",
-                    "short_id": "3e8d64d0"
                 }
             }
         },
