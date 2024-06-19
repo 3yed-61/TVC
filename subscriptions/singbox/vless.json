@@ -108,6 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -124,6 +126,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -236,6 +240,68 @@
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 3",
+            "type": "vless",
+            "server": "205.233.181.90",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kk555.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "kk555.ylks.link"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 18",
+            "type": "vless",
+            "server": "198.62.62.15",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "kk555.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "kk555.ylks.link"
                 }
             }
         },
