@@ -106,32 +106,34 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @DailyV2RY | 117",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @v2Line | 8"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇩🇪DE | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇫🇷FR | trojan | @DirectVPN | 13",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+                "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
+                "🇺🇸US | vmess | @DailyV2RY | 117",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @v2Line | 8",
-                "🇨🇦CA | vmess | @ROMAX_VPN | 5"
+                "🇨🇦CA | vmess | @Hope_Net | 8",
+                "🇨🇦CA | vmess | @v2Line | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -154,9 +156,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 15",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "18.195.219.27",
+            "server": "13.37.191.118",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -176,9 +178,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 13",
             "type": "trojan",
-            "server": "18.159.169.71",
+            "server": "52.47.43.125",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -239,11 +241,45 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
+            "tag": "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "85.198.14.253",
-            "server_port": 44213,
-            "uuid": "8c98403a-340b-4bad-a2fd-2fa5c61de67c",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | @DailyV2RY | 117",
+            "type": "vmess",
+            "server": "155.138.200.150",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -331,6 +367,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇦CA | vmess | @v2Line | 8",
             "type": "vmess",
             "server": "104.21.83.108",
@@ -361,40 +431,6 @@ https://github.com/3yed-61
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 5",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         }
