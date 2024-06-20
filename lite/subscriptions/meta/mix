@@ -128,7 +128,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | @DailyV2RY | 117","type":"vmess","server":"155.138.200.150","port":"8881","cipher":"auto","uuid":"db5afae4-ac23-41a6-8378-f307a9a47436","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇵🇱PL | ss | @OutlineVpnOfficial | 18","type":"ss","server":"51.77.53.200","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
   - {"name":"🇨🇦CA | vless | @ConfigsHUB | 19","type":"vless","server":"108.162.192.100","port":443,"udp":false,"uuid":"0f7ec369-3529-4e73-943b-19258212f1bb","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"c.2025vless.cloudns.be","ws-opts":{"path":"/?ed=2056","headers":{"host":"c.2025vless.cloudns.be"}}}
-  - {"name":"🇨🇦CA | vmess | @Hope_Net | 9","type":"vmess","server":"104.21.15.36","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🏳️XX | vmess | @Hope_Net | 7","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"c0f4ea4e-01d4-406a-908e-e1f2e64e52d0","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"🇨🇦CA | vmess | @v2Line | 8","type":"vmess","server":"104.21.83.108","port":"443","cipher":"auto","uuid":"6c168fcc-2231-4f3b-8c1e-f6391692df4a","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/link","headers":{"host":"hms02.fxiaomi.sbs"}}}
   - {"name":"🇨🇦CA | vless | @FreakConfig | 4","type":"vless","server":"188.114.97.3","port":443,"udp":false,"uuid":"fb853741-88ef-4aa0-ba2f-999f04535960","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"HovEyda-ARIAMEHR-KinG.PAgEs.Dev","ws-opts":{"path":"/","headers":{"host":"HovEYda-arIamehr-KINg.pAgES.dev"}}}
 proxy-groups:
@@ -145,7 +145,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
-      - '🇨🇦CA | vmess | @Hope_Net | 9'
+      - '🏳️XX | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 4'
   - name: URL-TEST
@@ -162,7 +162,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
-      - '🇨🇦CA | vmess | @Hope_Net | 9'
+      - '🏳️XX | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 4'
   - name: FALLBACK
@@ -178,7 +178,7 @@ proxy-groups:
       - '🇺🇸US | vmess | @DailyV2RY | 117'
       - '🇵🇱PL | ss | @OutlineVpnOfficial | 18'
       - '🇨🇦CA | vless | @ConfigsHUB | 19'
-      - '🇨🇦CA | vmess | @Hope_Net | 9'
+      - '🏳️XX | vmess | @Hope_Net | 7'
       - '🇨🇦CA | vmess | @v2Line | 8'
       - '🇨🇦CA | vless | @FreakConfig | 4'
 rule-providers:
