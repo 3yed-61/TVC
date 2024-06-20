@@ -108,7 +108,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 2",
+                "🇰🇷KR | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -127,7 +128,8 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 2",
+                "🇰🇷KR | vless | 3YED | 3",
+                "🇺🇸US | vless | 3YED | 11",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -246,7 +248,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | 3YED | 2",
+            "tag": "🇰🇷KR | vless | 3YED | 3",
             "type": "vless",
             "server": "132.226.172.147",
             "server_port": 62001,
@@ -271,6 +273,37 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 11",
+            "type": "vless",
+            "server": "104.21.7.50",
+            "server_port": 443,
+            "uuid": "85b5ac4c-364a-4703-90d3-158bace384cf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "api2.htve.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "api2.htve.ir"
                 }
             }
         },
