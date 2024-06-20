@@ -106,11 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇸🇪SE | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @PrivateVPNs | 15",
+                "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 6",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -122,11 +122,11 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇸🇪SE | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | trojan | @DirectVPN | 15",
+                "🇩🇪DE | trojan | @PrivateVPNs | 15",
+                "🇩🇪DE | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇹🇷TR | vmess | @oneclickvpnkeys | 6",
+                "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇨🇦CA | vless | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -154,9 +154,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇸🇪SE | trojan | @PrivateVPNs | 15",
+            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "13.49.79.124",
+            "server": "18.195.219.27",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -176,9 +176,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 15",
+            "tag": "🇩🇪DE | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.48.120.11",
+            "server": "18.159.169.71",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -239,11 +239,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 6",
+            "tag": "🇮🇷IR | vmess | @oneclickvpnkeys | 5",
             "type": "vmess",
-            "server": "45.89.52.114",
-            "server_port": 13701,
-            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
+            "server": "85.198.14.253",
+            "server_port": 44213,
+            "uuid": "8c98403a-340b-4bad-a2fd-2fa5c61de67c",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
