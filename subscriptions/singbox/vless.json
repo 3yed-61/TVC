@@ -109,7 +109,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -129,7 +128,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -273,37 +271,6 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 18",
-            "type": "vless",
-            "server": "104.21.48.86",
-            "server_port": 2083,
-            "uuid": "bc4202da-8f1e-44ef-8b05-8af0feb7be22",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hsyhiygtxxuk.kowlim.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hsyhiygtxxuk.kowlim.com"
                 }
             }
         },
