@@ -106,15 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇯🇵JP | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
@@ -123,15 +122,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇸🇪SE | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 15",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇯🇵JP | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @v2ray_swhil | 11",
+                "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 7",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
@@ -156,9 +154,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "35.181.192.187",
+            "server": "13.42.111.25",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -178,9 +176,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 17",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
             "type": "trojan",
-            "server": "13.50.149.228",
+            "server": "3.9.230.120",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -234,11 +232,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | vmess | @oneclickvpnkeys | 4",
+            "tag": "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
             "type": "vmess",
-            "server": "45.159.50.136",
-            "server_port": 35594,
-            "uuid": "2b6651cd-922c-4c1b-8a0a-3386d6f4187f",
+            "server": "45.89.52.114",
+            "server_port": 13701,
+            "uuid": "86a0c17d-1871-40e3-db65-2b9bf1a7650e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -251,11 +249,21 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @v2ray_swhil | 11",
+            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+            "type": "shadowsocks",
+            "server": "51.77.53.200",
+            "server_port": 6679,
+            "method": "aes-256-gcm",
+            "password": "TEzjfAYq2IjtuoS",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
             "type": "vmess",
-            "server": "104.21.55.234",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -268,7 +276,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -280,19 +288,9 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
-        },
-        {
-            "tag": "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-            "type": "shadowsocks",
-            "server": "51.77.53.200",
-            "server_port": 6679,
-            "method": "aes-256-gcm",
-            "password": "TEzjfAYq2IjtuoS",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -325,30 +323,6 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 7",
-            "type": "vmess",
-            "server": "104.16.149.244",
-            "server_port": 2086,
-            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/29eebb60-b27b-4a9d-bba5-947763d9205e-vm",
-                "headers": {
-                    "Host": "104.16.149.244"
                 }
             }
         },
