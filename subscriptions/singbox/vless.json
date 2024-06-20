@@ -109,8 +109,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇮🇷IR | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇳🇴NO | vless | 3YED | 19",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -130,8 +130,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇮🇷IR | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 6",
+                "🇳🇴NO | vless | 3YED | 19",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -279,11 +279,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 6",
             "type": "vless",
-            "server": "172.67.211.70",
-            "server_port": 443,
-            "uuid": "64b3cbba-e6ac-495a-9481-976a0493eab9",
+            "server": "172.67.187.56",
+            "server_port": 2083,
+            "uuid": "301d3ed7-cf04-4f08-866e-056f9e79ae75",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -293,7 +293,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "ESetseCuRiTyLICEnse.KmlRV.woRKERs.DEV",
+                "server_name": "emifree.bestgameir2.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -305,17 +305,17 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "ESetseCuRiTyLICEnse.KmlRV.woRKERs.DEV"
+                    "Host": "emifree.bestgameir2.ir"
                 }
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 7",
+            "tag": "🇳🇴NO | vless | 3YED | 19",
             "type": "vless",
-            "server": "2.189.59.2",
+            "server": "185.125.171.13",
             "server_port": 443,
-            "uuid": "ea6320c2-67f9-40c0-9e58-95641d2ffbfd",
-            "flow": "",
+            "uuid": "a09373e2-e120-457d-9ec9-ea7fe8bedb52",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -324,20 +324,18 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mci.unlimiteddev-vpn.Com.",
+                "server_name": "partner.g2.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Channel:@UnlimitedDev",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
