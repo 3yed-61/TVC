@@ -109,7 +109,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇦🇺AU | vless | 3YED | 4",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -129,7 +129,7 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 3",
-                "🇺🇸US | vless | 3YED | 11",
+                "🇦🇺AU | vless | 3YED | 4",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -277,11 +277,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 11",
+            "tag": "🇦🇺AU | vless | 3YED | 4",
             "type": "vless",
-            "server": "104.21.7.50",
+            "server": "103.169.142.244",
             "server_port": 443,
-            "uuid": "85b5ac4c-364a-4703-90d3-158bace384cf",
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -291,7 +291,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "api2.htve.ir",
+                "server_name": "zdy600.kpcloud.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -301,9 +301,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/blue",
                 "headers": {
-                    "Host": "api2.htve.ir"
+                    "Host": "zdy600.kpcloud.eu.org"
                 }
             }
         },
