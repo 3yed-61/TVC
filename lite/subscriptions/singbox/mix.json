@@ -106,13 +106,12 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -122,13 +121,12 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇬🇧GB | trojan | @DirectVPN | 15",
+                "🇫🇷FR | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -154,9 +152,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "13.42.111.25",
+            "server": "13.38.166.180",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -176,9 +174,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇬🇧GB | trojan | @DirectVPN | 15",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "3.9.230.120",
+            "server": "13.39.250.25",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -217,9 +215,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.199.28",
-            "server_port": 15605,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -229,6 +227,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -257,40 +262,6 @@ https://github.com/3yed-61
             "password": "TEzjfAYq2IjtuoS",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",

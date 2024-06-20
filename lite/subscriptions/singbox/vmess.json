@@ -109,7 +109,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -122,7 +121,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇹🇷TR | vmess | @oneclickvpnkeys | 4",
-                "🇨🇦CA | vmess | @ConfigsHUB | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -167,9 +165,9 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | vmess | @mftizi | 19",
             "type": "vmess",
-            "server": "183.232.199.28",
-            "server_port": 15605,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "server": "m.cnmjin.net",
+            "server_port": 16632,
+            "uuid": "2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -179,6 +177,13 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
@@ -196,40 +201,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 15",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
