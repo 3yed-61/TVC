@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 16",
+                "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @proxystore11 | 11",
+                "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -125,16 +125,16 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 17",
-                "🇺🇸US | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @PrivateVPNs | 16",
+                "🇺🇸US | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇦CA | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 4",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @proxystore11 | 11",
+                "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 10",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vless | @FreakConfig | 4",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
@@ -160,9 +160,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 17",
+            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 16",
             "type": "trojan",
-            "server": "15.236.148.139",
+            "server": "18.171.87.240",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -182,9 +182,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | trojan | @DirectVPN | 17",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "18.219.139.16",
+            "server": "44.234.213.249",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -323,7 +323,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @proxystore11 | 11",
+            "tag": "🇺🇸US | vmess | @proxystore11 | 12",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -391,11 +391,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 10",
             "type": "vmess",
-            "server": "104.20.247.178",
-            "server_port": 80,
-            "uuid": "1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3",
+            "server": "23.227.38.6",
+            "server_port": 2086,
+            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -408,9 +408,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/29eebb60-b27b-4a9d-bba5-947763d9205e-vm",
                 "headers": {
-                    "Host": "104.20.247.178"
+                    "Host": "23.227.38.6"
                 }
             }
         },
