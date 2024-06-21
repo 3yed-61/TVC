@@ -172,9 +172,9 @@
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🏳️XX | vmess | 3YED | 84",
-                "🇺🇸US | vmess | 3YED | 91",
-                "🇺🇸US | vmess | 3YED | 109",
+                "🏳️XX | vmess | 3YED | 98",
+                "🇺🇸US | vmess | 3YED | 105",
+                "🇺🇸US | vmess | 3YED | 123",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇨🇦CA | ss | 3YED | 1",
                 "🇦🇹AT | ss | 3YED | 2",
@@ -193,8 +193,6 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇳🇱NL | vless | 3YED | 0",
-                "🇸🇬SG | vless | 3YED | 3",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -202,6 +200,7 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -296,9 +295,9 @@
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🏳️XX | vmess | 3YED | 84",
-                "🇺🇸US | vmess | 3YED | 91",
-                "🇺🇸US | vmess | 3YED | 109",
+                "🏳️XX | vmess | 3YED | 98",
+                "🇺🇸US | vmess | 3YED | 105",
+                "🇺🇸US | vmess | 3YED | 123",
                 "🇩🇪DE | ss | 3YED | 0",
                 "🇨🇦CA | ss | 3YED | 1",
                 "🇦🇹AT | ss | 3YED | 2",
@@ -317,8 +316,6 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇳🇱NL | vless | 3YED | 0",
-                "🇸🇬SG | vless | 3YED | 3",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -326,6 +323,7 @@
                 "🏳️XX | vmess | 3YED | 3",
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1979,7 +1977,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 84",
+            "tag": "🏳️XX | vmess | 3YED | 98",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1996,7 +1994,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 91",
+            "tag": "🇺🇸US | vmess | 3YED | 105",
             "type": "vmess",
             "server": "104.21.4.6",
             "server_port": 443,
@@ -2030,7 +2028,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 109",
+            "tag": "🇺🇸US | vmess | 3YED | 123",
             "type": "vmess",
             "server": "155.138.200.150",
             "server_port": 8881,
@@ -2225,68 +2223,6 @@
             "password": "TEzjfAYq2IjtuoS",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | vless | 3YED | 0",
-            "type": "vless",
-            "server": "141.144.194.2",
-            "server_port": 443,
-            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.putata.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dns68.putata.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | vless | 3YED | 3",
-            "type": "vless",
-            "server": "213.35.115.68",
-            "server_port": 443,
-            "uuid": "d7dd3a35b68b4992b319a85b8a1fc8e5",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dns68.putata.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "dns68.putata.eu.org"
-                }
-            }
         },
         {
             "tag": "🇩🇰DK | vless | 3YED | 3",
@@ -2498,6 +2434,30 @@
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "104.20.247.178",
+            "server_port": 80,
+            "uuid": "1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "104.20.247.178"
                 }
             }
         },
