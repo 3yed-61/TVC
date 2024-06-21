@@ -109,6 +109,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -126,6 +131,11 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 7",
+                "🇺🇸US | vless | 3YED | 13",
+                "🇺🇸US | vless | 3YED | 15",
+                "🇺🇸US | vless | 3YED | 16",
+                "🇳🇱NL | vless | 3YED | 17",
+                "🇺🇸US | vless | 3YED | 18",
                 "🇩🇰DK | vless | 3YED | 4",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -267,6 +277,161 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 13",
+            "type": "vless",
+            "server": "188.114.97.141",
+            "server_port": 443,
+            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "e10c0e4b.oodaeq2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-@Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "e10c0e4b.oodaeq2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 15",
+            "type": "vless",
+            "server": "104.21.48.86",
+            "server_port": 2083,
+            "uuid": "cfa02b9e-5176-47c5-9e2a-3098d624051e",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "syhitjxygtxxk.kowlim.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "syhitjxygtxxk.kowlim.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 16",
+            "type": "vless",
+            "server": "104.26.12.54",
+            "server_port": 443,
+            "uuid": "de70c2ab-3b16-44c2-8579-9b05fedc3b36",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "pardazeshvpn-tg3.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram@Freakconfig",
+                "headers": {
+                    "Host": "pardazeshvpn-tg3.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | vless | 3YED | 17",
+            "type": "vless",
+            "server": "193.123.35.165",
+            "server_port": 443,
+            "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dns68.putata.eu.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "dns68.putata.eu.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 18",
+            "type": "vless",
+            "server": "172.67.217.183",
+            "server_port": 443,
+            "uuid": "16b3cbba-e6ac-495a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "ESEtSECURItYlIcENse.shPnmm.WoRkeRS.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rAQuyPffj94byXJx?ed=2560",
+                "headers": {
+                    "Host": "ESEtSECURItYlIcENse.shPnmm.WoRkeRS.Dev"
                 }
             }
         },
