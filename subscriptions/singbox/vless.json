@@ -108,15 +108,15 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 7",
-                "🇫🇷FR | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇰🇷KR | vless | 3YED | 8",
+                "🇰🇷KR | vless | 3YED | 10",
+                "🇲🇾MY | vless | 3YED | 12",
+                "🇲🇾MY | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 8"
             ]
         },
@@ -127,15 +127,15 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 7",
-                "🇫🇷FR | vless | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
+                "🇰🇷KR | vless | 3YED | 8",
+                "🇰🇷KR | vless | 3YED | 10",
+                "🇲🇾MY | vless | 3YED | 12",
+                "🇲🇾MY | vless | 3YED | 13",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 4",
                 "🏳️XX | vless | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -246,7 +246,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | 3YED | 7",
+            "tag": "🇰🇷KR | vless | 3YED | 8",
             "type": "vless",
             "server": "132.226.172.147",
             "server_port": 62001,
@@ -275,11 +275,11 @@
             }
         },
         {
-            "tag": "🇫🇷FR | vless | 3YED | 5",
+            "tag": "🇰🇷KR | vless | 3YED | 10",
             "type": "vless",
-            "server": "13.36.40.113",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+            "server": "1.238.209.247",
+            "server_port": 38236,
+            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -289,7 +289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "cfed.tgzdyz2.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -299,16 +299,16 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-channel-vlessconfig-ws",
+                "path": "\/tg@zdyz2",
                 "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                    "Host": "cfed.tgzdyz2.top"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
+            "tag": "🇲🇾MY | vless | 3YED | 12",
             "type": "vless",
-            "server": "104.18.5.250",
+            "server": "172.66.47.151",
             "server_port": 443,
             "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
             "flow": "",
@@ -320,7 +320,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iSaa1.PAGeS.DeV",
+                "server_name": "iSaA1.paGes.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -330,9 +330,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/BDwnEtVwG7BS0S9f?ed=2560",
+                "path": "\/T7OzaaLG5SkllZJf?ed=2560",
                 "headers": {
-                    "Host": "iSaa1.PAGeS.DeV"
+                    "Host": "iSaA1.paGes.DEv"
+                }
+            }
+        },
+        {
+            "tag": "🇲🇾MY | vless | 3YED | 13",
+            "type": "vless",
+            "server": "172.66.47.172",
+            "server_port": 443,
+            "uuid": "f7b8c369-6ec0-4f8f-b0f2-96cbbb13e545",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "k5z3-1h6p-9t8R-2f4B-0W7G-3x2M-5U9d-8n1C-7E4j-6q0y-5s8v-2A9.pagES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "k5z3-1h6p-9t8R-2f4B-0W7G-3x2M-5U9d-8n1C-7E4j-6q0y-5s8v-2A9.pagES.dEv"
                 }
             }
         },
@@ -478,37 +509,6 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 4",
-            "type": "vless",
-            "server": "allsms.rozfa.com",
-            "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "test-teSt-tEsT-teSt.pagES.DEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "test-teSt-tEsT-teSt.pagES.DEv"
                 }
             }
         },
