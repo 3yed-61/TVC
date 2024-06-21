@@ -148,7 +148,7 @@
                 "🇨🇦CA | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
                 "🇨🇳CN | vmess | 3YED | 10",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇨🇦CA | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 18",
                 "🇨🇳CN | vmess | 3YED | 19",
@@ -193,7 +193,8 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇰🇷KR | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -202,7 +203,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -273,7 +273,7 @@
                 "🇨🇦CA | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 6",
                 "🇨🇳CN | vmess | 3YED | 10",
-                "🇺🇸US | vmess | 3YED | 11",
+                "🇨🇦CA | vmess | 3YED | 11",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 18",
                 "🇨🇳CN | vmess | 3YED | 19",
@@ -318,7 +318,8 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 6",
+                "🇰🇷KR | vless | 3YED | 4",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇩🇰DK | vless | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 10",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -327,7 +328,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇨🇦CA | vmess | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1339,7 +1339,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 11",
+            "tag": "🇨🇦CA | vmess | 3YED | 11",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -2229,10 +2229,10 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 6",
+            "tag": "🇰🇷KR | vless | 3YED | 4",
             "type": "vless",
-            "server": "45.159.218.123",
-            "server_port": 443,
+            "server": "61.32.133.149",
+            "server_port": 23023,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
@@ -2243,7 +2243,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zdy600.kpcloud.eu.org",
+                "server_name": "hk600.ylks.link",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2253,9 +2253,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/?proxyip",
                 "headers": {
-                    "Host": "zdy600.kpcloud.eu.org"
+                    "Host": "hk600.ylks.link"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 8",
+            "type": "vless",
+            "server": "172.64.68.69",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mmdv2.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
@@ -2493,30 +2524,6 @@
                 "path": "\/d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm",
                 "headers": {
                     "Host": "23.227.38.3"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 80,
-            "uuid": "da62a137-3611-4dd7-8523-b5266afe6fe5",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
