@@ -186,7 +186,10 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 16",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -304,7 +307,10 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 8",
+                "🇺🇸US | vless | 3YED | 2",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 16",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -1992,11 +1998,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 2",
             "type": "vless",
-            "server": "172.67.217.68",
-            "server_port": 8443,
-            "uuid": "ed139c1e-660a-4845-aced-a7069dcb6e7d",
+            "server": "172.67.187.56",
+            "server_port": 2083,
+            "uuid": "e8e2f877-957d-4fa6-852d-e1a0bcb94c87",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2006,7 +2012,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eyd.saeedgalaxy.xyz",
+                "server_name": "emifree.bestgameir2.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2018,7 +2024,106 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "eyd.saeedgalaxy.xyz"
+                    "Host": "emifree.bestgameir2.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 4",
+            "type": "vless",
+            "server": "104.21.67.115",
+            "server_port": 443,
+            "uuid": "ff48b92f-951b-46c1-b6d7-e42b3939066a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "joinmahdiserver.tvcmmggv.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "joinmahdiserver.tvcmmggv.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 13",
+            "type": "vmess",
+            "server": "104.21.83.208",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 16",
+            "type": "vmess",
+            "server": "172.67.170.103",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
                 }
             }
         },
