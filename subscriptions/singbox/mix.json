@@ -186,8 +186,7 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇲🇾MY | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 19",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -198,7 +197,6 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇸🇪SE | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -307,8 +305,7 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇲🇾MY | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 19",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -319,7 +316,6 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇸🇪SE | vmess | 3YED | 5",
-                "🇺🇸US | vmess | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1998,11 +1994,11 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇲🇾MY | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 19",
             "type": "vless",
-            "server": "172.66.47.151",
+            "server": "104.17.147.22",
             "server_port": 443,
-            "uuid": "a64f0cea-ca89-40e6-b316-b3badff1eb90",
+            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2012,7 +2008,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "iSaA1.paGes.DEv",
+                "server_name": "7f905f51.garywelch.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2022,43 +2018,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/TELEGRAM-vlees_v2rayng\/",
                 "headers": {
-                    "Host": "iSaA1.paGes.DEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 10",
-            "type": "vmess",
-            "server": "172.67.207.26",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
+                    "Host": "7f905f51.garywelch.pages.dev"
                 }
             }
         },
@@ -2338,40 +2300,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 8",
-            "type": "vmess",
-            "server": "108.162.192.154",
-            "server_port": 2087,
-            "uuid": "2a3263e2-891c-4446-b474-a8c63acb6e25",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "108.162.192.154",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "\/",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
