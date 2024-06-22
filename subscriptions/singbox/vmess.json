@@ -134,7 +134,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇸🇪SE | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -185,7 +184,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇸🇪SE | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 0",
@@ -957,30 +955,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
                     "Host": ""
                 }

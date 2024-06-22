@@ -186,6 +186,7 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -195,7 +196,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇸🇪SE | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -304,6 +304,7 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
+                "🇺🇸US | vless | 3YED | 8",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -313,7 +314,6 @@
                 "🇨🇳CN | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 1",
-                "🇸🇪SE | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1992,6 +1992,37 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇺🇸US | vless | 3YED | 8",
+            "type": "vless",
+            "server": "172.67.217.68",
+            "server_port": 8443,
+            "uuid": "ed139c1e-660a-4845-aced-a7069dcb6e7d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "eyd.saeedgalaxy.xyz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "eyd.saeedgalaxy.xyz"
+                }
+            }
+        },
+        {
             "tag": "🇹🇷TR | vmess | 3YED | 1",
             "type": "vmess",
             "server": "45.89.52.114",
@@ -2240,30 +2271,6 @@
             "transport": {
                 "type": "ws",
                 "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "185.146.173.92",
-            "server_port": 80,
-            "uuid": "3a71b42c-66d2-44ad-8a80-668d4f4339ea",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE",
                 "headers": {
                     "Host": ""
                 }
