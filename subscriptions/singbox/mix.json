@@ -186,7 +186,6 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 19",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -305,7 +304,6 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 19",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -1992,37 +1990,6 @@
             "password": "TEzjfAYq2IjtuoS",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 19",
-            "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 443,
-            "uuid": "8b7efacf-8e83-4e51-ab55-1263baccd4b2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "7f905f51.garywelch.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-vlees_v2rayng\/",
-                "headers": {
-                    "Host": "7f905f51.garywelch.pages.dev"
-                }
-            }
         },
         {
             "tag": "🇹🇷TR | vmess | 3YED | 1",
