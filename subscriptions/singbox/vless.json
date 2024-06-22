@@ -108,9 +108,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 17",
+                "🇰🇷KR | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -127,9 +127,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇰🇷KR | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 12",
-                "🇺🇸US | vless | 3YED | 17",
+                "🇰🇷KR | vless | 3YED | 10",
+                "🇺🇸US | vless | 3YED | 1",
+                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -246,7 +246,7 @@
             }
         },
         {
-            "tag": "🇰🇷KR | vless | 3YED | 9",
+            "tag": "🇰🇷KR | vless | 3YED | 10",
             "type": "vless",
             "server": "132.226.172.147",
             "server_port": 62001,
@@ -275,42 +275,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 12",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
-            "server": "104.17.148.22",
-            "server_port": 2083,
-            "uuid": "8deeb664-3d1e-49c9-b533-f8369fd1051c",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "all4.savagev2ray.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@XvProxy,@XvProxy,@XvProxy,@XvProxy",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 17",
-            "type": "vless",
-            "server": "172.67.129.229",
+            "server": "45.159.218.189",
             "server_port": 443,
-            "uuid": "56b3cbba-e7ac-485a-9481-976a7945eab9",
+            "uuid": "2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -320,7 +289,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eSeTSecUrItYlicenSe.XWukaXkG.WoRKeRs.DeV",
+                "server_name": "cfed.tgzdyz2.top",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -330,9 +299,40 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/oT9bJE3ujN1GZlum?ed=2560",
+                "path": "\/tg@zdyz2",
                 "headers": {
-                    "Host": "eSeTSecUrItYlicenSe.XWukaXkG.WoRKeRs.DeV"
+                    "Host": "cfed.tgzdyz2.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vless | 3YED | 2",
+            "type": "vless",
+            "server": "45.159.216.147",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk700.ylks.link",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/blue",
+                "headers": {
+                    "Host": "hk700.ylks.link"
                 }
             }
         },
