@@ -204,9 +204,9 @@ proxies:
   - {"name":"🇸🇬SG | ss | 3YED | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇸🇪SE | ss | 3YED | 17","type":"ss","server":"5.42.72.241","port":30482,"password":"2gUQ2cQTPtBGNjbCXKMKeH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇵🇱PL | ss | 3YED | 18","type":"ss","server":"51.77.53.200","port":6679,"password":"TEzjfAYq2IjtuoS","cipher":"aes-256-gcm"}
-  - {"name":"🇳🇱NL | vmess | 3YED | 8","type":"vmess","server":"154.47.21.54","port":"8099","cipher":"auto","uuid":"fa1897db-1925-4c86-a495-939a959af900","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇺🇸US | vmess | 3YED | 13","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
-  - {"name":"🇺🇸US | vmess | 3YED | 14","type":"vmess","server":"104.21.15.212","port":"443","cipher":"auto","uuid":"76221bfb-e92f-4e80-81c5-6fe48f50ac0b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.sbs"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 0","type":"vmess","server":"188.114.97.210","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
+  - {"name":"🇬🇧GB | vless | 3YED | 5","type":"vless","server":"178.79.140.181","port":2003,"udp":false,"uuid":"e364b787-6545-42dd-aaa4-9ee76fd21e89","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"uk2-full.privateip.net","grpc-opts":{"grpc-service-name":"GRPC"}}
+  - {"name":"🇮🇪IE | vless | 3YED | 6","type":"vless","server":"34.242.111.178","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇩🇰DK | vless | 3YED | 5","type":"vless","server":"46.29.235.78","port":80,"udp":true,"uuid":"7e08dc93-a81d-4a24-995e-76ce0e11defa","tls":true,"network":"tcp","client-fingerprint":"chrome","servername":"dash.cloudflare.com","flow":"xtls-rprx-vision","reality-opts":{"public-key":"tv78GZDfmDnF6B9h4lnnELyRI2pKxixviayB6W4bOE0","short-id":"95becf1c4d3adc04"}}
   - {"name":"🇺🇸US | vmess | 3YED | 12","type":"vmess","server":"188.114.99.183","port":"443","cipher":"auto","uuid":"edbb1059-1633-4271-b66e-ed4fba47a1bf","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linde06.indiavideo.sbs"}}}
   - {"name":"🇳🇱NL | vmess | 3YED | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
@@ -233,6 +233,7 @@ proxies:
   - {"name":"🇺🇸US | vmess | 3YED | 2","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 3","type":"vmess","server":"npmjs.com","port":"443","cipher":"auto","uuid":"6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/QvtvPdDXXIlSdZMqnuxG","headers":{"host":"hdfy1c2.freeairlaines.com"}}}
   - {"name":"🇺🇸US | vmess | 3YED | 4","type":"vmess","server":"172.67.74.4","port":"443","cipher":"auto","uuid":"441da342-ce90-441e-bff9-d2ceb55e68ca","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/ivideos.sbs/linkws","headers":{"host":"mikasa.yaemiko.cloudns.org"}}}
+  - {"name":"🇺🇸US | vmess | 3YED | 5","type":"vmess","server":"zula.ir","port":"443","cipher":"auto","uuid":"950db6aa-4926-4616-816e-ec0312dcb87b","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"jahfkjha.cfd"}}}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -323,9 +324,9 @@ proxy-groups:
       - '🇸🇬SG | ss | 3YED | 16'
       - '🇸🇪SE | ss | 3YED | 17'
       - '🇵🇱PL | ss | 3YED | 18'
-      - '🇳🇱NL | vmess | 3YED | 8'
-      - '🇺🇸US | vmess | 3YED | 13'
-      - '🇺🇸US | vmess | 3YED | 14'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇬🇧GB | vless | 3YED | 5'
+      - '🇮🇪IE | vless | 3YED | 6'
       - '🇩🇰DK | vless | 3YED | 5'
       - '🇺🇸US | vmess | 3YED | 12'
       - '🇳🇱NL | vmess | 3YED | 1'
@@ -352,6 +353,7 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 3'
       - '🇺🇸US | vmess | 3YED | 4'
+      - '🇺🇸US | vmess | 3YED | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -442,9 +444,9 @@ proxy-groups:
       - '🇸🇬SG | ss | 3YED | 16'
       - '🇸🇪SE | ss | 3YED | 17'
       - '🇵🇱PL | ss | 3YED | 18'
-      - '🇳🇱NL | vmess | 3YED | 8'
-      - '🇺🇸US | vmess | 3YED | 13'
-      - '🇺🇸US | vmess | 3YED | 14'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇬🇧GB | vless | 3YED | 5'
+      - '🇮🇪IE | vless | 3YED | 6'
       - '🇩🇰DK | vless | 3YED | 5'
       - '🇺🇸US | vmess | 3YED | 12'
       - '🇳🇱NL | vmess | 3YED | 1'
@@ -471,6 +473,7 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 3'
       - '🇺🇸US | vmess | 3YED | 4'
+      - '🇺🇸US | vmess | 3YED | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -560,9 +563,9 @@ proxy-groups:
       - '🇸🇬SG | ss | 3YED | 16'
       - '🇸🇪SE | ss | 3YED | 17'
       - '🇵🇱PL | ss | 3YED | 18'
-      - '🇳🇱NL | vmess | 3YED | 8'
-      - '🇺🇸US | vmess | 3YED | 13'
-      - '🇺🇸US | vmess | 3YED | 14'
+      - '🇺🇸US | vmess | 3YED | 0'
+      - '🇬🇧GB | vless | 3YED | 5'
+      - '🇮🇪IE | vless | 3YED | 6'
       - '🇩🇰DK | vless | 3YED | 5'
       - '🇺🇸US | vmess | 3YED | 12'
       - '🇳🇱NL | vmess | 3YED | 1'
@@ -589,6 +592,7 @@ proxy-groups:
       - '🇺🇸US | vmess | 3YED | 2'
       - '🇺🇸US | vmess | 3YED | 3'
       - '🇺🇸US | vmess | 3YED | 4'
+      - '🇺🇸US | vmess | 3YED | 5'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
