@@ -110,10 +110,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 157",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
@@ -126,10 +125,9 @@ https://github.com/3yed-61
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇺🇸US | vmess | @vmess_vless_v2rayng | 3",
-                "🇺🇸US | vmess | @DailyV2RY | 157",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇺🇸US | vmess | @Hope_Net | 3",
+                "🇩🇪DE | vmess | @Hope_Net | 1",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
@@ -256,23 +254,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @DailyV2RY | 157",
-            "type": "vmess",
-            "server": "149.28.240.190",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | @proxystore11 | 12",
             "type": "vmess",
             "server": "188.114.99.183",
@@ -341,13 +322,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | vmess | @Hope_Net | 3",
+            "tag": "🇩🇪DE | vmess | @Hope_Net | 1",
             "type": "vmess",
-            "server": "107.167.20.182",
-            "server_port": 443,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "164.90.167.137",
+            "server_port": 2087,
+            "uuid": "964d2e04-5de3-478e-8616-b609c9f71954",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -356,21 +337,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "107.167.20.182",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
                 "headers": {
-                    "Host": "107.167.20.182"
+                    "Host": ""
                 }
             }
         },
