@@ -109,9 +109,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -129,9 +126,6 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 9",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -273,99 +267,6 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 443,
-            "uuid": "9c2f4be2-3dbb-48d3-b78b-85e3e884d2ce",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "snapp.pinobin.ir.",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-vlees_v2rayng\/",
-                "headers": {
-                    "Host": "snapp.pinobin.ir."
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "205.233.181.41",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "172.67.204.84",
-            "server_port": 2096,
-            "uuid": "8d7a060e-8548-413b-b09e-6c30faf5ba12",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.v2safe.onflashdrive.app",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ws",
-                "headers": {
-                    "Host": "cdn.v2safe.onflashdrive.app"
                 }
             }
         },
