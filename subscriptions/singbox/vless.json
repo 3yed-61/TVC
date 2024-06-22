@@ -109,20 +109,14 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 14",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 8"
             ]
         },
@@ -134,20 +128,14 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 14",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 4",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -287,71 +275,9 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
-            "type": "vless",
-            "server": "160.79.104.91",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
-            "server": "172.67.187.56",
-            "server_port": 2083,
-            "uuid": "e8e2f877-957d-4fa6-852d-e1a0bcb94c87",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "emifree.bestgameir2.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "emifree.bestgameir2.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 7",
-            "type": "vless",
-            "server": "205.233.181.117",
+            "server": "216.24.57.141",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
@@ -380,134 +306,10 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
-            "server": "198.62.62.48",
+            "server": "43.153.103.203",
             "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk700.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "hk700.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "205.233.181.90",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "kk700.ylks.link",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "kk700.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "198.62.62.204",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | 3YED | 14",
-            "type": "vless",
-            "server": "217.163.76.73",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp700.ylks01.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "jp700.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 16",
-            "type": "vless",
-            "server": "65.75.195.33",
-            "server_port": 17665,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
@@ -680,11 +482,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "allsms.rozfa.com",
+            "server": "172.64.133.252",
             "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -694,7 +496,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test-teSt-tEsT-teSt.pagES.DEv",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -706,7 +508,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "test-teSt-tEsT-teSt.pagES.DEv"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },

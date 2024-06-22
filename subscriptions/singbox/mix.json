@@ -188,15 +188,14 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 14",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 14",
+                "🇺🇸US | vmess | 3YED | 15",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -222,7 +221,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -318,15 +317,14 @@
                 "🇸🇬SG | ss | 3YED | 16",
                 "🇸🇪SE | ss | 3YED | 17",
                 "🇵🇱PL | ss | 3YED | 18",
-                "🇺🇸US | vless | 3YED | 0",
                 "🇺🇸US | vless | 3YED | 1",
-                "🇺🇸US | vmess | 3YED | 5",
-                "🇺🇸US | vless | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 8",
-                "🇺🇸US | vless | 3YED | 10",
-                "🇺🇸US | vless | 3YED | 11",
-                "🇬🇧GB | vless | 3YED | 14",
-                "🇺🇸US | vless | 3YED | 16",
+                "🇺🇸US | vless | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 13",
+                "🇺🇸US | vmess | 3YED | 14",
+                "🇺🇸US | vmess | 3YED | 15",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇩🇰DK | vless | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 12",
@@ -352,7 +350,7 @@
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 6",
                 "🇺🇸US | vmess | 3YED | 7",
-                "🇺🇸US | vless | 3YED | 5",
+                "🇺🇸US | vless | 3YED | 0",
                 "🏳️XX | vless | 3YED | 8",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
@@ -2081,9 +2079,9 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇺🇸US | vless | 3YED | 1",
             "type": "vless",
-            "server": "160.79.104.91",
+            "server": "216.24.57.141",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
@@ -2112,11 +2110,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 1",
+            "tag": "🇺🇸US | vless | 3YED | 4",
             "type": "vless",
-            "server": "172.67.187.56",
-            "server_port": 2083,
-            "uuid": "e8e2f877-957d-4fa6-852d-e1a0bcb94c87",
+            "server": "43.153.103.203",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2126,7 +2124,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "emifree.bestgameir2.ir",
+                "server_name": "zdy700.kpcloud.eu.org",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2136,16 +2134,84 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/blue",
                 "headers": {
-                    "Host": "emifree.bestgameir2.ir"
+                    "Host": "zdy700.kpcloud.eu.org"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 5",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
-            "server": "172.67.170.13",
+            "server": "172.67.131.108",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 9",
+            "type": "vmess",
+            "server": "104.21.4.6",
+            "server_port": 443,
+            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 10",
+            "type": "vmess",
+            "server": "188.114.97.79",
             "server_port": 443,
             "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
@@ -2177,13 +2243,16 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 7",
-            "type": "vless",
-            "server": "205.233.181.117",
+            "tag": "🇺🇸US | vmess | 3YED | 13",
+            "type": "vmess",
+            "server": "188.114.99.183",
             "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2191,7 +2260,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2201,20 +2270,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 8",
-            "type": "vless",
-            "server": "198.62.62.48",
+            "tag": "🇺🇸US | vmess | 3YED | 14",
+            "type": "vmess",
+            "server": "104.21.44.106",
             "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2222,7 +2294,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hk700.ylks.link",
+                "server_name": "xmivideo.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2232,20 +2304,23 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/?proxyip",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "hk700.ylks.link"
+                    "Host": "xmivideo.cfd"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "205.233.181.90",
+            "tag": "🇺🇸US | vmess | 3YED | 15",
+            "type": "vmess",
+            "server": "104.21.15.36",
             "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2253,7 +2328,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "kk700.ylks.link",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2263,102 +2338,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/blue",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": "kk700.ylks.link"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 11",
-            "type": "vless",
-            "server": "198.62.62.204",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?proxyip",
-                "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇬🇧GB | vless | 3YED | 14",
-            "type": "vless",
-            "server": "217.163.76.73",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jp700.ylks01.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "jp700.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 16",
-            "type": "vless",
-            "server": "65.75.195.33",
-            "server_port": 17665,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zdy700.kpcloud.eu.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/blue",
-                "headers": {
-                    "Host": "zdy700.kpcloud.eu.org"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -3121,11 +3103,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 5",
+            "tag": "🇺🇸US | vless | 3YED | 0",
             "type": "vless",
-            "server": "allsms.rozfa.com",
+            "server": "172.64.133.252",
             "server_port": 443,
-            "uuid": "6a89dc04-7781-46fe-b35c-e14a6b6e60b8",
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -3135,7 +3117,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "test-teSt-tEsT-teSt.pagES.DEv",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -3147,7 +3129,7 @@
                 "type": "ws",
                 "path": "\/",
                 "headers": {
-                    "Host": "test-teSt-tEsT-teSt.pagES.DEv"
+                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
