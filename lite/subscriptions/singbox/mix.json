@@ -114,7 +114,6 @@ https://github.com/3yed-61
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
@@ -131,7 +130,6 @@ https://github.com/3yed-61
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | vmess | @proxystore11 | 12",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🇨🇦CA | vmess | @Hope_Net | 9",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
@@ -342,40 +340,6 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | vmess | @Hope_Net | 9",
-            "type": "vmess",
-            "server": "sareikela.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "sareikela.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "sareikela.com"
                 }
             }
         },
