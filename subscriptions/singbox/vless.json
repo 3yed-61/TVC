@@ -109,8 +109,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇩🇰DK | vless | 3YED | 5",
+                "🇦🇺AU | vless | 3YED | 8",
+                "🇩🇰DK | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -127,8 +127,8 @@
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
                 "🇰🇷KR | vless | 3YED | 11",
-                "🇺🇸US | vless | 3YED | 0",
-                "🇩🇰DK | vless | 3YED | 5",
+                "🇦🇺AU | vless | 3YED | 8",
+                "🇩🇰DK | vless | 3YED | 7",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
@@ -273,11 +273,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vless | 3YED | 0",
+            "tag": "🇦🇺AU | vless | 3YED | 8",
             "type": "vless",
-            "server": "172.64.198.242",
+            "server": "194.195.125.6",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "40d748ac-c130-42f0-ad3b-4eeb26c39e42",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -287,7 +287,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "au-full.privateip.net",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -297,14 +297,14 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VLESS",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "au-full.privateip.net"
                 }
             }
         },
         {
-            "tag": "🇩🇰DK | vless | 3YED | 5",
+            "tag": "🇩🇰DK | vless | 3YED | 7",
             "type": "vless",
             "server": "46.29.235.78",
             "server_port": 80,
