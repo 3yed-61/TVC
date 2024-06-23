@@ -107,10 +107,11 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
-                "🇫🇷FR | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | trojan | @VmessProtocol | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -124,10 +125,11 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇮🇪IE | trojan | @PrivateVPNs | 17",
-                "🇫🇷FR | trojan | @DirectVPN | 17",
+                "🇬🇧GB | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
+                "🇺🇸US | trojan | @VmessProtocol | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -178,9 +180,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | trojan | @DirectVPN | 17",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "15.236.159.30",
+            "server": "3.10.65.48",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -254,6 +256,28 @@ https://github.com/3yed-61
                 "path": "\/2.v2ray.debian.org.fxp.debian.org.speedtest.net.����ù������.madariran.filegear-sg.m",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | trojan | @VmessProtocol | 5",
+            "type": "trojan",
+            "server": "185.180.13.70",
+            "server_port": 43118,
+            "password": "ypDt8RkT7J",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "earya.phooeyunfold.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
