@@ -106,13 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇩🇪DE | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇵🇱PL | trojan | @VmessProtocol | 4",
+                "🇫🇷FR | trojan | @VmessProtocol | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -124,13 +125,14 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | trojan | @PrivateVPNs | 16",
-                "🇩🇪DE | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 14",
+                "🇫🇷FR | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 7",
-                "🇵🇱PL | trojan | @VmessProtocol | 4",
+                "🇫🇷FR | trojan | @VmessProtocol | 4",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
+                "🇨🇦CA | vmess | @ConfigsHUB | 19",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -158,9 +160,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 16",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 14",
             "type": "trojan",
-            "server": "13.36.49.78",
+            "server": "3.254.245.152",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -180,9 +182,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | trojan | @DirectVPN | 16",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "3.67.239.157",
+            "server": "13.37.146.86",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -270,9 +272,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇱PL | trojan | @VmessProtocol | 4",
+            "tag": "🇫🇷FR | trojan | @VmessProtocol | 4",
             "type": "trojan",
-            "server": "151.115.83.178",
+            "server": "51.158.217.195",
             "server_port": 43118,
             "password": "ypDt8RkT7J",
             "multiplex": {
@@ -282,7 +284,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "eimna.phooeyunfold.com",
+                "server_name": "wnbtg.phooeyunfold.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -300,6 +302,30 @@ https://github.com/3yed-61
             "password": "TEzjfAYq2IjtuoS",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ConfigsHUB | 19",
+            "type": "vmess",
+            "server": "104.16.219.108",
+            "server_port": 80,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
