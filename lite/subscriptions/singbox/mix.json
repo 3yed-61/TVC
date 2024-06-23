@@ -107,14 +107,14 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @proxystore11 | 14",
+                "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
@@ -124,14 +124,14 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇮🇪IE | trojan | @PrivateVPNs | 16",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇺🇸US | vmess | @proxystore11 | 14",
+                "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
-                "🏳️XX | vmess | @Hope_Net | 9",
+                "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
@@ -178,9 +178,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.50.185.192",
+            "server": "51.44.66.46",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -278,7 +278,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | @proxystore11 | 14",
+            "tag": "🇺🇸US | vmess | @proxystore11 | 15",
             "type": "vmess",
             "server": "188.114.99.183",
             "server_port": 443,
@@ -346,11 +346,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🏳️XX | vmess | @Hope_Net | 9",
+            "tag": "🇨🇦CA | vmess | @Hope_Net | 8",
             "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "7b5bf0c5-cf23-450f-a5d8-7fef9478de6c",
+            "server": "russia.com",
+            "server_port": 2095,
+            "uuid": "b7c56170-edb4-4c4a-bb64-ed5ef40b8739",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -361,21 +361,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/speedtest",
+                "path": "\/api\/v3\/download.getFile",
                 "headers": {
-                    "Host": "Dusseldorf.kotick.site"
+                    "Host": "russia.com"
                 }
             }
         },
