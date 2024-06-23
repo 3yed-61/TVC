@@ -131,8 +131,7 @@
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 129",
                 "🏳️XX | vmess | 3YED | 143",
-                "🇺🇸US | vmess | 3YED | 13",
-                "🇫🇷FR | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -192,8 +191,7 @@
                 "🇮🇷IR | vmess | 3YED | 3",
                 "🇺🇸US | vmess | 3YED | 129",
                 "🏳️XX | vmess | 3YED | 143",
-                "🇺🇸US | vmess | 3YED | 13",
-                "🇫🇷FR | vmess | 3YED | 19",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇹🇷TR | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -891,11 +889,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 13",
+            "tag": "🇺🇸US | vmess | 3YED | 14",
             "type": "vmess",
-            "server": "172.67.161.77",
+            "server": "104.26.0.95",
             "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -908,7 +906,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -920,25 +918,8 @@
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "obdii.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇷FR | vmess | 3YED | 19",
-            "type": "vmess",
-            "server": "162.19.25.207",
-            "server_port": 44513,
-            "uuid": "4552bdb6-e008-43ac-926d-c6c6c5a6fc76",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
