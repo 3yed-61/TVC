@@ -111,11 +111,10 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 8",
+                "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
-                "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇦UA | vmess | 3YED | 1",
                 "🇺🇦UA | vmess | 3YED | 2",
@@ -131,7 +130,7 @@
                 "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 145",
                 "🏳️XX | vmess | 3YED | 159",
-                "🇮🇷IR | vmess | 3YED | 7",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 7",
@@ -161,8 +160,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
-                "🇺🇸US | vmess | 3YED | 5"
+                "🇺🇸US | vmess | 3YED | 4"
             ]
         },
         {
@@ -175,11 +173,10 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 7",
-                "🇺🇸US | vmess | 3YED | 8",
+                "🇨🇦CA | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇺🇸US | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
-                "🇺🇸US | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇦UA | vmess | 3YED | 1",
                 "🇺🇦UA | vmess | 3YED | 2",
@@ -195,7 +192,7 @@
                 "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 145",
                 "🏳️XX | vmess | 3YED | 159",
-                "🇮🇷IR | vmess | 3YED | 7",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 7",
@@ -225,8 +222,7 @@
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
-                "🇺🇸US | vmess | 3YED | 5"
+                "🇺🇸US | vmess | 3YED | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -382,7 +378,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 8",
+            "tag": "🇨🇦CA | vmess | 3YED | 8",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -461,40 +457,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 7",
-            "type": "vmess",
-            "server": "afrhms16v.bestxray.buzz",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
             }
         },
         {
@@ -873,11 +835,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vmess | 3YED | 7",
+            "tag": "🇺🇸US | vmess | 3YED | 1",
             "type": "vmess",
-            "server": "nethtu.totfarangi.lol",
-            "server_port": 2099,
-            "uuid": "40491b91-e520-4fb0-ae69-ed23cac563a8",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -887,6 +849,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
             }
         },
         {
@@ -1778,40 +1757,6 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 5",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         }
