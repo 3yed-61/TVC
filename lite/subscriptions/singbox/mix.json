@@ -106,13 +106,12 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 14",
-                "🇮🇪IE | trojan | @DirectVPN | 14",
+                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇪IE | trojan | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -124,13 +123,12 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 14",
-                "🇮🇪IE | trojan | @DirectVPN | 14",
+                "🇮🇪IE | trojan | @PrivateVPNs | 17",
+                "🇫🇷FR | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇩🇪DE | vmess | @oneclickvpnkeys | 5",
                 "🇵🇱PL | ss | @OutlineVpnOfficial | 18",
-                "🇮🇪IE | trojan | @ConfigsHUB | 13",
                 "🇺🇸US | vmess | @proxystore11 | 15",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
@@ -158,9 +156,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 14",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "3.66.152.53",
+            "server": "108.128.14.53",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -180,9 +178,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇪IE | trojan | @DirectVPN | 14",
+            "tag": "🇫🇷FR | trojan | @DirectVPN | 17",
             "type": "trojan",
-            "server": "34.255.185.128",
+            "server": "15.236.159.30",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -268,28 +266,6 @@ https://github.com/3yed-61
             "password": "TEzjfAYq2IjtuoS",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇮🇪IE | trojan | @ConfigsHUB | 13",
-            "type": "trojan",
-            "server": "3.254.245.152",
-            "server_port": 22222,
-            "password": "telegram-id-privatevpns",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇺🇸US | vmess | @proxystore11 | 15",
