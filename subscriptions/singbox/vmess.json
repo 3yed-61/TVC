@@ -111,14 +111,14 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 7",
-                "🇨🇦CA | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇨🇦CA | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇺🇦UA | vmess | 3YED | 1",
-                "🇺🇦UA | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇦UA | vmess | 3YED | 3",
+                "🇺🇦UA | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 7",
                 "🇸🇪SE | vmess | 3YED | 141",
                 "🇺🇸US | vmess | 3YED | 149",
                 "🇺🇸US | vmess | 3YED | 154",
@@ -130,6 +130,7 @@
                 "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 159",
                 "🏳️XX | vmess | 3YED | 173",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 7",
@@ -173,14 +174,14 @@
                 "🇨🇳CN | vmess | 3YED | 1",
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇦CA | vmess | 3YED | 7",
-                "🇨🇦CA | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 8",
                 "🇨🇳CN | vmess | 3YED | 12",
                 "🇨🇦CA | vmess | 3YED | 13",
                 "🇨🇳CN | vmess | 3YED | 14",
-                "🇺🇸US | vmess | 3YED | 0",
-                "🇺🇦UA | vmess | 3YED | 1",
-                "🇺🇦UA | vmess | 3YED | 2",
-                "🇺🇸US | vmess | 3YED | 5",
+                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇦UA | vmess | 3YED | 3",
+                "🇺🇦UA | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 7",
                 "🇸🇪SE | vmess | 3YED | 141",
                 "🇺🇸US | vmess | 3YED | 149",
                 "🇺🇸US | vmess | 3YED | 154",
@@ -192,6 +193,7 @@
                 "🇮🇷IR | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 159",
                 "🏳️XX | vmess | 3YED | 173",
+                "🇺🇸US | vmess | 3YED | 1",
                 "🇳🇱NL | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇹🇷TR | vmess | 3YED | 7",
@@ -378,7 +380,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 8",
+            "tag": "🇺🇸US | vmess | 3YED | 8",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -460,7 +462,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "tag": "🇺🇸US | vmess | 3YED | 2",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -494,7 +496,7 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | 3YED | 1",
+            "tag": "🇺🇦UA | vmess | 3YED | 3",
             "type": "vmess",
             "server": "91.231.182.227",
             "server_port": 55017,
@@ -511,7 +513,7 @@
             }
         },
         {
-            "tag": "🇺🇦UA | vmess | 3YED | 2",
+            "tag": "🇺🇦UA | vmess | 3YED | 4",
             "type": "vmess",
             "server": "141.105.130.9",
             "server_port": 55471,
@@ -528,7 +530,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 5",
+            "tag": "🇺🇸US | vmess | 3YED | 7",
             "type": "vmess",
             "server": "to.tilebani.com",
             "server_port": 443,
@@ -832,6 +834,40 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.19.32.0",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
             }
         },
         {
