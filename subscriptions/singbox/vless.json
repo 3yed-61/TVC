@@ -108,10 +108,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -129,10 +128,9 @@
                 "🇩🇪DE | vless | 3YED | 9",
                 "🇩🇪DE | vless | 3YED | 12",
                 "🇫🇮FI | vless | 3YED | 13",
-                "🇩🇪DE | vless | 3YED | 3",
+                "🇩🇪DE | vless | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇺🇸US | vless | 3YED | 10",
                 "🇮🇷IR | vless | 3YED | 14",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
@@ -250,7 +248,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | vless | 3YED | 3",
+            "tag": "🇩🇪DE | vless | 3YED | 11",
             "type": "vless",
             "server": "159.69.114.213",
             "server_port": 8443,
@@ -333,35 +331,6 @@
                     "enabled": true,
                     "public_key": "KBf_UOkidK_CdR4aJrJbLQpWXlmaAON3XAiPEtP0PjY",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 10",
-            "type": "vless",
-            "server": "80.253.255.10",
-            "server_port": 443,
-            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.upci.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
-                    "short_id": "ee46"
                 }
             }
         },
