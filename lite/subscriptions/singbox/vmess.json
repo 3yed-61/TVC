@@ -108,7 +108,8 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -121,7 +122,8 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
-                "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+                "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
+                "🇨🇦CA | vmess | @ShadowProxy66 | 9",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇨🇦CA | vmess | @v2Line | 8",
@@ -182,11 +184,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 11",
+            "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "23.162.200.182",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "141.105.130.9",
+            "server_port": 55471,
+            "uuid": "714d36ca-09ce-4182-8756-e0bf7a85158e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -196,6 +198,40 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | vmess | @ShadowProxy66 | 9",
+            "type": "vmess",
+            "server": "sareikela.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "sareikela.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "sareikela.com"
+                }
             }
         },
         {
