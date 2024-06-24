@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 9",
@@ -123,8 +123,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 15",
-                "🇸🇪SE | trojan | @DirectVPN | 16",
+                "🇮🇪IE | trojan | @PrivateVPNs | 15",
+                "🇬🇧GB | trojan | @DirectVPN | 16",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇨🇦CA | vmess | @ShadowProxy66 | 9",
@@ -156,9 +156,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 15",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "3.10.84.28",
+            "server": "108.128.79.243",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -178,9 +178,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | trojan | @DirectVPN | 16",
+            "tag": "🇬🇧GB | trojan | @DirectVPN | 16",
             "type": "trojan",
-            "server": "13.51.142.14",
+            "server": "18.169.248.22",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
