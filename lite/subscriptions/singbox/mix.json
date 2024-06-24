@@ -106,17 +106,15 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇨🇦CA | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇺🇸US | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ]
         },
@@ -124,17 +122,15 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | trojan | @PrivateVPNs | 15",
-                "🇨🇦CA | trojan | @DirectVPN | 16",
+                "🇫🇷FR | trojan | @PrivateVPNs | 15",
+                "🇺🇸US | trojan | @DirectVPN | 14",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
                 "🇸🇬SG | ss | @OutlineVpnOfficial | 16",
-                "🇸🇪SE | trojan | @ConfigsHUB | 18",
                 "🇨🇦CA | vmess | @yaney_01 | 5",
                 "🇨🇦CA | vmess | @Hope_Net | 8",
                 "🇮🇷IR | vless | @Outlinev2rayNG | 17",
                 "🇨🇦CA | vmess | @v2Line | 8",
-                "🇬🇧GB | ss | @proxy_mtm | 1",
                 "🇨🇦CA | vmess | @ROMAX_VPN | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -158,9 +154,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | trojan | @PrivateVPNs | 15",
+            "tag": "🇫🇷FR | trojan | @PrivateVPNs | 15",
             "type": "trojan",
-            "server": "18.157.240.93",
+            "server": "13.37.14.103",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -180,9 +176,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | trojan | @DirectVPN | 16",
+            "tag": "🇺🇸US | trojan | @DirectVPN | 14",
             "type": "trojan",
-            "server": "3.98.135.131",
+            "server": "54.245.162.234",
             "server_port": 22222,
             "password": "telegram-id-directvpn",
             "multiplex": {
@@ -244,28 +240,6 @@ https://github.com/3yed-61
             "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
             "plugin": "",
             "plugin_opts": ""
-        },
-        {
-            "tag": "🇸🇪SE | trojan | @ConfigsHUB | 18",
-            "type": "trojan",
-            "server": "16.171.187.62",
-            "server_port": 22222,
-            "password": "telegram-id-directvpn",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "trojan.burgerip.co.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇨🇦CA | vmess | @yaney_01 | 5",
@@ -382,16 +356,6 @@ https://github.com/3yed-61
                     "Host": "hms02.fxiaomi.sbs"
                 }
             }
-        },
-        {
-            "tag": "🇬🇧GB | ss | @proxy_mtm | 1",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇨🇦CA | vmess | @ROMAX_VPN | 5",
