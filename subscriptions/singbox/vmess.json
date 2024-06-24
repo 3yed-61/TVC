@@ -132,11 +132,10 @@
                 "🇨🇦CA | vmess | 3YED | 11",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇮🇷IR | vmess | 3YED | 5",
-                "🏳️XX | vmess | 3YED | 146",
-                "🇺🇸US | vmess | 3YED | 166",
-                "🇹🇼TW | vmess | 3YED | 9",
-                "🇳🇱NL | vmess | 3YED | 2",
-                "🇹🇷TR | vmess | 3YED | 7",
+                "🇺🇸US | vmess | 3YED | 146",
+                "🏳️XX | vmess | 3YED | 160",
+                "🇳🇱NL | vmess | 3YED | 3",
+                "🇹🇷TR | vmess | 3YED | 8",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -198,11 +197,10 @@
                 "🇨🇦CA | vmess | 3YED | 11",
                 "🇺🇸US | vmess | 3YED | 5",
                 "🇮🇷IR | vmess | 3YED | 5",
-                "🏳️XX | vmess | 3YED | 146",
-                "🇺🇸US | vmess | 3YED | 166",
-                "🇹🇼TW | vmess | 3YED | 9",
-                "🇳🇱NL | vmess | 3YED | 2",
-                "🇹🇷TR | vmess | 3YED | 7",
+                "🇺🇸US | vmess | 3YED | 146",
+                "🏳️XX | vmess | 3YED | 160",
+                "🇳🇱NL | vmess | 3YED | 3",
+                "🇹🇷TR | vmess | 3YED | 8",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -938,24 +936,7 @@
             }
         },
         {
-            "tag": "🏳️XX | vmess | 3YED | 146",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | vmess | 3YED | 166",
+            "tag": "🇺🇸US | vmess | 3YED | 146",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -979,11 +960,11 @@
             }
         },
         {
-            "tag": "🇹🇼TW | vmess | 3YED | 9",
+            "tag": "🏳️XX | vmess | 3YED | 160",
             "type": "vmess",
-            "server": "103.159.206.35",
-            "server_port": 31945,
-            "uuid": "e2e511b0-7def-4e1b-d238-6cb5391b2e3f",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -993,17 +974,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | 3YED | 2",
+            "tag": "🇳🇱NL | vmess | 3YED | 3",
             "type": "vmess",
             "server": "5.42.100.206",
             "server_port": 58933,
@@ -1020,7 +994,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | 3YED | 7",
+            "tag": "🇹🇷TR | vmess | 3YED | 8",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
