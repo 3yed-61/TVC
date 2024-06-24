@@ -181,6 +181,7 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇬SG | ss | 3YED | 16",
+                "🇺🇸US | vmess | 3YED | 17",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -196,7 +197,6 @@
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🏳️XX | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🇮🇷IR | vless | 3YED | 17",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -300,6 +300,7 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇬SG | ss | 3YED | 16",
+                "🇺🇸US | vmess | 3YED | 17",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -315,7 +316,6 @@
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🏳️XX | vmess | 3YED | 7",
                 "🇺🇸US | vmess | 3YED | 8",
-                "🇮🇷IR | vless | 3YED | 17",
                 "🇺🇸US | vmess | 3YED | 0",
                 "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vless | 3YED | 8",
@@ -1963,6 +1963,30 @@
             "plugin_opts": ""
         },
         {
+            "tag": "🇺🇸US | vmess | 3YED | 17",
+            "type": "vmess",
+            "server": "us.eaxeg.be",
+            "server_port": 80,
+            "uuid": "ab602e02-624b-44f0-a51b-25ed53f70048",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/XC3c53DiSQ9N70H4Y2aW",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | vmess | 3YED | 6",
             "type": "vmess",
             "server": "5.42.100.206",
@@ -2361,30 +2385,6 @@
                 "path": "\/api\/v3\/download.getFile",
                 "headers": {
                     "Host": "russia.com"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | vless | 3YED | 17",
-            "type": "vless",
-            "server": "193.37.37.42",
-            "server_port": 443,
-            "uuid": "81b629ce-48ef-4ce5-8071-2ec17f3b32ba",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "server.ir-px4.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
