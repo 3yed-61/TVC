@@ -111,12 +111,11 @@
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 14",
+                "🇮🇷IR | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 8"
             ]
@@ -131,12 +130,11 @@
                 "🇩🇪DE | vless | 3YED | 11",
                 "🇰🇷KR | vless | 3YED | 13",
                 "🇩🇪DE | vless | 3YED | 2",
-                "🇮🇷IR | vless | 3YED | 14",
+                "🇮🇷IR | vless | 3YED | 17",
                 "🇳🇱NL | vless | 3YED | 8",
                 "🇳🇱NL | vless | 3YED | 18",
                 "🇳🇱NL | vless | 3YED | 20",
                 "🏳️XX | vless | 3YED | 24",
-                "🇺🇸US | vless | 3YED | 2",
                 "🇩🇪DE | vless | 3YED | 1",
                 "🏳️XX | vless | 3YED | 8"
             ],
@@ -335,7 +333,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | vless | 3YED | 14",
+            "tag": "🇮🇷IR | vless | 3YED | 17",
             "type": "vless",
             "server": "193.37.37.42",
             "server_port": 443,
@@ -471,37 +469,6 @@
                     "enabled": true,
                     "public_key": "7XKXjQ8Y3TxGnBhqERCzRqVeWI2Mf7BpZ6cJulAI7yA",
                     "short_id": "7dd63855"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | vless | 3YED | 2",
-            "type": "vless",
-            "server": "172.64.133.252",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "mmdv2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "mmdv2.pages.dev"
                 }
             }
         },
