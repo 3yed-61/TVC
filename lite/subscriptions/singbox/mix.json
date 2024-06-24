@@ -106,7 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇮🇪IE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -125,7 +125,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | trojan | @PrivateVPNs | 17",
+                "🇮🇪IE | trojan | @PrivateVPNs | 17",
                 "🇸🇪SE | trojan | @DirectVPN | 17",
                 "🇫🇷FR | vmess | @v2ray_outlineir | 0",
                 "🇨🇳CN | vmess | @mftizi | 19",
@@ -160,9 +160,9 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | trojan | @PrivateVPNs | 17",
+            "tag": "🇮🇪IE | trojan | @PrivateVPNs | 17",
             "type": "trojan",
-            "server": "18.171.199.224",
+            "server": "54.154.223.46",
             "server_port": 22222,
             "password": "telegram-id-privatevpns",
             "multiplex": {
@@ -240,9 +240,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇦UA | vmess | @oneclickvpnkeys | 7",
             "type": "vmess",
-            "server": "141.105.130.9",
-            "server_port": 55471,
-            "uuid": "714d36ca-09ce-4182-8756-e0bf7a85158e",
+            "server": "91.231.182.227",
+            "server_port": 55017,
+            "uuid": "95f43390-8e05-40a6-9ef8-d9219f823584",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
