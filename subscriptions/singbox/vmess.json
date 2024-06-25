@@ -112,11 +112,13 @@
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇳CN | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 8",
-                "🇨🇦CA | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇺🇸US | vmess | 3YED | 14",
                 "🇨🇳CN | vmess | 3YED | 15",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 4",
                 "🇸🇪SE | vmess | 3YED | 171",
                 "🇺🇸US | vmess | 3YED | 179",
                 "🇺🇸US | vmess | 3YED | 184",
@@ -124,13 +126,12 @@
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 114",
                 "🇺🇸US | vmess | 3YED | 130",
-                "🇳🇱NL | vmess | 3YED | 6",
-                "🇹🇷TR | vmess | 3YED | 11",
+                "🇳🇱NL | vmess | 3YED | 7",
+                "🇹🇷TR | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -172,11 +173,13 @@
                 "🇨🇳CN | vmess | 3YED | 2",
                 "🇨🇳CN | vmess | 3YED | 3",
                 "🇨🇦CA | vmess | 3YED | 8",
-                "🇨🇦CA | vmess | 3YED | 9",
+                "🇺🇸US | vmess | 3YED | 9",
                 "🇨🇳CN | vmess | 3YED | 13",
                 "🇺🇸US | vmess | 3YED | 14",
                 "🇨🇳CN | vmess | 3YED | 15",
-                "🇺🇸US | vmess | 3YED | 2",
+                "🇺🇸US | vmess | 3YED | 0",
+                "🇺🇸US | vmess | 3YED | 1",
+                "🇺🇸US | vmess | 3YED | 4",
                 "🇸🇪SE | vmess | 3YED | 171",
                 "🇺🇸US | vmess | 3YED | 179",
                 "🇺🇸US | vmess | 3YED | 184",
@@ -184,13 +187,12 @@
                 "🇺🇸US | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🇺🇸US | vmess | 3YED | 3",
-                "🇺🇸US | vmess | 3YED | 4",
                 "🇺🇸US | vmess | 3YED | 7",
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🏳️XX | vmess | 3YED | 114",
                 "🇺🇸US | vmess | 3YED | 130",
-                "🇳🇱NL | vmess | 3YED | 6",
-                "🇹🇷TR | vmess | 3YED | 11",
+                "🇳🇱NL | vmess | 3YED | 7",
+                "🇹🇷TR | vmess | 3YED | 12",
                 "🇳🇱NL | vmess | 3YED | 1",
                 "🇺🇸US | vmess | 3YED | 2",
                 "🏳️XX | vmess | 3YED | 3",
@@ -391,7 +393,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | vmess | 3YED | 9",
+            "tag": "🇺🇸US | vmess | 3YED | 9",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -473,7 +475,65 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 2",
+            "tag": "🇺🇸US | vmess | 3YED | 0",
+            "type": "vmess",
+            "server": "c3.v2raybrasil.cloud",
+            "server_port": 2082,
+            "uuid": "60bcbd52-0c88-4da3-aee2-cc1f9d5ca224",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 1",
+            "type": "vmess",
+            "server": "104.26.0.95",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 4",
             "type": "vmess",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -735,40 +795,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 4",
-            "type": "vmess",
-            "server": "104.26.0.95",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | vmess | 3YED | 7",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -851,7 +877,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | vmess | 3YED | 6",
+            "tag": "🇳🇱NL | vmess | 3YED | 7",
             "type": "vmess",
             "server": "5.42.100.206",
             "server_port": 58933,
@@ -868,7 +894,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | vmess | 3YED | 11",
+            "tag": "🇹🇷TR | vmess | 3YED | 12",
             "type": "vmess",
             "server": "45.89.52.114",
             "server_port": 13701,
