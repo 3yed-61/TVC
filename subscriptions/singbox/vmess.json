@@ -129,7 +129,7 @@
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 124",
                 "🏳️XX | vmess | 3YED | 138",
-                "🇺🇸US | vmess | 3YED | 18",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -190,7 +190,7 @@
                 "🇮🇷IR | vmess | 3YED | 5",
                 "🇺🇸US | vmess | 3YED | 124",
                 "🏳️XX | vmess | 3YED | 138",
-                "🇺🇸US | vmess | 3YED | 18",
+                "🇺🇸US | vmess | 3YED | 3",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -853,11 +853,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 18",
+            "tag": "🇺🇸US | vmess | 3YED | 3",
             "type": "vmess",
-            "server": "2.58.87.221",
-            "server_port": 46628,
-            "uuid": "f6ba9e5a-711c-496f-be60-ac5464dec2b8",
+            "server": "173.245.58.5",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -867,6 +867,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
+                }
             }
         },
         {
