@@ -184,7 +184,10 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇬SG | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -306,7 +309,10 @@
                 "🇨🇦CA | ss | 3YED | 14",
                 "🇺🇸US | ss | 3YED | 15",
                 "🇸🇬SG | ss | 3YED | 16",
-                "🇺🇸US | vmess | 3YED | 3",
+                "🇺🇸US | vmess | 3YED | 4",
+                "🇺🇸US | vmess | 3YED | 8",
+                "🇺🇸US | vmess | 3YED | 10",
+                "🇺🇸US | vmess | 3YED | 14",
                 "🇳🇱NL | vmess | 3YED | 6",
                 "🇹🇷TR | vmess | 3YED | 11",
                 "🇳🇱NL | vmess | 3YED | 1",
@@ -2035,7 +2041,92 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | vmess | 3YED | 3",
+            "tag": "🇺🇸US | vmess | 3YED | 4",
+            "type": "vmess",
+            "server": "172.67.175.56",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 8",
+            "type": "vmess",
+            "server": "38.75.137.27",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 10",
+            "type": "vmess",
+            "server": "104.17.213.57",
+            "server_port": 443,
+            "uuid": "93ea486a-bada-42a4-ac38-d088b320fa1e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "xmivideo.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "xmivideo.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | vmess | 3YED | 14",
             "type": "vmess",
             "server": "173.245.58.5",
             "server_port": 443,
