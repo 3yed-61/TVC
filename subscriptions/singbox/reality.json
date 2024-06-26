@@ -108,10 +108,9 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
-                "🇭🇰HK | 🟢 | vless | 3λΞĐ | 11",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -166,10 +165,9 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
-                "🇭🇰HK | 🟢 | vless | 3λΞĐ | 11",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -324,7 +322,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
             "type": "vless",
             "server": "212.113.102.146",
             "server_port": 443,
@@ -413,35 +411,6 @@
                 "reality": {
                     "enabled": true,
                     "public_key": "KBf_UOkidK_CdR4aJrJbLQpWXlmaAON3XAiPEtP0PjY",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰HK | 🟢 | vless | 3λΞĐ | 11",
-            "type": "vless",
-            "server": "47.76.44.200",
-            "server_port": 14566,
-            "uuid": "f2d8cde4-ef7d-49e8-f518-33497f61be35",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "swdist.apple.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14",
                     "short_id": ""
                 }
             }
