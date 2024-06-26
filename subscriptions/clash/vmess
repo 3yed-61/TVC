@@ -136,8 +136,9 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 6","type":"vmess","server":"c3.v2raybrasil.cloud","port":"2082","cipher":"auto","uuid":"60bcbd52-0c88-4da3-aee2-cc1f9d5ca224","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ybr.redbullplus.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 7","type":"vmess","server":"104.26.0.95","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 166","type":"vmess","server":"104.21.4.6","port":"443","cipher":"auto","uuid":"1052f24e-7b09-45eb-b0c5-d858eb124192","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"glweidf.cfd"}}}
-  - {"name":"🇷🇺RU | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"46.17.42.246","port":"35049","cipher":"auto","uuid":"43cf1a56-26d9-4ed9-8f93-c7fd10714384","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
-  - {"name":"🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2","type":"vmess","server":"193.151.136.124","port":"58828","cipher":"auto","uuid":"f4f34875-babc-424b-b254-b7e5704bbc79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"5.75.202.76","port":"25786","cipher":"auto","uuid":"f95d3ed6-4f8a-4dda-a633-da8664345801","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇷🇺RU | 🟢 | vmess | 3λΞĐ | 2","type":"vmess","server":"46.17.42.246","port":"35049","cipher":"auto","uuid":"43cf1a56-26d9-4ed9-8f93-c7fd10714384","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"193.151.136.124","port":"58828","cipher":"auto","uuid":"f4f34875-babc-424b-b254-b7e5704bbc79","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5","type":"vmess","server":"95.38.248.217","port":"2966","cipher":"auto","uuid":"e80a8064-740e-4b90-8423-ce82a725e53c","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 113","type":"vmess","server":"zula.ir","port":"80","cipher":"none","uuid":"da62a137-3611-4dd7-8523-b5266afe6fe5","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/vmess","headers":{"host":"Uk2.vmess.site."}}}
   - {"name":"🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1","type":"vmess","server":"45.199.138.217","port":"41000","cipher":"auto","uuid":"f9fa3a9c-f7d5-414f-88e6-6970585d9949","alterId":"64","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/282018252526","headers":{"host":"45.199.138.217"}}}
@@ -190,8 +191,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 166'
-      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 113'
       - '🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1'
@@ -244,8 +246,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 166'
-      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 113'
       - '🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1'
@@ -297,8 +300,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 166'
-      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 2'
+      - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 113'
       - '🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1'
