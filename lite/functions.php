@@ -329,7 +329,7 @@ function tehran_time()
 }
 
 function hiddifyHeader ($subscriptionName) {
-    $hiddenText = " | 3λΞĐ🤖";
+    $hiddenText = " | 3λΞĐ☣️";
     $combinedText = $subscriptionName . $hiddenText;
     $encodedCombinedText = base64_encode($combinedText);
 
