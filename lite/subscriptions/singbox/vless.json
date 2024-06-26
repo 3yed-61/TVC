@@ -175,7 +175,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 43",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 44",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
@@ -186,8 +187,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
@@ -284,7 +285,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 43",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 44",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
@@ -295,8 +297,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
@@ -1974,17 +1976,45 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3λΞĐ | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
             "type": "vless",
-            "server": "79.175.139.134",
-            "server_port": 21039,
-            "uuid": "64cb75e1-1f3b-4250-8ed4-2e2a23a83661",
+            "server": "185.146.173.95",
+            "server_port": 2095,
+            "uuid": "b8a26456-aaab-4097-959c-6ef8efefd686",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram - @XvProxy - Telegram - @XvProxy",
+                "headers": {
+                    "Host": "185.146.173.95"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 2095,
+            "uuid": "38df8ccd-27dc-49d4-9d87-5076df9adbdd",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
             }
         },
         {
@@ -2224,7 +2254,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
             "type": "vless",
             "server": "zula.ir",
             "server_port": 443,
@@ -2255,7 +2285,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
