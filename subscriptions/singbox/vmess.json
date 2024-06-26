@@ -129,8 +129,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 133",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 114",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -143,7 +143,7 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -189,8 +189,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 133",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 114",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -203,7 +203,7 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -780,7 +780,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 114",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -801,23 +818,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 133",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -1165,7 +1165,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 8",
             "type": "vmess",
             "server": "russia.com",
             "server_port": 2095,
