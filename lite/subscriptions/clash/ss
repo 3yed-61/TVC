@@ -120,7 +120,6 @@ dns:
 proxies:
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"38.75.137.105","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇷🇺RU | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"45.139.24.63","port":57456,"password":"3fbeb668f48414f6","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -129,7 +128,6 @@ proxy-groups:
       - FALLBACK
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
-      - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 2'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -138,7 +136,6 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
-      - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 2'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -146,7 +143,6 @@ proxy-groups:
     proxies:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
-      - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
