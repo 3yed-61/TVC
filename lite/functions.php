@@ -329,10 +329,14 @@ function tehran_time()
 }
 
 function hiddifyHeader ($subscriptionName) {
-    return "#profile-title: base64:" . base64_encode($subscriptionName) . "
-#profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
-#support-url: https://github.com/3yed-61
+    $hiddenText = " | 3λΞĐ🤖";
+    $combinedText = $subscriptionName . $hiddenText;
+    $encodedCombinedText = base64_encode($combinedText);
+
+    return "#profile-title: base64:" . $encodedCombinedText . "\n" .
+        "#profile-update-interval: 1\n" .
+        "#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n" .
+        "#support-url: https://github.com/3yed-61\n";
 
 ";
 }
