@@ -105,44 +105,46 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇨🇦CA | ss | 3YED | 1",
-                "🇦🇹AT | ss | 3YED | 2",
-                "🇺🇸US | ss | 3YED | 3",
-                "🇺🇸US | ss | 3YED | 4",
-                "🇸🇪SE | ss | 3YED | 5",
-                "🇵🇱PL | ss | 3YED | 6",
-                "🇳🇱NL | ss | 3YED | 7",
-                "🇬🇧GB | ss | 3YED | 9",
-                "🏳️XX | ss | 3YED | 10",
-                "🇫🇮FI | ss | 3YED | 11",
-                "🇩🇪DE | ss | 3YED | 12",
-                "🇨🇭CH | ss | 3YED | 13",
-                "🇨🇦CA | ss | 3YED | 14",
-                "🇺🇸US | ss | 3YED | 15",
-                "🇸🇬SG | ss | 3YED | 16"
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
+                "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 4",
+                "🇸🇪SE | 🟢 | ss | 3λΞĐ | 5",
+                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 6",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 7",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 9",
+                "❔XX | 🟢 | ss | 3λΞĐ | 10",
+                "🇫🇮FI | 🟢 | ss | 3λΞĐ | 11",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | ss | 3λΞĐ | 13",
+                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
+                "🇸🇬SG | 🟢 | ss | 3λΞĐ | 16",
+                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 1"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | ss | 3YED | 0",
-                "🇨🇦CA | ss | 3YED | 1",
-                "🇦🇹AT | ss | 3YED | 2",
-                "🇺🇸US | ss | 3YED | 3",
-                "🇺🇸US | ss | 3YED | 4",
-                "🇸🇪SE | ss | 3YED | 5",
-                "🇵🇱PL | ss | 3YED | 6",
-                "🇳🇱NL | ss | 3YED | 7",
-                "🇬🇧GB | ss | 3YED | 9",
-                "🏳️XX | ss | 3YED | 10",
-                "🇫🇮FI | ss | 3YED | 11",
-                "🇩🇪DE | ss | 3YED | 12",
-                "🇨🇭CH | ss | 3YED | 13",
-                "🇨🇦CA | ss | 3YED | 14",
-                "🇺🇸US | ss | 3YED | 15",
-                "🇸🇬SG | ss | 3YED | 16"
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
+                "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 4",
+                "🇸🇪SE | 🟢 | ss | 3λΞĐ | 5",
+                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 6",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 7",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 9",
+                "❔XX | 🟢 | ss | 3λΞĐ | 10",
+                "🇫🇮FI | 🟢 | ss | 3λΞĐ | 11",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | ss | 3λΞĐ | 13",
+                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
+                "🇸🇬SG | 🟢 | ss | 3λΞĐ | 16",
+                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -165,7 +167,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 0",
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
             "type": "shadowsocks",
             "server": "23.158.56.196",
             "server_port": 8882,
@@ -175,7 +177,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | ss | 3YED | 1",
+            "tag": "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
             "type": "shadowsocks",
             "server": "23.162.200.181",
             "server_port": 4444,
@@ -185,7 +187,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇦🇹AT | ss | 3YED | 2",
+            "tag": "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
             "type": "shadowsocks",
             "server": "95.164.9.144",
             "server_port": 2927,
@@ -195,7 +197,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 3",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
             "type": "shadowsocks",
             "server": "15.204.87.217",
             "server_port": 5499,
@@ -205,7 +207,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 4",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 4",
             "type": "shadowsocks",
             "server": "23.157.40.89",
             "server_port": 8090,
@@ -215,7 +217,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | ss | 3YED | 5",
+            "tag": "🇸🇪SE | 🟢 | ss | 3λΞĐ | 5",
             "type": "shadowsocks",
             "server": "94.228.165.234",
             "server_port": 15214,
@@ -225,7 +227,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | ss | 3YED | 6",
+            "tag": "🇵🇱PL | 🟢 | ss | 3λΞĐ | 6",
             "type": "shadowsocks",
             "server": "54.36.174.181",
             "server_port": 8009,
@@ -235,7 +237,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | ss | 3YED | 7",
+            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 7",
             "type": "shadowsocks",
             "server": "45.158.171.10",
             "server_port": 8080,
@@ -245,7 +247,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | ss | 3YED | 9",
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 9",
             "type": "shadowsocks",
             "server": "51.145.96.134",
             "server_port": 18869,
@@ -255,7 +257,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🏳️XX | ss | 3YED | 10",
+            "tag": "❔XX | 🟢 | ss | 3λΞĐ | 10",
             "type": "shadowsocks",
             "server": "[::ffff:185.231.205.80]",
             "server_port": 1443,
@@ -265,7 +267,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇮FI | ss | 3YED | 11",
+            "tag": "🇫🇮FI | 🟢 | ss | 3λΞĐ | 11",
             "type": "shadowsocks",
             "server": "185.174.137.72",
             "server_port": 57262,
@@ -275,7 +277,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | ss | 3YED | 12",
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 12",
             "type": "shadowsocks",
             "server": "217.182.198.219",
             "server_port": 5003,
@@ -285,7 +287,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇭CH | ss | 3YED | 13",
+            "tag": "🇨🇭CH | 🟢 | ss | 3λΞĐ | 13",
             "type": "shadowsocks",
             "server": "51.103.174.155",
             "server_port": 7660,
@@ -295,7 +297,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇦CA | ss | 3YED | 14",
+            "tag": "🇨🇦CA | 🟢 | ss | 3λΞĐ | 14",
             "type": "shadowsocks",
             "server": "23.162.200.225",
             "server_port": 8888,
@@ -305,7 +307,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | ss | 3YED | 15",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
             "type": "shadowsocks",
             "server": "38.75.137.105",
             "server_port": 9101,
@@ -315,12 +317,22 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇬SG | ss | 3YED | 16",
+            "tag": "🇸🇬SG | 🟢 | ss | 3λΞĐ | 16",
             "type": "shadowsocks",
             "server": "91.192.81.21",
             "server_port": 8388,
             "method": "chacha20-ietf-poly1305",
             "password": "1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 1",
+            "type": "shadowsocks",
+            "server": "45.139.24.63",
+            "server_port": 57456,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3fbeb668f48414f6",
             "plugin": "",
             "plugin_opts": ""
         }
