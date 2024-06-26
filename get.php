@@ -9,7 +9,7 @@ require "functions.php";
 
 // Fetch the JSON data from the API and decode it into an associative array
 $sourcesArray = json_decode(
-    file_get_contents("https://api.yebekhe.link/tvc-channels/channels.json"),
+    file_get_contents("channels.json"),
     true
 );
 
@@ -90,7 +90,7 @@ foreach ($configsList as $source => $configs) {
         $tempCounter++;
 
         // If the config is valid and the key is less than or equal to 15
-        if (is_valid($config) && isEncrypted($config) && $key >= $limitKey) {
+        if (is_valid($config) && $key >= $limitKey) {
             $type = detect_type($config);
             $configHash = $configsHash[$type];
             $configIp = $configsIp[$type];
@@ -98,14 +98,17 @@ foreach ($configsList as $source => $configs) {
             $configLocation =
                 ip_info($decodedConfig[$configIp])->country ?? "XX";
             $configFlag =
-                $configLocation === "XX" ? "🏳️" : getFlags($configLocation);
-            $source = $source === "iP_CF" ? "FAKEOFTVC" : $source;
+                $configLocation === "XX" ? "❔" : ($configLocation === "CF" ? "🚩" : getFlags($configLocation));
+            $isEncrypted = 
+                isEncrypted($config) ? "🟢" : "🔴";
             $decodedConfig[$configHash] =
                 $configFlag .
                 $configLocation .
+                " | " . 
+                $isEncrypted .
                 " | " .
                 $type .
-                " | 3YED" .
+                " | 3λΞĐ" .
                 " | " .
                 strval($key);
             $encodedConfig = reparseConfig($decodedConfig, $type);
