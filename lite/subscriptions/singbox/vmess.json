@@ -110,9 +110,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -132,9 +133,10 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -258,7 +260,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 8880,
@@ -319,6 +321,40 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
+            "type": "vmess",
+            "server": "104.21.15.36",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
