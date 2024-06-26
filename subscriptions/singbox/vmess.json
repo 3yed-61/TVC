@@ -131,8 +131,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 133",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -193,8 +191,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 133",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -822,64 +818,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 2",
-            "type": "vmess",
-            "server": "38.54.125.37",
-            "server_port": 23594,
-            "uuid": "75905e02-acef-4577-95eb-734dc3ed9ebb",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
