@@ -109,9 +109,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -130,9 +128,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -232,7 +228,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
             "type": "vmess",
             "server": "hms19.best-tizi.top",
             "server_port": 443,
@@ -263,40 +259,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "hms19.best-tizi.top"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
-            "type": "vmess",
-            "server": "5.75.202.76",
-            "server_port": 25786,
-            "uuid": "f95d3ed6-4f8a-4dda-a633-da8664345801",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
-            "type": "vmess",
-            "server": "107.148.192.148",
-            "server_port": 41911,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
-            "security": "auto",
-            "alter_id": 64,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
