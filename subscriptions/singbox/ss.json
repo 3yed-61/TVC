@@ -105,6 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
                 "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
@@ -127,6 +128,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
                 "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
@@ -163,6 +165,16 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+            "type": "shadowsocks",
+            "server": "23.150.152.53",
+            "server_port": 9101,
+            "method": "aes-256-gcm",
+            "password": "e4FCWrgpkji3QY",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
