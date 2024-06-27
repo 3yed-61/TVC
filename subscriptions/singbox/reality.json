@@ -110,6 +110,8 @@
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -166,6 +168,8 @@
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -381,6 +385,64 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+            "type": "vless",
+            "server": "91.107.176.13",
+            "server_port": 8080,
+            "uuid": "07669291-5061-4e74-a5d7-1f94a5a36367",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mdundo.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "UQcENeMy3VVqYDJIPm68FVHz9r2lC34ydM5chOKa5RU",
+                    "short_id": "18cada"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "176.96.137.139",
+            "server_port": 2083,
+            "uuid": "4b5d8318-fcaa-470c-aa9c-5d376e416df6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "dash.cloudflare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "21Wy4raA5577OR54aGehA9q8wuFLV38XCbUr39e0SV0",
+                    "short_id": "c3949bd4"
                 }
             }
         },
