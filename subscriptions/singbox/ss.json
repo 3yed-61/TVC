@@ -105,7 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
                 "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
@@ -128,7 +129,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 1",
                 "🇦🇹AT | 🟢 | ss | 3λΞĐ | 2",
@@ -167,7 +169,17 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 1",
             "type": "shadowsocks",
             "server": "23.150.152.53",
             "server_port": 9101,
