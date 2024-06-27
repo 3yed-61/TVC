@@ -123,16 +123,14 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇵🇭PH | 🟢 | vmess | 3λΞĐ | 6",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 5",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 7",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 101",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 97",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 110",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -186,16 +184,14 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇵🇭PH | 🟢 | vmess | 3λΞĐ | 6",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 5",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 7",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 101",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 97",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 110",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -653,30 +649,6 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
-            "type": "vmess",
-            "server": "38.54.112.238",
-            "server_port": 47720,
-            "uuid": "f123d397-61eb-46f7-b507-af3c8d2a457f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "188.114.97.3",
@@ -813,7 +785,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 97",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -837,7 +809,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 101",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 110",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -851,40 +823,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-            "type": "vmess",
-            "server": "188.114.97.6",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
