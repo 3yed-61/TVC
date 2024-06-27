@@ -607,11 +607,11 @@
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇸🇬SG | 🟢 | ss | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 15",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 4",
@@ -649,7 +649,7 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 15",
-                "TVCixkdzmqfzj",
+                "TVCirrwxzatxh",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
@@ -1303,11 +1303,11 @@
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇸🇬SG | 🟢 | ss | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 15",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 4",
@@ -1345,7 +1345,7 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 15",
-                "TVCixkdzmqfzj",
+                "TVCirrwxzatxh",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
@@ -12946,6 +12946,27 @@
         {
             "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
             "type": "vless",
+            "server": "185.146.173.237",
+            "server_port": 8080,
+            "uuid": "a88fda20-fab4-4340-b927-0a867f0ec432",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray-telegram,@SpringV2ray",
+                "headers": {
+                    "Host": "185.146.173.237"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
+            "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
             "uuid": "8f39a032-149d-4b4e-a3c2-e59386e0e28d",
@@ -12965,7 +12986,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "medium.com",
             "server_port": 443,
@@ -12996,7 +13017,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
             "type": "vless",
             "server": "162.159.152.152",
             "server_port": 443,
@@ -13027,7 +13048,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 15",
             "type": "vless",
             "server": "157.90.156.249",
             "server_port": 8080,
@@ -13041,7 +13062,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 12",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 17",
             "type": "vmess",
             "server": "162.19.25.207",
             "server_port": 44513,
@@ -13055,40 +13076,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-            "type": "vmess",
-            "server": "104.21.15.36",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
             }
         },
         {
@@ -13970,7 +13957,7 @@
             }
         },
         {
-            "tag": "TVCixkdzmqfzj",
+            "tag": "TVCirrwxzatxh",
             "type": "vless",
             "server": "",
             "server_port": 0,
