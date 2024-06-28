@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -141,9 +141,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 99",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 77",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -191,7 +191,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -214,9 +214,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 99",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 77",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -540,7 +540,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -1167,7 +1167,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 77",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -1191,11 +1208,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 99",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "185.22.154.243",
+            "server_port": 43902,
+            "uuid": "b80ac7c5-0942-4249-966b-8ed81f0ac226",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1205,30 +1222,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-            "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/v149-dskds65",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
