@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 0",
@@ -140,8 +140,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 85",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 100",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 66",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 72",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -169,7 +170,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4"
             ]
         },
@@ -190,7 +190,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 0",
@@ -212,8 +212,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 85",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 100",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 66",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 72",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -241,7 +242,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -538,7 +538,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -1131,7 +1131,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 85",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 66",
+            "type": "vmess",
+            "server": "npmjs.com",
+            "server_port": 443,
+            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy1c2.freeairlaines.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/QvtvPdDXXIlSdZMqnuxG",
+                "headers": {
+                    "Host": "hdfy1c2.freeairlaines.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 72",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1148,7 +1182,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 100",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -1982,40 +2016,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-            "type": "vmess",
-            "server": "npmjs.com",
-            "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy1c2.freeairlaines.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
-                "headers": {
-                    "Host": "hdfy1c2.freeairlaines.com"
                 }
             }
         },
