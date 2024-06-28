@@ -109,7 +109,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -119,7 +118,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
             ]
         },
         {
@@ -129,7 +129,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -139,7 +138,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -226,40 +226,6 @@ https://github.com/3yed-61
                 "path": "\/linkws",
                 "headers": {
                     "Host": "obdii.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         },
@@ -570,6 +536,40 @@ https://github.com/3yed-61
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
                 }
             }
         }
