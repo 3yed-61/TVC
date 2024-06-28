@@ -118,10 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"18.170.18.152","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"13.40.246.13","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"13.43.177.96","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"13.37.20.28","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"13.60.108.119","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"34.247.209.203","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"15.157.47.150","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"34.246.149.246","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3","type":"vmess","server":"188.114.97.3","port":"443","cipher":"auto","uuid":"f584de15-2034-4170-a723-f48c2bae5e0f","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"afrhms16v.bestxray.buzz"}}}
   - {"name":"🇷🇺RU | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"46.17.42.246","port":"35049","cipher":"auto","uuid":"43cf1a56-26d9-4ed9-8f93-c7fd10714384","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -130,6 +130,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"23.150.152.53","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"38.75.137.105","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇸🇬SG | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 18","type":"vmess","server":"104.19.47.33","port":"8443","cipher":"auto","uuid":"39135a39-e6ca-43df-a360-d859eea58d86","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"hk01.linkitnow.net"}}}
+  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 19","type":"vmess","server":"172.67.71.160","port":"443","cipher":"auto","uuid":"05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"obdii.cfd"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"❔XX | 🟢 | vmess | 3λΞĐ | 7","type":"vmess","server":"mci.mosi.mosipro.ml","port":"443","cipher":"auto","uuid":"d2b191ce-58b4-4950-b847-3eda9a1f64f7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/speedtest","headers":{"host":"Dusseldorf.kotick.site"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 8","type":"vmess","server":"russia.com","port":"2095","cipher":"auto","uuid":"b7c56170-edb4-4c4a-bb64-ed5ef40b8739","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/api/v3/download.getFile","headers":{"host":"sssub.v2.001.ssrsub.com"}}}
@@ -143,10 +145,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3'
       - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 4'
@@ -155,6 +157,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 18'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 19'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '❔XX | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 8'
@@ -168,10 +172,10 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3'
       - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 4'
@@ -180,6 +184,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 18'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 19'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '❔XX | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 8'
@@ -192,10 +198,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3'
       - '🇷🇺RU | 🟢 | vmess | 3λΞĐ | 4'
@@ -204,6 +210,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
       - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 18'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 19'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '❔XX | 🟢 | vmess | 3λΞĐ | 7'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 8'
