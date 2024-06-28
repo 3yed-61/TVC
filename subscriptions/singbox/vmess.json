@@ -140,8 +140,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 85",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 98",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 99",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 18",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -211,8 +213,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 85",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 98",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 99",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 18",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -1146,7 +1150,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 85",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 86",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 80,
@@ -1170,11 +1174,62 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 98",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 99",
             "type": "vmess",
             "server": null,
             "server_port": 0,
             "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "workers.dev",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fragrant-heart-c94b.fticrh.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/glweidf.sbs\/linkws",
+                "headers": {
+                    "Host": "fragrant-heart-c94b.fticrh.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 18",
+            "type": "vmess",
+            "server": "46.36.102.5",
+            "server_port": 52461,
+            "uuid": "29fb5527-63c4-4040-99fd-10cb24e2ddc1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
