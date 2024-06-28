@@ -170,8 +170,8 @@ https://github.com/3yed-61
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 46",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 47",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -279,8 +279,8 @@ https://github.com/3yed-61
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 46",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 47",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -1819,11 +1819,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "104.16.4.103",
-            "server_port": 8080,
-            "uuid": "3b87643f-359c-4acd-8ecf-1fea247b50bc",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-klp",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1833,18 +1833,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "104.16.4.103"
+                    "Host": "185.146.173.58"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "xn--9iqtb0z3kmg.mAshtimji.IR.",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
+            "server": "185.146.173.58",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-xew",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1852,22 +1852,12 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "Test.Mashtimji.IR",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram-ipV2Ray",
+                "headers": {
+                    "Host": "185.146.173.58"
+                }
             }
         },
         {
