@@ -117,7 +117,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -142,8 +142,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 85",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 98",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 17",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -190,7 +188,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -215,8 +213,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 85",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 98",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 17",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -523,7 +519,7 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -1188,74 +1184,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
-            "type": "vmess",
-            "server": "xn--9iqtb0z3kmg.mAshtimji.IR.",
-            "server_port": 443,
-            "uuid": "aaceb3ce-3510-11ef-a5df-d71396f73562",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ae1.vpnjantit.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vpnjantit",
-                "headers": {
-                    "Host": "ae1.vpnjantit.com"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 17",
-            "type": "vmess",
-            "server": "185.146.173.158",
-            "server_port": 443,
-            "uuid": "aaceb3ce-3510-11ef-a5df-d71396f73562",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "ae1.vpnjantit.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vpnjantit",
-                "headers": {
-                    "Host": "ae1.vpnjantit.com"
-                }
             }
         },
         {
