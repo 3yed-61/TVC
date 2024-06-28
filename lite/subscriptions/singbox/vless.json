@@ -170,10 +170,10 @@ https://github.com/3yed-61
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 46",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 47",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
+                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 7",
@@ -279,10 +279,10 @@ https://github.com/3yed-61
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 46",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 47",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
+                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 7",
@@ -1819,11 +1819,32 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
             "type": "vless",
-            "server": "162.159.152.152",
+            "server": "104.16.4.103",
+            "server_port": 8080,
+            "uuid": "3b87643f-359c-4acd-8ecf-1fea247b50bc",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.16.4.103"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "xn--9iqtb0z3kmg.mAshtimji.IR.",
             "server_port": 443,
-            "uuid": "06c90b6f-7d21-4e86-9f7c-bf88946f1106",
+            "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1833,7 +1854,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "join-v2rey.pages.dev",
+                "server_name": "Test.Mashtimji.IR",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1842,32 +1863,11 @@ https://github.com/3yed-61
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "join-v2rey.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "LIGHTNING6-joinbed.filj.top",
-            "server_port": 8880,
-            "uuid": "305e49e0-c63b-4ac8-8409-cd0c0efe5df0",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray?ed=1024",
-                "headers": {
-                    "Host": "LIGHTNING6-joinbed.filj.top"
-                }
+                "type": "grpc",
+                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
@@ -1892,7 +1892,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
+            "tag": "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
             "type": "vless",
             "server": "172.66.45.32",
             "server_port": 443,
