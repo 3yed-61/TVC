@@ -108,9 +108,10 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -130,9 +131,10 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -200,11 +202,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
-            "server": "172.67.71.160",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "server": "38.147.188.239",
+            "server_port": 14979,
+            "uuid": "2919ef6f-b8d3-49ea-a32d-2f95d346e4cb",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -214,23 +216,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
-                }
             }
         },
         {
@@ -272,6 +257,40 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
             }
         },
         {
