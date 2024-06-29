@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -142,7 +142,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 51",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 58",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 65",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -191,7 +192,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -215,7 +216,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 51",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 58",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 65",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -540,7 +542,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -1191,7 +1193,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
+            "server": "198.41.222.247",
+            "server_port": 8443,
+            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hk01.linkitnow.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hk01.linkitnow.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
             "type": "vmess",
             "server": "104.19.47.148",
             "server_port": 8443,
