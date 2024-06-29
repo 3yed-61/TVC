@@ -119,8 +119,8 @@ dns:
 
 proxies:
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 4","type":"ss","server":"23.150.152.53","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"38.75.137.105","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
-  - {"name":"🇸🇬SG | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"91.192.81.21","port":8388,"password":"1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"23.162.200.225","port":8888,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"38.75.137.105","port":9101,"password":"e4FCWrgpkji3QY","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -129,8 +129,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
-      - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 15'
+      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
   - name: URL-TEST
     type: url-test
@@ -139,8 +139,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
-      - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 15'
+      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
   - name: FALLBACK
     type: fallback
@@ -148,8 +148,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 15'
-      - '🇸🇬SG | 🟢 | ss | 3λΞĐ | 16'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 15'
+      - '🇺🇸US | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
