@@ -111,13 +111,14 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
             ]
@@ -131,13 +132,14 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
             ],
@@ -298,6 +300,40 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+            "type": "vmess",
+            "server": "188.114.97.6",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -448,9 +484,9 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
-            "server": "104.26.6.65",
+            "server": "caretaker.com",
             "server_port": 443,
             "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
@@ -482,11 +518,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
-            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
-            "server_port": 80,
-            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
+            "server": "104.26.6.65",
+            "server_port": 443,
+            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -497,11 +533,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "mikasa.yaemiko.cloudns.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/v118-fccxmxm35",
+                "path": "\/ivideos.sbs\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "mikasa.yaemiko.cloudns.org"
                 }
             }
         },
