@@ -135,8 +135,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 71",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 72",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -203,8 +204,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 71",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 72",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -960,7 +962,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 71",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 72",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -977,7 +979,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 78",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -1007,6 +1009,40 @@
                 "path": "\/link",
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
                 }
             }
         },
