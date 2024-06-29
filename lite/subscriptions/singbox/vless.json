@@ -171,8 +171,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 40",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 41",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -277,8 +276,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 40",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 41",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -1861,7 +1859,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 2095,
@@ -1878,37 +1876,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "185.146.173.37"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "medium.com",
-            "server_port": 443,
-            "uuid": "bd577383-a1ec-4fd5-8ce3-17d9c834bca6",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "DisVpn.us.kg",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
-                "headers": {
-                    "Host": "DisVpn.us.kg"
                 }
             }
         },
