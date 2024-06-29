@@ -112,8 +112,9 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🟢 | vless | 3λΞĐ | 160",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -170,8 +171,9 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🟢 | vless | 3λΞĐ | 160",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -454,7 +456,36 @@
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "5.42.84.76",
             "server_port": 443,
@@ -490,7 +521,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 1",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "176.96.137.139",
             "server_port": 2083,
