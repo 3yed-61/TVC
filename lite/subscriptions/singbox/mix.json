@@ -186,7 +186,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇸🇬SG | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -316,7 +316,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 15",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇸🇬SG | 🔴 | vless | 3λΞĐ | 17",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -2228,16 +2228,13 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
-            "type": "vmess",
-            "server": "104.19.47.192",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇸🇬SG | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "LIGHTNING6.lIGhtNIngZ.iR.",
+            "server_port": 2087,
+            "uuid": "a646e31c-ef5f-4dd0-b5da-1d91dc8db64f",
+            "flow": "",
+            "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2245,7 +2242,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hk01.linkitnow.net",
+                "server_name": "v2rayb.liopiol.ir",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2254,11 +2251,11 @@ https://github.com/3yed-61
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "hk01.linkitnow.net"
-                }
+                "type": "grpc",
+                "service_name": "\/@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-@LiV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
