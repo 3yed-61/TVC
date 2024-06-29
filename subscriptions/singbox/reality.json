@@ -110,12 +110,12 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
-                "❔XX | 🟢 | vless | 3λΞĐ | 160",
+                "❔XX | 🟢 | vless | 3λΞĐ | 170",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 21",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -142,7 +142,6 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 9",
@@ -170,12 +169,12 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
-                "❔XX | 🟢 | vless | 3λΞĐ | 160",
+                "❔XX | 🟢 | vless | 3λΞĐ | 170",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 21",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -202,7 +201,6 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 9",
@@ -393,7 +391,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 160",
+            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 170",
             "type": "vless",
             "server": "[::ffff:808c:1d06]",
             "server_port": 2083,
@@ -552,7 +550,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
             "type": "vless",
             "server": "141.95.75.212",
             "server_port": 443,
@@ -1337,35 +1335,6 @@
             "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
             "type": "vless",
             "server": "159.69.114.213",
-            "server_port": 8443,
-            "uuid": "f9ce83cc-d862-4233-abc8-b58cd8b5f546",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
-            "type": "vless",
-            "server": "49.13.142.254",
             "server_port": 8443,
             "uuid": "f9ce83cc-d862-4233-abc8-b58cd8b5f546",
             "flow": "xtls-rprx-vision",
