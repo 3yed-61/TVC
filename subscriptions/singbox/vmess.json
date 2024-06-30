@@ -137,8 +137,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 85",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 88",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -162,8 +162,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -206,8 +204,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 85",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 88",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -231,8 +229,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -993,7 +989,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 85",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 88",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1010,7 +1006,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 92",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
             "type": "vmess",
             "server": "104.21.83.108",
             "server_port": 443,
@@ -1721,54 +1717,6 @@
                 "path": "\/ivideos.sbs\/linkws",
                 "headers": {
                     "Host": "mikasa.yaemiko.cloudns.org"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-            "type": "vmess",
-            "server": "104.25.226.50",
-            "server_port": 80,
-            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-            "type": "vmess",
-            "server": "104.20.247.40",
-            "server_port": 80,
-            "uuid": "078c86a6-8dde-4dcc-a08e-378990a8b3b2",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
