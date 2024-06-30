@@ -368,7 +368,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 2",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 4",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
@@ -588,7 +588,7 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | trojan | 3λΞĐ | 4",
@@ -628,7 +628,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 15",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "TVCdgauowujdm",
+                "TVCitlmhmxgcx",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -1033,7 +1033,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 2",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 4",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
@@ -1253,7 +1253,7 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | trojan | 3λΞĐ | 4",
@@ -1293,7 +1293,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 15",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "TVCdgauowujdm",
+                "TVCitlmhmxgcx",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -7536,7 +7536,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -12629,32 +12629,20 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
-            "type": "vless",
-            "server": "77.221.154.162",
-            "server_port": 443,
-            "uuid": "237647aa-412c-4346-9b47-1140cabbfee7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
+            "type": "vmess",
+            "server": "46.17.43.22",
+            "server_port": 57137,
+            "uuid": "3d0f0c16-7662-418b-80d2-c9c38692306d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dashboard.phantomcloud.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8SIPzljKI9-uhm8RSrUyxHEjb_l2-QMOKbUi_F1wxiM",
-                    "short_id": "97a4f5e1"
-                }
             }
         },
         {
@@ -13627,7 +13615,7 @@
             }
         },
         {
-            "tag": "TVCdgauowujdm",
+            "tag": "TVCitlmhmxgcx",
             "type": "vless",
             "server": "",
             "server_port": 0,

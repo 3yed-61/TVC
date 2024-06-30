@@ -497,7 +497,6 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -523,7 +522,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 15",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "TVCrojsbcxdah",
+                "TVCobgdvfozdt",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 2",
@@ -1039,7 +1038,6 @@
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -1065,7 +1063,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 15",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "TVCrojsbcxdah",
+                "TVCobgdvfozdt",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 2",
@@ -10593,35 +10591,6 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🔴 | vless | 3λΞĐ | 9",
-            "type": "vless",
-            "server": "77.221.154.162",
-            "server_port": 443,
-            "uuid": "237647aa-412c-4346-9b47-1140cabbfee7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dashboard.phantomcloud.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "8SIPzljKI9-uhm8RSrUyxHEjb_l2-QMOKbUi_F1wxiM",
-                    "short_id": "97a4f5e1"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
             "type": "vless",
             "server": "104.19.55.14",
@@ -11201,7 +11170,7 @@
             }
         },
         {
-            "tag": "TVCrojsbcxdah",
+            "tag": "TVCobgdvfozdt",
             "type": "vless",
             "server": "",
             "server_port": 0,
