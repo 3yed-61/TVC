@@ -110,8 +110,6 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 5",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -133,8 +131,6 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 5",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -240,47 +236,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 15",
-            "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
-            "type": "vmess",
-            "server": "172.67.130.140",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
