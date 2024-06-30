@@ -118,7 +118,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 0",
@@ -137,7 +137,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 72",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -188,7 +187,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇱🇺LU | 🟢 | vmess | 3λΞĐ | 16",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 0",
@@ -207,7 +206,6 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 72",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -534,7 +532,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "vlscdn.nimaxmusic.ir",
             "server_port": 2052,
@@ -995,23 +993,6 @@
                 "headers": {
                     "Host": "hms02.fxiaomi.sbs"
                 }
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 13",
-            "type": "vmess",
-            "server": "46.17.43.22",
-            "server_port": 57137,
-            "uuid": "3d0f0c16-7662-418b-80d2-c9c38692306d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
