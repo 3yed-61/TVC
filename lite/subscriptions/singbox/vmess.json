@@ -109,8 +109,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -131,8 +131,8 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -224,7 +224,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "fgzlwxmo1829.dopraxrocks.com",
             "server_port": 8880,
@@ -248,11 +248,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
             "type": "vmess",
-            "server": "172.67.164.164",
-            "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "server": "50.114.243.61",
+            "server_port": 43834,
+            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -262,23 +262,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms07.xfixedfloat.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms07.xfixedfloat.cfd"
-                }
             }
         },
         {
