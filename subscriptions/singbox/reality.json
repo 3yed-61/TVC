@@ -114,10 +114,9 @@
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 172",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 7",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 4",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 14",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -174,10 +173,9 @@
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 172",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 7",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 4",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 14",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -523,7 +521,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 7",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 13",
             "type": "vless",
             "server": "5.75.195.3",
             "server_port": 443,
@@ -621,42 +619,6 @@
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 14",
-            "type": "vless",
-            "server": "162.55.209.252",
-            "server_port": 443,
-            "uuid": "telegram-id-ArV2ray",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "s101.divarcdn.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "R9-WcDz73E1EgxYvB5_ZNi-zsCY2T8uPor54k6dBeBU",
-                    "short_id": "c6450785"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
