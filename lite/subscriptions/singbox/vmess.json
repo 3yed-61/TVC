@@ -107,9 +107,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -127,9 +127,9 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -179,7 +179,24 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+            "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
+            "type": "vmess",
+            "server": "183.232.199.61",
+            "server_port": 15607,
+            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -203,24 +220,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-            "type": "vmess",
-            "server": "183.232.199.28",
-            "server_port": 15605,
-            "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
