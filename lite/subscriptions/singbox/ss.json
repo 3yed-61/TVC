@@ -106,18 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 16",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 17",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 12"
+                "🇸🇪SE | 🟢 | ss | 3λΞĐ | 16",
+                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 17",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 2"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 16",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 17",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 12"
+                "🇸🇪SE | 🟢 | ss | 3λΞĐ | 16",
+                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 17",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 2"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,7 +140,17 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | 3λΞĐ | 16",
+            "tag": "🇸🇪SE | 🟢 | ss | 3λΞĐ | 16",
+            "type": "shadowsocks",
+            "server": "94.228.165.234",
+            "server_port": 15214,
+            "method": "chacha20-ietf-poly1305",
+            "password": "DmMQUmI7pgQDnrWqLXC00L",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇱PL | 🟢 | ss | 3λΞĐ | 17",
             "type": "shadowsocks",
             "server": "54.36.174.181",
             "server_port": 8009,
@@ -150,17 +160,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 17",
-            "type": "shadowsocks",
-            "server": "45.158.171.10",
-            "server_port": 8080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "oZIoA69Q8yhcQV8ka3Pa3A",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 12",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 2",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
