@@ -13,11 +13,11 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇵🇱PL | 🟢 | ss | 3λΞĐ | 16 = ss, 54.36.174.181, 8009, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
 🇳🇱NL | 🟢 | ss | 3λΞĐ | 17 = ss, 45.158.171.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇦🇪AE | 🟢 | ss | 3λΞĐ | 10 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🇦🇪AE | 🟢 | ss | 3λΞĐ | 12 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 10
-URL-TEST = url-test,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 10
-FALLBACK = fallback,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 10
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 12
+URL-TEST = url-test,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 12
+FALLBACK = fallback,🇵🇱PL | 🟢 | ss | 3λΞĐ | 16,🇳🇱NL | 🟢 | ss | 3λΞĐ | 17,🇦🇪AE | 🟢 | ss | 3λΞĐ | 12
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
