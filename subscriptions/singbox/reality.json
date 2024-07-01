@@ -107,7 +107,7 @@
                 "URL-TEST",
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -166,7 +166,7 @@
             "outbounds": [
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -311,9 +311,9 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
-            "server": "188.245.46.55",
+            "server": "162.55.209.252",
             "server_port": 443,
             "uuid": "telegram-id-ArV2ray",
             "flow": "xtls-rprx-vision",
@@ -325,12 +325,12 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.speedtest.net",
+                "server_name": "s101.divarcdn.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "firefox"
+                    "fingerprint": "qq"
                 },
                 "reality": {
                     "enabled": true,
