@@ -138,8 +138,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 43",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇨🇼CW | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -206,8 +205,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 43",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇨🇼CW | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -1018,11 +1016,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
-            "server": "pro.iranspeed.shop",
-            "server_port": 80,
-            "uuid": "00aa4fc2-f7ec-482b-b71a-2fd071e0dc60",
+            "server": "::ffff:3981:337d",
+            "server_port": 19534,
+            "uuid": "9500739f-0299-47ec-9d3d-2cfec6d5cde1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1032,40 +1030,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇼CW | 🟢 | vmess | 3λΞĐ | 4",
-            "type": "vmess",
-            "server": "mAIl.IRansPEeD.ShoP",
-            "server_port": 443,
-            "uuid": "00aa4fc2-f7ec-482b-b71a-2fd071e0dc60",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "M1.IrANSPEed.sHOP",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QUeMEWutZAndOVVMwhRJqh28",
-                "headers": {
-                    "Host": "M1.IrANSPEed.sHOP"
-                }
             }
         },
         {
