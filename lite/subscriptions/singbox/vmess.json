@@ -110,10 +110,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 16",
-                "🇯🇵JP | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 17",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -136,10 +134,8 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 16",
-                "🇯🇵JP | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 17",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -249,58 +245,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇯🇵JP | 🟢 | vmess | 3λΞĐ | 4",
-            "type": "vmess",
-            "server": "156.251.217.3",
-            "server_port": 23870,
-            "uuid": "7e32a0d3-8ee7-4542-a4fc-a8dfeefac923",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "188.114.99.183",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 17",
             "type": "vmess",
             "server": "104.16.219.108",
             "server_port": 80,
@@ -324,7 +269,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 20",
             "type": "vmess",
             "server": "104.20.36.139",
             "server_port": 80,
