@@ -114,7 +114,6 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 72",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -140,7 +139,6 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 72",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -328,40 +326,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-            "type": "vmess",
-            "server": "104.21.75.142",
-            "server_port": 443,
-            "uuid": "251780c1-1501-43b3-be2a-d144a20d479a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy5c1.foriran.trade",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Nbs2DSTSkFW6MrrFQHeSDQ7",
-                "headers": {
-                    "Host": "hdfy5c1.foriran.trade"
-                }
             }
         },
         {
