@@ -136,9 +136,8 @@
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 54",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 55",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 61",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -202,9 +201,8 @@
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 54",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 55",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 61",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -980,7 +978,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 54",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
             "type": "vmess",
             "server": "45.32.201.78",
             "server_port": 8881,
@@ -997,7 +995,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 55",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 61",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1011,40 +1009,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 10",
-            "type": "vmess",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": "pages.dev"
-                }
             }
         },
         {
