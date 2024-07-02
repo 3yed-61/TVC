@@ -124,8 +124,8 @@ proxies:
   - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.74.113.138","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"13.39.137.66","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"13.39.154.61","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🔴 | trojan | 3λΞĐ | 2","type":"trojan","server":"18.168.164.100","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🔴 | trojan | 3λΞĐ | 3","type":"trojan","server":"34.254.122.51","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇳🇱NL | 🔴 | trojan | 3λΞĐ | 4","type":"trojan","server":"hidd2.afsharidempire.uk","port":443,"udp":false,"password":"19c80ce9-0935-41b9-b077-277621316a87","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"hidd2.afsharidempire.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -136,8 +136,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 2'
       - '🇮🇪IE | 🔴 | trojan | 3λΞĐ | 3'
-      - '🇳🇱NL | 🔴 | trojan | 3λΞĐ | 4'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -148,8 +148,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 2'
       - '🇮🇪IE | 🔴 | trojan | 3λΞĐ | 3'
-      - '🇳🇱NL | 🔴 | trojan | 3λΞĐ | 4'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -159,8 +159,8 @@ proxy-groups:
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 2'
       - '🇮🇪IE | 🔴 | trojan | 3λΞĐ | 3'
-      - '🇳🇱NL | 🔴 | trojan | 3λΞĐ | 4'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
