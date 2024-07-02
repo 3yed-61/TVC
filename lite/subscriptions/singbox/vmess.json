@@ -108,7 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
@@ -130,7 +130,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 21",
@@ -185,6 +185,23 @@ https://github.com/3yed-61
         {
             "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
             "type": "vmess",
+            "server": "183.238.202.173",
+            "server_port": 51193,
+            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "security": "auto",
+            "alter_id": 64,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
+            "type": "vmess",
             "server": "183.232.199.61",
             "server_port": 15607,
             "uuid": "aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad",
@@ -197,30 +214,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
-            "type": "vmess",
-            "server": "cfcdn1.sanfencdn9.com",
-            "server_port": 2052,
-            "uuid": "bb1af7d3-9526-44f1-9155-788773cc629e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/video\/GQ2qE5Us9g",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
