@@ -117,7 +117,7 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 6",
-                "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 5",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -178,7 +178,7 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 6",
-                "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 5",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -626,11 +626,11 @@
             }
         },
         {
-            "tag": "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
+            "tag": "🇳🇱NL | 🟢 | vless | 3λΞĐ | 5",
             "type": "vless",
-            "server": "realgod.gamebestir.ir",
-            "server_port": 2093,
-            "uuid": "953a7b6e-d5bb-472c-843b-4c73514e1b15",
+            "server": "185.164.163.70.sslip.io",
+            "server_port": 443,
+            "uuid": "164b20cc-d14c-40c2-9cd1-cb52746f0170",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -640,7 +640,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "stackoverflow.com",
+                "server_name": "www.nbcnewyork.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -649,16 +649,9 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
-                    "short_id": "d710e2b9"
+                    "public_key": "AMEa30y-5uzUknTDjDpebXfV1nQ4UsfrgfrMkXh_CGI",
+                    "short_id": "22a1"
                 }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "stackoverflow.com"
-                ],
-                "path": "\/"
             }
         },
         {

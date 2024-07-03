@@ -138,9 +138,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -207,9 +205,7 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -1020,45 +1016,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
-            "server": "hms19.best-tizi.top",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hms19.best-tizi.top",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "hms19.best-tizi.top"
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
-            "type": "vmess",
-            "server": "38.54.97.110",
-            "server_port": 5565,
-            "uuid": "1d4dbe77-4945-4b18-85a9-6ab88385d1b9",
+            "server": "lol.ps",
+            "server_port": 2052,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1071,31 +1033,7 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/arki",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
-            "type": "vmess",
-            "server": "38.54.125.216",
-            "server_port": 3262,
-            "uuid": "0b56d70e-dfd6-4623-b469-9942ff7a5c08",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/arki",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
                 "headers": {
                     "Host": ""
                 }
