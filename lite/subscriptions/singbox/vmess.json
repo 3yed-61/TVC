@@ -108,11 +108,12 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 22",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -132,11 +133,12 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 22",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 7",
@@ -204,11 +206,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
-            "server": "hms07.xfixedfloat.cfd",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "a1655f51-1e20-4a92-8a11-b7ca30a7a353",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -221,7 +223,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "hms07.xfixedfloat.cfd",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -233,8 +235,25 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "hms07.xfixedfloat.cfd"
+                    "Host": "obdii.cfd"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "bemnburalardaizos.serhatbeyler.info",
+            "server_port": 8081,
+            "uuid": "e23faebe-3f9a-4d4c-9392-ca39fb78866b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -303,11 +322,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 17",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
             "type": "vmess",
-            "server": "2.189.59.2",
-            "server_port": 443,
-            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "56a2743e-3e3b-4389-bbab-97a248a2ac40",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -318,21 +337,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram\/XV2ray",
+                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
                 "headers": {
-                    "Host": "pages.dev"
+                    "Host": ""
                 }
             }
         },
