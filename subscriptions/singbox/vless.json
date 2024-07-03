@@ -536,10 +536,11 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 68",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 69",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 71",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 3",
+                "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -1108,10 +1109,11 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 68",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 69",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 71",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇲🇾MY | 🔴 | vless | 3λΞĐ | 3",
+                "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -11634,7 +11636,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 2096,
@@ -11665,7 +11667,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "172.64.101.233",
             "server_port": 443,
@@ -11696,7 +11698,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "104.19.230.57",
             "server_port": 443,
@@ -11727,7 +11729,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🔴 | vless | 3λΞĐ | 17",
+            "tag": "🇲🇾MY | 🔴 | vless | 3λΞĐ | 3",
             "type": "vless",
             "server": "172.66.44.135",
             "server_port": 80,
@@ -11745,6 +11747,42 @@
                 "headers": {
                     "Host": "172.66.44.135"
                 }
+            }
+        },
+        {
+            "tag": "🇫🇮FI | 🟢 | vless | 3λΞĐ | 8",
+            "type": "vless",
+            "server": "realgod.gamebestir.ir",
+            "server_port": 2093,
+            "uuid": "953a7b6e-d5bb-472c-843b-4c73514e1b15",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
+                    "short_id": "d710e2b9"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "stackoverflow.com"
+                ],
+                "path": "\/"
             }
         },
         {

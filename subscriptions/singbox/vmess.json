@@ -107,8 +107,8 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -138,8 +138,9 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -175,8 +176,8 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -206,8 +207,9 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -308,7 +310,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -332,7 +334,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1018,7 +1020,41 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "type": "vmess",
+            "server": "hms19.best-tizi.top",
+            "server_port": 443,
+            "uuid": "62aa5f80-0328-4004-a375-7f5a59df4022",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hms19.best-tizi.top",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "hms19.best-tizi.top"
+                }
+            }
+        },
+        {
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 17",
             "type": "vmess",
             "server": "38.54.97.110",
             "server_port": 5565,
@@ -1042,7 +1078,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 18",
             "type": "vmess",
             "server": "38.54.125.216",
             "server_port": 3262,
