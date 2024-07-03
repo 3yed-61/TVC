@@ -189,8 +189,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 34",
                 "🇩🇰DK | 🟢 | ss | 3λΞĐ | 16",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 17",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -320,8 +320,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 34",
                 "🇩🇰DK | 🟢 | ss | 3λΞĐ | 16",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 17",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -2231,32 +2231,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
             "type": "vless",
-            "server": "185.146.173.38",
-            "server_port": 2095,
-            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb54",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.38"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 2096,
-            "uuid": "b41e1631-ceb3-47c9-ba87-c65a46f2f5a8",
+            "server": "172.64.101.233",
+            "server_port": 443,
+            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2266,7 +2245,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "vpNeRor.SAjadHADadi.WEbsiTe",
+                "server_name": "mmdv2.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2278,7 +2257,38 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
                 "headers": {
-                    "Host": "vpNeRor.SAjadHADadi.WEbsiTe"
+                    "Host": "mmdv2.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "type": "vless",
+            "server": "104.19.230.57",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "523afb17.IRS23.pAgES.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net",
+                "headers": {
+                    "Host": "523afb17.IRS23.pAgES.Dev"
                 }
             }
         },
