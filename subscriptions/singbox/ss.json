@@ -121,7 +121,10 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 15",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 16",
-                "🇩🇰DK | 🟢 | ss | 3λΞĐ | 17"
+                "🇩🇰DK | 🟢 | ss | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 0",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 1"
             ]
         },
         {
@@ -144,7 +147,10 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 15",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 16",
-                "🇩🇰DK | 🟢 | ss | 3λΞĐ | 17"
+                "🇩🇰DK | 🟢 | ss | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 0",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -333,6 +339,36 @@
             "server_port": 10430,
             "method": "chacha20-ietf-poly1305",
             "password": "61TfjZsloIEuanRSAeBIjj",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
+            "type": "shadowsocks",
+            "server": "205.134.180.139",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lWaGPVFjmnag",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 0",
+            "type": "shadowsocks",
+            "server": "series-a2.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "mps3FwmDjLrWaOVg",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 1",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         }
