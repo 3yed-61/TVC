@@ -107,8 +107,8 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -138,8 +138,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -175,8 +175,8 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -206,8 +206,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -308,7 +308,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -332,7 +332,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1018,28 +1018,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
-            "server": "66.135.3.168",
-            "server_port": 44990,
-            "uuid": "88623615-0713-497a-9233-755a33cc7080",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-            "type": "vmess",
-            "server": "104.16.222.163",
-            "server_port": 8880,
-            "uuid": "9b5c761f-8d28-40f1-a56c-9e6e06dc2f1f",
+            "server": "38.54.97.110",
+            "server_port": 5565,
+            "uuid": "1d4dbe77-4945-4b18-85a9-6ab88385d1b9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1052,7 +1035,31 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@Mmd_V2rayng-@LookiVpn?ed=1024",
+                "path": "\/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 4",
+            "type": "vmess",
+            "server": "38.54.125.216",
+            "server_port": 3262,
+            "uuid": "0b56d70e-dfd6-4623-b469-9942ff7a5c08",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/arki",
                 "headers": {
                     "Host": ""
                 }
