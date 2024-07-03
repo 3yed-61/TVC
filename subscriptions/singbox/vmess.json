@@ -107,8 +107,8 @@
                 "URL-TEST",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -138,7 +138,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -174,8 +175,8 @@
             "outbounds": [
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
-                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -205,7 +206,8 @@
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 5",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 37",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 61",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -306,7 +308,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -330,7 +332,7 @@
             }
         },
         {
-            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1016,11 +1018,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
-            "server": "104.19.45.11",
-            "server_port": 8443,
-            "uuid": "39135a39-e6ca-43df-a360-d859eea58d86",
+            "server": "66.135.3.168",
+            "server_port": 44990,
+            "uuid": "88623615-0713-497a-9233-755a33cc7080",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+            "type": "vmess",
+            "server": "104.16.222.163",
+            "server_port": 8880,
+            "uuid": "9b5c761f-8d28-40f1-a56c-9e6e06dc2f1f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1031,21 +1050,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "hk01.leleles.us",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/@Mmd_V2rayng-@LookiVpn?ed=1024",
                 "headers": {
-                    "Host": "hk01.leleles.us"
+                    "Host": ""
                 }
             }
         },
