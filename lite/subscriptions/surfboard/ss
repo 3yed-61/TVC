@@ -14,12 +14,12 @@ DIRECT = direct
 🇦🇪AE | 🟢 | ss | 3λΞĐ | 9 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇪🇸ES | 🟢 | ss | 3λΞĐ | 18 = ss, 194.87.45.189, 40076, encrypt-method = chacha20-ietf-poly1305, password = ECjp87TIkUiJ5AhRZglZ9E
 🇩🇰DK | 🟢 | ss | 3λΞĐ | 19 = ss, 95.164.10.184, 10430, encrypt-method = chacha20-ietf-poly1305, password = 61TfjZsloIEuanRSAeBIjj
-🇬🇧GB | 🟢 | ss | 3λΞĐ | 1 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
-🇬🇧GB | 🟢 | ss | 3λΞĐ | 2 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
+🇬🇧GB | 🟢 | ss | 3λΞĐ | 2 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
+🇬🇧GB | 🟢 | ss | 3λΞĐ | 3 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 1,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
-URL-TEST = url-test,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 1,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
-FALLBACK = fallback,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 1,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
+MANUAL = select,URL-TEST,FALLBACK,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2,🇬🇧GB | 🟢 | ss | 3λΞĐ | 3
+URL-TEST = url-test,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2,🇬🇧GB | 🟢 | ss | 3λΞĐ | 3
+FALLBACK = fallback,🇦🇪AE | 🟢 | ss | 3λΞĐ | 9,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇰DK | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2,🇬🇧GB | 🟢 | ss | 3λΞĐ | 3
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
