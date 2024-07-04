@@ -493,7 +493,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -623,10 +622,8 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 18",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 19",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 8",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
@@ -1183,7 +1180,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -1313,10 +1309,8 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 18",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 19",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 8",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
@@ -10534,27 +10528,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
-            "type": "vless",
-            "server": "104.21.78.161",
-            "server_port": 8080,
-            "uuid": "b756e451-7eb1-40d5-8d2d-79daebdd2531",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.21.78.161"
-                }
-            }
-        },
-        {
             "tag": "🇲🇾MY | 🔴 | vless | 3λΞĐ | 0",
             "type": "vless",
             "server": "172.66.44.165",
@@ -13527,7 +13500,41 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "104.16.67.38",
+            "server_port": 2087,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "worker-bitter-math-2af8.waxoha3621.workers.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/afrhms16v.bestxray.buzz\/linkws",
+                "headers": {
+                    "Host": "worker-bitter-math-2af8.waxoha3621.workers.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 13",
             "type": "vless",
             "server": "185.146.173.237",
             "server_port": 2095,
@@ -13544,102 +13551,6 @@
                 "path": "\/@Vpn_Mikey،@Vpn_Mikey",
                 "headers": {
                     "Host": "185.146.173.237"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3λΞĐ | 8",
-            "type": "vless",
-            "server": "2.189.59.6",
-            "server_port": 443,
-            "uuid": "18764713-6e10-4fab-bb75-63e00f5ffc4b",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "telegram-vpnhttpinjectorfree.boyomab146.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/@VPNHTTPInjectorfree?ed=2560",
-                "headers": {
-                    "Host": "telegram-vpnhttpinjectorfree.boyomab146.workers.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
-            "type": "vless",
-            "server": "188.114.97.141",
-            "server_port": 443,
-            "uuid": "d7bbfe83-b037-48ae-996c-b98ed0441ba2",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "e10c0e4b.oodaeq2.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI\/",
-                "headers": {
-                    "Host": "e10c0e4b.oodaeq2.pages.dev"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
-            "type": "vmess",
-            "server": "104.21.83.208",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
                 }
             }
         },
