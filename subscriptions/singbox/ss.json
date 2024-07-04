@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 0",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 2",
@@ -124,14 +124,14 @@
                 "🇭🇰HK | 🟢 | ss | 3λΞĐ | 16",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 3"
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 4"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 0",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 2",
@@ -150,7 +150,7 @@
                 "🇭🇰HK | 🟢 | ss | 3λΞĐ | 16",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 3"
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 4"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -173,7 +173,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 0",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
             "type": "shadowsocks",
             "server": "series-a2-mec.varzesh360.co",
             "server_port": 443,
@@ -363,7 +363,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 4",
             "type": "shadowsocks",
             "server": "205.134.180.139",
             "server_port": 443,
