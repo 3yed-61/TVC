@@ -111,8 +111,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vless | 3λΞĐ | 8",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 141",
+                "🇺🇸US | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 18",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -143,7 +142,6 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 42",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
-                "🇫🇮FI | 🔴 | vless | 3λΞĐ | 11",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 9",
@@ -173,8 +171,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vless | 3λΞĐ | 8",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 141",
+                "🇺🇸US | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 18",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
@@ -205,7 +202,6 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 42",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
-                "🇫🇮FI | 🔴 | vless | 3λΞĐ | 11",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 9",
@@ -433,7 +429,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3λΞĐ | 8",
+            "tag": "🇺🇸US | 🟢 | vless | 3λΞĐ | 9",
             "type": "vless",
             "server": "80.253.255.10",
             "server_port": 443,
@@ -459,42 +455,6 @@
                     "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
                     "short_id": "ee46"
                 }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 141",
-            "type": "vless",
-            "server": "109.120.133.41",
-            "server_port": 443,
-            "uuid": "bcffb76a-c1f6-4c03-a761-7cd8d3bc35c9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discord.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "j-0JPDGrNcRx_1Vts1EQw3b_TtJqYTsrScZDWIhAsk4",
-                    "short_id": "7222b64f"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@set_v2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
@@ -1407,42 +1367,6 @@
                     "public_key": "fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs",
                     "short_id": "6f9deca7"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮FI | 🔴 | vless | 3λΞĐ | 11",
-            "type": "vless",
-            "server": "realgod.gamebestir.ir",
-            "server_port": 2093,
-            "uuid": "953a7b6e-d5bb-472c-843b-4c73514e1b15",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "7kjyM2dPWAj_zy6VnB88fevwjT4m3XRna6H2rfSEdH0",
-                    "short_id": "d710e2b9"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "stackoverflow.com"
-                ],
-                "path": "\/"
             }
         },
         {
