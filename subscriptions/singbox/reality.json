@@ -117,6 +117,7 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 9",
+                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 0",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -158,7 +159,7 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 19",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "❔XX | 🔴 | vless | 3λΞĐ | 4",
+                "❔XX | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🟢 | vless | 3λΞĐ | 9"
             ]
         },
@@ -178,6 +179,7 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 8",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 9",
+                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 0",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -219,7 +221,7 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 19",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "❔XX | 🔴 | vless | 3λΞĐ | 4",
+                "❔XX | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🟢 | vless | 3λΞĐ | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -612,6 +614,35 @@
             "tls": {
                 "enabled": true,
                 "server_name": "partner.g2.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱NL | 🔴 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "109.176.207.43",
+            "server_port": 8443,
+            "uuid": "137faa34-3c74-417f-9939-3fa15b621dea",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cdn.discordapp.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1955,7 +1986,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 4",
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 6",
             "type": "vless",
             "server": "kingo6.hightechservice.ir",
             "server_port": 2052,
