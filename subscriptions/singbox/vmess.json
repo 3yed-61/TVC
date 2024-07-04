@@ -125,15 +125,12 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 5",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 140",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 149",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 65",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 82",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 66",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -182,15 +179,12 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 5",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 140",
+                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 149",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 65",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 82",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 66",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -706,7 +700,7 @@
             }
         },
         {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 140",
+            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 149",
             "type": "vmess",
             "server": "46.17.42.246",
             "server_port": 35049,
@@ -747,108 +741,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-            "type": "vmess",
-            "server": "50.114.243.61",
-            "server_port": 43834,
-            "uuid": "b246e34d-bbd1-4016-8f74-ea461c37e411",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 12",
-            "type": "vmess",
-            "server": "46.17.43.22",
-            "server_port": 57137,
-            "uuid": "3d0f0c16-7662-418b-80d2-c9c38692306d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
-            "type": "vmess",
-            "server": "zula.ir",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-            "type": "vmess",
-            "server": "104.21.94.64",
-            "server_port": 443,
-            "uuid": "39cec18f-a439-427c-9a4e-aeb6fcdf6f53",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linja05.hwcar.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linja05.hwcar.sbs"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "172.67.175.56",
@@ -883,7 +775,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 65",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 66",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -900,7 +792,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 82",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
             "type": "vmess",
             "server": "108.61.205.144",
             "server_port": 8881,
@@ -914,6 +806,30 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 2052,
+            "uuid": "b681acdd-960a-4f40-ae44-ffcc1ed56f10",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@irvpnn,@irvpnn,@irvpnn,@irvpnn?ed=80",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
