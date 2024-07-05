@@ -110,10 +110,11 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇬SG | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 4",
@@ -132,10 +133,11 @@ https://github.com/3yed-61
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇬SG | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 4",
@@ -241,6 +243,23 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
+            "type": "vmess",
+            "server": "108.61.205.144",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -299,40 +318,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 3",
-            "type": "vmess",
-            "server": "mci.mosi.mosipro.ml",
-            "server_port": 443,
-            "uuid": "4c2a6b41-3138-43fe-aaa6-222a3b0600ee",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "Dusseldorf.kotick.site",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/speedtest",
-                "headers": {
-                    "Host": "Dusseldorf.kotick.site"
-                }
-            }
-        },
-        {
             "tag": "🇸🇬SG | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "sg-full.privateip.net",
@@ -363,6 +348,40 @@ https://github.com/3yed-61
                 "path": "\/RACEVPN",
                 "headers": {
                     "Host": "sg-full.privateip.net"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "mci.mosi.mosipro.ml",
+            "server_port": 443,
+            "uuid": "3f197280-7b21-4f39-b763-4bb004e8021f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dusseldorf.kotick.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/speedtest",
+                "headers": {
+                    "Host": "Dusseldorf.kotick.site"
                 }
             }
         },
