@@ -108,8 +108,9 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "❔XX | 🔴 | vless | 3λΞĐ | 6",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -117,8 +118,8 @@
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 11",
                 "❔XX | 🔴 | vless | 3λΞĐ | 145",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 159",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
@@ -165,7 +166,8 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "❔XX | 🔴 | vless | 3λΞĐ | 14",
-                "❔XX | 🟢 | vless | 3λΞĐ | 9"
+                "❔XX | 🟢 | vless | 3λΞĐ | 9",
+                "❔XX | 🔴 | vless | 3λΞĐ | 0"
             ]
         },
         {
@@ -175,8 +177,9 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "❔XX | 🔴 | vless | 3λΞĐ | 6",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -184,8 +187,8 @@
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 11",
                 "❔XX | 🔴 | vless | 3λΞĐ | 145",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 159",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
@@ -232,7 +235,8 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "❔XX | 🔴 | vless | 3λΞĐ | 14",
-                "❔XX | 🟢 | vless | 3λΞĐ | 9"
+                "❔XX | 🟢 | vless | 3λΞĐ | 9",
+                "❔XX | 🔴 | vless | 3λΞĐ | 0"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -363,7 +367,43 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+            "type": "vless",
+            "server": "188.245.67.193",
+            "server_port": 443,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.speedtest.net",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L9bSYVGhk9ZTB__8Ue_yfkIJ4nANnYpqtlFljBhRiG8",
+                    "short_id": "d7d4b0f4"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "188.245.34.226",
             "server_port": 443,
@@ -399,7 +439,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
             "type": "vless",
             "server": "188.245.32.88",
             "server_port": 443,
@@ -652,7 +692,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
@@ -688,7 +728,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
             "type": "vless",
             "server": "188.245.34.226",
             "server_port": 443,
@@ -2231,6 +2271,42 @@
                     "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
                     "short_id": "e0"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "[2a0d:5940:48:11::]",
+            "server_port": 25365,
+            "uuid": "bia--ZEDMODEON",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "AmVE-YA8JAYesGpPEX2qXFaN5bQMMGj9WClQs0ZB2QQ",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         }
     ],
