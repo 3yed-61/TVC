@@ -125,11 +125,16 @@
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 149",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 0",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 76",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 100",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -177,11 +182,16 @@
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 3",
                 "🇷🇺RU | 🟢 | vmess | 3λΞĐ | 149",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 0",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 1",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 76",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 100",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -686,6 +696,91 @@
             }
         },
         {
+            "tag": "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "23.166.88.101",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 1",
+            "type": "vmess",
+            "server": "23.162.152.6",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
+            "type": "vmess",
+            "server": "23.157.88.35",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "type": "vmess",
+            "server": "s.marktred.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "aveiror.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "aveiror.com"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "172.67.175.56",
@@ -754,7 +849,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "45.61.133.235",
+            "server_port": 35617,
+            "uuid": "2e9aa06f-3788-45b7-a8e5-cd7ca8bee470",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -788,11 +900,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
             "type": "vmess",
-            "server": "45.61.133.235",
-            "server_port": 35617,
-            "uuid": "2e9aa06f-3788-45b7-a8e5-cd7ca8bee470",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "ae29cb20-2132-42d3-bd53-89901df70f65",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -802,6 +914,13 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/@vpnv2go,@vpnv2go,@vpnv2go,@vpnv2go?ed=80",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
