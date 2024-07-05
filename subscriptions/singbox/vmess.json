@@ -128,7 +128,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 66",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 6",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 19",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -141,7 +142,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇬🇧GB | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 4",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -178,7 +179,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 66",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 6",
+                "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 19",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -191,7 +193,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇬🇧GB | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 4",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -750,7 +752,31 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇲🇾MY | 🟢 | vmess | 3λΞĐ | 7",
+            "type": "vmess",
+            "server": "38.54.97.110",
+            "server_port": 5565,
+            "uuid": "1d4dbe77-4945-4b18-85a9-6ab88385d1b9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/arki",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 19",
             "type": "vmess",
             "server": "2.189.59.2",
             "server_port": 443,
@@ -1145,7 +1171,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇬🇧GB | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "217.160.45.31",
             "server_port": 8880,
