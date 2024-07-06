@@ -511,9 +511,9 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 93",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇦UA | 🔴 | vless | 3λΞĐ | 7",
+                "🇺🇦UA | 🔴 | vless | 3λΞĐ | 8",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -595,8 +595,9 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -1053,9 +1054,9 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 93",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇦UA | 🔴 | vless | 3λΞĐ | 7",
+                "🇺🇦UA | 🔴 | vless | 3λΞĐ | 8",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -1137,8 +1138,9 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -11165,63 +11167,39 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+            "tag": "🇺🇦UA | 🔴 | vless | 3λΞĐ | 7",
             "type": "vless",
-            "server": "172.66.47.2",
-            "server_port": 443,
-            "uuid": "bcf50589-9654-4331-93a6-da896914ec47",
+            "server": "91.231.182.197",
+            "server_port": 13340,
+            "uuid": "abf9e291-81cd-4636-ae4a-aa20a9d56f44",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de4ecf6b.isvphp-4g8.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram-@V2ray_Alpha\/",
-                "headers": {
-                    "Host": "de4ecf6b.isvphp-4g8.pages.dev"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+            "tag": "🇺🇦UA | 🔴 | vless | 3λΞĐ | 8",
             "type": "vless",
-            "server": "162.159.135.249",
-            "server_port": 80,
-            "uuid": "7a5a4624-df8d-4955-bccc-b3fa6161411f",
+            "server": "91.231.182.197",
+            "server_port": 29798,
+            "uuid": "b474e275-6734-4795-8cad-0d350475f4ec",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": "162.159.135.249"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
             "type": "vless",
-            "server": "104.16.190.131",
-            "server_port": 443,
-            "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+            "server": "cdn.discordapp.com",
+            "server_port": 8880,
+            "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -11229,21 +11207,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "edtunnel-csc.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/VPN_PROXY66.VPN_PROXY66",
                 "headers": {
-                    "Host": "edtunnel-csc.pages.dev"
+                    "Host": "cdn.discordapp.com"
                 }
             }
         },
@@ -13419,7 +13387,28 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "eagle.hafezdivan.online.",
+            "server_port": 80,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TELEGRAM-PROXY_MTM\/",
+                "headers": {
+                    "Host": "eagle.hafezdivan.online."
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,
@@ -13440,7 +13429,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
             "type": "vless",
             "server": "188.114.96.3",
             "server_port": 80,

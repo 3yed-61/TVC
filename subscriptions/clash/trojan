@@ -154,9 +154,7 @@ proxies:
   - {"name":"🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4","type":"trojan","server":"178.79.140.181","port":443,"udp":false,"password":"30761083-5dcd-49d6-85b5-33756ef1f7ed","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"uk2-full.privateip.net"}
   - {"name":"🇷🇺RU | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"31.172.67.242","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmwh.phooeyunfold.com"}
   - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 8","type":"trojan","server":"23.106.32.171","port":443,"udp":false,"password":"F9D3CpxDl8a3ezeZNSBSAa2RcZNSBSAa2RcY8IyagD67Yn3S30ZTElRj4wFX5On3S30ZT","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"scarily.golfland.club"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 11","type":"trojan","server":"198.41.220.5","port":443,"udp":false,"password":"cb1f26aa437d4bfa9b841d28503ce8cc","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"jobscareertoday.com"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 12","type":"trojan","server":"104.20.6.134","port":443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"18.157.240.93","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇯🇵JP | 🔴 | trojan | 3λΞĐ | 1","type":"trojan","server":"154.31.115.81","port":28335,"udp":false,"password":"Z3TxDc6q8CZy3DaAaeARzS2pOAaeARzS2pO3DXwFKl40OF7YNyS9Y3RBlCSEeaF7YNyS9","skip-cert-verify":true,"network":"tcp","client-fingerprint":"chrome","sni":"western.meijireform.com"}
   - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0","type":"trojan","server":"13.60.113.91","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
@@ -200,9 +198,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4'
       - '🇷🇺RU | 🟢 | trojan | 3λΞĐ | 12'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 11'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 12'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇯🇵JP | 🔴 | trojan | 3λΞĐ | 1'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0'
   - name: URL-TEST
     type: url-test
@@ -246,9 +242,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4'
       - '🇷🇺RU | 🟢 | trojan | 3λΞĐ | 12'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 11'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 12'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇯🇵JP | 🔴 | trojan | 3λΞĐ | 1'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0'
   - name: FALLBACK
     type: fallback
@@ -291,9 +285,7 @@ proxy-groups:
       - '🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4'
       - '🇷🇺RU | 🟢 | trojan | 3λΞĐ | 12'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 11'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 12'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇯🇵JP | 🔴 | trojan | 3λΞĐ | 1'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
