@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇳🇱NL | 🟢 | ss | 3λΞĐ | 18 = ss, 193.29.139.251, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🇰🇿KZ | 🟢 | ss | 3λΞĐ | 19 = ss, 103.106.3.170, 27179, encrypt-method = chacha20-ietf-poly1305, password = pM9IbADqbb5tsSTjebQRbc
+🇵🇱PL | 🟢 | ss | 3λΞĐ | 18 = ss, 77.83.246.55, 1080, encrypt-method = chacha20-ietf-poly1305, password = 3pURuTUf-lFgg5qWg8euFA
+🇳🇱NL | 🟢 | ss | 3λΞĐ | 19 = ss, 193.29.139.251, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇰🇿KZ | 🟢 | ss | 3λΞĐ | 19
-URL-TEST = url-test,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇰🇿KZ | 🟢 | ss | 3λΞĐ | 19
-FALLBACK = fallback,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇰🇿KZ | 🟢 | ss | 3λΞĐ | 19
+MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19
+URL-TEST = url-test,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19
+FALLBACK = fallback,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
