@@ -118,7 +118,6 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 14",
                 "❔XX | 🔴 | vless | 3λΞĐ | 163",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 12",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
@@ -182,7 +181,6 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 14",
                 "❔XX | 🔴 | vless | 3λΞĐ | 163",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 12",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
@@ -676,42 +674,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 12",
-            "type": "vless",
-            "server": "188.245.69.77",
-            "server_port": 443,
-            "uuid": "%54%65%6c%65%67%72%61%6d%2d%69%70%56%32%52%61%79%2d%78%69%6f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
-                    "short_id": "b1c8e3fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
                 "idle_timeout": "15s",
                 "ping_timeout": "15s",
                 "permit_without_stream": false
