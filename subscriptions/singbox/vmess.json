@@ -137,8 +137,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 47",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 71",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -195,8 +194,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 47",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 71",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -987,11 +985,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
-            "server": "104.168.50.21",
-            "server_port": 45979,
-            "uuid": "23bdf6df-c482-46d0-c0f4-5a98d534ea11",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1002,29 +1000,22 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/test",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "jahfkjha.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 3",
-            "type": "vmess",
-            "server": "91.231.182.197",
-            "server_port": 19396,
-            "uuid": "2251caa5-3b36-4bbe-98e3-b147c70ba286",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
