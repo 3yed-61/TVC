@@ -11,13 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇵🇱PL | 🟢 | ss | 3λΞĐ | 18 = ss, 77.83.246.55, 1080, encrypt-method = chacha20-ietf-poly1305, password = 3pURuTUf-lFgg5qWg8euFA
-🇳🇱NL | 🟢 | ss | 3λΞĐ | 19 = ss, 193.29.139.251, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🇵🇹PT | 🟢 | ss | 3λΞĐ | 18 = ss, 31.129.22.73, 1080, encrypt-method = chacha20-ietf-poly1305, password = 3pURuTUf-lFgg5qWg8euFA
+🇵🇱PL | 🟢 | ss | 3λΞĐ | 19 = ss, 77.83.246.55, 1080, encrypt-method = chacha20-ietf-poly1305, password = 3pURuTUf-lFgg5qWg8euFA
 🇬🇧GB | 🟢 | ss | 3λΞĐ | 0 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
-URL-TEST = url-test,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
-FALLBACK = fallback,🇵🇱PL | 🟢 | ss | 3λΞĐ | 18,🇳🇱NL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+MANUAL = select,URL-TEST,FALLBACK,🇵🇹PT | 🟢 | ss | 3λΞĐ | 18,🇵🇱PL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+URL-TEST = url-test,🇵🇹PT | 🟢 | ss | 3λΞĐ | 18,🇵🇱PL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+FALLBACK = fallback,🇵🇹PT | 🟢 | ss | 3λΞĐ | 18,🇵🇱PL | 🟢 | ss | 3λΞĐ | 19,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
