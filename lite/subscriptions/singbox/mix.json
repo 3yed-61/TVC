@@ -112,6 +112,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 6",
                 "🇫🇷FR | 🔴 | vless | 3λΞĐ | 14",
                 "🇫🇷FR | 🔴 | vless | 3λΞĐ | 15",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 32",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 33",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
@@ -150,7 +151,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 181",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 182",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
@@ -175,8 +176,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 99",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 18",
-                "🇨🇳CN | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -230,6 +231,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 6",
                 "🇫🇷FR | 🔴 | vless | 3λΞĐ | 14",
                 "🇫🇷FR | 🔴 | vless | 3λΞĐ | 15",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 32",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 33",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
@@ -268,7 +270,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 181",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 182",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
@@ -293,8 +295,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 99",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 18",
-                "🇨🇳CN | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -510,6 +512,27 @@ https://github.com/3yed-61
                 "path": "\/telegram-channel-vlessconfig-ws",
                 "headers": {
                     "Host": "telegram-channel-vlessconfig.sohala.uk"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 32",
+            "type": "vless",
+            "server": "zula.ir",
+            "server_port": 8080,
+            "uuid": "Join_Bede_VPNCUSTOMIZE",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Join--VPNCUSTOMIZE.V2ray.re?ed=8080",
+                "headers": {
+                    "Host": "zula.ir"
                 }
             }
         },
@@ -1388,7 +1411,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1982,42 +2005,28 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇨🇳CN | 🔴 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "103.184.44.158",
-            "server_port": 443,
-            "uuid": "52ed8850-ee79-4c55-90b6-1d6e5c29e160",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+            "type": "vmess",
+            "server": "66.135.3.168",
+            "server_port": 44990,
+            "uuid": "88623615-0713-497a-9233-755a33cc7080",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "66.811243165.xyz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/graphql",
-                "headers": {
-                    "Host": "66.811243165.xyz"
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "104.18.202.232",
-            "server_port": 443,
-            "uuid": "17a7bf97-fef5-4101-a5c5-7c730fabeeee",
+            "server": "188.114.98.223",
+            "server_port": 2095,
+            "uuid": "cfb6d9ad-7a14-4061-b159-8902fd73bb58",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2025,21 +2034,11 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel-h5f.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/?ed=2560",
+                "path": "\/DIGIV2RAY--DigiV2ray--digiv2ray--DIGIV2RAY--DigiV2ray--digiv2ray--DigiV2ray--DigiV2ray?ed=1024",
                 "headers": {
-                    "Host": "bpb-worker-panel-h5f.pages.dev"
+                    "Host": "188.114.98.223"
                 }
             }
         },
