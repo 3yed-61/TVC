@@ -151,7 +151,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 181",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 182",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
@@ -176,6 +176,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 99",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -268,7 +270,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇬🇧GB | 🔴 | trojan | 3λΞĐ | 4",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 181",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 182",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
@@ -293,6 +295,8 @@ https://github.com/3yed-61
                 "🇳🇴NO | 🟢 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 99",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -1407,7 +1411,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
@@ -1999,6 +2003,58 @@ https://github.com/3yed-61
             "password": "pM9IbADqbb5tsSTjebQRbc",
             "plugin": "",
             "plugin_opts": ""
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "172.66.47.126",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "00e463Dc.beSTVPn-4xi.PAgES.dEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/yuyg5ujoovohfscy?ed=2560",
+                "headers": {
+                    "Host": "00e463Dc.beSTVPn-4xi.PAgES.dEv"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+            "type": "vless",
+            "server": "eagle.Hafezdivan.Online.",
+            "server_port": 80,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "eagle.Hafezdivan.Online."
+                }
+            }
         },
         {
             "tag": "🇨🇷CR | 🔴 | vless | 3λΞĐ | 3",
