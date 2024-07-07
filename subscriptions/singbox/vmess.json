@@ -126,7 +126,6 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 164",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 12",
@@ -178,7 +177,6 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 164",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 12",
@@ -709,30 +707,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-            "type": "vmess",
-            "server": "104.16.219.108",
-            "server_port": 80,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
