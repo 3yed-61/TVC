@@ -177,10 +177,10 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 104",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 105",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇵🇹PT | 🟢 | ss | 3λΞĐ | 18",
-                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇷🇸RS | 🟢 | ss | 3λΞĐ | 18",
+                "🇵🇹PT | 🟢 | ss | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -212,6 +212,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 12",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
@@ -296,10 +298,10 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 104",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 105",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇵🇹PT | 🟢 | ss | 3λΞĐ | 18",
-                "🇵🇱PL | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇷🇸RS | 🟢 | ss | 3λΞĐ | 18",
+                "🇵🇹PT | 🟢 | ss | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -331,6 +333,8 @@ https://github.com/3yed-61
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 12",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "❔XX | 🔴 | vless | 3λΞĐ | 7",
@@ -2076,7 +2080,17 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇵🇹PT | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "🇷🇸RS | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "38.180.17.118",
+            "server_port": 1080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "3pURuTUf-lFgg5qWg8euFA",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇵🇹PT | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "31.129.22.73",
             "server_port": 1080,
@@ -2086,17 +2100,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇵🇱PL | 🟢 | ss | 3λΞĐ | 19",
-            "type": "shadowsocks",
-            "server": "77.83.246.55",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3pURuTUf-lFgg5qWg8euFA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 8880,
@@ -2117,11 +2121,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "104.24.185.137",
-            "server_port": 8080,
-            "uuid": "Parsashonam-8",
+            "server": "172.66.46.251",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2129,12 +2133,22 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "bBF9c21A.tECHNeTbpb.paGEs.Dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
+                "type": "ws",
+                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "headers": {
+                    "Host": "bBF9c21A.tECHNeTbpb.paGEs.Dev"
+                }
             }
         },
         {
@@ -2764,27 +2778,6 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
             "type": "vless",
-            "server": "zula.ir",
-            "server_port": 2095,
-            "uuid": "-DIGIV2RAY",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "zula.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
-            "type": "vless",
             "server": "www.Speedtest.Net",
             "server_port": 2095,
             "uuid": "-DIGIV2RAY",
@@ -2800,6 +2793,27 @@ https://github.com/3yed-61
                 "path": "\/DigiconnecT?ed=1024",
                 "headers": {
                     "Host": "www.Speedtest.Net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+            "type": "vless",
+            "server": "188.114.98.224",
+            "server_port": 8080,
+            "uuid": "ac5c3b9b-01cd-42c6-b3f0-cc5d95717b3f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev",
+                "headers": {
+                    "Host": "188.114.98.224"
                 }
             }
         },
@@ -2986,6 +3000,48 @@ https://github.com/3yed-61
                 "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
                 "headers": {
                     "Host": "www.GozargahVPN.top"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAM",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
                 }
             }
         },
