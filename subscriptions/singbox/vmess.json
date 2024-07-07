@@ -133,6 +133,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 69",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 76",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -146,8 +147,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -186,6 +188,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 69",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 76",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -199,8 +202,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -892,6 +896,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "b15903e5-f70e-4929-9863-f47ffaa91b6d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "45.199.138.217",
@@ -1238,6 +1266,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
+            "server": "188.114.96.221",
+            "server_port": 80,
+            "uuid": "310fabb7-2abc-4301-b302-22aa49c954fb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
             "uuid": "0ea36531-40ec-4390-8104-7698eac9eb57",
@@ -1270,7 +1322,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "198.41.193.181",
             "server_port": 80,
@@ -1294,7 +1346,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
