@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16 = trojan, 3.9.80.134, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17 = trojan, 13.43.227.228, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | 🟢 | trojan | 3λΞĐ | 16 = trojan, 3.142.89.24, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | 🟢 | trojan | 3λΞĐ | 17 = trojan, 18.190.54.2, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 16.16.21.9, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15 = trojan, 52.19.7.27, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 16.171.216.187, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15 = trojan, 13.60.148.58, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17
-URL-TEST = url-test,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17
-FALLBACK = fallback,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
