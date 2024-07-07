@@ -110,7 +110,7 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 14",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -119,11 +119,10 @@
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 16",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "❔XX | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -177,7 +176,7 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 14",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -186,11 +185,10 @@
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 16",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "❔XX | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -435,7 +433,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 3",
             "type": "vless",
             "server": "49.13.80.84",
             "server_port": 443,
@@ -717,78 +715,6 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "188.245.65.59",
-            "server_port": 443,
-            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L9bSYVGhk9ZTB__8Ue_yfkIJ4nANnYpqtlFljBhRiG8",
-                    "short_id": "d7d4b0f4"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "188.245.69.77",
-            "server_port": 443,
-            "uuid": "%54%65%6c%65%67%72%61%6d%2d%69%70%56%32%52%61%79%2d%6b%70%6a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "hbXVj1uC8AjgQrJMOPqkL3DqNKByyweB2SrbeRQ_6Xw",
-                    "short_id": "b1c8e3fa"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram-ipV2Ray",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
             "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
             "type": "vless",
             "server": "77.221.143.183",
@@ -854,7 +780,36 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "91.107.174.135",
+            "server_port": 1000,
+            "uuid": "fc31868c-ca54-4da6-b64f-e8a8f198061f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xqlmWddryaShYnqVDlceZdvSxmwIZ6rJwpUEulJwNkA",
+                    "short_id": "d2952538"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
             "type": "vless",
             "server": "141.95.75.212",
             "server_port": 443,
