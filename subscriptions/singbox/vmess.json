@@ -131,7 +131,7 @@
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 12",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 73",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 79",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -145,7 +145,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -182,7 +183,7 @@
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 12",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 73",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 79",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -196,7 +197,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -847,7 +849,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 73",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 79",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -1242,7 +1244,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "198.41.193.181",
+            "server_port": 80,
+            "uuid": "92791642-1471-4b93-980a-81030985f3ce",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
