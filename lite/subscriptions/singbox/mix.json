@@ -174,13 +174,13 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇬🇧GB | 🟢 | trojan | 3λΞĐ | 10",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 104",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 105",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 109",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 110",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇷🇸RS | 🟢 | ss | 3λΞĐ | 18",
                 "🇵🇹PT | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -295,13 +295,13 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇬🇧GB | 🟢 | trojan | 3λΞĐ | 10",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 104",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 105",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 109",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 110",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇷🇸RS | 🟢 | ss | 3λΞĐ | 18",
                 "🇵🇹PT | 🟢 | ss | 3λΞĐ | 19",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -2013,7 +2013,28 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 104",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 109",
+            "type": "vless",
+            "server": "185.146.173.37",
+            "server_port": 80,
+            "uuid": "1759dd49-3e82-4abb-a9ea-0b097037e09d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray",
+                "headers": {
+                    "Host": "185.146.173.37"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 110",
             "type": "vless",
             "server": "185.146.173.37",
             "server_port": 80,
@@ -2031,23 +2052,6 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "185.146.173.37"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 105",
-            "type": "vmess",
-            "server": "155.138.247.68",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2100,11 +2104,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "172.67.204.39",
+            "server": "188.114.96.2",
             "server_port": 443,
-            "uuid": "7f3b2f37-819e-49ee-9f5c-215467bfde61",
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2114,7 +2118,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "turkmenistan.armanibash.Shop.",
+                "server_name": "miumiUMadReKoSE.pAgES.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2124,18 +2128,18 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/telegram-proxy_mtm",
                 "headers": {
-                    "Host": "turkmenistan.armanibash.Shop."
+                    "Host": "miumiUMadReKoSE.pAgES.dEv"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "172.64.87.52",
-            "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "server": "104.24.196.20",
+            "server_port": 2053,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2145,7 +2149,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2155,9 +2159,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/Telegram-------V2rayi_net_-_-_-_-Telegram-------V2rayi_net\/",
+                "path": "\/",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
                 }
             }
         },
