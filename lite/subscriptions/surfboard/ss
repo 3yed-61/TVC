@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇸🇬SG | 🟢 | ss | 3λΞĐ | 18 = ss, 91.192.81.21, 8388, encrypt-method = chacha20-ietf-poly1305, password = 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
-🇷🇺RU | 🟢 | ss | 3λΞĐ | 19 = ss, ru.sptnk.space, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
+🇺🇸US | 🟢 | ss | 3λΞĐ | 18 = ss, 38.86.135.31, 8091, encrypt-method = aes-256-gcm, password = PCnnH6SQSnfoS27
+🇸🇬SG | 🟢 | ss | 3λΞĐ | 19 = ss, 91.192.81.21, 8388, encrypt-method = chacha20-ietf-poly1305, password = 1q7RNKaIk2wYO8fEPmEX0vWQ7Va+QRTA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇬SG | 🟢 | ss | 3λΞĐ | 18,🇷🇺RU | 🟢 | ss | 3λΞĐ | 19
-URL-TEST = url-test,🇸🇬SG | 🟢 | ss | 3λΞĐ | 18,🇷🇺RU | 🟢 | ss | 3λΞĐ | 19
-FALLBACK = fallback,🇸🇬SG | 🟢 | ss | 3λΞĐ | 18,🇷🇺RU | 🟢 | ss | 3λΞĐ | 19
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇸🇬SG | 🟢 | ss | 3λΞĐ | 19
+URL-TEST = url-test,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇸🇬SG | 🟢 | ss | 3λΞĐ | 19
+FALLBACK = fallback,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇸🇬SG | 🟢 | ss | 3λΞĐ | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
