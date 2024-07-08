@@ -127,12 +127,11 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
-                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 13",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 73",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 87",
@@ -187,12 +186,11 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
-                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 13",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 73",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 79",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 87",
@@ -746,7 +744,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
             "type": "vmess",
             "server": "188.114.97.7",
             "server_port": 443,
@@ -780,7 +778,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
             "server": "172.67.164.164",
             "server_port": 443,
@@ -814,7 +812,7 @@
             }
         },
         {
-            "tag": "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 13",
+            "tag": "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
             "type": "vmess",
             "server": "23.166.88.101",
             "server_port": 22324,
@@ -831,7 +829,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 15",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
             "type": "vmess",
             "server": "23.157.88.35",
             "server_port": 22324,
@@ -848,41 +846,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-            "type": "vmess",
-            "server": "s.marktred.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "aveiror.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "aveiror.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "188.114.98.40",
             "server_port": 80,
