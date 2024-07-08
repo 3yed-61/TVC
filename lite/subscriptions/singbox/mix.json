@@ -116,7 +116,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 4",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 9",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 7",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 8",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
@@ -187,7 +187,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇮🇪IE | 🟢 | trojan | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -242,7 +242,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 11",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 4",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 9",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 7",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 8",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
@@ -313,7 +313,7 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | ss | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+                "🇮🇪IE | 🟢 | trojan | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -614,7 +614,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 4",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 9",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -2259,9 +2259,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "www.shopssl.icu",
-            "server_port": 8080,
-            "uuid": "Telegram-NUFiLTER",
+            "server": "eagle.hafezdivan.online.",
+            "server_port": 443,
+            "uuid": "c416be20-32b3-467f-83c2-735e04d639f7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2269,32 +2269,43 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "eagle.hafezdivan.online.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/Qwerty",
+                "path": "\/",
                 "headers": {
-                    "Host": "www.shopssl.icu"
+                    "Host": "eagle.hafezdivan.online."
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "Zula.ir",
-            "server_port": 2095,
-            "uuid": "Telegram-iD-NUFiLTER",
-            "flow": "",
-            "packet_encoding": "xudp",
+            "tag": "🇮🇪IE | 🟢 | trojan | 3λΞĐ | 19",
+            "type": "trojan",
+            "server": "34.248.164.209",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/Qwerty",
-                "headers": {
-                    "Host": "Zula.ir"
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
