@@ -106,16 +106,18 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 18",
-                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 19"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 19",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 18",
-                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 19"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 19",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +140,17 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇪🇸ES | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "149.202.82.172",
+            "server_port": 8008,
+            "method": "aes-256-gcm",
+            "password": "XKFKl2rULjIp74",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇪🇸ES | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "es-full.privateip.net",
             "server_port": 8443,
@@ -148,12 +160,12 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 19",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 13",
             "type": "shadowsocks",
-            "server": "81.19.141.45",
-            "server_port": 52873,
+            "server": "40.172.1.97",
+            "server_port": 443,
             "method": "chacha20-ietf-poly1305",
-            "password": "CIZAAhQMKlkmW60Isq82PG",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }

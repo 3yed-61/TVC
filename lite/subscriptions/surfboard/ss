@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇪🇸ES | 🟢 | ss | 3λΞĐ | 18 = ss, es-full.privateip.net, 8443, encrypt-method = aes-256-gcm, password = 241f9bb7-186b-4161-a517-84bece5b54a1
-🇩🇪DE | 🟢 | ss | 3λΞĐ | 19 = ss, 81.19.141.45, 52873, encrypt-method = chacha20-ietf-poly1305, password = CIZAAhQMKlkmW60Isq82PG
+🇫🇷FR | 🟢 | ss | 3λΞĐ | 18 = ss, 149.202.82.172, 8008, encrypt-method = aes-256-gcm, password = XKFKl2rULjIp74
+🇪🇸ES | 🟢 | ss | 3λΞĐ | 19 = ss, es-full.privateip.net, 8443, encrypt-method = aes-256-gcm, password = 241f9bb7-186b-4161-a517-84bece5b54a1
+🇦🇪AE | 🟢 | ss | 3λΞĐ | 13 = ss, 40.172.1.97, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
-URL-TEST = url-test,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
-FALLBACK = fallback,🇪🇸ES | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇪🇸ES | 🟢 | ss | 3λΞĐ | 19,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13
+URL-TEST = url-test,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇪🇸ES | 🟢 | ss | 3λΞĐ | 19,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13
+FALLBACK = fallback,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇪🇸ES | 🟢 | ss | 3λΞĐ | 19,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
