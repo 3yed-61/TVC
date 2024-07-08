@@ -116,10 +116,8 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 16",
-                "❔XX | 🔴 | vless | 3λΞĐ | 14",
-                "❔XX | 🟢 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
-                "❔XX | 🔴 | vless | 3λΞĐ | 1",
+                "❔XX | 🔴 | vless | 3λΞĐ | 23",
+                "❔XX | 🟢 | vless | 3λΞĐ | 27",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
@@ -179,10 +177,8 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 16",
-                "❔XX | 🔴 | vless | 3λΞĐ | 14",
-                "❔XX | 🟢 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
-                "❔XX | 🔴 | vless | 3λΞĐ | 1",
+                "❔XX | 🔴 | vless | 3λΞĐ | 23",
+                "❔XX | 🟢 | vless | 3λΞĐ | 27",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
@@ -608,7 +604,7 @@
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 14",
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 23",
             "type": "vless",
             "server": "[2a0b:4140:659a:4::4]",
             "server_port": 33000,
@@ -644,7 +640,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 18",
+            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 27",
             "type": "vless",
             "server": "[2a0e:8f02:f04f:1027::4a7f:af58]",
             "server_port": 7784,
@@ -670,78 +666,6 @@
                     "public_key": "qJ2c55TdEfciF4Fmya61FAe2INs5zzhijKx9BW3DTzU",
                     "short_id": "8b19c1a4"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 0",
-            "type": "vless",
-            "server": "49.13.213.242",
-            "server_port": 443,
-            "uuid": "%31%36%37%34%61%39%38%39%2d%61%37%30%35%2d%34%39%34%65%2d%38%61%33%65%2d%35%34%31%64%37%65%33%39%38%64%31%34",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaV2xipe7aH-Cyfi-V6jLXKGoMupC6Bw8OVg267pR8",
-                    "short_id": "9e8659d0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER-Telegram:@NUFiLTER",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 1",
-            "type": "vless",
-            "server": "2a01:4f8:c013:5204::1[2a01:4f8:c013:5204::1]",
-            "server_port": 5555,
-            "uuid": "%39%34%37%63%35%32%35%33%2d%63%32%33%39%2d%34%65%30%35%2d%62%39%64%39%2d%37%39%65%36%36%36%37%36%62%63%35%65",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "tgju.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "cDaV2xipe7aH-Cyfi-V6jLXKGoMupC6Bw8OVg267pR8",
-                    "short_id": "9e8659d0"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@2a01:4f8:c013:5204::1NUFiLTER-Telegram:@NUFiLTER",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {

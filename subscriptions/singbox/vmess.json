@@ -125,11 +125,17 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 23",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 92",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 98",
@@ -184,11 +190,17 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 23",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 92",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 98",
@@ -693,7 +705,296 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "bamparda.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "bamparda.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "bamparda.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "type": "vmess",
+            "server": "f.khilei.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "f.khilei.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "f.khilei.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "type": "vmess",
+            "server": "a.baradiha.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "a.baradiha.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "a.baradiha.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
+            "server": "mankadmu.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "mankadmu.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "mankadmu.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "type": "vmess",
+            "server": "max.mankadmu.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "max.mankadmu.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "max.mankadmu.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "capellare.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "capellare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "capellare.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "type": "vmess",
+            "server": "tilebani.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "tilebani.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "tilebani.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "type": "vmess",
+            "server": "cake.capellare.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cake.capellare.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "cake.capellare.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+            "type": "vmess",
+            "server": "38.99.82.160",
+            "server_port": 22324,
+            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
             "type": "vmess",
             "server": "188.114.97.7",
             "server_port": 443,
@@ -727,7 +1028,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
             "type": "vmess",
             "server": "172.67.164.164",
             "server_port": 443,
@@ -758,57 +1059,6 @@
                 "headers": {
                     "Host": "afrhms07.xfixedfloat.cfd"
                 }
-            }
-        },
-        {
-            "tag": "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 22",
-            "type": "vmess",
-            "server": "23.166.88.101",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 23",
-            "type": "vmess",
-            "server": "23.162.152.6",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 24",
-            "type": "vmess",
-            "server": "23.157.88.35",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
