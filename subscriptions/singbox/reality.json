@@ -105,8 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
@@ -121,8 +121,6 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 25",
                 "❔XX | 🟢 | vless | 3λΞĐ | 29",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇪🇪EE | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -169,8 +167,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "❔XX | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
@@ -185,8 +183,6 @@
                 "❔XX | 🔴 | vless | 3λΞĐ | 25",
                 "❔XX | 🟢 | vless | 3λΞĐ | 29",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇪🇪EE | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -249,7 +245,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 2",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
@@ -285,7 +281,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
@@ -772,64 +768,6 @@
                     "enabled": true,
                     "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇪🇪EE | 🟢 | vless | 3λΞĐ | 8",
-            "type": "vless",
-            "server": "95.164.8.185",
-            "server_port": 8080,
-            "uuid": "8da3432a-d4da-4f43-801f-342cda5eae9f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.speedtest.net",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "MKfDEJAAbEk2S49G67c1m49oFc8BLwd-0jgfiygcOFg",
-                    "short_id": "7554c6ea"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
-            "type": "vless",
-            "server": "91.107.174.135",
-            "server_port": 1000,
-            "uuid": "fc31868c-ca54-4da6-b64f-e8a8f198061f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "xqlmWddryaShYnqVDlceZdvSxmwIZ6rJwpUEulJwNkA",
-                    "short_id": "d2952538"
                 }
             }
         },
