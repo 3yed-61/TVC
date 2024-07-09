@@ -118,10 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"18.175.82.28","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"3.11.66.69","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"18.130.131.214","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"15.236.112.179","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"51.21.18.157","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"54.72.5.29","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"15.157.136.231","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"34.249.40.10","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"146.59.147.250","port":"29776","cipher":"auto","uuid":"82447abf-dcb9-408a-9ca6-79e0a7698d08","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18","type":"vmess","server":"cfcdn3.sanfencdn9.com","port":"2052","cipher":"auto","uuid":"3c5046b4-1a9c-427c-8a55-e355846a9e4a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/video/Zo98PYfE","headers":{"host":"kvjqqknzjp6.yofnhkfc.xyz"}}}
   - {"name":"🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19","type":"vmess","server":"183.238.202.173","port":"51193","cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":"64","tls":false,"skip-cert-verify":true,"network":"tcp"}
@@ -143,10 +143,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19'
@@ -168,10 +168,10 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19'
@@ -192,10 +192,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
-      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0'
       - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19'
