@@ -268,8 +268,8 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 26",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 27",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 28",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -542,7 +542,13 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 121",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -828,8 +834,8 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 26",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 27",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 28",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 2",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -1102,7 +1108,13 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 121",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
@@ -5068,7 +5080,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "172.66.46.224",
             "server_port": 443,
@@ -5099,7 +5111,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "172.66.46.251",
             "server_port": 443,
@@ -11918,11 +11930,73 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
+            "type": "vless",
+            "server": "104.18.84.115",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/bmkpskkiym1rrlxm?ed",
+                "headers": {
+                    "Host": "B458aB02.caA-CHAnel-worKer-Page-FREE-JhUiHNujHPHjKL-NIhGKJn.PaGEs.deV"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+            "type": "vless",
+            "server": "104.18.202.232",
+            "server_port": 443,
+            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=2560",
+                "headers": {
+                    "Host": "4d3d6f00.garywelch.pages.dev"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
-            "uuid": "SVNTEAM",
+            "uuid": "SVNTEAMa",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -11935,6 +12009,103 @@
                 "path": "\/?ed=443",
                 "headers": {
                     "Host": "mtn.VPNPROSEC.com"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "type": "vless",
+            "server": "mtn.VPNPROSEC.com",
+            "server_port": 80,
+            "uuid": "SVNTEAMa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/?ed=443",
+                "headers": {
+                    "Host": "mtn.VPNPROSEC.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 16",
+            "type": "vless",
+            "server": "188.245.52.140",
+            "server_port": 8080,
+            "uuid": "c7f933fe-f0a9-44de-8002-4cd549d8a416",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+            "server_port": 443,
+            "uuid": "67e85955-02b7-46f3-b3d6-ca34a4b0ccc1",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "hidden-rbpamewkcxqxrz3lct.hidden0612.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "d07ee8fc-546d-4ed9-c328-09b5153c1e56",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "Dns-Gaming-Karaj.Auiyf.Com.",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/FreeV2ray@Alfred_Config\/@Alfred_Config\/@Alfred_Config TEL @Alfred_Config @V2ray\/@Alfred_Config\/@Alfred_Config\/@Alfred_Config",
+                "headers": {
+                    "Host": "Dns-Gaming-Karaj.Auiyf.Com."
                 }
             }
         },
