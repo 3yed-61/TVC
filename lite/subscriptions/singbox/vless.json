@@ -173,7 +173,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -276,7 +276,7 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -1951,9 +1951,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "www.Speedtest.Net",
-            "server_port": 2095,
-            "uuid": "---DIGIV2RAY--",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1961,20 +1961,30 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "viEEzer-pANeL.paGES.DEv",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/HRj71tnRkPZV60Ea\/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
                 "headers": {
-                    "Host": "www.Speedtest.Net"
+                    "Host": "viEEzer-pANeL.paGES.DEv"
                 }
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "---DIGIV2RAY--",
+            "server": "172.66.44.55",
+            "server_port": 443,
+            "uuid": "104380d8-f859-421a-bd11-29b2c9fbfa99",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1982,11 +1992,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "famil-5c8.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
+                "path": "\/",
                 "headers": {
-                    "Host": "185.146.173.68"
+                    "Host": "famil-5c8.pages.dev"
                 }
             }
         },
