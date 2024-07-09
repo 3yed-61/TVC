@@ -184,7 +184,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 18",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -193,6 +193,7 @@ https://github.com/3yed-61
                 "🇸🇬SG | 🟢 | vmess | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -307,7 +308,7 @@ https://github.com/3yed-61
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 18",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
+                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -316,6 +317,7 @@ https://github.com/3yed-61
                 "🇸🇬SG | 🟢 | vmess | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -2191,9 +2193,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
+            "server": "www.Speedtest.Net",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2203,24 +2205,31 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "path": "\/DigiconnecT?ed=1024",
                 "headers": {
-                    "Host": "www.parsvds.ir"
+                    "Host": "www.Speedtest.Net"
                 }
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 19",
+            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "188.245.52.140",
-            "server_port": 8080,
-            "uuid": "c7f933fe-f0a9-44de-8002-4cd549d8a416",
+            "server": "185.146.173.68",
+            "server_port": 2095,
+            "uuid": "---DIGIV2RAY--",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/DigiconnecT?ed=1024",
+                "headers": {
+                    "Host": "185.146.173.68"
+                }
             }
         },
         {
@@ -2440,6 +2449,27 @@ https://github.com/3yed-61
                 "path": "\/telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy,telegram-@polproxy",
                 "headers": {
                     "Host": "185.146.173.58"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
+            "type": "vless",
+            "server": "www.parsvds.ir",
+            "server_port": 8080,
+            "uuid": "9e802d62-510f-4f64-b73c-5d116a7aea44",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "www.parsvds.ir"
                 }
             }
         },
