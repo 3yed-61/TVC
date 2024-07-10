@@ -144,9 +144,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 120",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 122",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 148",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 133",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -211,9 +211,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 120",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 122",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 148",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 133",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -1271,7 +1271,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 120",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
             "type": "vmess",
             "server": "155.138.164.71",
             "server_port": 8881,
@@ -1288,7 +1288,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 122",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 133",
             "type": "vmess",
             "server": "188.114.96.221",
             "server_port": 80,
@@ -1312,11 +1312,11 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 148",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1326,6 +1326,23 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "glweidf.sbs"
+                }
             }
         },
         {
