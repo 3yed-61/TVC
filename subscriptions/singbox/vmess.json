@@ -109,8 +109,8 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 5",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
@@ -147,7 +147,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 120",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 122",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 148",
-                "🇵🇭PH | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -177,8 +177,8 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 5",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
@@ -215,7 +215,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 120",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 122",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 148",
-                "🇵🇭PH | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -349,7 +349,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -373,7 +373,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "cfcdn2.sanfencdn9.com",
             "server_port": 2052,
@@ -1331,11 +1331,11 @@
             }
         },
         {
-            "tag": "🇵🇭PH | 🟢 | vmess | 3λΞĐ | 19",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
-            "server": "38.54.80.63",
-            "server_port": 44428,
-            "uuid": "388de77b-9709-4e75-b791-5702867a1202",
+            "server": "104.21.15.212",
+            "server_port": 443,
+            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -1346,11 +1346,21 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "glweidf.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/arki",
+                "path": "\/linkws",
                 "headers": {
-                    "Host": ""
+                    "Host": "glweidf.sbs"
                 }
             }
         },
