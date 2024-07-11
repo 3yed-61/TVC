@@ -107,17 +107,15 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 26",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 27",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 176",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -131,17 +129,15 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 26",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 27",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 176",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -187,7 +183,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
             "type": "vmess",
             "server": "cfcdn3.sanfencdn9.com",
             "server_port": 2052,
@@ -228,7 +224,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "104.26.0.56",
             "server_port": 2086,
@@ -269,58 +265,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 26",
-            "type": "vmess",
-            "server": "cake.capellare.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cake.capellare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "cake.capellare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 27",
-            "type": "vmess",
-            "server": "38.99.82.160",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 176",
             "type": "vmess",
             "server": "155.138.164.71",
             "server_port": 8881,
@@ -395,6 +340,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
+            "server": "151.101.193.57",
+            "server_port": 80,
+            "uuid": "d64abdb7-aeea-478c-8197-c32159f460c0",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/ws\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "104.19.45.85",
@@ -415,40 +384,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "104.19.45.85"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "a.baradiha.com",
-            "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "a.baradiha.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkvws",
-                "headers": {
-                    "Host": "a.baradiha.com"
                 }
             }
         },
