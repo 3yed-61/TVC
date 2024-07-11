@@ -109,7 +109,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇮🇳IN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 6",
@@ -138,7 +138,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -163,7 +162,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇮🇳IN | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 6",
@@ -192,7 +191,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
@@ -314,7 +312,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇮🇳IN | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
             "server": "cfcdn1.sanfencdn9.com",
             "server_port": 2052,
@@ -1000,30 +998,6 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-            "type": "vmess",
-            "server": "104.19.46.17",
-            "server_port": 2086,
-            "uuid": "e9e3cc13-db48-4cc1-8c24-7626439a5339",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.19.46.17"
                 }
             }
         },
