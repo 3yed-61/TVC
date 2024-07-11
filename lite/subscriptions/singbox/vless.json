@@ -171,8 +171,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇷CR | 🔴 | vless | 3λΞĐ | 18",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
@@ -276,8 +275,7 @@ https://github.com/3yed-61
                 "🇳🇱NL | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
-                "🇨🇷CR | 🔴 | vless | 3λΞĐ | 18",
-                "🇳🇱NL | 🔴 | vless | 3λΞĐ | 19",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
@@ -1861,11 +1859,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇷CR | 🔴 | vless | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
             "type": "vless",
-            "server": "190.93.247.155",
-            "server_port": 2095,
-            "uuid": "join--ZEDMODEON",
+            "server": "162.159.129.17",
+            "server_port": 80,
+            "uuid": "9e429ea8-5f56-4745-ac77-1e0373942ee7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1875,40 +1873,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/@ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEON TEL  @ZEDMODEON JOIN @ZEDMODEON TEL  @ZEDMODEO",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": "190.93.247.155"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱NL | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "yar.kmdl.ir",
-            "server_port": 443,
-            "uuid": "cc88b5d5-ede3-4fed-8873-545f08a20d08",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "yar.kmdl.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/545f08a20d08",
-                "headers": {
-                    "Host": "yar.kmdl.ir"
+                    "Host": "162.159.129.17"
                 }
             }
         },
