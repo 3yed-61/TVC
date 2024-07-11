@@ -173,10 +173,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -279,10 +277,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 6",
@@ -1896,40 +1892,9 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
-            "server": "104.24.196.20",
-            "server_port": 2053,
-            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/TELEGRAM-MARAMBASHI-MARAMBASHI\/",
-                "headers": {
-                    "Host": "936a99B4.Vde5-MlX81LANeo.pAgES.dEv"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "104.19.110.50",
+            "server": "www.visa.com",
             "server_port": 443,
-            "uuid": "d9eb0df3-3190-4447-86b6-656fe5ff1119",
+            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1939,7 +1904,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "mmdv2.pages.dev",
+                "server_name": "bpb-worker-panel3.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1949,9 +1914,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/TElEGRAM-MARAMBASHI-MARAMBASHI",
+                "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "mmdv2.pages.dev"
+                    "Host": "bpb-worker-panel3.pages.dev"
                 }
             }
         },
@@ -2004,37 +1969,6 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "z61.maduss.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 443,
-            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "bpb-worker-panel3.pages.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/?ed=2560",
-                "headers": {
-                    "Host": "bpb-worker-panel3.pages.dev"
                 }
             }
         },
