@@ -109,8 +109,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -128,8 +130,10 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -218,11 +222,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
             "type": "vmess",
-            "server": "45.147.77.110",
-            "server_port": 13736,
-            "uuid": "5b24cb20-908c-435e-cb83-815950bea779",
+            "server": "172.67.174.42",
+            "server_port": 443,
+            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -232,6 +236,57 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "gwdef.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "gwdef.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
+            "type": "vmess",
+            "server": "max.mankadmu.com",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "max.mankadmu.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkvws",
+                "headers": {
+                    "Host": "max.mankadmu.com"
+                }
             }
         },
         {
@@ -249,6 +304,30 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
             }
         },
         {
