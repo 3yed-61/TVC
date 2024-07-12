@@ -105,11 +105,11 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
-                "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
+                "❔XX | 🔴 | vless | 3λΞĐ | 0",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -122,7 +122,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 109",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 110",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 111",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 12",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -170,11 +169,11 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
-                "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
+                "❔XX | 🔴 | vless | 3λΞĐ | 0",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -187,7 +186,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 109",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 110",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 111",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 12",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -251,7 +249,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
@@ -287,7 +285,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
             "type": "vless",
             "server": "188.245.69.77",
             "server_port": 443,
@@ -395,7 +393,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
             "type": "vless",
             "server": "188.245.74.174",
             "server_port": 443,
@@ -797,42 +795,6 @@
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
                 }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🔴 | vless | 3λΞĐ | 12",
-            "type": "vless",
-            "server": "185.135.47.150",
-            "server_port": 2053,
-            "uuid": "dbaea6f8-e79b-44cc-85b8-7855581947b1",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
             }
         },
         {
