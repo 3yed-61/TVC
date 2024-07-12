@@ -124,7 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 142",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 146",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 171",
@@ -177,7 +178,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 142",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 146",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 171",
@@ -635,6 +637,30 @@
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
+            "server": "104.19.51.232",
+            "server_port": 2086,
+            "uuid": "29eebb60-b27b-4a9d-bba5-947763d9205e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "type": "vmess",
             "server": "max.mankadmu.com",
             "server_port": 443,
             "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
@@ -667,7 +693,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "45.147.77.110",
             "server_port": 13736,
