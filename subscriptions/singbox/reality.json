@@ -117,12 +117,12 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 78",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 79",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 80",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 81",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 99",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 100",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 101",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 102",
+                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 1",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -182,12 +182,12 @@
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 78",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 79",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 80",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 81",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 99",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 100",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 101",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 102",
+                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 1",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -655,35 +655,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "80.253.255.10",
-            "server_port": 443,
-            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.upci.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
-                    "short_id": "ee46"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 3",
             "type": "vless",
             "server": "92.246.136.89",
@@ -713,7 +684,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 78",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 99",
             "type": "vless",
             "server": "de04.tomk.fun",
             "server_port": 1234,
@@ -742,7 +713,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 79",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 100",
             "type": "vless",
             "server": "de03.tomk.fun",
             "server_port": 1234,
@@ -771,7 +742,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 80",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 101",
             "type": "vless",
             "server": "de02.tomk.fun",
             "server_port": 1234,
@@ -800,7 +771,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 81",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 102",
             "type": "vless",
             "server": "de01.tomk.fun",
             "server_port": 1234,
@@ -826,6 +797,42 @@
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🔴 | vless | 3λΞĐ | 1",
+            "type": "vless",
+            "server": "185.135.47.150",
+            "server_port": 2053,
+            "uuid": "dbaea6f8-e79b-44cc-85b8-7855581947b1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discordapp.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "xyz",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
             }
         },
         {
