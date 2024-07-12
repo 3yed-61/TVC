@@ -111,12 +111,13 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1"
             ]
         },
@@ -129,12 +130,13 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 2",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -264,6 +266,74 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "type": "vmess",
+            "server": "188.114.99.183",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
+            "type": "vmess",
+            "server": "185.146.173.59",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
             "tag": "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub",
@@ -324,30 +394,6 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
-            "server": "104.19.45.70",
-            "server_port": 2095,
-            "uuid": "7a737f41-b792-4260-94ff-3d864da67b80",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "104.19.45.70"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-            "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
@@ -380,7 +426,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
@@ -414,11 +460,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
-            "server": "188.114.96.221",
-            "server_port": 80,
-            "uuid": "310fabb7-2abc-4301-b302-22aa49c954fb",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "2f86e97a-1ea0-4221-96cc-12210730e0c9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -429,11 +475,21 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
+            "tls": {
+                "enabled": true,
+                "server_name": "kingo.hightechservice.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "\/vmess",
+                "path": "\/",
                 "headers": {
-                    "Host": ""
+                    "Host": "kingo.hightechservice.ir"
                 }
             }
         },
