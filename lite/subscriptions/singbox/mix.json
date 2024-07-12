@@ -180,8 +180,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇵🇱PL | 🟢 | ss | 3λΞĐ | 14",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | trojan | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -200,7 +200,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 5",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
@@ -300,8 +301,8 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇵🇱PL | 🟢 | ss | 3λΞĐ | 14",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 15",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | trojan | 3λΞĐ | 16",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -320,7 +321,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 5",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇮🇷IR | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
@@ -2047,16 +2049,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
-            "type": "vmess",
-            "server": "104.21.83.208",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
+            "tag": "🇺🇸US | 🟢 | trojan | 3λΞĐ | 16",
+            "type": "trojan",
+            "server": "18.218.67.150",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
@@ -2064,7 +2061,31 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "188.114.96.3",
+            "server_port": 443,
+            "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "viEEzer-pANeL.paGES.DEv",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2074,33 +2095,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/HRj71tnRkPZV60Ea\/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-            "type": "vmess",
-            "server": "104.21.8.157",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
+                    "Host": "viEEzer-pANeL.paGES.DEv"
                 }
             }
         },
@@ -2607,11 +2604,42 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 9",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
             "type": "vless",
-            "server": "185.146.173.58",
-            "server_port": 8080,
-            "uuid": "00f8444e-722a-4de1-b604-3480a40e8ea8",
+            "server": "proxyforopetaa.bestgameir.ir",
+            "server_port": 2083,
+            "uuid": "6cd2d2e7-95fe-4a64-96b8-8381615cb3d7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "proxyforopetaa.bestgameir.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/JoinChanel-@proxyforopeta-telegram:@proxyforopeta-telegram-proxyforopeta-joinchanel@proxyforopeta.@proxyforopeta.join-@proxyforopeta.telegram:@proxyforopeta",
+                "headers": {
+                    "Host": "proxyforopetaa.bestgameir.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "Telegram-ipV2Ray-mkp",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2621,9 +2649,9 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/servernet",
+                "path": "\/Telegram-ipV2Ray",
                 "headers": {
-                    "Host": "185.146.173.58"
+                    "Host": "www.speedtest.net"
                 }
             }
         },
