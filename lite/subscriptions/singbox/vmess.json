@@ -109,7 +109,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -118,7 +118,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇧🇿BZ | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1"
             ]
         },
@@ -129,7 +130,7 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -138,7 +139,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇧🇿BZ | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -213,7 +215,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 19",
             "type": "vmess",
             "server": "cfd.ipa.monster",
             "server_port": 8080,
@@ -469,11 +471,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
-            "uuid": "2f86e97a-1ea0-4221-96cc-12210730e0c9",
+            "uuid": "258847cf-7268-40ca-b9aa-932c4bef5b27",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -499,6 +501,30 @@ https://github.com/3yed-61
                 "path": "\/",
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇧🇿BZ | 🟢 | vmess | 3λΞĐ | 13",
+            "type": "vmess",
+            "server": "45.131.208.228",
+            "server_port": 80,
+            "uuid": "f491cbe4-7548-446c-8d3e-64008e3b1325",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
