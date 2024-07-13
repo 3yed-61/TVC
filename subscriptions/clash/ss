@@ -118,14 +118,13 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | 🟢 | ss | 3λΞĐ | 0","type":"ss","server":"134.195.196.178","port":810,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇨🇦CA | 🟢 | ss | 3λΞĐ | 4","type":"ss","server":"134.195.196.178","port":806,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇦🇹AT | 🟢 | ss | 3λΞĐ | 6","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 3","type":"ss","server":"51.178.87.37","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇸🇪SE | 🟢 | ss | 3λΞĐ | 8","type":"ss","server":"217.196.103.206","port":29312,"password":"qgpdyzHj8rZW9fDxxkUHRI","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 0","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"aSsoG8kTeefvH0s5A7tchH","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | 🟢 | ss | 3λΞĐ | 1","type":"ss","server":"45.139.24.63","port":57456,"password":"3fbeb668f48414f6","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"45.158.171.129","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 4","type":"ss","server":"92.243.27.51","port":9802,"password":"5YBFWHQqw9vutAvKas9Wd0","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 5","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 6","type":"ss","server":"us-ain.yangon.club","port":443,"password":"g13S7doXar0A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 7","type":"ss","server":"92.243.27.51","port":9802,"password":"U4D84cy6AL3DaC54iwDToP","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 9","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"EdgGhxDpnk1FCdsr48p0Jx","cipher":"chacha20-ietf-poly1305"}
@@ -141,14 +140,13 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 4'
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 6'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 3'
+      - '🇸🇪SE | 🟢 | ss | 3λΞĐ | 8'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 0'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 1'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 6'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 7'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 9'
@@ -164,14 +162,13 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 4'
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 6'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 3'
+      - '🇸🇪SE | 🟢 | ss | 3λΞĐ | 8'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 0'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 1'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 6'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 7'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 9'
@@ -186,14 +183,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
-      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 4'
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 6'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 3'
+      - '🇸🇪SE | 🟢 | ss | 3λΞĐ | 8'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 0'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 1'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 5'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 6'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 7'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 9'

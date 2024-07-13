@@ -122,8 +122,8 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -132,7 +132,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 158",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 160",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 164",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 73",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -179,8 +179,8 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -189,7 +189,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 158",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 160",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 164",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 73",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -590,11 +590,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
-            "server": "s1c.v2.v001sss.xyz",
-            "server_port": 2082,
-            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
+            "server": "104.19.47.82",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -607,18 +607,18 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/&Telegram🇨🇳 @WangCai2",
                 "headers": {
-                    "Host": "s1c.v2.v001sss.xyz"
+                    "Host": "104.19.47.82"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
-            "server": "upload.ir",
-            "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "server": "us3e-mmnnfr9dop0.v2freevpn.com",
+            "server_port": 80,
+            "uuid": "2a8a10fb-9ca3-367e-a234-cf09f841be4f",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -629,21 +629,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "afrhms16v.bestxray.buzz",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/v118-fccxmxm35",
                 "headers": {
-                    "Host": "afrhms16v.bestxray.buzz"
+                    "Host": "us3e-mmnnfr9dop0.v2freevpn.com"
                 }
             }
         },
@@ -870,7 +860,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
             "server": "188.114.98.40",
             "server_port": 80,
