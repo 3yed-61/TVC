@@ -105,6 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇧🇭BH | 🟢 | ss | 3λΞĐ | 2",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 5",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 3",
@@ -117,14 +119,15 @@
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 12",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 13",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15",
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 8"
+                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇧🇭BH | 🟢 | ss | 3λΞĐ | 2",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 5",
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 3",
@@ -137,8 +140,7 @@
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 12",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 13",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15",
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 8"
+                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -159,6 +161,26 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇧🇭BH | 🟢 | ss | 3λΞĐ | 2",
+            "type": "shadowsocks",
+            "server": "series-a2-me.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Bog0ELmMM9DSxDdQ",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 5",
+            "type": "shadowsocks",
+            "server": "series-a1.samanehha.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "W74XFALLLuw6m5IA",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 0",
@@ -287,16 +309,6 @@
             "server_port": 1080,
             "method": "chacha20-ietf-poly1305",
             "password": "3pURuTUf-lFgg5qWg8euFA",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 8",
-            "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
             "plugin": "",
             "plugin_opts": ""
         }
