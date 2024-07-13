@@ -106,18 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 19",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15"
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 14",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 15"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 19",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
-                "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15"
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 14",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 15"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -140,32 +138,22 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 19",
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 14",
             "type": "shadowsocks",
-            "server": "series-a1.samanehha.co",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "W74XFALLLuw6m5IA",
+            "server": "145.239.6.202",
+            "server_port": 8118,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
             "plugin": "",
             "plugin_opts": ""
         },
         {
-            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
+            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 15",
             "type": "shadowsocks",
             "server": "149.202.82.172",
             "server_port": 5001,
             "method": "aes-256-gcm",
             "password": "Y6R9pAtvxxzmGC",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇪🇸ES | 🟢 | ss | 3λΞĐ | 15",
-            "type": "shadowsocks",
-            "server": "176.97.72.219",
-            "server_port": 1080,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3pURuTUf-lFgg5qWg8euFA",
             "plugin": "",
             "plugin_opts": ""
         }
