@@ -112,7 +112,6 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -133,7 +132,6 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -304,40 +302,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.cfd"
-                }
             }
         },
         {

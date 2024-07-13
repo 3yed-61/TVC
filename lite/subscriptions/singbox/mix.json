@@ -177,8 +177,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 115",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 15",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -294,8 +294,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 115",
                 "🇪🇸ES | 🟢 | ss | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 15",
-                "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -2015,11 +2015,11 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇸🇪SE | 🔴 | vless | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
             "type": "vless",
-            "server": "185.146.173.68",
-            "server_port": 2095,
-            "uuid": "DIGIV2ray",
+            "server": "medium.com",
+            "server_port": 443,
+            "uuid": "8905178c-8d5b-451f-bcdb-5f47fa554fdf",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2027,33 +2027,9 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "transport": {
-                "type": "ws",
-                "path": "\/DigiconnecT?ed=1024",
-                "headers": {
-                    "Host": "185.146.173.68"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "104.21.4.6",
-            "server_port": 443,
-            "uuid": "1052f24e-7b09-45eb-b0c5-d858eb124192",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
             "tls": {
                 "enabled": true,
-                "server_name": "glweidf.cfd",
+                "server_name": "DisVpn.us.kg",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -2063,9 +2039,40 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
                 "headers": {
-                    "Host": "glweidf.cfd"
+                    "Host": "DisVpn.us.kg"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
+            "type": "vless",
+            "server": "162.159.152.152",
+            "server_port": 443,
+            "uuid": "8905178c-8d5b-451f-bcdb-5f47fa554fdf",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "join-v2rey.pages.dev",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/---------DisVpn---------DisVpn---------DisVpn",
+                "headers": {
+                    "Host": "join-v2rey.pages.dev"
                 }
             }
         },
