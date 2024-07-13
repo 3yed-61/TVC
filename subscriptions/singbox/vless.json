@@ -522,10 +522,9 @@
                 "🇧🇿BZ | 🟢 | vless | 3λΞĐ | 125",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 126",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
@@ -1073,10 +1072,9 @@
                 "🇧🇿BZ | 🟢 | vless | 3λΞĐ | 125",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 126",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇮🇷IR | 🔴 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
@@ -11419,69 +11417,6 @@
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
             "type": "vless",
-            "server": "162.159.129.17",
-            "server_port": 80,
-            "uuid": "9e429ea8-5f56-4745-ac77-1e0373942ee7",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
-                "headers": {
-                    "Host": "162.159.129.17"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
-            "type": "vless",
-            "server": "104.17.153.239",
-            "server_port": 8080,
-            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.17.153.239"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
-            "type": "vless",
-            "server": "104.25.19.43",
-            "server_port": 8080,
-            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
-                "headers": {
-                    "Host": "104.25.19.43"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-            "type": "vless",
             "server": "188.114.97.3",
             "server_port": 443,
             "uuid": "fb853741-88ef-4aa0-ba2f-999f04535960",
@@ -11511,11 +11446,11 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🔴 | vless | 3λΞĐ | 16",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
             "type": "vless",
-            "server": "185.143.233.5",
+            "server": "162.159.129.17",
             "server_port": 80,
-            "uuid": "57cbd1f6-f30f-4d84-ec7b-aefa613cd508",
+            "uuid": "9e429ea8-5f56-4745-ac77-1e0373942ee7",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -11525,9 +11460,51 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/",
+                "path": "\/T,E,L,E,G,R,A,M,X,V,2,R,A,Y?ed=2560",
                 "headers": {
-                    "Host": "185.143.233.5"
+                    "Host": "162.159.129.17"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
+            "type": "vless",
+            "server": "104.17.153.239",
+            "server_port": 8080,
+            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.17.153.239"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "type": "vless",
+            "server": "104.25.19.43",
+            "server_port": 8080,
+            "uuid": "47aff861-b287-4c7b-a213-6982cdb53db9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.25.19.43"
                 }
             }
         },
