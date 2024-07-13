@@ -129,8 +129,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 2","type":"vmess","server":"www.speedtest.net","port":"2053","cipher":"auto","uuid":"00fb7867-95ad-4eaf-99f1-22255beb6251","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":""}}
   - {"name":"🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179","type":"vmess","server":"dl-g2.arashdownload.ir","port":"33431","cipher":"auto","uuid":"4a049f0e-ba67-4a36-853f-a74df24368ec","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 10","type":"vmess","server":"www.speedtest.net","port":"2053","cipher":"auto","uuid":"00fb7867-95ad-4eaf-99f1-22255beb6251","alterId":"0","tls":true,"skip-cert-verify":true,"network":"grpc","grpc-opts":{"grpc-service-name":"","grpc-mode":"gun"}}
-  - {"name":"🇪🇸ES | 🟢 | ss | 3λΞĐ | 14","type":"ss","server":"176.97.72.219","port":1080,"password":"3pURuTUf-lFgg5qWg8euFA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇩🇪DE | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"81.19.141.45","port":52873,"password":"I1onhFIawC9IpNB2ZE73CK","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 14","type":"ss","server":"149.202.82.172","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
+  - {"name":"🇪🇸ES | 🟢 | ss | 3λΞĐ | 15","type":"ss","server":"176.97.72.219","port":1080,"password":"3pURuTUf-lFgg5qWg8euFA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 3","type":"vmess","server":"104.19.47.27","port":"2086","cipher":"auto","uuid":"e9e3cc13-db48-4cc1-8c24-7626439a5339","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"ip2.1457230.xyz"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"104.19.21.220","port":2052,"cipher":"auto","uuid":"d6b6d982-d52f-465a-b988-85670b23f64a","alterId":0,"tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/github.com/Alvin9999","headers":{"host":"cdn3.freegradely.xyz"}}}
@@ -155,8 +155,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 10'
-      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
+      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 15'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 4'
@@ -181,8 +181,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 10'
-      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
+      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 15'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 4'
@@ -206,8 +206,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
       - '🇮🇷IR | 🟢 | vmess | 3λΞĐ | 179'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 10'
-      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | ss | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
+      - '🇪🇸ES | 🟢 | ss | 3λΞĐ | 15'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 4'
