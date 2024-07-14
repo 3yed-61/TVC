@@ -122,12 +122,12 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 173",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -169,12 +169,12 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 173",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -570,6 +570,40 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "type": "vmess",
+            "server": "188.114.99.134",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "linde06.indiavideo.sbs",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "linde06.indiavideo.sbs"
+                }
+            }
+        },
+        {
             "tag": "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "ua-v2ray.ipracevpn.com",
@@ -614,11 +648,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 173",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
             "type": "vmess",
-            "server": "172.67.171.95",
-            "server_port": 80,
-            "uuid": "d723ded6-09f1-47ae-b5ec-ff04786897e9",
+            "server": "45.76.232.143",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -628,65 +662,10 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 175",
-            "type": "vmess",
-            "server": "172.67.171.56",
-            "server_port": 80,
-            "uuid": "27d46493-8693-4dc0-af97-0776591ad1a7",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
-            "type": "vmess",
-            "server": "188.114.97.3",
-            "server_port": 80,
-            "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/vmess",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 83",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
             "type": "vmess",
             "server": "104.19.47.20",
             "server_port": 8443,
@@ -716,6 +695,30 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hk01.linkitnow.net"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
