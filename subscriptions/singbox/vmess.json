@@ -127,7 +127,6 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -174,7 +173,6 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -695,30 +693,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "hk01.linkitnow.net"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
                 }
             }
         },
