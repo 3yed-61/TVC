@@ -125,8 +125,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 60",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -171,8 +172,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇦UA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 60",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -646,6 +648,30 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "5a8f774d-07b3-4c87-a2d3-be722e4f4dda",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 59",
             "type": "vmess",
             "server": "45.76.232.143",
@@ -663,7 +689,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 60",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 60",
             "type": "vmess",
             "server": "104.19.47.20",
             "server_port": 8443,
