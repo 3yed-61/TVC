@@ -120,7 +120,6 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"51.178.87.37","port":800,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 16","type":"ss","server":"145.239.6.202","port":8118,"password":"cdBIDV42DCwnfIN","cipher":"aes-256-gcm"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 17","type":"ss","server":"149.202.82.172","port":5001,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
   - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 12","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
@@ -130,7 +129,6 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 17'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 12'
@@ -140,7 +138,6 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 17'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 12'
@@ -149,7 +146,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 16'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 16'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 17'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 12'
