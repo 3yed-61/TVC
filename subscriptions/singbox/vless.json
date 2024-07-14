@@ -411,6 +411,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
@@ -471,7 +472,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "TVCrgswjnsqqm",
+                "TVCajfdblxzup",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
@@ -973,6 +974,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
@@ -1033,7 +1035,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "TVCrgswjnsqqm",
+                "TVCajfdblxzup",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
@@ -8523,6 +8525,27 @@
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
+            "type": "vless",
+            "server": "104.20.25.32",
+            "server_port": 8080,
+            "uuid": "f50e0469-3e74-4583-96bc-b6baa355093d",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram:@vmessorg-Telegram:@vmessorg-Telegram:@vmessorg?ed=8080",
+                "headers": {
+                    "Host": "104.20.25.32"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
             "type": "vless",
             "server": "104.27.62.243",
@@ -10206,7 +10229,7 @@
             }
         },
         {
-            "tag": "TVCrgswjnsqqm",
+            "tag": "TVCajfdblxzup",
             "type": "vless",
             "server": "",
             "server_port": 0,
