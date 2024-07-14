@@ -105,6 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 2",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 13",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 1",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 2",
@@ -127,6 +129,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 2",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 13",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 1",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 2",
@@ -163,6 +167,26 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 2",
+            "type": "shadowsocks",
+            "server": "89.107.10.65",
+            "server_port": 51348,
+            "method": "chacha20-ietf-poly1305",
+            "password": "WM5adrXijpwApm1wLsEB3WFSCrG9aQ6QAJjVc2btj73FvBnw",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 13",
+            "type": "shadowsocks",
+            "server": "45.158.171.141",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
