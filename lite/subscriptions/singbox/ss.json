@@ -106,8 +106,9 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 16",
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 17",
+                "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 17",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 18",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 12"
             ]
         },
@@ -115,8 +116,9 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 16",
-                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 17",
+                "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 17",
+                "🇬🇧GB | 🟢 | ss | 3λΞĐ | 18",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
                 "🇬🇧GB | 🟢 | ss | 3λΞĐ | 12"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,7 +142,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 16",
+            "tag": "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 17",
             "type": "shadowsocks",
             "server": "77.91.75.144",
             "server_port": 57456,
@@ -150,12 +152,22 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 17",
+            "tag": "🇬🇧GB | 🟢 | ss | 3λΞĐ | 18",
             "type": "shadowsocks",
             "server": "145.239.6.202",
             "server_port": 8118,
             "method": "aes-256-gcm",
             "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 1",
+            "type": "shadowsocks",
+            "server": "series-a2-mec.varzesh360.co",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         },
