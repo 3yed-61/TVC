@@ -117,6 +117,7 @@
                 "❔XX | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 4",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -177,6 +178,7 @@
                 "❔XX | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 4",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -635,6 +637,42 @@
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
                 }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 11",
+            "type": "vless",
+            "server": "www.tosino-mag.ir",
+            "server_port": 24824,
+            "uuid": "8ff1244d-b329-4b91-a440-0a2083a6eb87",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.uplod.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SAEqQzsU5t2eUBufJ0uFSYyuBA5vI_KG5YvV6fTxxl4",
+                    "short_id": "2b76cab6"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "www.uplod.ir"
+                ],
+                "path": "\/"
             }
         },
         {
