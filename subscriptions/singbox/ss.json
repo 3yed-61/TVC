@@ -105,6 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇦🇹AT | 🟢 | ss | 3λΞĐ | 0",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇮FI | 🟢 | ss | 3λΞĐ | 2",
@@ -118,7 +120,6 @@
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 10",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 11",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 13",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 16",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18"
@@ -128,6 +129,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇦🇹AT | 🟢 | ss | 3λΞĐ | 0",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇫🇮FI | 🟢 | ss | 3λΞĐ | 2",
@@ -141,7 +144,6 @@
                 "🇷🇺RU | 🟢 | ss | 3λΞĐ | 10",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 11",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 13",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 16",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18"
@@ -165,6 +167,26 @@
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇦🇹AT | 🟢 | ss | 3λΞĐ | 0",
+            "type": "shadowsocks",
+            "server": "95.164.9.144",
+            "server_port": 2927,
+            "method": "chacha20-ietf-poly1305",
+            "password": "ug4Fu79SEREdFGlt2sUyT4",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 8",
+            "type": "shadowsocks",
+            "server": "188.212.132.20",
+            "server_port": 52952,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 0",
@@ -293,16 +315,6 @@
             "server_port": 9802,
             "method": "chacha20-ietf-poly1305",
             "password": "5YBFWHQqw9vutAvKas9Wd0",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 14",
-            "type": "shadowsocks",
-            "server": "188.212.132.20",
-            "server_port": 52952,
-            "method": "chacha20-ietf-poly1305",
-            "password": "XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc",
             "plugin": "",
             "plugin_opts": ""
         },
