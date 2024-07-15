@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -177,6 +178,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -627,6 +629,35 @@
                     "enabled": true,
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 0",
+            "type": "vless",
+            "server": "141.95.75.212",
+            "server_port": 443,
+            "uuid": "200e059b-51ec-4825-8e95-5e49db5d22ad",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "analytics.google.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "yiHA11T4BplJbQxAfsQkiiAzAmyxWau-KR7dQptwjDU",
+                    "short_id": "c741ad33"
                 }
             }
         },
