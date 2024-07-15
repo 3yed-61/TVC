@@ -122,7 +122,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -174,7 +174,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
@@ -580,11 +580,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
-            "server": "188.114.99.134",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
+            "server": "s1c.v2.v001sss.xyz",
+            "server_port": 2082,
+            "uuid": "112ac36f-3f53-4e26-8371-d25c028e1b9a",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -595,21 +595,11 @@
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/",
                 "headers": {
-                    "Host": "linde06.indiavideo.sbs"
+                    "Host": "s1c.v2.v001sss.xyz"
                 }
             }
         },
