@@ -121,8 +121,8 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"3.73.45.155","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"51.20.237.232","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"15.237.55.233","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"52.29.156.38","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"18.189.252.221","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"3.97.212.233","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
@@ -132,8 +132,8 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 14'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 15'
   - name: URL-TEST
@@ -143,8 +143,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 14'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 15'
   - name: FALLBACK
@@ -153,8 +153,8 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 14'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 15'
 rule-providers:
