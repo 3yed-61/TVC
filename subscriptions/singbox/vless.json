@@ -472,7 +472,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "TVClosktaswcm",
+                "TVChepkgghohh",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
@@ -594,6 +594,7 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -1034,7 +1035,7 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "TVClosktaswcm",
+                "TVChepkgghohh",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 5",
@@ -1156,6 +1157,7 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
@@ -10227,7 +10229,7 @@
             }
         },
         {
-            "tag": "TVClosktaswcm",
+            "tag": "TVChepkgghohh",
             "type": "vless",
             "server": "",
             "server_port": 0,
@@ -13530,6 +13532,27 @@
             "server": "198.41.202.5",
             "server_port": 8880,
             "uuid": "b766b662-2c8a-4de6-99e0-dfd120a74975",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6",
+                "headers": {
+                    "Host": "198.41.202.5"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+            "type": "vless",
+            "server": "198.41.202.5",
+            "server_port": 8880,
+            "uuid": "57ac8853-e24b-43c6-9c01-bba5b5d968e6",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
