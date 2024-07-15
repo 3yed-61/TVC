@@ -123,7 +123,6 @@ proxies:
   - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 11","type":"trojan","server":"51.20.237.232","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 10","type":"trojan","server":"18.189.252.221","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 11","type":"trojan","server":"3.97.212.233","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -135,7 +134,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 11'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 10'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 11'
-      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -147,7 +145,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 11'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 10'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 11'
-      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -158,7 +155,6 @@ proxy-groups:
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 11'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 10'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 11'
-      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
