@@ -161,8 +161,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇹🇼TW | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 96",
@@ -261,8 +261,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇹🇼TW | 🔴 | vless | 3λΞĐ | 10",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 96",
@@ -1679,6 +1679,27 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "104.21.94.168",
+            "server_port": 8080,
+            "uuid": "%31%36%39%63%35%61%36%38%2d%39%64%36%61%2d%34%31%32%39%2d%62%34%66%34%2d%35%61%30%30%38%39%33%39%37%61%62%30",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/VPNCUSTOMIZE?ed=8080",
+                "headers": {
+                    "Host": "104.21.94.168"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
             "server": "172.67.138.69",
@@ -1696,27 +1717,6 @@ https://github.com/3yed-61
                 "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
                 "headers": {
                     "Host": "172.67.138.69"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
-            "type": "vless",
-            "server": "104.21.69.44",
-            "server_port": 8080,
-            "uuid": "%31%33%65%33%39%34%34%64%2d%32%63%33%37%2d%34%64%36%64%2d%62%33%64%30%2d%63%34%39%33%66%37%33%64%34%39%38%34",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:@UnlimitedDev-Telegram:@UnlimitedDev?ed=8080",
-                "headers": {
-                    "Host": "104.21.69.44"
                 }
             }
         },
