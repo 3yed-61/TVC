@@ -143,9 +143,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 31",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 40",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 96",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 98",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 113",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 114",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -157,6 +158,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -207,9 +209,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 31",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 40",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 96",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 98",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 113",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 114",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -221,6 +224,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -1193,7 +1197,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 88",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 98",
+            "type": "vmess",
+            "server": "155.138.159.139",
+            "server_port": 8881,
+            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 99",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1227,7 +1248,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 95",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 113",
             "type": "vmess",
             "server": "107.191.44.194",
             "server_port": 8881,
@@ -1244,7 +1265,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 96",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 114",
             "type": "vmess",
             "server": "104.19.47.20",
             "server_port": 8443,
@@ -1562,6 +1583,40 @@
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 443,
+            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "jahfkjha.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "jahfkjha.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
