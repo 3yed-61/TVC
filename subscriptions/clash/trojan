@@ -149,6 +149,8 @@ proxies:
   - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 11","type":"trojan","server":"18.168.132.181","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"18.171.23.198","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"13.36.61.20","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"13.37.70.225","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"13.51.50.217","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0","type":"trojan","server":"13.39.171.159","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
@@ -187,6 +189,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 11'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 12'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
   - name: URL-TEST
     type: url-test
@@ -225,6 +229,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 11'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 12'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
   - name: FALLBACK
     type: fallback
@@ -262,6 +268,8 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 11'
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 12'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 13'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
