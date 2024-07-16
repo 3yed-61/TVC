@@ -118,8 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇦🇹AT | 🟢 | ss | 3λΞĐ | 3","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 11","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇦🇹AT | 🟢 | ss | 3λΞĐ | 4","type":"ss","server":"95.164.9.144","port":2927,"password":"ug4Fu79SEREdFGlt2sUyT4","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 12","type":"ss","server":"188.212.132.20","port":52952,"password":"XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 0","type":"ss","server":"45.158.171.141","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 1","type":"ss","server":"paris.telegavpn.com","port":9802,"password":"VXM5pQTNAgSr2j9sYow8k9","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"23.157.40.47","port":3389,"password":"Y6R9pAtvxxzmGC","cipher":"aes-256-gcm"}
@@ -143,8 +143,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 3'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 11'
+      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 12'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
@@ -168,8 +168,8 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 3'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 11'
+      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 12'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
@@ -192,8 +192,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 3'
-      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 11'
+      - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 4'
+      - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 12'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 2'
