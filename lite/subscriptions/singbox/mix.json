@@ -151,7 +151,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
@@ -186,7 +185,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -220,8 +220,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 11",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 21",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 22",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 23",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -281,7 +281,6 @@ https://github.com/3yed-61
                 "🇸🇪SE | 🟢 | trojan | 3λΞĐ | 15",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 16",
@@ -316,7 +315,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -350,8 +350,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 11",
                 "🇨🇷CR | 🔴 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 21",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 22",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 23",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
@@ -1451,30 +1451,6 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-            "type": "vmess",
-            "server": "172.67.199.216",
-            "server_port": 8080,
-            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "172.67.199.216"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "pandor.boats",
@@ -2328,7 +2304,17 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "188.212.132.20",
+            "server_port": 52952,
+            "method": "chacha20-ietf-poly1305",
+            "password": "XRUwpkSouW5HCTUFUxErfnL5AmahofrjznVrAu2iNFMFGUCrChznAULhuHGAQdC463mzcgo2jV546Ut5HKhk3pz956cHYYyc",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
@@ -3238,7 +3224,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 21",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 22",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
@@ -3259,7 +3245,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 22",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 23",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
