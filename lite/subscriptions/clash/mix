@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
+  - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"188.245.73.139","port":"41858","cipher":"auto","uuid":"acbc72c9-5b2b-4be2-8ffd-262cda898a3a","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"15.236.138.65","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"15.236.140.182","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
@@ -144,7 +144,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 1'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
@@ -170,7 +170,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 1'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
@@ -195,7 +195,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 1'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 14'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 15'
