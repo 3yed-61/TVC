@@ -109,8 +109,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 199",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -130,8 +130,8 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 199",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -215,11 +215,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
-            "server": "185.146.173.158",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
+            "server": "zula.ir",
+            "server_port": 80,
+            "uuid": "ffaa16d7-4fc8-4436-b43f-725743de3ff9",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -230,28 +230,18 @@ https://github.com/3yed-61
                 "protocol": "smux",
                 "max_streams": 32
             },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
             "transport": {
                 "type": "ws",
-                "path": "\/linkws",
+                "path": "\/dgfgdfgdfg",
                 "headers": {
-                    "Host": "jahfkjha.cfd"
+                    "Host": ""
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
-            "server": "zula.ir",
+            "server": "185.146.173.158",
             "server_port": 443,
             "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
             "security": "auto",
