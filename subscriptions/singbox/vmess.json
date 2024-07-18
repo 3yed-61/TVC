@@ -133,10 +133,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 184",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 190",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 201",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 202",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 208",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -192,10 +191,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 3",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 184",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 190",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 201",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 202",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 208",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -873,7 +871,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -897,7 +895,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 184",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 202",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -914,7 +912,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 190",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 208",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -945,23 +943,6 @@
                 "headers": {
                     "Host": "kingo.hightechservice.ir"
                 }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 201",
-            "type": "vmess",
-            "server": "108.61.224.122",
-            "server_port": 8881,
-            "uuid": "db5afae4-ac23-41a6-8378-f307a9a47436",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
