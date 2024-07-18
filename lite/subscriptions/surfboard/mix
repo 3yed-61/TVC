@@ -12,10 +12,10 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 3.248.49.145, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15 = trojan, 18.170.174.185, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 54.217.60.216, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15 = trojan, 35.176.142.159, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16 = trojan, 3.248.49.145, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17 = trojan, 18.170.174.185, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16 = trojan, 54.217.60.216, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17 = trojan, 35.176.142.159, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4 = trojan, 151.115.83.239, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = egajz.phooeyunfold.com, ws = false
 🇺🇸US | 🟢 | vmess | 3λΞĐ | 5 = vmess, zula.ir, 80, username = ffaa16d7-4fc8-4436-b43f-725743de3ff9, ws = true, tls = , vmess-aead = true, ws-path = /dgfgdfgdfg, ws-headers = Host:"speedtest.net.anymath.ir", skip-cert-verify = true, tfo = false
 🇷🇺RU | 🟢 | ss | 3λΞĐ | 17 = ss, 45.139.24.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = 3fbeb668f48414f6
@@ -29,9 +29,9 @@ DIRECT = direct
 🇺🇸US | 🟢 | vmess | 3λΞĐ | 9 = vmess, zula.ir, 2096, username = 2ffbfa07-7161-47fc-8a3b-f94e02a28f49, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"kingo.hightechservice.ir", skip-cert-verify = true, tfo = false
 🇺🇸US | 🟢 | vmess | 3λΞĐ | 10 = vmess, zula.ir, 2096, username = b17fd137-b80e-4eda-b7d5-28bd89c735ea, ws = true, tls = 1, vmess-aead = true, ws-path = /, ws-headers = Host:"kingo.hightechservice.ir", skip-cert-verify = true, tfo = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
-URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
-FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
+URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
+FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇵🇱PL | 🔴 | trojan | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 5,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇳🇱NL | 🟢 | ss | 3λΞĐ | 18,🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 3,🇺🇸US | 🟢 | vmess | 3λΞĐ | 4,🇺🇸US | 🟢 | vmess | 3λΞĐ | 0,🇺🇸US | 🟢 | vmess | 3λΞĐ | 1,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 6,🇺🇸US | 🟢 | vmess | 3λΞĐ | 9,🇺🇸US | 🟢 | vmess | 3λΞĐ | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
