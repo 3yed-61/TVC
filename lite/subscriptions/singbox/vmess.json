@@ -109,7 +109,6 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 17",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -118,6 +117,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11"
             ]
         },
@@ -128,7 +128,6 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 17",
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
@@ -137,6 +136,7 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -208,40 +208,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 17",
-            "type": "vmess",
-            "server": "::ffff:6815:fd4",
-            "server_port": 443,
-            "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "glweidf.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "glweidf.sbs"
-                }
             }
         },
         {
@@ -440,6 +406,40 @@ https://github.com/3yed-61
         },
         {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "type": "vmess",
+            "server": "172.67.71.160",
+            "server_port": 443,
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "obdii.cfd",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "obdii.cfd"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "104.21.95.165",
             "server_port": 443,
