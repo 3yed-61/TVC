@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18"
+                "❔XX | 🟢 | ss | 3λΞĐ | 17",
+                "❔XX | 🟢 | ss | 3λΞĐ | 18"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18"
+                "❔XX | 🟢 | ss | 3λΞĐ | 17",
+                "❔XX | 🟢 | ss | 3λΞĐ | 18"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,7 +138,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
+            "tag": "❔XX | 🟢 | ss | 3λΞĐ | 17",
             "type": "shadowsocks",
             "server": "45.139.24.63",
             "server_port": 57456,
@@ -148,7 +148,7 @@ https://github.com/3yed-61
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "❔XX | 🟢 | ss | 3λΞĐ | 18",
             "type": "shadowsocks",
             "server": "45.158.171.129",
             "server_port": 8080,
