@@ -116,8 +116,6 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 14",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 15",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 5",
@@ -155,8 +153,8 @@
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
@@ -815,8 +813,6 @@
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 14",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 15",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 3",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 5",
@@ -854,8 +850,8 @@
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 3",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
@@ -1734,48 +1730,6 @@
             "server": "www.parsvds.ir",
             "server_port": 8080,
             "uuid": "-ELiV2ray--Tel--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ELENA--repo.steampowered.com?ed=8080",
-                "headers": {
-                    "Host": "www.parsvds.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 14",
-            "type": "vless",
-            "server": "www.visa.com",
-            "server_port": 2082,
-            "uuid": "-ELiV2ray--ELiV2ray-",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/eli.elmahstyle.ir?ed=2082",
-                "headers": {
-                    "Host": "www.visa.com"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 15",
-            "type": "vless",
-            "server": "www.parsvds.ir",
-            "server_port": 8080,
-            "uuid": "-ELiV2ray--ELiV2ray-",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -2749,7 +2703,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -2770,7 +2724,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "www.speedtest.net",
             "server_port": 80,
