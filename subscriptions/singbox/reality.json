@@ -117,6 +117,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 158",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
@@ -178,6 +179,7 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 158",
                 "❔XX | 🔴 | vless | 3λΞĐ | 1",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
@@ -608,6 +610,35 @@
                     "enabled": true,
                     "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
                     "short_id": "8f90c18dc7b2652b"
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 158",
+            "type": "vless",
+            "server": "tr1.tradex2080.com",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.upci.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
