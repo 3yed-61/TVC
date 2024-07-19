@@ -105,7 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 3",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 5",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | ss | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
@@ -121,15 +121,14 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 16",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 18"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 3",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 5",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | ss | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 3",
@@ -145,8 +144,7 @@
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 14",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 15",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 16",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 18"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 17"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -169,7 +167,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 3",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 5",
             "type": "shadowsocks",
             "server": "irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net",
             "server_port": 443,
@@ -335,16 +333,6 @@
             "server_port": 9802,
             "method": "chacha20-ietf-poly1305",
             "password": "aSsoG8kTeefvH0s5A7tchH",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 18",
-            "type": "shadowsocks",
-            "server": "45.139.24.63",
-            "server_port": 57456,
-            "method": "chacha20-ietf-poly1305",
-            "password": "3fbeb668f48414f6",
             "plugin": "",
             "plugin_opts": ""
         }
