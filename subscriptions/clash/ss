@@ -118,6 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
+  - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 14","type":"ss","server":"92.243.27.51","port":9802,"password":"U4D84cy6AL3DaC54iwDToP","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇦🇪AE | 🟢 | ss | 3λΞĐ | 6","type":"ss","server":"irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇷🇺RU | 🟢 | ss | 3λΞĐ | 0","type":"ss","server":"moscow.telegavpn.com","port":60422,"password":"KvEboxbgHMCFq3hTg5d1J5","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
@@ -142,6 +143,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
       - '🇦🇪AE | 🟢 | ss | 3λΞĐ | 6'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 0'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
@@ -166,6 +168,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
       - '🇦🇪AE | 🟢 | ss | 3λΞĐ | 6'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 0'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
@@ -189,6 +192,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 14'
       - '🇦🇪AE | 🟢 | ss | 3λΞĐ | 6'
       - '🇷🇺RU | 🟢 | ss | 3λΞĐ | 0'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 2'
