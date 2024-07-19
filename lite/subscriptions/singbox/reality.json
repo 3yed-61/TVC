@@ -108,6 +108,7 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -120,6 +121,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -200,6 +202,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 17",
+            "type": "vless",
+            "server": "92.246.136.89",
+            "server_port": 1234,
+            "uuid": "1149be91-5a4f-47de-995f-66f8d7d64498",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.icloud.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "L2b7MW4F9bT8ALwebQtCbXGTaH5sl9o97BxmynrlxHo",
+                    "short_id": "8f90c18dc7b2652b"
                 }
             }
         },
