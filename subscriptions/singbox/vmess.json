@@ -144,7 +144,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 22",
@@ -165,7 +165,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 40",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 41",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 43",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 165",
@@ -231,7 +230,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 20",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 22",
@@ -252,7 +251,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 40",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 41",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 43",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 165",
@@ -1297,7 +1295,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 19",
             "type": "vmess",
             "server": "npmjs.com",
             "server_port": 443,
@@ -1937,30 +1935,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "5a8f774d-07b3-4c87-a2d3-be722e4f4dda",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
             }
         },
         {
