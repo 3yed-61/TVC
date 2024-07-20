@@ -108,14 +108,13 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 198",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 199",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "🇬🇧GB | 🟢 | vless | 3λΞĐ | 13",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "❔XX | 🟢 | vless | 3λΞĐ | 13"
+                "❔XX | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8"
             ]
         },
         {
@@ -124,14 +123,13 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 198",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 199",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "🇬🇧GB | 🟢 | vless | 3λΞĐ | 13",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "❔XX | 🟢 | vless | 3λΞĐ | 13"
+                "❔XX | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -208,71 +206,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "fGc5_76xeIvGaobieJalJow4MRsVX7LJsand8O2ZlU4",
                     "short_id": "5c53b7e0"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 198",
-            "type": "vless",
-            "server": "45.76.2.254",
-            "server_port": 12345,
-            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "refersion.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
-                    "short_id": "c57d2373"
-                }
-            },
-            "transport": {
-                "type": "http",
-                "host": [
-                    "refersion.com"
-                ],
-                "path": "\/"
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 199",
-            "type": "vless",
-            "server": "45.76.2.254",
-            "server_port": 443,
-            "uuid": "b927294d-b137-45ff-ac76-86d774a15c0a",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "zula.ir",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "ypqMZeJHgAmookEe0qEObGo4kiEcTIu3nyV6AFfGDRU",
-                    "short_id": "f394b7d3"
                 }
             }
         },
@@ -461,6 +394,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
                     "short_id": "e0"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
+            "type": "vless",
+            "server": "xn--tr8h.snappfoodi.com.",
+            "server_port": 8081,
+            "uuid": "SVNTEAM",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "discord.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0eHwd7gjc3HkKzk1mCWhSt-Yt2efpwH4gA6bFZ7IRCA",
+                    "short_id": "eab22c4c"
                 }
             }
         }
