@@ -105,7 +105,6 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 2",
                 "🇦🇪AE | 🟢 | ss | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 1",
@@ -114,7 +113,7 @@
                 "🇸🇪SE | 🟢 | ss | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 6",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 7",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 9",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 9",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 11",
                 "🇫🇮FI | 🟢 | ss | 3λΞĐ | 13",
@@ -129,7 +128,6 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 2",
                 "🇦🇪AE | 🟢 | ss | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 0",
                 "🇩🇪DE | 🟢 | ss | 3λΞĐ | 1",
@@ -138,7 +136,7 @@
                 "🇸🇪SE | 🟢 | ss | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 6",
                 "🇰🇿KZ | 🟢 | ss | 3λΞĐ | 7",
-                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 9",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 9",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 11",
                 "🇫🇮FI | 🟢 | ss | 3λΞĐ | 13",
@@ -167,16 +165,6 @@
         {
             "tag": "dns-out",
             "type": "dns"
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | ss | 3λΞĐ | 2",
-            "type": "shadowsocks",
-            "server": "134.195.196.178",
-            "server_port": 800,
-            "method": "chacha20-ietf-poly1305",
-            "password": "G!yBwPWH3Vao",
-            "plugin": "",
-            "plugin_opts": ""
         },
         {
             "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 7",
@@ -259,7 +247,7 @@
             "plugin_opts": ""
         },
         {
-            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 9",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 9",
             "type": "shadowsocks",
             "server": "45.158.171.141",
             "server_port": 8080,
