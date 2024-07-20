@@ -106,6 +106,7 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 17"
             ]
@@ -114,6 +115,7 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 17"
             ],
@@ -136,6 +138,16 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "205.134.180.139",
+            "server_port": 443,
+            "method": "chacha20-ietf-poly1305",
+            "password": "lWaGPVFjmnag",
+            "plugin": "",
+            "plugin_opts": ""
         },
         {
             "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 16",
