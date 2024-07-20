@@ -169,8 +169,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 192",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 173",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 195",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -181,10 +181,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ]
         },
@@ -256,8 +256,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 192",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 173",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 195",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -268,10 +268,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -2063,7 +2063,24 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 177",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 173",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 195",
             "type": "vmess",
             "server": "172.66.213.38",
             "server_port": 80,
@@ -2084,23 +2101,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 192",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
@@ -2404,7 +2404,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -2472,7 +2472,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -2506,7 +2506,7 @@
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
