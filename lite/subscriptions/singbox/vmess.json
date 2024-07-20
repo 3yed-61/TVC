@@ -115,10 +115,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ]
@@ -136,10 +136,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 7",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ],
@@ -372,41 +372,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 6",
-            "type": "vmess",
-            "server": "v2ray.wefuckgfw.ga",
-            "server_port": 2096,
-            "uuid": "ca89295f-58be-4e4b-b4f6-7d8baf188ed3",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "v2ray.wefuckgfw.ga",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/H8VswtUJ\/",
-                "headers": {
-                    "Host": "v2ray.wefuckgfw.ga"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "v2ray.wefuckgfw.ga",
             "server_port": 2096,
@@ -440,7 +406,41 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 5",
+            "type": "vmess",
+            "server": "v1.tgfaka.com",
+            "server_port": 8443,
+            "uuid": "00b19c02-bc00-440a-a397-faf70ac3f44e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "v1.tgfaka.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/api\/v3\/download.getFile",
+                "headers": {
+                    "Host": "v1.tgfaka.com"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -474,7 +474,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "172.67.175.56",
             "server_port": 443,
