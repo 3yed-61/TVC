@@ -167,16 +167,17 @@
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 35",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 177",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 0",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 1",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -252,16 +253,17 @@
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 35",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 177",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 0",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 1",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -2018,7 +2020,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
             "type": "vmess",
             "server": "172.66.213.38",
             "server_port": 80,
@@ -2042,7 +2044,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 177",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -2209,7 +2211,31 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "104.19.47.171",
+            "server_port": 8080,
+            "uuid": "b551aa22-22af-11ee-b8d8-f23c932eb68d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/&Telegram🇨🇳@WangCai2",
+                "headers": {
+                    "Host": "104.19.47.171"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "v2ray.wefuckgfw.ga",
             "server_port": 2096,
@@ -2243,7 +2269,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 2",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "v1.tgfaka.com",
             "server_port": 8443,
@@ -2277,7 +2303,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "v2ray.wefuckgfw.ga",
             "server_port": 2096,
