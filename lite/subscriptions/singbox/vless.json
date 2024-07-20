@@ -201,8 +201,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "🇨🇷CR | 🔴 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
+                "❔XX | 🟢 | vless | 3λΞĐ | 13",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
@@ -312,8 +312,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 2",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
-                "🇨🇷CR | 🔴 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
+                "❔XX | 🟢 | vless | 3λΞĐ | 13",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 13",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 3",
                 "❔XX | 🔴 | vless | 3λΞĐ | 4",
@@ -2567,12 +2567,12 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇷CR | 🔴 | vless | 3λΞĐ | 13",
+            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 13",
             "type": "vless",
-            "server": "My.GozargahVPN.top",
+            "server": "GozargahVPN.anten.cloud",
             "server_port": 443,
-            "uuid": "b897d1a5-6a30-45bb-8244-bbae99672609",
-            "flow": "",
+            "uuid": "541f5c7b-9f58-4724-f0bc-8d671fb01c29",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
@@ -2581,24 +2581,22 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.GozargahVPN.top",
+                "server_name": "speed.cloudflare.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram:,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,@GozargahVPN,",
-                "headers": {
-                    "Host": "www.GozargahVPN.top"
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "iM2Akh6iaoP_wLD1i-tIr6NTUP8HsIrPAB1-h3p-wGo",
+                    "short_id": "e0"
                 }
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 12",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 12",
             "type": "vless",
             "server": "mtn.VPNPROSEC.com",
             "server_port": 80,
