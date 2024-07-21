@@ -109,13 +109,14 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 47",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 34",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 35",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
@@ -128,13 +129,14 @@ https://github.com/3yed-61
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 47",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 34",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 35",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
@@ -211,7 +213,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -269,11 +271,35 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 47",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 34",
             "type": "vmess",
-            "server": "23.158.56.49",
-            "server_port": 22324,
-            "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+            "server": "104.16.219.108",
+            "server_port": 80,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/Telegram\/XV2ray",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 35",
+            "type": "vmess",
+            "server": "128.140.124.18",
+            "server_port": 2086,
+            "uuid": "FILTERSHCAN",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -310,7 +336,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
             "server": "104.26.8.210",
             "server_port": 443,
@@ -340,6 +366,30 @@ https://github.com/3yed-61
                 "path": "\/66",
                 "headers": {
                     "Host": "104.26.8.210"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 8",
+            "type": "vmess",
+            "server": "cn05.downloadmovie.cn",
+            "server_port": 65038,
+            "uuid": "0253b574-8020-3186-a647-0267295ac9bb",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/rocket",
+                "headers": {
+                    "Host": "cn05.downloadmovie.cn"
                 }
             }
         },
@@ -374,30 +424,6 @@ https://github.com/3yed-61
                 "path": "\/path\/133220121417",
                 "headers": {
                     "Host": "38.33.45.87"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-            "type": "vmess",
-            "server": "104.19.55.79",
-            "server_port": 2052,
-            "uuid": "d6b6d982-d52f-465a-b988-85670b23f64a",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/github.com\/Alvin9999",
-                "headers": {
-                    "Host": "104.19.55.79"
                 }
             }
         },
