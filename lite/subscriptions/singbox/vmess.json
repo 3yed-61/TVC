@@ -110,12 +110,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ]
@@ -128,12 +128,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9"
             ],
@@ -226,7 +226,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
@@ -318,6 +318,30 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+            "type": "vmess",
+            "server": "104.19.55.79",
+            "server_port": 2052,
+            "uuid": "d6b6d982-d52f-465a-b988-85670b23f64a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/github.com\/Alvin9999",
+                "headers": {
+                    "Host": "104.19.55.79"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
             "type": "vmess",
             "server": "89.116.247.84",
@@ -335,31 +359,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-            "type": "vmess",
-            "server": "speed.cloudflare.com",
-            "server_port": 8080,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/Telegram\/XV2ray",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 443,
