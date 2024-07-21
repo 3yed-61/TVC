@@ -109,7 +109,8 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 186",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 186",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 187",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -125,7 +126,8 @@ https://github.com/3yed-61
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 186",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 186",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 187",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -241,11 +243,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 186",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 186",
             "type": "vless",
-            "server": "tr1.tradex2080.com",
-            "server_port": 443,
-            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "server": "45.32.6.237",
+            "server_port": 12345,
+            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -255,7 +257,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.upci.org",
+                "server_name": "refersion.com",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -264,9 +266,52 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
-                    "short_id": "ee46"
+                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
+                    "short_id": "c57d2373"
                 }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "refersion.com"
+                ],
+                "path": "\/"
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 187",
+            "type": "vless",
+            "server": "45.77.100.91",
+            "server_port": 12345,
+            "uuid": "177dfbdf-8337-40ea-8791-906924b9fb2f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "refersion.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "0hue6xKKmwuEefA0eMXQszxESSoagq2kqLB_gPrRc3s",
+                    "short_id": "c57d2373"
+                }
+            },
+            "transport": {
+                "type": "http",
+                "host": [
+                    "refersion.com"
+                ],
+                "path": "\/"
             }
         },
         {
