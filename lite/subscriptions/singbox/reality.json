@@ -108,13 +108,14 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
+                "❔XX | 🟢 | vless | 3λΞĐ | 14",
+                "❔XX | 🟢 | vless | 3λΞĐ | 186",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+                "❔XX | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "❔XX | 🟢 | vless | 3λΞĐ | 13",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8"
+                "❔XX | 🔴 | vless | 3λΞĐ | 8"
             ]
         },
         {
@@ -123,13 +124,14 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇰🇷KR | 🔴 | vless | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
+                "❔XX | 🟢 | vless | 3λΞĐ | 14",
+                "❔XX | 🟢 | vless | 3λΞĐ | 186",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+                "❔XX | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21",
                 "❔XX | 🟢 | vless | 3λΞĐ | 13",
-                "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8"
+                "❔XX | 🔴 | vless | 3λΞĐ | 8"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -210,7 +212,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 14",
+            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 14",
             "type": "vless",
             "server": "91.107.174.135",
             "server_port": 1000,
@@ -235,6 +237,35 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "xqlmWddryaShYnqVDlceZdvSxmwIZ6rJwpUEulJwNkA",
                     "short_id": "d2952538"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 186",
+            "type": "vless",
+            "server": "tr1.tradex2080.com",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.upci.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
@@ -268,7 +299,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
@@ -398,7 +429,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 8",
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 8",
             "type": "vless",
             "server": "xn--tr8h.snappfoodi.com.",
             "server_port": 8081,
