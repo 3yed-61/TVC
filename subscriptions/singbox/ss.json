@@ -105,8 +105,7 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 8",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 9",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇧🇭BH | 🟢 | ss | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 4",
@@ -126,8 +125,7 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 8",
+                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 9",
                 "🇫🇷FR | 🟢 | ss | 3λΞĐ | 0",
                 "🇧🇭BH | 🟢 | ss | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | ss | 3λΞĐ | 4",
@@ -163,17 +161,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
-            "type": "shadowsocks",
-            "server": "205.134.180.139",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "lWaGPVFjmnag",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 8",
+            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 9",
             "type": "shadowsocks",
             "server": "irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net",
             "server_port": 443,
