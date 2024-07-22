@@ -120,7 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
-  - {"name":"🇺🇸US | 🔴 | vless | 3λΞĐ | 2","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"1d86846c-5a27-43c8-8981-57bb75c82195","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"tymks.dfonni.info","ws-opts":{"path":"/paradise","headers":{"host":"tymks.dfonni.info"}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 2","type":"vless","server":"www.speedtest.net","port":443,"udp":false,"uuid":"1d86846c-5a27-43c8-8981-57bb75c82195","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"tymks.dfonni.info","ws-opts":{"path":"/paradise","headers":{"host":"tymks.dfonni.info"}}}
   - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 7","type":"vless","server":"www.speedtest.net","port":8880,"udp":false,"uuid":"4db7e0f4-7db2-4270-8702-968c95c2ac30","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/wp-admin/index.html -@Eliv2","headers":{"host":"oiajdiOam81723489715maudhiauwh128473t.JoinBede-ELiV2.net."}}}
   - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 0","type":"vless","server":"zula.ir","port":80,"udp":false,"uuid":"6d20fbb4-332c-4494-b5dc-0ea1d589930e","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@NIM_VPN_ir,@NIM_VPN_ir","headers":{"host":"asdwds.kolacghi.ir"}}}
   - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"zula.ir","port":80,"udp":false,"uuid":"c4ca80f8-6df0-4f6a-89cb-fbc8c5affc7f","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/@NIM_VPN_ir,@NIM_VPN_ir","headers":{"host":"asdwds.kolacghi.ir"}}}
@@ -490,7 +490,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 2'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 7'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
@@ -860,7 +860,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 2'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 7'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
@@ -1229,7 +1229,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 2'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 7'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
