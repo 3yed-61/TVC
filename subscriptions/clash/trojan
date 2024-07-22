@@ -150,8 +150,9 @@ proxies:
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12","type":"trojan","server":"99.79.173.129","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13","type":"trojan","server":"3.67.106.95","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"52.16.85.89","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 0","type":"trojan","server":"169.150.206.186","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmem.phooeyunfold.com"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 2","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
+  - {"name":"🇨🇦CA | 🔴 | trojan | 3λΞĐ | 2","type":"trojan","server":"138.199.57.185","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"eiety.phooeyunfold.com"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 3","type":"trojan","server":"169.150.206.186","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"tpmem.phooeyunfold.com"}
+  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 5","type":"trojan","server":"138.199.41.25","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"dngn.phooeyunfold.com"}
   - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0","type":"trojan","server":"62.210.82.54","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wuxgk.phooeyunfold.com"}
 proxy-groups:
   - name: MANUAL
@@ -191,8 +192,9 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
   - name: URL-TEST
     type: url-test
@@ -232,8 +234,9 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
   - name: FALLBACK
     type: fallback
@@ -272,8 +275,9 @@ proxy-groups:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 12'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 13'
       - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 2'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
       - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 0'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
