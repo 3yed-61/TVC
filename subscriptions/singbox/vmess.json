@@ -182,7 +182,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -275,7 +274,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -2368,40 +2366,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-            "type": "vmess",
-            "server": "188.114.97.79",
-            "server_port": 443,
-            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "linde06.indiavideo.sbs",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
