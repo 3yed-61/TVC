@@ -132,7 +132,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 152",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 158",
@@ -151,7 +150,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -195,7 +194,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
-                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 152",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 158",
@@ -214,7 +212,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -878,40 +876,6 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 8",
-            "type": "vmess",
-            "server": "az05.beyondy.cfd",
-            "server_port": 443,
-            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "az05.beyondy.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/link",
-                "headers": {
-                    "Host": "az05.beyondy.cfd"
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 131",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -1332,13 +1296,13 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 5",
             "type": "vmess",
-            "server": "38.38.148.233",
-            "server_port": 37001,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "az05.beyondy.cfd",
+            "server_port": 443,
+            "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 0,
             "global_padding": false,
             "authenticated_length": true,
             "packet_encoding": "",
@@ -1349,7 +1313,7 @@
             },
             "tls": {
                 "enabled": true,
-                "server_name": "38.38.148.233",
+                "server_name": "az05.beyondy.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1359,9 +1323,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "\/path\/1719749022163",
+                "path": "\/link",
                 "headers": {
-                    "Host": "38.38.148.233"
+                    "Host": "az05.beyondy.cfd"
                 }
             }
         },
