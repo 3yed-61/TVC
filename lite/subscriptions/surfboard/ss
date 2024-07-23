@@ -12,11 +12,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇷🇺RU | 🟢 | ss | 3λΞĐ | 15 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = KvEboxbgHMCFq3hTg5d1J5
-🇮🇪IE | 🟢 | ss | 3λΞĐ | 12 = ss, 13.74.171.103, 46541, encrypt-method = chacha20-ietf-poly1305, password = lZJqAB32wR97hbobEBmWV0
+🇮🇪IE | 🟢 | ss | 3λΞĐ | 13 = ss, 13.74.171.103, 46541, encrypt-method = chacha20-ietf-poly1305, password = lZJqAB32wR97hbobEBmWV0
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 12
-URL-TEST = url-test,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 12
-FALLBACK = fallback,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 12
+MANUAL = select,URL-TEST,FALLBACK,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 13
+URL-TEST = url-test,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 13
+FALLBACK = fallback,🇷🇺RU | 🟢 | ss | 3λΞĐ | 15,🇮🇪IE | 🟢 | ss | 3λΞĐ | 13
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
