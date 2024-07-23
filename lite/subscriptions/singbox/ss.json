@@ -106,7 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 15",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 15",
+                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 16",
                 "🇮🇪IE | 🟢 | ss | 3λΞĐ | 13"
             ]
         },
@@ -114,7 +115,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 15",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 15",
+                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 16",
                 "🇮🇪IE | 🟢 | ss | 3λΞĐ | 13"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -138,7 +140,17 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 15",
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 15",
+            "type": "shadowsocks",
+            "server": "136.244.81.170",
+            "server_port": 20888,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Ogwe91HAvsUbekR0J8fLEr",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 16",
             "type": "shadowsocks",
             "server": "moscow.telegavpn.com",
             "server_port": 60422,
