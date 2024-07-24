@@ -138,7 +138,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 11",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+                "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 172",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 187",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 1",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -196,7 +197,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 9",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 11",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+                "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 172",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 187",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 1",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -978,7 +980,31 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 172",
+            "tag": "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 172",
+            "type": "vmess",
+            "server": "irtr1.ngiftcard.com",
+            "server_port": 80,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/34L4qODA1XwJYopk6e398A",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 187",
             "type": "vmess",
             "server": null,
             "server_port": 0,
