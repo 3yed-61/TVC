@@ -11,14 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇩🇪DE | 🟢 | ss | 3λΞĐ | 15 = ss, 136.244.81.170, 20888, encrypt-method = chacha20-ietf-poly1305, password = Ogwe91HAvsUbekR0J8fLEr
-🇷🇺RU | 🟢 | ss | 3λΞĐ | 16 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = KvEboxbgHMCFq3hTg5d1J5
+🇩🇪DE | 🟢 | ss | 3λΞĐ | 16 = ss, 136.244.81.170, 20888, encrypt-method = chacha20-ietf-poly1305, password = Ogwe91HAvsUbekR0J8fLEr
+🇷🇺RU | 🟢 | ss | 3λΞĐ | 17 = ss, moscow.telegavpn.com, 60422, encrypt-method = chacha20-ietf-poly1305, password = KvEboxbgHMCFq3hTg5d1J5
 🇩🇪DE | 🟢 | ss | 3λΞĐ | 13 = ss, 168.119.57.171, 51348, encrypt-method = chacha20-ietf-poly1305, password = I53uJsZc6dzTBYDEqg1a30Bh1hAd4HQzgpwCVdpzKwfF2ZUh
 🇮🇪IE | 🟢 | ss | 3λΞĐ | 14 = ss, 13.74.171.103, 46541, encrypt-method = chacha20-ietf-poly1305, password = lZJqAB32wR97hbobEBmWV0
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | ss | 3λΞĐ | 15,🇷🇺RU | 🟢 | ss | 3λΞĐ | 16,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
-URL-TEST = url-test,🇩🇪DE | 🟢 | ss | 3λΞĐ | 15,🇷🇺RU | 🟢 | ss | 3λΞĐ | 16,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
-FALLBACK = fallback,🇩🇪DE | 🟢 | ss | 3λΞĐ | 15,🇷🇺RU | 🟢 | ss | 3λΞĐ | 16,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | ss | 3λΞĐ | 16,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
+URL-TEST = url-test,🇩🇪DE | 🟢 | ss | 3λΞĐ | 16,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
+FALLBACK = fallback,🇩🇪DE | 🟢 | ss | 3λΞĐ | 16,🇷🇺RU | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 13,🇮🇪IE | 🟢 | ss | 3λΞĐ | 14
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
