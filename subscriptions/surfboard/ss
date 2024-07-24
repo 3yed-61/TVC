@@ -27,11 +27,10 @@ DIRECT = direct
 🇦🇪AE | 🟢 | ss | 3λΞĐ | 13 = ss, irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇧🇭BH | 🟢 | ss | 3λΞĐ | 15 = ss, 15.184.18.52, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🇩🇪DE | 🟢 | ss | 3λΞĐ | 17 = ss, 136.244.81.170, 20888, encrypt-method = chacha20-ietf-poly1305, password = Ogwe91HAvsUbekR0J8fLEr
-🇺🇸US | 🟢 | ss | 3λΞĐ | 11 = ss, 38.107.226.146, 1230, encrypt-method = chacha20-ietf-poly1305, password = H5S0hvcxRi#YLmgU
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17,🇺🇸US | 🟢 | ss | 3λΞĐ | 11
-URL-TEST = url-test,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17,🇺🇸US | 🟢 | ss | 3λΞĐ | 11
-FALLBACK = fallback,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17,🇺🇸US | 🟢 | ss | 3λΞĐ | 11
+MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17
+URL-TEST = url-test,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17
+FALLBACK = fallback,🇫🇷FR | 🟢 | ss | 3λΞĐ | 0,🇩🇪DE | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇩🇪DE | 🟢 | ss | 3λΞĐ | 3,🇳🇱NL | 🟢 | ss | 3λΞĐ | 4,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇫🇷FR | 🟢 | ss | 3λΞĐ | 7,🇦🇹AT | 🟢 | ss | 3λΞĐ | 8,🇺🇸US | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇫🇷FR | 🟢 | ss | 3λΞĐ | 12,🇦🇪AE | 🟢 | ss | 3λΞĐ | 13,🇧🇭BH | 🟢 | ss | 3λΞĐ | 15,🇩🇪DE | 🟢 | ss | 3λΞĐ | 17
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
