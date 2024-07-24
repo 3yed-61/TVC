@@ -121,10 +121,10 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"15.237.232.22","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"13.39.7.123","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"15.236.61.99","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"51.21.67.108","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"54.75.117.55","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"3.11.177.167","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14","type":"trojan","server":"3.248.237.31","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"3.8.225.128","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🔴 | trojan | 3λΞĐ | 7","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
 proxy-groups:
   - name: MANUAL
@@ -133,10 +133,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 7'
   - name: URL-TEST
     type: url-test
@@ -145,10 +145,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 7'
   - name: FALLBACK
     type: fallback
@@ -156,10 +156,10 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
+      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 7'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
