@@ -106,8 +106,8 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 16",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 16",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 11"
             ]
         },
@@ -115,8 +115,8 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 16",
-                "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
+                "🇳🇱NL | 🟢 | ss | 3λΞĐ | 16",
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 17",
                 "🇺🇸US | 🟢 | ss | 3λΞĐ | 11"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
@@ -140,22 +140,22 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 16",
+            "tag": "🇳🇱NL | 🟢 | ss | 3λΞĐ | 16",
+            "type": "shadowsocks",
+            "server": "45.158.171.148",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "a8bt9fY0QsLS6eLnXUe0Ym",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 17",
             "type": "shadowsocks",
             "server": "136.244.81.170",
             "server_port": 20888,
             "method": "chacha20-ietf-poly1305",
             "password": "Ogwe91HAvsUbekR0J8fLEr",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇷🇺RU | 🟢 | ss | 3λΞĐ | 17",
-            "type": "shadowsocks",
-            "server": "moscow.telegavpn.com",
-            "server_port": 60422,
-            "method": "chacha20-ietf-poly1305",
-            "password": "KvEboxbgHMCFq3hTg5d1J5",
             "plugin": "",
             "plugin_opts": ""
         },
