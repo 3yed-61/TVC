@@ -121,10 +121,10 @@ dns:
 
 proxies:
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.72.125.51","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"13.60.159.157","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.99.119.162","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇮🇪IE | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"54.76.82.186","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"15.236.13.9","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"35.158.143.20","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.97.230.192","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.99.119.162","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🔴 | trojan | 3λΞĐ | 3","type":"trojan","server":"162.159.138.232","port":8443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
 proxy-groups:
   - name: MANUAL
@@ -133,10 +133,10 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 3'
   - name: URL-TEST
     type: url-test
@@ -145,10 +145,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 3'
   - name: FALLBACK
     type: fallback
@@ -156,10 +156,10 @@ proxy-groups:
     interval: 60
     proxies:
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇮🇪IE | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
       - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 3'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
