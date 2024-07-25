@@ -127,9 +127,6 @@
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 118",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 135",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
@@ -140,7 +137,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 164",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 182",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 1",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -187,9 +184,6 @@
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 118",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 135",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
@@ -200,7 +194,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 164",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 182",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 1",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -739,78 +733,6 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 118",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "282929a7-7247-4bfd-84f4-39e61484f313",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "5456662d-9d1c-429b-9d3c-e47f2e89f013",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 135",
-            "type": "vmess",
-            "server": "www.speedtest.net",
-            "server_port": 80,
-            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RACEVPN",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
             "type": "vmess",
             "server": "www.speedtest.net",
@@ -1057,7 +979,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
             "server": "ipir.proxystore11.ru",
             "server_port": 80,
