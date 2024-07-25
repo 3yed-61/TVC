@@ -105,8 +105,8 @@
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
@@ -192,8 +192,8 @@
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
                 "❔XX | 🔴 | vless | 3λΞĐ | 0",
                 "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
@@ -295,7 +295,7 @@
             "type": "dns"
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 5",
             "type": "vless",
             "server": "74.119.194.136",
             "server_port": 12345,
@@ -331,7 +331,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 2",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 7",
             "type": "vless",
             "server": "141.95.75.212",
             "server_port": 443,
