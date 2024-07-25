@@ -16,13 +16,14 @@ DIRECT = direct
 🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17 = trojan, 3.10.3.17, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🟢 | trojan | 3λΞĐ | 16 = trojan, 35.169.197.134, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🟢 | trojan | 3λΞĐ | 17 = trojan, 3.136.42.169, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇺🇸US | 🔴 | trojan | 3λΞĐ | 5 = trojan, www.speedtest.net, 443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
+🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4 = trojan, 51.158.217.195, 43118, password = ypDt8RkT7J, udp-delay = true, skip-cert-verify = false, sni = wnbtg.phooeyunfold.com, ws = false
+🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5 = trojan, www.speedtest.net, 443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
+🇺🇸US | 🔴 | trojan | 3λΞĐ | 8 = trojan, www.visa.com.sg, 2053, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
 🇺🇸US | 🔴 | trojan | 3λΞĐ | 9 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇺🇸US | 🔴 | trojan | 3λΞĐ | 10 = trojan, 162.159.138.232, 8443, password = auto, udp-delay = true, skip-cert-verify = false, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
-URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
-FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4,🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 8,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
+URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4,🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 8,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
+FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 16,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17,🇺🇸US | 🟢 | trojan | 3λΞĐ | 16,🇺🇸US | 🟢 | trojan | 3λΞĐ | 17,🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4,🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5,🇺🇸US | 🔴 | trojan | 3λΞĐ | 8,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

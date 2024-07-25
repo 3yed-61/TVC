@@ -125,9 +125,10 @@ proxies:
   - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.10.3.17","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"35.169.197.134","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.136.42.169","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 5","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
+  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4","type":"trojan","server":"51.158.217.195","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wnbtg.phooeyunfold.com"}
+  - {"name":"🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
+  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 8","type":"trojan","server":"www.visa.com.sg","port":2053,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 9","type":"trojan","server":"www.visa.com.sg","port":8443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 10","type":"trojan","server":"162.159.138.232","port":8443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -139,9 +140,10 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 9'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -153,9 +155,10 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 9'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -166,9 +169,10 @@ proxy-groups:
       - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 4'
+      - '🇨🇦CA | 🔴 | trojan | 3λΞĐ | 5'
+      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 9'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
 rule-providers:
   ir: {type: http, format: text, behavior: domain, path: ./ruleset/ir.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ir.txt, interval: 86400}
   ads: {type: http, format: text, behavior: domain, path: ./ruleset/ads.txt, url: https://github.com/chocolate4u/Iran-clash-rules/releases/latest/download/ads.txt, interval: 86400}
