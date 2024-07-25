@@ -130,11 +130,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 182",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 197",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
@@ -151,7 +150,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -187,11 +186,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 182",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 197",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
@@ -208,7 +206,7 @@
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -812,7 +810,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "188.245.59.155",
             "server_port": 39519,
@@ -832,40 +830,6 @@
                 "path": "\/",
                 "headers": {
                     "Host": "188.245.59.155"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-            "type": "vmess",
-            "server": "172.67.175.56",
-            "server_port": 443,
-            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "obdii.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "obdii.cfd"
                 }
             }
         },
@@ -904,7 +868,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "128.140.117.167",
             "server_port": 2086,
@@ -921,7 +885,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -1415,7 +1379,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
