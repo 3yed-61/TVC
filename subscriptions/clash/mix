@@ -179,7 +179,7 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 3","type":"trojan","server":"104.21.90.210","port":2053,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"e9464f45.trauma-2r4.pages.dev"}
   - {"name":"🇳🇱NL | 🟢 | trojan | 3λΞĐ | 4","type":"trojan","server":"51.158.217.195","port":43118,"udp":false,"password":"ypDt8RkT7J","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"wnbtg.phooeyunfold.com"}
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 5","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6","type":"vmess","server":"cwm6qx1070hp2ds48c26c.tele-too.com","port":"41304","cipher":"auto","uuid":"42f5c3a2-2743-4212-bd13-cae715be02ff","alterId":"0","tls":false,"skip-cert-verify":true,"network":"tcp"}
+  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 135","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"cc142606-f36d-4004-bd2d-c5c2aa7efd4d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":"V.v.V.v.C.v.C.v.X.o.ZuLa.Ir.FaSt.CoM.iSvPhP.Ir."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 151","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"83361983-a49b-490b-9910-e0de7e8d3a07","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":"ZuLA.iR.fASt.coM.NeT.Ftp.Zula.Ir.fASt.COm.DEbiAn.COm.IsvpHp.Ir."}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 153","type":"vmess","server":"www.speedtest.net","port":"80","cipher":"auto","uuid":"cc142606-f36d-4004-bd2d-c5c2aa7efd4d","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/RACEVPN","headers":{"host":"8.V.WwW.sPEEDtEST.Net.FTP.ZulA.IR.FasT.CoM.debIaN.oRG.ISVPhp.Ir."}}}
   - {"name":"🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"188.245.59.155","port":39519,"cipher":"auto","uuid":"7d90c680-6ed1-41b4-8e5c-7a3e217a73dc","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":""}}}
@@ -226,7 +226,6 @@ proxies:
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 6","type":"trojan","server":"zula.ir","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 7","type":"trojan","server":"www.speedtest.net","port":443,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
   - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 8","type":"trojan","server":"www.visa.com.sg","port":2053,"udp":false,"password":"Watashi_VPN","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"t-watashi-r-jacket-o-people-jan.watashi-java.ir"}
-  - {"name":"🇺🇸US | 🔴 | trojan | 3λΞĐ | 10","type":"trojan","server":"162.159.138.232","port":8443,"udp":false,"password":"auto","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 1","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"da2aa762-9c57-49c1-9ecd-cdc1f18493a7","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"join.hightechservice.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 3","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"f92701e4-2394-4771-9599-5f291edc19ff","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 5","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"11cfd86e-c3a9-42b2-803f-1bdbca3dcb28","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
@@ -298,7 +297,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 3'
       - '🇳🇱NL | 🟢 | trojan | 3λΞĐ | 4'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
-      - '🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 135'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 151'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 153'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4'
@@ -345,7 +344,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 6'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 7'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 5'
@@ -417,7 +415,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 3'
       - '🇳🇱NL | 🟢 | trojan | 3λΞĐ | 4'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
-      - '🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 135'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 151'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 153'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4'
@@ -464,7 +462,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 6'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 7'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 5'
@@ -535,7 +532,7 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 3'
       - '🇳🇱NL | 🟢 | trojan | 3λΞĐ | 4'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 5'
-      - '🇨🇭CH | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 135'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 151'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 153'
       - '🇩🇪DE | 🟢 | vmess | 3λΞĐ | 4'
@@ -582,7 +579,6 @@ proxy-groups:
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 6'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 7'
       - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 8'
-      - '🇺🇸US | 🔴 | trojan | 3λΞĐ | 10'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 3'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 5'
