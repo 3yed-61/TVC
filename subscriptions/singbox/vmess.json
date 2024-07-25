@@ -126,8 +126,9 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 144",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 160",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -181,8 +182,9 @@
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 144",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 160",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -712,7 +714,31 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 151",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 144",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "cc142606-f36d-4004-bd2d-c5c2aa7efd4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 160",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -736,7 +762,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 162",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
