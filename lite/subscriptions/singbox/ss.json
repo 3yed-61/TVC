@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 19"
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
-                "🇦🇪AE | 🟢 | ss | 3λΞĐ | 19"
+                "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +138,22 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "🇺🇸US | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "69.50.95.53",
+            "server_port": 8118,
+            "method": "aes-256-gcm",
+            "password": "cdBIDV42DCwnfIN",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "paris.telegavpn.com",
             "server_port": 9802,
             "method": "chacha20-ietf-poly1305",
             "password": "RWs00WOsemhUiPV0q9wFIZ",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇦🇪AE | 🟢 | ss | 3λΞĐ | 19",
-            "type": "shadowsocks",
-            "server": "irancell.xn--g28h.dns-dynamic.net.cdn.cloudflare.net",
-            "server_port": 443,
-            "method": "chacha20-ietf-poly1305",
-            "password": "u17T3BvpYaaiuW2c",
             "plugin": "",
             "plugin_opts": ""
         }
