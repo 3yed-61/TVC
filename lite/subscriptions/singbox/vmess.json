@@ -111,7 +111,6 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 10",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -131,7 +130,6 @@ https://github.com/3yed-61
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 10",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -250,30 +248,6 @@ https://github.com/3yed-61
                 "path": "\/Telegram\/XV2ray",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 10",
-            "type": "vmess",
-            "server": "188.245.59.155",
-            "server_port": 39519,
-            "uuid": "7d90c680-6ed1-41b4-8e5c-7a3e217a73dc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": "188.245.59.155"
                 }
             }
         },
