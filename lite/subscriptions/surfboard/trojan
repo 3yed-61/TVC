@@ -12,16 +12,15 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1 = trojan, www.visa.com.sg, 8443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 52.18.213.154, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15 = trojan, 3.11.197.143, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 63.35.13.74, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15 = trojan, 18.130.138.5, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14 = trojan, 13.48.38.82, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15 = trojan, 52.212.3.150, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇨🇦CA | 🟢 | trojan | 3λΞĐ | 14 = trojan, 15.222.99.141, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15 = trojan, 52.17.132.58, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇺🇸US | 🔴 | trojan | 3λΞĐ | 9 = trojan, zula.ir, 443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
-🇺🇸US | 🔴 | trojan | 3λΞĐ | 10 = trojan, www.speedtest.net, 443, password = Watashi_VPN, udp-delay = true, skip-cert-verify = false, sni = t-watashi-r-jacket-o-people-jan.watashi-java.ir, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
-URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
-FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 14,🇬🇧GB | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9,🇺🇸US | 🔴 | trojan | 3λΞĐ | 10
+MANUAL = select,URL-TEST,FALLBACK,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
+URL-TEST = url-test,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
+FALLBACK = fallback,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 1,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇨🇦CA | 🟢 | trojan | 3λΞĐ | 14,🇮🇪IE | 🟢 | trojan | 3λΞĐ | 15,🇺🇸US | 🔴 | trojan | 3λΞĐ | 9
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
