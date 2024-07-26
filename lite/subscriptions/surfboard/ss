@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-❔XX | 🟢 | ss | 3λΞĐ | 18 = ss, 69.50.95.53, 8118, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
-❔XX | 🟢 | ss | 3λΞĐ | 19 = ss, paris.telegavpn.com, 9802, encrypt-method = chacha20-ietf-poly1305, password = RWs00WOsemhUiPV0q9wFIZ
+🇺🇸US | 🟢 | ss | 3λΞĐ | 18 = ss, 69.50.95.53, 8118, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
+🇫🇷FR | 🟢 | ss | 3λΞĐ | 19 = ss, paris.telegavpn.com, 9802, encrypt-method = chacha20-ietf-poly1305, password = RWs00WOsemhUiPV0q9wFIZ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | ss | 3λΞĐ | 18,❔XX | 🟢 | ss | 3λΞĐ | 19
-URL-TEST = url-test,❔XX | 🟢 | ss | 3λΞĐ | 18,❔XX | 🟢 | ss | 3λΞĐ | 19
-FALLBACK = fallback,❔XX | 🟢 | ss | 3λΞĐ | 18,❔XX | 🟢 | ss | 3λΞĐ | 19
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇫🇷FR | 🟢 | ss | 3λΞĐ | 19
+URL-TEST = url-test,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇫🇷FR | 🟢 | ss | 3λΞĐ | 19
+FALLBACK = fallback,🇺🇸US | 🟢 | ss | 3λΞĐ | 18,🇫🇷FR | 🟢 | ss | 3λΞĐ | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
