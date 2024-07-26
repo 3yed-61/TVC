@@ -109,7 +109,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
@@ -131,7 +130,6 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
@@ -214,40 +212,6 @@ https://github.com/3yed-61
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-            "type": "vmess",
-            "server": "104.16.61.8",
-            "server_port": 2087,
-            "uuid": "441da342-ce90-441e-bff9-d2ceb55e68ca",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "8wccc4a94-term-4a94.ketowil344.workers.dev",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/ivideos.sbs\/linkws",
-                "headers": {
-                    "Host": "8wccc4a94-term-4a94.ketowil344.workers.dev"
-                }
             }
         },
         {
