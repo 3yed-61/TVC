@@ -109,8 +109,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 10",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -127,8 +131,12 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 10",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -209,6 +217,91 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
+            "type": "vmess",
+            "server": "188.114.96.1",
+            "server_port": 443,
+            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "afrhms16v.bestxray.buzz",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/linkws",
+                "headers": {
+                    "Host": "afrhms16v.bestxray.buzz"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
+            "server": "128.140.117.167",
+            "server_port": 2086,
+            "uuid": "FILTERSHCAN",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
+            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
+            "type": "vmess",
+            "server": "185.146.173.64",
+            "server_port": 443,
+            "uuid": "7723ee31-039b-48d0-bfd8-d591ca4baf4e",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1.vmess.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": "nl1.vmess.site"
+                }
+            }
+        },
+        {
             "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 14",
             "type": "vmess",
             "server": "speed.cloudflare.com",
@@ -254,6 +347,23 @@ https://github.com/3yed-61
                 "headers": {
                     "Host": "188.245.59.155"
                 }
+            }
+        },
+        {
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
+            "type": "vmess",
+            "server": "ipir.proxystore11.ru",
+            "server_port": 80,
+            "uuid": "7192fa3c-71c6-4662-be3f-3a19a3b7ac4d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
