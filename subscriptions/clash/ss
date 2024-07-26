@@ -118,7 +118,7 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇧🇾BY | 🟢 | ss | 3λΞĐ | 11","type":"ss","server":"45.87.219.110","port":51348,"password":"F4fChWGojIcmxuMROuVQIQKGKRdg09vKfGp2STzSrdzrUSwZ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇨🇦CA | 🟢 | ss | 3λΞĐ | 7","type":"ss","server":"134.195.196.178","port":803,"password":"G!yBwPWH3Vao","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇦CA | 🟢 | ss | 3λΞĐ | 0","type":"ss","server":"23.162.200.154","port":8882,"password":"kDWvXYZoTBcGkC4","cipher":"aes-256-gcm"}
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 1","type":"ss","server":"38.86.135.225","port":8009,"password":"XKFKl2rULjIp74","cipher":"aes-256-gcm"}
   - {"name":"🇺🇦UA | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"130.0.233.247","port":51348,"password":"9Eli0vyoLMRCQqln6HUVZEOrEqjG7Aefj6RBuxsxMQhMevOk","cipher":"chacha20-ietf-poly1305"}
@@ -147,7 +147,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇧🇾BY | 🟢 | ss | 3λΞĐ | 11'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 7'
       - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇦UA | 🟢 | ss | 3λΞĐ | 2'
@@ -176,7 +176,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇧🇾BY | 🟢 | ss | 3λΞĐ | 11'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 7'
       - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇦UA | 🟢 | ss | 3λΞĐ | 2'
@@ -204,7 +204,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇧🇾BY | 🟢 | ss | 3λΞĐ | 11'
+      - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 7'
       - '🇨🇦CA | 🟢 | ss | 3λΞĐ | 0'
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 1'
       - '🇺🇦UA | 🟢 | ss | 3λΞĐ | 2'
