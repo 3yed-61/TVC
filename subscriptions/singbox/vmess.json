@@ -126,6 +126,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 128",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 136",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 137",
@@ -184,6 +186,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 128",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 136",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 137",
@@ -707,6 +711,54 @@
                 "path": "\/vmess",
                 "headers": {
                     "Host": "nl1.vmess.site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 119",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "2e0ce6f3-7dc7-469a-9611-c8405a8ea5c1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
+            "type": "vmess",
+            "server": "www.zula.ir",
+            "server_port": 80,
+            "uuid": "2e0ce6f3-7dc7-469a-9611-c8405a8ea5c1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
