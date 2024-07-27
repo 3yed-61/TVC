@@ -114,8 +114,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 11",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 17",
-                "🇹🇷TR | 🔴 | vless | 3λΞĐ | 8",
-                "🇹🇷TR | 🔴 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
@@ -127,6 +125,7 @@
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇸🇬SG | 🟢 | vless | 3λΞĐ | 12",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 18",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 145",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 149",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 150",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 151",
@@ -145,7 +144,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 164",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 165",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 166",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 179",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -201,8 +199,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 11",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 17",
-                "🇹🇷TR | 🔴 | vless | 3λΞĐ | 8",
-                "🇹🇷TR | 🔴 | vless | 3λΞĐ | 9",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
@@ -214,6 +210,7 @@
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇸🇬SG | 🟢 | vless | 3λΞĐ | 12",
                 "🇰🇷KR | 🟢 | vless | 3λΞĐ | 18",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 145",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 149",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 150",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 151",
@@ -232,7 +229,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 164",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 165",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 166",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 179",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -584,71 +580,6 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🔴 | vless | 3λΞĐ | 8",
-            "type": "vless",
-            "server": "85.237.211.134",
-            "server_port": 2053,
-            "uuid": "b55d4ff1-aaea-4d0c-8a41-7d15ec038f72",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "xyz",
-                "idle_timeout": "15s",
-                "ping_timeout": "15s",
-                "permit_without_stream": false
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🔴 | vless | 3λΞĐ | 9",
-            "type": "vless",
-            "server": "85.237.211.134",
-            "server_port": 8443,
-            "uuid": "b55d4ff1-aaea-4d0c-8a41-7d15ec038f72",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "cdn.discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -911,6 +842,35 @@
                     "enabled": true,
                     "public_key": "9rx7JwMO-KRZZEM9TQBO19BOAmmGjJyjN86ll2J7uVc",
                     "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 145",
+            "type": "vless",
+            "server": "tr1.tradex2080.com",
+            "server_port": 443,
+            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "www.upci.org",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
+                    "short_id": "ee46"
                 }
             }
         },
@@ -1490,35 +1450,6 @@
                     "refersion.com"
                 ],
                 "path": "\/"
-            }
-        },
-        {
-            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 179",
-            "type": "vless",
-            "server": "tr1.tradex2080.com",
-            "server_port": 443,
-            "uuid": "7c7af2de-bb97-429f-ac3c-8ef849717491",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.upci.org",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "jSuIvIWLecUXhjia1bHBwo5sHiYkKsdtdy0x6N-4A1s",
-                    "short_id": "ee46"
-                }
             }
         },
         {
