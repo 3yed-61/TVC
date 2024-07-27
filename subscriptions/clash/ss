@@ -137,8 +137,8 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | ss | 3λΞĐ | 17","type":"ss","server":"69.50.95.53","port":5498,"password":"lGqs95QkFHo2NV","cipher":"aes-256-gcm"}
   - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 18","type":"ss","server":"193.29.139.237","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇫🇷FR | 🟢 | ss | 3λΞĐ | 19","type":"ss","server":"92.243.27.51","port":9802,"password":"aSsoG8kTeefvH0s5A7tchH","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇮🇪IE | 🟢 | ss | 3λΞĐ | 9","type":"ss","server":"13.94.117.31","port":10238,"password":"xPrKUBQPwCFeXEQ5uXlRNX","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 10","type":"ss","server":"4.158.26.91","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇮🇪IE | 🟢 | ss | 3λΞĐ | 10","type":"ss","server":"13.94.117.31","port":10238,"password":"xPrKUBQPwCFeXEQ5uXlRNX","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 11","type":"ss","server":"4.158.26.91","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -164,8 +164,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 18'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 19'
-      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 9'
-      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 10'
+      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 10'
+      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 11'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -191,8 +191,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 18'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 19'
-      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 9'
-      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 10'
+      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 10'
+      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 11'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -217,8 +217,8 @@ proxy-groups:
       - '🇺🇸US | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 18'
       - '🇫🇷FR | 🟢 | ss | 3λΞĐ | 19'
-      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 9'
-      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 10'
+      - '🇮🇪IE | 🟢 | ss | 3λΞĐ | 10'
+      - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 11'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
