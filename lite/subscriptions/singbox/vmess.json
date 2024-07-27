@@ -109,8 +109,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 6",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -127,8 +126,7 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 18",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 6",
-                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
+                "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 3",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -209,28 +207,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
-            "server": "138.201.95.215",
-            "server_port": 2086,
-            "uuid": "1bdc1b8f-0a20-4dc8-8f73-e008f64da65e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 7",
-            "type": "vmess",
-            "server": "104.21.82.17",
+            "server": "172.67.71.160",
             "server_port": 443,
-            "uuid": "bc864078-dcf3-4bf4-8dbf-ca9f200b56be",
+            "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -243,7 +224,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "gwdef.sbs",
+                "server_name": "obdii.cfd",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -255,7 +236,7 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/linkws",
                 "headers": {
-                    "Host": "gwdef.sbs"
+                    "Host": "obdii.cfd"
                 }
             }
         },
