@@ -120,6 +120,7 @@ dns:
     'RULE-SET:ir,ircidr,geoip:ir,+.ir,+.bonyan.co': ["217.218.155.155", "217.218.127.127", "https://dns.403.online/dns-query", "https://dns.shecan.ir/dns-query"]
 
 proxies:
+  - {"name":"🇩🇪DE | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"23.88.73.116","port":110,"udp":true,"uuid":"913a5a78-d02c-4b21-8ecf-630a3b6f59b8","tls":true,"network":"grpc","client-fingerprint":"chrome","servername":"maps.google.com","grpc-opts":{"grpc-service-name":""},"reality-opts":{"public-key":"Rlk_yVs12AhcbvdHo1yxLhKOVupGNYs3IRTC6j-_izI","short-id":"fc568b67"}}
   - {"name":"🇮🇪IE | 🔴 | vless | 3λΞĐ | 0","type":"vless","server":"54.72.131.252","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇮🇪IE | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"108.128.124.144","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇬🇧GB | 🔴 | vless | 3λΞĐ | 2","type":"vless","server":"18.170.17.3","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
@@ -516,6 +517,7 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
+      - '🇩🇪DE | 🔴 | vless | 3λΞĐ | 1'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
@@ -912,6 +914,7 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
+      - '🇩🇪DE | 🔴 | vless | 3λΞĐ | 1'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
@@ -1307,6 +1310,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
+      - '🇩🇪DE | 🔴 | vless | 3λΞĐ | 1'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
