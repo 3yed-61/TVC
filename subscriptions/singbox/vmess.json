@@ -122,6 +122,8 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 127",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 145",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 154",
@@ -150,8 +152,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -179,6 +181,8 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 127",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 145",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 154",
@@ -207,8 +211,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
@@ -603,6 +607,54 @@
                 "path": "\/",
                 "headers": {
                     "Host": "104.19.45.85"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 125",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "282929a7-7247-4bfd-84f4-39e61484f313",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 127",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "7c5df627-a185-468b-a90a-1b162e673a68",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RACEVPN",
+                "headers": {
+                    "Host": ""
                 }
             }
         },
@@ -1357,7 +1409,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "s.marktred.com",
             "server_port": 443,
@@ -1391,7 +1443,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
