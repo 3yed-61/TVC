@@ -135,8 +135,7 @@
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 171",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 186",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 186",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -190,8 +189,7 @@
                 "🇹🇷TR | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 171",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 186",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 186",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -927,7 +925,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 171",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 186",
             "type": "vmess",
             "server": "104.21.51.208",
             "server_port": 80,
@@ -948,23 +946,6 @@
                 "headers": {
                     "Host": "de01.tradex2080.com"
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 186",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
