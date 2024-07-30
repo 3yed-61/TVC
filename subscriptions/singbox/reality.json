@@ -113,7 +113,6 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 141",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
@@ -194,7 +193,6 @@
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 141",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
@@ -532,35 +530,6 @@
                     "enabled": true,
                     "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
                     "short_id": ""
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 13",
-            "type": "vless",
-            "server": "185.219.84.207",
-            "server_port": 2096,
-            "uuid": "851bf028-eeaa-4f8d-91b3-8cbda91e3c21",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dash.cloudflare.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "Kcn7dLh3iQeiMuJdQwaLoWsQb67El0cfPPKztdKSYHA",
-                    "short_id": "d154163159"
                 }
             }
         },
