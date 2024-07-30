@@ -154,9 +154,9 @@ proxies:
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 15","type":"trojan","server":"54.88.194.130","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.134.127.84","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.97.89.226","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 4","type":"trojan","server":"13.51.244.45","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 5","type":"trojan","server":"51.20.210.67","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 6","type":"trojan","server":"18.199.43.21","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 5","type":"trojan","server":"13.51.244.45","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6","type":"trojan","server":"51.20.210.67","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7","type":"trojan","server":"18.199.43.21","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -199,9 +199,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 4'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 5'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
   - name: URL-TEST
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -244,9 +244,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 4'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 5'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
   - name: FALLBACK
     type: fallback
     url: http://www.gstatic.com/generate_204
@@ -288,9 +288,9 @@ proxy-groups:
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 15'
       - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
       - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 4'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 5'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
+      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
