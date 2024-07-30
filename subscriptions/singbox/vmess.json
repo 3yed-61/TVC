@@ -124,9 +124,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 169",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 171",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 225",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 200",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -169,9 +169,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 153",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 169",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 171",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 225",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 200",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -631,7 +631,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
             "type": "vmess",
             "server": "108.162.192.109",
             "server_port": 80,
@@ -655,7 +655,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "104.21.94.64",
             "server_port": 443,
@@ -689,11 +689,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 225",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 200",
             "type": "vmess",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -703,23 +703,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de-02.tradex2080.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/0fpZFB6IbpNptGAxAtI0QM",
-                "headers": {
-                    "Host": "de-02.tradex2080.com"
-                }
             }
         },
         {
