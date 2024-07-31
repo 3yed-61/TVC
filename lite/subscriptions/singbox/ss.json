@@ -106,14 +106,14 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "❔XX | 🟢 | ss | 3λΞĐ | 19"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "❔XX | 🟢 | ss | 3λΞĐ | 19"
+                "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -136,7 +136,7 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "❔XX | 🟢 | ss | 3λΞĐ | 19",
+            "tag": "🇫🇷FR | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "149.202.82.172",
             "server_port": 8119,
