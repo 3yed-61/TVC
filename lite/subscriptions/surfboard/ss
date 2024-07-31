@@ -11,12 +11,11 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷FR | 🟢 | ss | 3λΞĐ | 18 = ss, 149.202.82.172, 8119, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
-🇩🇪DE | 🟢 | ss | 3λΞĐ | 19 = ss, 81.19.141.45, 52873, encrypt-method = chacha20-ietf-poly1305, password = Zx3PtvlHKWXwBpifHwpqW0
+❔XX | 🟢 | ss | 3λΞĐ | 19 = ss, 149.202.82.172, 8119, encrypt-method = aes-256-gcm, password = cdBIDV42DCwnfIN
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
-URL-TEST = url-test,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
-FALLBACK = fallback,🇫🇷FR | 🟢 | ss | 3λΞĐ | 18,🇩🇪DE | 🟢 | ss | 3λΞĐ | 19
+MANUAL = select,URL-TEST,FALLBACK,❔XX | 🟢 | ss | 3λΞĐ | 19
+URL-TEST = url-test,❔XX | 🟢 | ss | 3λΞĐ | 19
+FALLBACK = fallback,❔XX | 🟢 | ss | 3λΞĐ | 19
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
