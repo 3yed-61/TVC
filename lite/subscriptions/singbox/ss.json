@@ -106,16 +106,16 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
-                "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 19"
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 18",
+                "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 19"
             ]
         },
         {
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
-                "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 18",
-                "🇨🇦CA | 🟢 | ss | 3λΞĐ | 19"
+                "🇩🇪DE | 🟢 | ss | 3λΞĐ | 18",
+                "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 19"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -138,22 +138,22 @@ https://github.com/3yed-61
             "type": "dns"
         },
         {
-            "tag": "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 18",
+            "tag": "🇩🇪DE | 🟢 | ss | 3λΞĐ | 18",
+            "type": "shadowsocks",
+            "server": "81.19.141.45",
+            "server_port": 52873,
+            "method": "chacha20-ietf-poly1305",
+            "password": "Zx3PtvlHKWXwBpifHwpqW0",
+            "plugin": "",
+            "plugin_opts": ""
+        },
+        {
+            "tag": "🇨🇿CZ | 🟢 | ss | 3λΞĐ | 19",
             "type": "shadowsocks",
             "server": "194.87.179.169",
             "server_port": 40928,
             "method": "chacha20-ietf-poly1305",
             "password": "uSFiNtjwzC1y2QMPNhrXAT5gknE1mgHggsqL6gPkUFPvWqrHC63U5p5VCNZBktT7BNoykGd1gxPZy9zoSsj6Hrw5YV3XvoPh",
-            "plugin": "",
-            "plugin_opts": ""
-        },
-        {
-            "tag": "🇨🇦CA | 🟢 | ss | 3λΞĐ | 19",
-            "type": "shadowsocks",
-            "server": "23.162.200.154",
-            "server_port": 8882,
-            "method": "aes-256-gcm",
-            "password": "kDWvXYZoTBcGkC4",
             "plugin": "",
             "plugin_opts": ""
         }
