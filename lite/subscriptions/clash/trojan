@@ -118,10 +118,10 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"13.36.150.189","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.78.35.72","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.99.69.145","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"35.182.165.95","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"35.176.48.29","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"52.56.155.247","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 16","type":"trojan","server":"3.16.196.95","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🇺🇸US | 🟢 | trojan | 3λΞĐ | 17","type":"trojan","server":"3.15.120.16","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6","type":"trojan","server":"51.20.210.67","port":22222,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7","type":"trojan","server":"18.199.43.21","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
 proxy-groups:
@@ -130,10 +130,10 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
   - name: URL-TEST
@@ -142,10 +142,10 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
   - name: FALLBACK
@@ -153,10 +153,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 60
     proxies:
-      - '🇫🇷FR | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 16'
-      - '🇨🇦CA | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇬🇧GB | 🟢 | trojan | 3λΞĐ | 17'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 16'
+      - '🇺🇸US | 🟢 | trojan | 3λΞĐ | 17'
       - '🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6'
       - '🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7'
 rules:
