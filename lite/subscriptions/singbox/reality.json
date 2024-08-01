@@ -107,7 +107,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 260",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 261",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
@@ -121,7 +120,6 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 260",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 261",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
@@ -175,35 +173,6 @@ https://github.com/3yed-61
                     "enabled": true,
                     "public_key": "rFZOWxVcsZn5--1yLku3SGglZ0Y2Ban0buZIN3-vFwU",
                     "short_id": "cfef326c"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "82.153.135.50",
-            "server_port": 34171,
-            "uuid": "ac74dfae-6039-43c0-fa55-fbf6e6630df6",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "dmcc.ae",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "W9BjX6YmCIVsjhKMlz233Yoe0xcf0SVHfvPKqbf3vCg",
-                    "short_id": ""
                 }
             }
         },
