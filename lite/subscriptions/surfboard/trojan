@@ -15,11 +15,12 @@ DIRECT = direct
 🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17 = trojan, 18.198.174.67, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16 = trojan, 51.20.216.44, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17 = trojan, 52.28.32.23, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6 = trojan, 51.20.210.67, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7 = trojan, 18.199.43.21, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
-URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
-FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
+MANUAL = select,URL-TEST,FALLBACK,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
+URL-TEST = url-test,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
+FALLBACK = fallback,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 16,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 17,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 6,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
