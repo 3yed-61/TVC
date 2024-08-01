@@ -119,8 +119,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 144",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 148",
@@ -169,8 +168,7 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 144",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 148",
@@ -518,7 +516,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
             "type": "vmess",
             "server": "172.67.170.11",
             "server_port": 443,
@@ -548,40 +546,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "linde06.indiavideo.sbs"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 17",
-            "type": "vmess",
-            "server": "cdnjs.com",
-            "server_port": 443,
-            "uuid": "6b880b07-e952-4c0b-b4a3-6c9ac4cf9d3f",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "hdfy1c3.iraniancpi.uk",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/QvtvPdDXXIlSdZMqnuxG",
-                "headers": {
-                    "Host": "hdfy1c3.iraniancpi.uk"
                 }
             }
         },
