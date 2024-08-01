@@ -119,15 +119,16 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 139",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 149",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 152",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 158",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 144",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 148",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 158",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 161",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 167",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 174",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -168,15 +169,16 @@
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 17",
                 "🇭🇰HK | 🟢 | vmess | 3λΞĐ | 18",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 139",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 149",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 152",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 158",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 144",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 148",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 158",
+                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 161",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 167",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 174",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
@@ -516,7 +518,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "type": "vmess",
+            "server": "104.21.48.70",
+            "server_port": 443,
+            "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "hdfy4s2c1.cpionline.co",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "WgCmp8p80KDzo64uHE",
+                "idle_timeout": "15s",
+                "ping_timeout": "15s",
+                "permit_without_stream": false
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
             "type": "vmess",
             "server": "104.19.45.240",
             "server_port": 2095,
@@ -540,7 +576,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
             "type": "vmess",
             "server": "104.16.60.8",
             "server_port": 80,
@@ -564,7 +600,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -588,7 +624,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 144",
             "type": "vmess",
             "server": "128.140.117.167",
             "server_port": 2086,
@@ -605,7 +641,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 139",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 148",
             "type": "vmess",
             "server": "167.235.235.192",
             "server_port": 2086,
@@ -622,7 +658,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 149",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 158",
             "type": "vmess",
             "server": "188.245.59.155",
             "server_port": 39519,
@@ -646,7 +682,7 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 152",
+            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 161",
             "type": "vmess",
             "server": "80.71.149.117",
             "server_port": 63527,
@@ -663,7 +699,7 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 158",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 167",
             "type": "vmess",
             "server": "cwm6qx1070hp2ds48c26c.tele-too.com",
             "server_port": 41304,
@@ -680,7 +716,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 174",
             "type": "vmess",
             "server": "78.46.152.136",
             "server_port": 2086,
