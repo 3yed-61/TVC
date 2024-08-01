@@ -121,6 +121,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 139",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 149",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 152",
@@ -141,8 +143,7 @@
                 "🇬🇧GB | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 229",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 244",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 244",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -182,6 +183,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 13",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 139",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 149",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 152",
@@ -202,8 +205,7 @@
                 "🇬🇧GB | 🟢 | vmess | 3λΞĐ | 16",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 11",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 229",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 244",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 244",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 4",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -585,6 +587,47 @@
                 "headers": {
                     "Host": "104.16.60.8"
                 }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
+            "type": "vmess",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "3e5cda0a-6122-4f54-9e3c-3f49e7a526f9",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 135",
+            "type": "vmess",
+            "server": "128.140.117.167",
+            "server_port": 2086,
+            "uuid": "FILTERSHCAN",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1119,7 +1162,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 229",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 244",
             "type": "vmess",
             "server": "104.21.51.208",
             "server_port": 80,
@@ -1140,23 +1183,6 @@
                 "headers": {
                     "Host": ""
                 }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 244",
-            "type": "vmess",
-            "server": null,
-            "server_port": 0,
-            "uuid": null,
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
