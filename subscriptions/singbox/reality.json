@@ -112,17 +112,18 @@
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 156",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 10",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 11",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 15",
+                "🇺🇸US | 🟢 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
+                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 11",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
+                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 14",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 210",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 211",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 212",
@@ -185,17 +186,18 @@
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 156",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 10",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 11",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 13",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
-                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 15",
+                "🇺🇸US | 🟢 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
+                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 11",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
+                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 14",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 210",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 211",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 212",
@@ -491,6 +493,35 @@
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
+            "type": "vless",
+            "server": "188.245.61.146",
+            "server_port": 8001,
+            "uuid": "510d82c4-20c6-4605-9e92-cf49c1e9f900",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "oMIdmAHBouBI.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "49.12.193.246",
@@ -547,7 +578,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vless | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vless | 3λΞĐ | 6",
             "type": "vless",
             "server": "67.205.179.1",
             "server_port": 443,
@@ -576,7 +607,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
             "type": "vless",
             "server": "167.172.137.111",
             "server_port": 12345,
@@ -612,7 +643,7 @@
             }
         },
         {
-            "tag": "🇫🇷FR | 🟢 | vless | 3λΞĐ | 10",
+            "tag": "🇫🇷FR | 🟢 | vless | 3λΞĐ | 11",
             "type": "vless",
             "server": "51.159.213.39",
             "server_port": 18700,
@@ -641,7 +672,7 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 11",
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
             "type": "vless",
             "server": "136.244.84.182",
             "server_port": 443,
@@ -670,7 +701,7 @@
             }
         },
         {
-            "tag": "🇸🇬SG | 🟢 | vless | 3λΞĐ | 13",
+            "tag": "🇸🇬SG | 🟢 | vless | 3λΞĐ | 14",
             "type": "vless",
             "server": "13.229.225.169",
             "server_port": 443,
@@ -699,7 +730,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
             "type": "vless",
             "server": "137.184.210.82",
             "server_port": 12345,
@@ -735,7 +766,7 @@
             }
         },
         {
-            "tag": "🇳🇱NL | 🟢 | vless | 3λΞĐ | 15",
+            "tag": "🇳🇱NL | 🟢 | vless | 3λΞĐ | 16",
             "type": "vless",
             "server": "81.31.245.106",
             "server_port": 443,
