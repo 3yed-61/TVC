@@ -123,8 +123,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 152",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 156",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 166",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 169",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 233",
@@ -173,8 +171,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 130",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 152",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 156",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 166",
-                "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 169",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 233",
@@ -591,47 +587,6 @@
             "server": "167.235.235.192",
             "server_port": 2086,
             "uuid": "1bdc1b8f-0a20-4dc8-8f73-e008f64da65e",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 166",
-            "type": "vmess",
-            "server": "188.245.59.155",
-            "server_port": 39519,
-            "uuid": "7d90c680-6ed1-41b4-8e5c-7a3e217a73dc",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 169",
-            "type": "vmess",
-            "server": "80.71.149.117",
-            "server_port": 63527,
-            "uuid": "0493815dee83242c5fdb9830b2bacbd1",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
