@@ -107,8 +107,9 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+                "❔XX | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21"
             ]
@@ -118,8 +119,9 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+                "❔XX | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21"
             ],
@@ -173,6 +175,35 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 8",
+            "type": "vless",
+            "server": "188.245.61.146",
+            "server_port": 8001,
+            "uuid": "510d82c4-20c6-4605-9e92-cf49c1e9f900",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "oMIdmAHBouBI.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
+                    "short_id": ""
+                }
+            }
+        },
+        {
             "tag": "❔XX | 🔴 | vless | 3λΞĐ | 44",
             "type": "vless",
             "server": "ec76.kiava.fun",
@@ -202,7 +233,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
