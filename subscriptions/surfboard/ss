@@ -11,8 +11,8 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇺🇸US | 🟢 | ss | 3λΞĐ | 4 = ss, 38.110.1.88, 5499, encrypt-method = aes-256-gcm, password = lGqs95QkFHo2NV
-🇦🇹AT | 🟢 | ss | 3λΞĐ | 9 = ss, 212.113.106.76, 61992, encrypt-method = chacha20-ietf-poly1305, password = PToksYwBeZWcIeKXP6nnU7
+🇺🇸US | 🟢 | ss | 3λΞĐ | 5 = ss, 38.110.1.88, 5499, encrypt-method = aes-256-gcm, password = lGqs95QkFHo2NV
+🇦🇹AT | 🟢 | ss | 3λΞĐ | 10 = ss, 212.113.106.76, 61992, encrypt-method = chacha20-ietf-poly1305, password = PToksYwBeZWcIeKXP6nnU7
 🇳🇱NL | 🟢 | ss | 3λΞĐ | 0 = ss, 45.158.171.131, 8080, encrypt-method = chacha20-ietf-poly1305, password = a8bt9fY0QsLS6eLnXUe0Ym
 🇨🇭CH | 🟢 | ss | 3λΞĐ | 1 = ss, 51.103.232.91, 8929, encrypt-method = chacha20-ietf-poly1305, password = 76ZehNxtyrhe4tLmDYfHsq
 🇨🇦CA | 🟢 | ss | 3λΞĐ | 2 = ss, 38.111.114.133, 443, encrypt-method = aes-256-gcm, password = pKEW8JPByTVTLtM
@@ -36,9 +36,9 @@ DIRECT = direct
 🇦🇪AE | 🟢 | ss | 3λΞĐ | 4 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🇬🇧GB | 🟢 | ss | 3λΞĐ | 0 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | ss | 3λΞĐ | 4,🇦🇹AT | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
-URL-TEST = url-test,🇺🇸US | 🟢 | ss | 3λΞĐ | 4,🇦🇹AT | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
-FALLBACK = fallback,🇺🇸US | 🟢 | ss | 3λΞĐ | 4,🇦🇹AT | 🟢 | ss | 3λΞĐ | 9,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+MANUAL = select,URL-TEST,FALLBACK,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇦🇹AT | 🟢 | ss | 3λΞĐ | 10,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+URL-TEST = url-test,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇦🇹AT | 🟢 | ss | 3λΞĐ | 10,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
+FALLBACK = fallback,🇺🇸US | 🟢 | ss | 3λΞĐ | 5,🇦🇹AT | 🟢 | ss | 3λΞĐ | 10,🇳🇱NL | 🟢 | ss | 3λΞĐ | 0,🇨🇭CH | 🟢 | ss | 3λΞĐ | 1,🇨🇦CA | 🟢 | ss | 3λΞĐ | 2,🇺🇸US | 🟢 | ss | 3λΞĐ | 3,🇵🇱PL | 🟢 | ss | 3λΞĐ | 4,🇵🇱PL | 🟢 | ss | 3λΞĐ | 5,🇳🇱NL | 🟢 | ss | 3λΞĐ | 6,🇬🇧GB | 🟢 | ss | 3λΞĐ | 7,🇵🇱PL | 🟢 | ss | 3λΞĐ | 8,🇩🇪DE | 🟢 | ss | 3λΞĐ | 9,🇨🇦CA | 🟢 | ss | 3λΞĐ | 10,🇺🇸US | 🟢 | ss | 3λΞĐ | 11,🇸🇬SG | 🟢 | ss | 3λΞĐ | 12,🇵🇱PL | 🟢 | ss | 3λΞĐ | 13,🇵🇱PL | 🟢 | ss | 3λΞĐ | 14,🇵🇱PL | 🟢 | ss | 3λΞĐ | 17,🇩🇪DE | 🟢 | ss | 3λΞĐ | 18,🇨🇦CA | 🟢 | ss | 3λΞĐ | 19,🇦🇹AT | 🟢 | ss | 3λΞĐ | 20,🇺🇸US | 🟢 | ss | 3λΞĐ | 21,🇦🇪AE | 🟢 | ss | 3λΞĐ | 4,🇬🇧GB | 🟢 | ss | 3λΞĐ | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
