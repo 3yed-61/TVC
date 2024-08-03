@@ -120,9 +120,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 161",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 137",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 148",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 170",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -162,9 +162,9 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 161",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 137",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 148",
+                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 170",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
@@ -536,7 +536,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 139",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 137",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "fa1d73ef-560e-546d-b791-2290f153a92f",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fr1.vmess.site",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/TaHa-Is-ThE-BeSt-AstroVPN_Official",
+                "headers": {
+                    "Host": "fr1.vmess.site"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 148",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -560,28 +594,11 @@
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 161",
+            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 170",
             "type": "vmess",
             "server": "128.140.117.167",
             "server_port": 2086,
             "uuid": "FILTERSHCAN",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 165",
-            "type": "vmess",
-            "server": "167.235.235.192",
-            "server_port": 2086,
-            "uuid": "1bdc1b8f-0a20-4dc8-8f73-e008f64da65e",
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
