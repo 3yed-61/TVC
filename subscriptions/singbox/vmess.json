@@ -120,11 +120,11 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 146",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 155",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 166",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 246",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 211",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -162,11 +162,11 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 146",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 155",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 166",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 246",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 211",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -536,7 +536,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 146",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 155",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -570,7 +570,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 157",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 166",
             "type": "vmess",
             "server": "www.speedtest.net",
             "server_port": 80,
@@ -642,11 +642,11 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 246",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 211",
             "type": "vmess",
-            "server": "104.21.51.208",
-            "server_port": 443,
-            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
             "security": "auto",
             "alter_id": 0,
             "global_padding": false,
@@ -656,23 +656,6 @@
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "de-02.tradex2080.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/0fpZFB6IbpNptGAxAtI0QM",
-                "headers": {
-                    "Host": "de-02.tradex2080.com"
-                }
             }
         },
         {
