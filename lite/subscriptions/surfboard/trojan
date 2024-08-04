@@ -15,12 +15,11 @@ DIRECT = direct
 🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19 = trojan, 13.60.135.116, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18 = trojan, 3.126.62.222, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19 = trojan, 13.53.86.136, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | 🟢 | trojan | 3λΞĐ | 7 = trojan, 13.51.244.45, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🇸🇪SE | 🟢 | trojan | 3λΞĐ | 8 = trojan, 51.20.210.67, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+❔XX | 🟢 | trojan | 3λΞĐ | 7 = trojan, 13.51.244.45, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 7,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 8
-URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 7,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 8
-FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 7,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 8
+MANUAL = select,URL-TEST,FALLBACK,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,❔XX | 🟢 | trojan | 3λΞĐ | 7
+URL-TEST = url-test,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,❔XX | 🟢 | trojan | 3λΞĐ | 7
+FALLBACK = fallback,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,🇩🇪DE | 🟢 | trojan | 3λΞĐ | 18,🇸🇪SE | 🟢 | trojan | 3λΞĐ | 19,❔XX | 🟢 | trojan | 3λΞĐ | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
