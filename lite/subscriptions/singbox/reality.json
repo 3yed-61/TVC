@@ -106,10 +106,11 @@ https://github.com/3yed-61
             "type": "selector",
             "outbounds": [
                 "URL-TEST",
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "❔XX | 🟢 | vless | 3λΞĐ | 17",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 17",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "❔XX | 🔴 | vless | 3λΞĐ | 45",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21"
             ]
@@ -118,10 +119,11 @@ https://github.com/3yed-61
             "tag": "URL-TEST",
             "type": "urltest",
             "outbounds": [
+                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "❔XX | 🟢 | vless | 3λΞĐ | 17",
+                "🇳🇱NL | 🟢 | vless | 3λΞĐ | 17",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
-                "❔XX | 🔴 | vless | 3λΞĐ | 45",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
                 "❔XX | 🔴 | vless | 3λΞĐ | 21"
             ],
@@ -144,6 +146,35 @@ https://github.com/3yed-61
         {
             "tag": "dns-out",
             "type": "dns"
+        },
+        {
+            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 6",
+            "type": "vless",
+            "server": "188.245.61.146",
+            "server_port": 8001,
+            "uuid": "510d82c4-20c6-4605-9e92-cf49c1e9f900",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "oMIdmAHBouBI.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "W0BYEeLEqNRk8Bn2G27x5G9ALICJxePV6hxZG2A4Jmg",
+                    "short_id": ""
+                }
+            }
         },
         {
             "tag": "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
@@ -175,7 +206,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🟢 | vless | 3λΞĐ | 17",
+            "tag": "🇳🇱NL | 🟢 | vless | 3λΞĐ | 17",
             "type": "vless",
             "server": "81.31.245.106",
             "server_port": 443,
@@ -233,7 +264,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 45",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
             "type": "vless",
             "server": "four.felinetest.site",
             "server_port": 443,
