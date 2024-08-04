@@ -123,7 +123,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 155",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 166",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 231",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 212",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 227",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -164,7 +165,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 155",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 166",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 231",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 212",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 227",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -616,7 +618,31 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 231",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 212",
+            "type": "vmess",
+            "server": "104.21.51.208",
+            "server_port": 80,
+            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/0fpZFB6IbpNptGAxAtI0QM",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 227",
             "type": "vmess",
             "server": null,
             "server_port": 0,
