@@ -112,7 +112,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
-                "🇮🇷IR | 🟢 | vless | 3λΞĐ | 144",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
@@ -123,7 +122,7 @@
                 "🇫🇷FR | 🟢 | vless | 3λΞĐ | 15",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
                 "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 208",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 223",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -177,7 +176,6 @@
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 12",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 6",
-                "🇮🇷IR | 🟢 | vless | 3λΞĐ | 144",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 5",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 1",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 4",
@@ -188,7 +186,7 @@
                 "🇫🇷FR | 🟢 | vless | 3λΞĐ | 15",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
                 "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
-                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 208",
+                "🇹🇷TR | 🟢 | vless | 3λΞĐ | 223",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
                 "🇩🇪DE | 🔴 | vless | 3λΞĐ | 9",
@@ -482,35 +480,6 @@
             }
         },
         {
-            "tag": "🇮🇷IR | 🟢 | vless | 3λΞĐ | 144",
-            "type": "vless",
-            "server": "85.133.225.43",
-            "server_port": 8443,
-            "uuid": "345f0dfe-41b1-47c8-a09c-8ee5cbf5c9df",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "discordapp.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": ""
-                }
-            }
-        },
-        {
             "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 5",
             "type": "vless",
             "server": "141.95.75.212",
@@ -748,7 +717,7 @@
             }
         },
         {
-            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 208",
+            "tag": "🇹🇷TR | 🟢 | vless | 3λΞĐ | 223",
             "type": "vless",
             "server": "tr1.tradex2080.com",
             "server_port": 443,
