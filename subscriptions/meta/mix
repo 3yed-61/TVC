@@ -122,7 +122,7 @@ dns:
 proxies:
   - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 0","type":"vless","server":"www.speedtest.net","port":2095,"udp":false,"uuid":"7ee1514d-b6f6-4ff5-bb05-0d4f6440f9cb","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇮🇷IR | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"193.111.235.118","port":443,"udp":false,"uuid":"ee8c0fc4-e798-420c-a789-8ca2ebeab6a7","tls":false,"network":"tcp","client-fingerprint":"chrome"}
-  - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 3","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"c6579c4f-c388-4e65-bbcb-cd10107ebdd7","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
+  - {"name":"🇺🇸US | 🔴 | vless | 3λΞĐ | 3","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"c6579c4f-c388-4e65-bbcb-cd10107ebdd7","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇮🇪IE | 🔴 | vless | 3λΞĐ | 0","type":"vless","server":"52.208.41.42","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇮🇪IE | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"54.170.170.158","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇬🇧GB | 🔴 | vless | 3λΞĐ | 2","type":"vless","server":"18.130.45.190","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
@@ -144,7 +144,7 @@ proxies:
   - {"name":"🇸🇪SE | 🔴 | vless | 3λΞĐ | 18","type":"vless","server":"51.21.0.228","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | 3λΞĐ | 19","type":"vless","server":"16.170.137.216","port":22222,"udp":false,"uuid":"05519058-d2ac-4f28-9e4a-2b2a1386749e","tls":true,"network":"ws","client-fingerprint":"chrome","servername":"telegram-channel-vlessconfig.sohala.uk","ws-opts":{"path":"/telegram-channel-vlessconfig-ws","headers":{"host":"telegram-channel-vlessconfig.sohala.uk"}}}
   - {"name":"🇸🇪SE | 🔴 | vless | 3λΞĐ | 0","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"5d7629f3-42d7-493a-af76-ad50a557f654","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
-  - {"name":"🇺🇸US | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"389e2ed3-5e82-4aed-9c7a-285e18980668","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/melo/is/needed","headers":{"host":"ch1.dontbow.store."}}}
+  - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 1","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"389e2ed3-5e82-4aed-9c7a-285e18980668","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/melo/is/needed","headers":{"host":"ch1.dontbow.store."}}}
   - {"name":"🇨🇦CA | 🔴 | vless | 3λΞĐ | 3","type":"vless","server":"www.speedtest.net","port":80,"udp":false,"uuid":"cf0a3e7c-a2b0-4db7-99a5-850987b77525","tls":false,"network":"ws","client-fingerprint":"chrome","ws-opts":{"path":"/melo/is/needed","headers":{"host":"ch1.dontbow.store."}}}
   - {"name":"🇸🇪SE | 🔴 | vless | 3λΞĐ | 4","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"573f8580-5beb-488a-a8cb-2d44d52bc64d","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
   - {"name":"🇸🇪SE | 🔴 | vless | 3λΞĐ | 5","type":"vless","server":"185.146.173.58","port":8080,"udp":false,"uuid":"0246edce-0512-46a7-90eb-ddf79c294f45","tls":false,"network":"httpupgrade","client-fingerprint":"chrome"}
@@ -639,7 +639,7 @@ proxy-groups:
       - FALLBACK
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇷IR | 🔴 | vless | 3λΞĐ | 1'
-      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 3'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
@@ -661,7 +661,7 @@ proxy-groups:
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 18'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 19'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 1'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 4'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 5'
@@ -1156,7 +1156,7 @@ proxy-groups:
     proxies:
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇷IR | 🔴 | vless | 3λΞĐ | 1'
-      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 3'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
@@ -1178,7 +1178,7 @@ proxy-groups:
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 18'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 19'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 1'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 4'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 5'
@@ -1672,7 +1672,7 @@ proxy-groups:
     proxies:
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇷IR | 🔴 | vless | 3λΞĐ | 1'
-      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
+      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 3'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 0'
       - '🇮🇪IE | 🔴 | vless | 3λΞĐ | 1'
       - '🇬🇧GB | 🔴 | vless | 3λΞĐ | 2'
@@ -1694,7 +1694,7 @@ proxy-groups:
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 18'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 19'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 0'
-      - '🇺🇸US | 🔴 | vless | 3λΞĐ | 1'
+      - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 1'
       - '🇨🇦CA | 🔴 | vless | 3λΞĐ | 3'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 4'
       - '🇸🇪SE | 🔴 | vless | 3λΞĐ | 5'
