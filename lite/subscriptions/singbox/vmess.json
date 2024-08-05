@@ -109,14 +109,15 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7"
             ]
         },
         {
@@ -126,14 +127,15 @@ https://github.com/3yed-61
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 19",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 10",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -221,7 +223,31 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
+            "type": "vmess",
+            "server": "104.20.74.91",
+            "server_port": 80,
+            "uuid": "b2413a5a-d5d0-4447-b6d7-6dbcd2989a35",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/vmess",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
             "type": "vmess",
             "server": "172.67.219.194",
             "server_port": 443,
@@ -429,7 +455,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
