@@ -121,7 +121,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇫🇷FR | 🟢 | vless | 3λΞĐ | 15",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 187",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
@@ -185,7 +184,6 @@
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 11",
                 "🇫🇷FR | 🟢 | vless | 3λΞĐ | 15",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
-                "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
                 "🇹🇷TR | 🟢 | vless | 3λΞĐ | 187",
                 "🇬🇧GB | 🔴 | vless | 3λΞĐ | 6",
                 "🇳🇱NL | 🟢 | vless | 3λΞĐ | 8",
@@ -684,35 +682,6 @@
                     "enabled": true,
                     "public_key": "JiXxyKEi_TmEqRzyvOsBEKciioXup7SbW5rvTa6CnA4",
                     "short_id": "f1"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇬SG | 🟢 | vless | 3λΞĐ | 18",
-            "type": "vless",
-            "server": "13.229.225.169",
-            "server_port": 443,
-            "uuid": "d9122823-b0cc-432c-ba4a-84129193fe94",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "www.icloud.com",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "_aNsfhwKZkXO7o9muVdEDMc85ki2UyLdg2Ms4W6OLBs",
-                    "short_id": "3e55c55e66fabbcc"
                 }
             }
         },
