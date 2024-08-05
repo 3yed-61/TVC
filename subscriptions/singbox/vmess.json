@@ -141,9 +141,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6"
             ]
         },
         {
@@ -186,9 +187,10 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 2",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5"
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6"
             ],
             "url": "https:\/\/www.gstatic.com\/generate_204",
             "interval": "3m",
@@ -1145,7 +1147,41 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 0",
+            "type": "vmess",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "723d7523-8740-4d09-9ea6-230e77c46d15",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "cloud.hightechservice.ir",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/",
+                "headers": {
+                    "Host": "cloud.hightechservice.ir"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1179,7 +1215,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
@@ -1213,7 +1249,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
             "type": "vmess",
             "server": "zula.ir",
             "server_port": 2096,
