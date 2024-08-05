@@ -127,10 +127,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 220",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 235",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 8",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 194",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -177,10 +175,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 3",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 8",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 220",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 235",
-                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 8",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 194",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -773,31 +769,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 220",
-            "type": "vmess",
-            "server": "104.16.4.103",
-            "server_port": 8080,
-            "uuid": "d2c6ddc0-891a-4435-ac0a-4a5cdb78cb7d",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/RqOHFT06qnkXOdFN4WJ",
-                "headers": {
-                    "Host": "fl1.tradex2080.com"
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 235",
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 194",
             "type": "vmess",
             "server": null,
             "server_port": 0,
@@ -814,7 +786,7 @@
             }
         },
         {
-            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 7",
             "type": "vmess",
             "server": "172.67.219.194",
             "server_port": 443,
@@ -844,40 +816,6 @@
                 "path": "\/linkws",
                 "headers": {
                     "Host": "adenc36v.xtooltech.cfd"
-                }
-            }
-        },
-        {
-            "tag": "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 8",
-            "type": "vmess",
-            "server": "185.146.173.158",
-            "server_port": 443,
-            "uuid": "950db6aa-4926-4616-816e-ec0312dcb87b",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "jahfkjha.cfd",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "\/linkws",
-                "headers": {
-                    "Host": "jahfkjha.cfd"
                 }
             }
         },
