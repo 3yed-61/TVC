@@ -124,7 +124,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 164",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 219",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 215",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 230",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -168,7 +169,8 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 164",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 6",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 219",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 215",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 230",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 7",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -659,7 +661,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 219",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 215",
+            "type": "vmess",
+            "server": "104.16.4.103",
+            "server_port": 443,
+            "uuid": "d2c6ddc0-891a-4435-ac0a-4a5cdb78cb7d",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "fl1.tradex2080.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/RqOHFT06qnkXOdFN4WJ",
+                "headers": {
+                    "Host": "fl1.tradex2080.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 230",
             "type": "vmess",
             "server": null,
             "server_port": 0,
