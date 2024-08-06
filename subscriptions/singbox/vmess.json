@@ -129,6 +129,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 22",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 23",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 230",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -177,6 +178,7 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 21",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 22",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 23",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 230",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 3",
@@ -810,6 +812,23 @@
                 "headers": {
                     "Host": "me.kalakatha.org"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 230",
+            "type": "vmess",
+            "server": null,
+            "server_port": 0,
+            "uuid": null,
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
