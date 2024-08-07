@@ -169,9 +169,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 253",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 254",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 273",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 274",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 1",
@@ -268,9 +269,10 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 17",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
                 "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 253",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 254",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 273",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 274",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 4",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
                 "🇸🇪SE | 🔴 | vless | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vless | 3λΞĐ | 1",
@@ -1718,7 +1720,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 253",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 273",
             "type": "vless",
             "server": "104.21.51.208",
             "server_port": 443,
@@ -1749,7 +1751,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 254",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 274",
             "type": "vless",
             "server": "172.66.40.175",
             "server_port": 443,
@@ -1794,10 +1796,24 @@ https://github.com/3yed-61
             }
         },
         {
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8880,
+            "uuid": "telegram-id-ArV2ray",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            }
+        },
+        {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
             "type": "vless",
             "server": "www.speedtest.net",
-            "server_port": 8080,
+            "server_port": 8880,
             "uuid": "telegram-id-ArV2ray",
             "flow": "",
             "packet_encoding": "xudp",
