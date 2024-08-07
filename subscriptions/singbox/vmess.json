@@ -121,7 +121,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 12",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 255",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 266",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 267",
@@ -165,7 +164,6 @@
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 19",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 12",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 12",
-                "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "❔XX | 🟢 | vmess | 3λΞĐ | 255",
                 "🇮🇷IR | 🟢 | vmess | 3λΞĐ | 266",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 267",
@@ -564,23 +562,6 @@
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            }
-        },
-        {
-            "tag": "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
-            "type": "vmess",
-            "server": "germany.raspberryip.com",
-            "server_port": 18701,
-            "uuid": "6371a73c-d2e5-42b8-9102-53e1b7ebc971",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
             }
         },
         {
