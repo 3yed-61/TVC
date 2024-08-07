@@ -123,7 +123,8 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 12",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 10",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 243",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 248",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 263",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -166,7 +167,8 @@
                 "❔XX | 🟢 | vmess | 3λΞĐ | 12",
                 "🇩🇪DE | 🟢 | vmess | 3λΞĐ | 3",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 10",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 243",
+                "🇺🇸US | 🟢 | vmess | 3λΞĐ | 248",
+                "❔XX | 🟢 | vmess | 3λΞĐ | 263",
                 "🇸🇪SE | 🟢 | vmess | 3λΞĐ | 0",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 2",
                 "🇳🇱NL | 🟢 | vmess | 3λΞĐ | 1",
@@ -599,7 +601,41 @@
             }
         },
         {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 243",
+            "tag": "🇺🇸US | 🟢 | vmess | 3λΞĐ | 248",
+            "type": "vmess",
+            "server": "104.21.51.208",
+            "server_port": 443,
+            "uuid": "cb4fca5f-edf8-415b-aa8f-ac52f415296a",
+            "security": "auto",
+            "alter_id": 0,
+            "global_padding": false,
+            "authenticated_length": true,
+            "packet_encoding": "",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
+            },
+            "tls": {
+                "enabled": true,
+                "server_name": "de-02.tradex2080.com",
+                "insecure": true,
+                "disable_sni": false,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/0fpZFB6IbpNptGAxAtI0QM",
+                "headers": {
+                    "Host": "de-02.tradex2080.com"
+                }
+            }
+        },
+        {
+            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 263",
             "type": "vmess",
             "server": null,
             "server_port": 0,
