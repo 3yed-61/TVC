@@ -144,8 +144,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 14",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
@@ -157,8 +157,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
                 "❔XX | 🔴 | vless | 3λΞĐ | 16",
-                "❔XX | 🔴 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
+                "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
@@ -244,8 +244,8 @@ https://github.com/3yed-61
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 10",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 14",
-                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
+                "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
                 "🇨🇦CA | 🔴 | vless | 3λΞĐ | 13",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 14",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
@@ -257,8 +257,8 @@ https://github.com/3yed-61
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 16",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 15",
                 "❔XX | 🔴 | vless | 3λΞĐ | 16",
-                "❔XX | 🔴 | vless | 3λΞĐ | 5",
-                "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
+                "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
+                "❔XX | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 8",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 9",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 1",
@@ -1125,7 +1125,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 0",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -1146,7 +1146,7 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 1",
+            "tag": "🇨🇦CA | 🔴 | vless | 3λΞĐ | 2",
             "type": "vless",
             "server": "www.parsvds.ir",
             "server_port": 8080,
@@ -1414,25 +1414,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 5",
+            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 7",
             "type": "vless",
-            "server": "[::ffff:3625:4d8d]",
-            "server_port": 54834,
-            "uuid": "c9b45af4-b8cf-48bd-bb48-02fc51217b39",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            }
-        },
-        {
-            "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 6",
-            "type": "vless",
-            "server": "104.18.202.232",
+            "server": "www.visa.com",
             "server_port": 443,
-            "uuid": "e6aedcd2-24ad-4bdd-82c5-006d84179197",
+            "uuid": "c1978266-958c-4aa3-ba34-7eacac75aca1",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1442,7 +1428,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "4d3d6f00.garywelch.pages.dev",
+                "server_name": "bpb-worker-panel3.pages.dev",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -1454,8 +1440,22 @@ https://github.com/3yed-61
                 "type": "ws",
                 "path": "\/?ed=2560",
                 "headers": {
-                    "Host": "4d3d6f00.garywelch.pages.dev"
+                    "Host": "bpb-worker-panel3.pages.dev"
                 }
+            }
+        },
+        {
+            "tag": "❔XX | 🔴 | vless | 3λΞĐ | 8",
+            "type": "vless",
+            "server": "[::ffff:3625:4d8d]",
+            "server_port": 54834,
+            "uuid": "c9b45af4-b8cf-48bd-bb48-02fc51217b39",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "multiplex": {
+                "enabled": false,
+                "protocol": "smux",
+                "max_streams": 32
             }
         },
         {
@@ -1566,8 +1566,8 @@ https://github.com/3yed-61
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 18",
             "type": "vless",
             "server": "104.17.147.22",
-            "server_port": 80,
-            "uuid": "%36%36%63%32%66%36%31%38%2d%66%34%66%37%2d%34%38%36%30%2d%62%34%36%63%2d%38%31%39%36%63%65%36%35%64%32%37%65",
+            "server_port": 8880,
+            "uuid": "%62%33%61%39%62%62%64%36%2d%33%34%39%33%2d%34%61%33%65%2d%38%32%66%66%2d%65%66%38%62%34%63%37%39%34%35%32%64",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -1577,7 +1577,7 @@ https://github.com/3yed-61
             },
             "transport": {
                 "type": "ws",
-                "path": "\/telegram-@Shh_Proxy-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy,telegram-@Shh_Proxy?ed=2560",
+                "path": "\/-LiV2ry@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL-@LIGHTNING6-TEL--@LIGHTNING6-JOIN-@LIGHTNING6-TEL--@LIGHTNING6?ed=2056",
                 "headers": {
                     "Host": "104.17.147.22"
                 }
@@ -1586,15 +1586,22 @@ https://github.com/3yed-61
         {
             "tag": "🇺🇸US | 🔴 | vless | 3λΞĐ | 19",
             "type": "vless",
-            "server": "104.17.147.22",
-            "server_port": 8880,
-            "uuid": "%54%45%4c%45%47%52%41%4d%2d%4e%55%46%69%4c%54%45%52",
+            "server": "172.67.138.69",
+            "server_port": 2095,
+            "uuid": "%74%65%6c%65%67%72%61%6d%2d%69%64%2d%41%72%56%32%72%61%79",
             "flow": "",
             "packet_encoding": "xudp",
             "multiplex": {
                 "enabled": false,
                 "protocol": "smux",
                 "max_streams": 32
+            },
+            "transport": {
+                "type": "ws",
+                "path": "\/telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=2095",
+                "headers": {
+                    "Host": "172.67.138.69"
+                }
             }
         },
         {
