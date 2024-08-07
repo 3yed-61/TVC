@@ -107,7 +107,7 @@ https://github.com/3yed-61
             "outbounds": [
                 "URL-TEST",
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
+                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 16",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -119,7 +119,7 @@ https://github.com/3yed-61
             "type": "urltest",
             "outbounds": [
                 "🇫🇮FI | 🟢 | vless | 3λΞĐ | 13",
-                "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
+                "🇫🇷FR | 🟢 | vless | 3λΞĐ | 16",
                 "❔XX | 🔴 | vless | 3λΞĐ | 44",
                 "🇺🇸US | 🔴 | vless | 3λΞĐ | 45",
                 "❔XX | 🔴 | vless | 3λΞĐ | 20",
@@ -175,11 +175,11 @@ https://github.com/3yed-61
             }
         },
         {
-            "tag": "🇩🇪DE | 🟢 | vless | 3λΞĐ | 16",
+            "tag": "🇫🇷FR | 🟢 | vless | 3λΞĐ | 16",
             "type": "vless",
-            "server": "136.244.84.182",
-            "server_port": 443,
-            "uuid": "abaf193b-eeb9-4a8a-afa7-6b6385156e94",
+            "server": "51.159.213.39",
+            "server_port": 18700,
+            "uuid": "e659661d-8439-46e0-b1ab-d75ceaf73404",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "multiplex": {
@@ -189,7 +189,7 @@ https://github.com/3yed-61
             },
             "tls": {
                 "enabled": true,
-                "server_name": "www.iranserver.com",
+                "server_name": "update.microsoft",
                 "insecure": true,
                 "disable_sni": false,
                 "utls": {
@@ -198,8 +198,8 @@ https://github.com/3yed-61
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "JiXxyKEi_TmEqRzyvOsBEKciioXup7SbW5rvTa6CnA4",
-                    "short_id": "f1"
+                    "public_key": "PBRc2v9SSXpG4jjQRYNa-kgs8w9V4U3MNLuncd2d0hw",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
