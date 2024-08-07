@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇦🇹AT | 🟢 | ss | 3λΞĐ | 15 = ss, 212.113.106.76, 61992, encrypt-method = chacha20-ietf-poly1305, password = PToksYwBeZWcIeKXP6nnU7
 🇵🇱PL | 🟢 | ss | 3λΞĐ | 25 = ss, 54.36.174.181, 7307, encrypt-method = aes-256-gcm, password = FoOiGlkAA9yPEGP
 🇬🇧GB | 🟢 | ss | 3λΞĐ | 2 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
-URL-TEST = url-test,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
-FALLBACK = fallback,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
+MANUAL = select,URL-TEST,FALLBACK,🇦🇹AT | 🟢 | ss | 3λΞĐ | 15,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
+URL-TEST = url-test,🇦🇹AT | 🟢 | ss | 3λΞĐ | 15,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
+FALLBACK = fallback,🇦🇹AT | 🟢 | ss | 3λΞĐ | 15,🇵🇱PL | 🟢 | ss | 3λΞĐ | 25,🇬🇧GB | 🟢 | ss | 3λΞĐ | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
