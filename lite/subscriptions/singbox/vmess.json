@@ -108,7 +108,6 @@ https://github.com/3yed-61
                 "URL-TEST",
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 12",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -125,7 +124,6 @@ https://github.com/3yed-61
             "outbounds": [
                 "🇫🇷FR | 🟢 | vmess | 3λΞĐ | 0",
                 "🇨🇦CA | 🟢 | vmess | 3λΞĐ | 18",
-                "❔XX | 🟢 | vmess | 3λΞĐ | 12",
                 "🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 5",
                 "🇺🇸US | 🟢 | vmess | 3λΞĐ | 1",
@@ -193,33 +191,6 @@ https://github.com/3yed-61
                 "path": "\/video\/VuDFdktz",
                 "headers": {
                     "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔XX | 🟢 | vmess | 3λΞĐ | 12",
-            "type": "vmess",
-            "server": "2a01:4f8:1c1b:999::1",
-            "server_port": 443,
-            "uuid": "6d9d8434-2320-4281-b509-797ed57434e9",
-            "security": "auto",
-            "alter_id": 0,
-            "global_padding": false,
-            "authenticated_length": true,
-            "packet_encoding": "",
-            "multiplex": {
-                "enabled": false,
-                "protocol": "smux",
-                "max_streams": 32
-            },
-            "tls": {
-                "enabled": true,
-                "server_name": "",
-                "insecure": true,
-                "disable_sni": false,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
                 }
             }
         },
