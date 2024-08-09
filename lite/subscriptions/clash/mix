@@ -128,10 +128,10 @@ proxies:
   - {"name":"🇦🇹AT | 🟢 | ss | 3λΞĐ | 17","type":"ss","server":"212.113.106.76","port":61992,"password":"PToksYwBeZWcIeKXP6nnU7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇳🇱NL | 🟢 | ss | 3λΞĐ | 25","type":"ss","server":"45.158.171.131","port":8080,"password":"a8bt9fY0QsLS6eLnXUe0Ym","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4","type":"vmess","server":"ddd47481-0d6f-08b9-7209-b0ddc0c5fa45.oneplus.pub","port":"80","cipher":"auto","uuid":"46cfcfe1-e450-459d-a3ab-9406011ab3eb","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"tms.dingtalk.com"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 1","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"30cab746-5ca5-46ef-aa9b-537f20f6a40c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"30cab746-5ca5-46ef-aa9b-537f20f6a40c","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"kingo.hightechservice.ir"}}}
   - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 2","type":"vmess","server":"172.67.220.83","port":"443","cipher":"auto","uuid":"39cec18f-a439-427c-9a4e-aeb6fcdf6f53","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/linkws","headers":{"host":"linja05.hwcar.sbs"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"104.17.148.22","port":"80","cipher":"auto","uuid":"3e5cda0a-6122-4f54-9e3c-3f49e7a526f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nlch.blueberrynetwork.store"}}}
-  - {"name":"🇺🇸US | 🟢 | vmess | 3λΞĐ | 6","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"f849605a-be3e-4a22-95ec-a2662a684de2","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cloud.hightechservice.ir"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0","type":"vmess","server":"104.17.148.22","port":"80","cipher":"auto","uuid":"3e5cda0a-6122-4f54-9e3c-3f49e7a526f9","alterId":"0","tls":false,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"nlch.blueberrynetwork.store"}}}
+  - {"name":"🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6","type":"vmess","server":"zula.ir","port":2096,"cipher":"auto","uuid":"f849605a-be3e-4a22-95ec-a2662a684de2","alterId":"0","tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/","headers":{"host":"cloud.hightechservice.ir"}}}
   - {"name":"🇬🇧GB | 🟢 | ss | 3λΞĐ | 2","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -149,10 +149,10 @@ proxy-groups:
       - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 25'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
   - name: URL-TEST
     type: url-test
@@ -170,10 +170,10 @@ proxy-groups:
       - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 25'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
   - name: FALLBACK
     type: fallback
@@ -190,10 +190,10 @@ proxy-groups:
       - '🇦🇹AT | 🟢 | ss | 3λΞĐ | 17'
       - '🇳🇱NL | 🟢 | ss | 3λΞĐ | 25'
       - '🇨🇳CN | 🟢 | vmess | 3λΞĐ | 4'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 1'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 1'
       - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 2'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 0'
-      - '🇺🇸US | 🟢 | vmess | 3λΞĐ | 6'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 0'
+      - '🇨🇦CA | 🟢 | vmess | 3λΞĐ | 6'
       - '🇬🇧GB | 🟢 | ss | 3λΞĐ | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
